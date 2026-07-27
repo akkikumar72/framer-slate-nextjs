@@ -1,0 +1,220 @@
+.page {
+  background: #111;
+}
+
+.faq {
+  height: 639px;
+}
+
+.hero {
+  background: #111;
+  color: #fff;
+  height: 720px;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroCard {
+  animation: card-in 1000ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  border-radius: 4px;
+  height: 401px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 164px;
+  transform: translateX(-50%);
+  width: min(924px, calc(100% - 48px));
+}
+
+.heroCard > img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center 46%;
+  width: 100%;
+}
+
+.shade {
+  background: rgba(0, 0, 0, 0.2);
+  inset: 0;
+  position: absolute;
+}
+
+.heroCard h1 {
+  font-size: 100px;
+  font-weight: 1000;
+  font-variation-settings: "wght" 500;
+  left: 50%;
+  letter-spacing: -3px;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  top: 130px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.mobileTitle {
+  display: none;
+}
+
+.backLink {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  bottom: 104px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  left: 50%;
+  min-height: 32px;
+  padding-bottom: 11px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 262px;
+}
+
+.plusOne,
+.plusTwo,
+.plusThree,
+.plusFour {
+  color: #d1e1e8;
+  position: absolute;
+}
+
+.plusOne {
+  left: 22%;
+  top: 26%;
+}
+
+.plusTwo {
+  right: 22%;
+  top: 26%;
+}
+
+.plusThree {
+  bottom: 37%;
+  left: 22%;
+}
+
+.plusFour {
+  bottom: 37%;
+  right: 22%;
+}
+
+.meta {
+  bottom: 112px;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 50% 36% 14%;
+  left: 50%;
+  line-height: 16.2px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: min(864px, calc(100% - 96px));
+}
+
+.meta p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.meta > span:last-child {
+  text-align: right;
+}
+
+@keyframes card-in {
+  from {
+    filter: blur(10px);
+    opacity: 0.15;
+    transform: translateX(-50%) scale(1.04);
+  }
+
+  to {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+@media (max-width: 599px) {
+  .faq {
+    height: 958px;
+  }
+
+  .hero {
+    height: 844px;
+  }
+
+  .heroCard {
+    height: 353px;
+    top: 229px;
+    width: calc(100% - 48px);
+  }
+
+  .heroCard > img {
+    object-position: center;
+  }
+
+  .heroCard h1 {
+    font-size: 60px;
+    line-height: 80px;
+    top: 116px;
+  }
+
+  .desktopTitle {
+    display: none;
+  }
+
+  .mobileTitle {
+    display: inline;
+  }
+
+  .backLink {
+    bottom: 78px;
+    left: 40px;
+    transform: none;
+    width: 262px;
+  }
+
+  .plusOne {
+    left: 21%;
+    top: 23%;
+  }
+
+  .plusTwo {
+    right: 21%;
+    top: 23%;
+  }
+
+  .plusThree {
+    bottom: 34%;
+    left: 21%;
+  }
+
+  .plusFour {
+    bottom: 34%;
+    right: 21%;
+  }
+
+  .meta {
+    bottom: 214px;
+    gap: 18px;
+    grid-template-columns: 103px 1fr;
+    left: 34px;
+    line-height: 17px;
+    transform: none;
+    width: calc(100% - 68px);
+  }
+
+  .meta p {
+    grid-column: 2;
+  }
+
+  .meta > span:last-child {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroCard {
+    animation: none;
+  }
+}

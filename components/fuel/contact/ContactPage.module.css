@@ -1,0 +1,261 @@
+.page {
+  background: #fff;
+}
+
+.hero {
+  background: #111;
+  color: #fff;
+  height: 1017px;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: 574px 531px;
+  height: 783px;
+  justify-content: space-between;
+  left: 24px;
+  position: absolute;
+  right: 24px;
+  top: 134px;
+}
+
+.portrait {
+  border-radius: 3px;
+  height: 783px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portraitImage {
+  height: 940px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 574px;
+}
+
+.portraitMark {
+  height: 39px;
+  left: 261px;
+  position: absolute;
+  top: 374px;
+  width: 52px;
+}
+
+.form {
+  height: 761px;
+  padding-top: 80px;
+}
+
+.formIntro h1 {
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 70px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.formIntro p {
+  color: #888;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 50px 0 0;
+}
+
+.formRow {
+  display: grid;
+  gap: 19px;
+  grid-template-columns: 1fr 1fr;
+  height: 66px;
+}
+
+.formIntro + .formRow {
+  margin-top: 80px;
+}
+
+.formRow + .formRow {
+  margin-top: 51px;
+}
+
+.form label {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.form label > span:first-child {
+  display: block;
+}
+
+.form input,
+.form select,
+.form textarea {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #303030;
+  border-radius: 0;
+  color: #fff;
+  font: inherit;
+  font-size: 12px;
+  height: 40px;
+  line-height: 16px;
+  margin: 10px 0 0;
+  outline: none;
+  padding: 0 0 1px;
+  width: 100%;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+  border-color: #777;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #777;
+  opacity: 1;
+}
+
+.selectWrap {
+  display: block;
+  position: relative;
+}
+
+.selectWrap::after {
+  color: #999;
+  content: "⌄";
+  font-size: 15px;
+  pointer-events: none;
+  position: absolute;
+  right: 2px;
+  top: 16px;
+}
+
+.form select {
+  appearance: none;
+  color: #777;
+  margin-top: 10px;
+}
+
+.form option {
+  background: #111;
+  color: #fff;
+}
+
+.message {
+  height: 126px;
+  margin-top: 50px;
+}
+
+.form .message textarea {
+  height: 100px;
+  padding-top: 10px;
+  resize: none;
+}
+
+.form .submit {
+  background: #353535;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  height: 40px;
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+}
+
+.submit:hover,
+.submit:focus-visible {
+  background: #444;
+}
+
+@media (max-width: 599px) {
+  .hero {
+    height: 1311px;
+  }
+
+  .hero button {
+    border: 0;
+  }
+
+  .heroContent {
+    display: block;
+    height: 1097px;
+    left: 24px;
+    right: 24px;
+    top: 134px;
+  }
+
+  .form {
+    height: 663px;
+    padding: 0;
+    width: 342px;
+  }
+
+  .formIntro h1 {
+    font-size: 30px;
+    letter-spacing: -0.055em;
+    line-height: 30px;
+  }
+
+  .formIntro p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .formRow {
+    display: grid;
+    gap: 21px;
+    grid-template-columns: 1fr;
+    height: 152px;
+  }
+
+  .formIntro + .formRow {
+    margin-top: 50px;
+  }
+
+  .formRow + .formRow {
+    margin-top: 21px;
+  }
+
+  .message {
+    margin-top: 20px;
+  }
+
+  .form .submit {
+    margin-top: 20px;
+  }
+
+  .portrait {
+    height: 354px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 743px;
+  }
+
+  .portraitImage {
+    height: 496px;
+    top: -70px;
+    width: 342px;
+  }
+
+  .portraitMark {
+    height: 18px;
+    left: 156px;
+    top: 170px;
+    width: 31px;
+  }
+
+  .page > footer > div:first-child {
+    padding-top: 60px !important;
+  }
+}

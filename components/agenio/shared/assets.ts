@@ -1,0 +1,32 @@
+export const agenioAssets = {
+  grid: "/agenio/assets-bundle/470736b3248bef6a.avif",
+  aboutTeam: "/agenio/assets-bundle/1469d57427e62062.avif",
+  visionPhone: "/agenio/assets-bundle/148539d8998f67cf.avif",
+  projectLaptop: "/agenio/assets-bundle/63f13958bee50228.webp",
+  projectLaptopAlt: "/agenio/assets-bundle/e031e3d7616fc3c5.webp",
+  services: [
+    "/agenio/assets-bundle/0180ab81a1fa9b31.avif",
+    "/agenio/assets-bundle/37dbb3d9ea42ee68.avif",
+    "/agenio/assets-bundle/9040c331be50b0ea.avif",
+    "/agenio/assets-bundle/bc1de40a943cce43.avif",
+  ],
+  team: [
+    "/agenio/assets-bundle/709bce8fff06e2cf.avif",
+    "/agenio/assets-bundle/0e628e209237091f.avif",
+    "/agenio/assets-bundle/242afbb1d1fb6732.avif",
+    "/agenio/assets-bundle/d803e258d703ce7b.avif",
+    "/agenio/assets-bundle/65378bbfe5336b2d.avif",
+    "/agenio/assets-bundle/81c856cb569c4ccf.avif",
+    "/agenio/assets-bundle/c1ece4eec63bf8d6.avif",
+    "/agenio/assets-bundle/824c989c5075f256.avif",
+  ],
+  partnerLogos: [
+    "/agenio/assets-bundle/f36b6a05e6ece0e0.svg",
+    "/agenio/assets-bundle/784c368244017208.svg",
+    "/agenio/assets-bundle/8c3e2372436ce4cd.svg",
+    "/agenio/assets-bundle/24b10f398bd7c870.svg",
+    "/agenio/assets-bundle/d3e1ba6b1ed2f02f.svg",
+    "/agenio/assets-bundle/2f10c7bc6c1b421a.svg",
+    "/agenio/assets-bundle/e4a9b220d7be79c7.svg",
+  ],
+} as const;

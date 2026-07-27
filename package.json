@@ -1,0 +1,29 @@
+{
+  "name": "slate-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "audit:jayden-assets": "node scripts/audit-jayden-assets.mjs",
+    "audit:saazai-assets": "node scripts/audit-saazai-assets.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check": "tsc --noEmit && npm run check:fuel-assets && npm run audit:saazai-assets",
+    "check:fuel-assets": "node scripts/check-fuel-assets.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.11",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "postcss": "8.5.23",
+    "sharp": "0.35.3"
+  }
+}

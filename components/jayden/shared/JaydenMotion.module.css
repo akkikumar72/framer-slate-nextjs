@@ -1,0 +1,45 @@
+.reveal {
+  --jayden-delay: 0ms;
+}
+
+:global(html[data-jayden-motion-ready="true"])
+  .reveal[data-jayden-reveal]:not([data-jayden-motion-done]) {
+  opacity: 0;
+  transform: translate3d(0, 30px, 0);
+  transition:
+    opacity 750ms cubic-bezier(0.16, 1, 0.3, 1) var(--jayden-delay),
+    transform 750ms cubic-bezier(0.16, 1, 0.3, 1) var(--jayden-delay);
+  will-change: opacity, transform;
+}
+
+:global(html[data-jayden-motion-ready="true"])
+  .fromLeft[data-jayden-reveal]:not([data-jayden-motion-done]) {
+  transform: translate3d(-42px, 0, 0);
+}
+
+:global(html[data-jayden-motion-ready="true"])
+  .fromRight[data-jayden-reveal]:not([data-jayden-motion-done]) {
+  transform: translate3d(42px, 0, 0);
+}
+
+:global(html[data-jayden-motion-ready="true"])
+  .scaleIn[data-jayden-reveal]:not([data-jayden-motion-done]) {
+  transform: scale(0.955);
+}
+
+:global(html[data-jayden-motion-ready="true"])
+  .reveal[data-jayden-visible="true"]:not([data-jayden-motion-done]) {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .fromLeft,
+  .fromRight,
+  .scaleIn {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

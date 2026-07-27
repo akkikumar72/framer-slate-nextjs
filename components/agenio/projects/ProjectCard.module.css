@@ -1,0 +1,176 @@
+.card {
+  color: inherit;
+  display: block;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.image {
+  inset: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.image img {
+  object-fit: cover;
+  transition: transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.panel {
+  background: var(--agenio-night);
+  bottom: 0;
+  color: #f9fafb;
+  left: 0;
+  max-width: 595px;
+  position: absolute;
+  width: 51%;
+}
+
+.copy {
+  min-height: 192px;
+  padding: 36px 32px 28px;
+}
+
+.copy h3 {
+  font-size: clamp(30px, 3.15vw, 48px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.copy p {
+  color: #d1d5db;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 12px;
+  max-width: 490px;
+}
+
+.metrics {
+  border-top: 1px solid #333841;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+}
+
+.metrics > div {
+  border-right: 1px solid #333841;
+  min-height: 110px;
+  padding: 22px 28px;
+}
+
+.metrics > div:last-child {
+  border-right: 0;
+}
+
+.metrics dt {
+  font-size: clamp(24px, 2.1vw, 32px);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+}
+
+.metrics dd {
+  color: #d1d5db;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 2px 0 0;
+}
+
+.card:hover .image img {
+  transform: scale(1.025);
+}
+
+.card:focus-visible {
+  outline: 3px solid var(--agenio-lime);
+  outline-offset: -3px;
+}
+
+@supports (animation-timeline: view()) {
+  .card {
+    animation: project-reveal both cubic-bezier(0.22, 1, 0.36, 1);
+    animation-range: entry 5% cover 28%;
+    animation-timeline: view();
+  }
+}
+
+@keyframes project-reveal {
+  from {
+    filter: blur(8px);
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+
+  to {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    height: 680px;
+  }
+}
+
+@media (max-width: 760px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image {
+    aspect-ratio: 1.765;
+    inset: auto;
+    position: relative;
+  }
+
+  .panel {
+    max-width: none;
+    position: relative;
+    width: 100%;
+  }
+
+  .copy {
+    min-height: 250px;
+    padding: 38px 24px 32px;
+  }
+
+  .copy h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .copy p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .metrics > div {
+    min-height: 92px;
+    padding: 16px 10px;
+  }
+
+  .metrics > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .metrics > div:nth-child(3) {
+    border-top: 1px solid #333841;
+    grid-column: 1 / -1;
+  }
+
+  .metrics dt {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}

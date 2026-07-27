@@ -1,0 +1,843 @@
+.page {
+  background: #fff;
+}
+
+.hero {
+  background: #0d0d0d;
+  color: #fff;
+  height: 720px;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroBackdrop {
+  height: 110%;
+  left: -5%;
+  object-fit: cover;
+  position: absolute;
+  top: -5%;
+  width: 110%;
+}
+
+.heroContent {
+  left: 13.90625%;
+  position: absolute;
+  right: 13.90625%;
+  top: 164px;
+}
+
+.heroFrame {
+  border-radius: 4px;
+  height: 401px;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroFrame > img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.heroFrame h2 {
+  font-size: 108px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.065em;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 151px;
+  white-space: nowrap;
+}
+
+.heroTitleMobile {
+  display: none;
+}
+
+.heroFrame > span {
+  color: #26383a;
+  position: absolute;
+}
+
+.heroMarkOne {
+  left: 14%;
+  top: 31%;
+}
+
+.heroMarkTwo {
+  right: 14%;
+  top: 31%;
+}
+
+.heroMarkThree {
+  bottom: 31%;
+  left: 14%;
+}
+
+.heroMarkFour {
+  bottom: 31%;
+  right: 14%;
+}
+
+.heroMeta {
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 429px 1fr auto;
+  line-height: 14px;
+  padding: 11px 30px 0;
+}
+
+.heroMeta span:nth-child(2) {
+  color: rgb(255 255 255 / 50%);
+  justify-self: start;
+}
+
+.heroMeta span:last-child {
+  justify-self: end;
+}
+
+.process {
+  height: 2249px;
+  overflow: hidden;
+  position: relative;
+}
+
+.process > div:first-child {
+  top: 82px;
+}
+
+.statement {
+  font-size: 70px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: -0.055em;
+  line-height: 70px;
+  margin: 0;
+  position: absolute;
+  right: 24px;
+  top: 160px;
+}
+
+.statement span {
+  display: block;
+  white-space: nowrap;
+}
+
+.statementLead {
+  padding-left: 40%;
+}
+
+.processImage {
+  border-radius: 4px;
+  height: 576px;
+  left: 24px;
+  overflow: hidden;
+  position: absolute;
+  right: 24px;
+  top: 589px;
+}
+
+.processImage img {
+  height: 150%;
+  left: 0;
+  object-fit: cover;
+  object-position: center 48%;
+  position: absolute;
+  top: -25%;
+  width: 100%;
+}
+
+.processList {
+  left: 24px;
+  position: absolute;
+  right: 24px;
+  top: 1215px;
+}
+
+.processRow {
+  border-top: 1px solid #dedede;
+  display: grid;
+  grid-template-columns: 247px 405px 1fr;
+  height: 285px;
+  padding-top: 41px;
+}
+
+.processRow + .processRow {
+  margin-top: 40px;
+}
+
+.processNumber {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.processRow h3 {
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  line-height: 56px;
+  margin: 0;
+}
+
+.processCopy {
+  max-width: 402px;
+}
+
+.processCopy p {
+  color: #7a7a7a;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  line-height: 20px;
+  margin: 0;
+}
+
+.processCopy strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.processCopy ul {
+  color: #7a7a7a;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 13px;
+  line-height: 16px;
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.processCopy li {
+  align-items: center;
+  display: flex;
+  gap: 7px;
+}
+
+.processCopy li span {
+  color: #aaa;
+}
+
+.team {
+  background: #111;
+  color: #fff;
+  height: 734px;
+  overflow: hidden;
+  position: relative;
+}
+
+.teamViewport {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 121px;
+}
+
+.teamTrack {
+  animation: team-loop 32s linear infinite;
+  display: flex;
+  gap: 10px;
+  width: max-content;
+}
+
+@keyframes team-loop {
+  to {
+    transform: translateX(-1755px);
+  }
+}
+
+.teamCard {
+  flex: 0 0 341px;
+  font-size: 12px;
+  height: 505px;
+  line-height: 15px;
+}
+
+.teamCard img {
+  border-radius: 3px;
+  height: 463px;
+  margin-bottom: 9px;
+  object-fit: cover;
+  width: 341px;
+}
+
+.teamCard span,
+.teamCard em {
+  display: block;
+  padding-left: 10px;
+}
+
+.teamCard em {
+  color: #777;
+  font-style: normal;
+}
+
+.teamDots {
+  display: none;
+}
+
+.awards {
+  height: 755px;
+  overflow: hidden;
+  position: relative;
+}
+
+.awardList {
+  left: 24px;
+  position: absolute;
+  right: 24px;
+  top: 125px;
+}
+
+.awardRow {
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  display: grid;
+  font-size: 16px;
+  grid-template-columns: 29.6% 29.6% 1fr auto;
+  height: 61px;
+}
+
+.awardRow em {
+  color: #777;
+  font-style: normal;
+}
+
+.clients {
+  height: 579px;
+  overflow: hidden;
+  position: relative;
+}
+
+.clientGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  left: 24px;
+  position: absolute;
+  right: 24px;
+  top: 110px;
+}
+
+.clientCard {
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 3px;
+  color: #2f2f2f;
+  display: flex;
+  font-size: 20px;
+  font-weight: 650;
+  height: 168px;
+  justify-content: center;
+  letter-spacing: -0.035em;
+}
+
+.clientCard:nth-child(1) {
+  grid-column: 2;
+}
+
+.clientCard:nth-child(2) {
+  grid-column: 4;
+}
+
+.clientCard:nth-child(5) {
+  grid-column: 1;
+}
+
+.clientCard:nth-child(6) {
+  grid-column: 3;
+}
+
+.clientCard:nth-child(8) {
+  grid-column: 6;
+}
+
+.oslo {
+  font-size: 27px;
+  letter-spacing: 0.08em;
+}
+
+.manila {
+  font-size: 22px;
+}
+
+.basel,
+.london,
+.monaco,
+.amsterdam,
+.philadelphia {
+  color: #999;
+  font-size: 17px;
+}
+
+.london,
+.amsterdam,
+.philadelphia {
+  color: #d7d7d7;
+}
+
+.savannah {
+  font-size: 19px;
+}
+
+.stats {
+  height: 799px;
+  overflow: hidden;
+  position: relative;
+}
+
+.statsGrid {
+  display: grid;
+  gap: 0 108px;
+  grid-template-columns: 1fr 1fr;
+  padding: 194px 24px 0;
+}
+
+.statsGrid article {
+  min-height: 298px;
+  position: relative;
+}
+
+.statCorner {
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+
+.statsGrid article > h2 {
+  display: block;
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 1;
+  margin: 0 0 16px;
+}
+
+.statLabel {
+  border-top: 1px solid #d8d8d8;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 16px;
+}
+
+.statsGrid article p {
+  color: #777;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 10px 0 0;
+  max-width: 360px;
+}
+
+.articles {
+  height: 748px;
+  overflow: hidden;
+  position: relative;
+}
+
+.articleGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 123px 24px 0;
+}
+
+.articleCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.articleCard > img {
+  border-radius: 4px;
+  height: 256px;
+  object-fit: cover;
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1);
+  width: 100%;
+}
+
+.articleTall > img {
+  height: 463px;
+}
+
+.articleCard:hover > img {
+  transform: scale(0.985);
+}
+
+.articleCard > div {
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 50px 1fr auto;
+  line-height: 14px;
+  padding-top: 10px;
+}
+
+.articleCard > div > span:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.articleCard strong {
+  font-weight: 400;
+}
+
+.articleCard em {
+  color: #777;
+  font-style: normal;
+}
+
+@media (max-width: 599px) {
+  .hero {
+    height: 844px;
+  }
+
+  .hero button {
+    border: 0;
+  }
+
+  .heroBackdrop {
+    object-position: 51% center;
+  }
+
+  .heroContent {
+    left: 24px;
+    right: 24px;
+    top: 228px;
+  }
+
+  .heroFrame {
+    height: 354px;
+  }
+
+  .heroFrame h2 {
+    font-size: 30px;
+    letter-spacing: -0.055em;
+    line-height: 30px;
+    top: 162px;
+  }
+
+  .heroTitleDesktop {
+    display: none;
+  }
+
+  .heroTitleMobile {
+    display: inline;
+  }
+
+  .heroMarkOne,
+  .heroMarkThree {
+    left: 25%;
+  }
+
+  .heroMarkTwo,
+  .heroMarkFour {
+    right: 25%;
+  }
+
+  .heroMarkOne,
+  .heroMarkTwo {
+    top: 29%;
+  }
+
+  .heroMarkThree,
+  .heroMarkFour {
+    bottom: 29%;
+  }
+
+  .heroMeta {
+    grid-template-columns: 121px 1fr;
+    padding: 13px 10px 0;
+  }
+
+  .heroMeta span:nth-child(2) {
+    justify-self: start;
+  }
+
+  .heroMeta span:last-child {
+    display: none;
+  }
+
+  .process {
+    height: 2549px;
+  }
+
+  .process > div:first-child {
+    top: 80px;
+  }
+
+  .statement {
+    font-size: 30px;
+    left: 24px;
+    letter-spacing: -0.045em;
+    line-height: 30px;
+    right: 24px;
+    top: 145px;
+  }
+
+  .statement span {
+    white-space: normal;
+  }
+
+  .statementLead {
+    padding-left: 33%;
+  }
+
+  .processImage {
+    height: 675px;
+    top: 459px;
+  }
+
+  .processImage img {
+    height: 110%;
+    object-position: 58% center;
+    top: -4%;
+  }
+
+  .processList {
+    top: 1171px;
+  }
+
+  .processRow {
+    display: block;
+    height: 405px;
+    padding-top: 41px;
+  }
+
+  .processRow + .processRow {
+    margin-top: 40px;
+  }
+
+  .processNumber {
+    display: block;
+  }
+
+  .processRow h3 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 33px;
+  }
+
+  .processCopy {
+    max-width: none;
+  }
+
+  .processCopy p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 35px;
+  }
+
+  .processCopy strong {
+    margin-top: 20px;
+  }
+
+  .processCopy ul {
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .team {
+    height: 563px;
+  }
+
+  .teamViewport {
+    top: 113px;
+  }
+
+  .teamTrack {
+    animation-duration: 36s;
+  }
+
+  @keyframes team-loop {
+    to {
+      transform: translateX(-1800px);
+    }
+  }
+
+  .teamCard {
+    flex-basis: 350px;
+    height: 370px;
+  }
+
+  .teamCard img {
+    height: 328px;
+    width: 350px;
+  }
+
+  .teamDots {
+    bottom: 39px;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+  }
+
+  .teamDots i {
+    background: #777;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+  }
+
+  .teamDots i[data-active="true"] {
+    background: #fff;
+  }
+
+  .awards {
+    height: 1106px;
+  }
+
+  .awardList {
+    top: 113px;
+  }
+
+  .awardRow {
+    align-items: center;
+    font-size: 16px;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 1fr;
+    height: 114px;
+    padding: 13px 0;
+  }
+
+  .awardRow span:nth-child(2),
+  .awardRow em {
+    color: #050505;
+    text-align: right;
+  }
+
+  .process > div:first-child,
+  .team > div:first-child,
+  .awards > div:first-child,
+  .clients > div:first-child,
+  .stats > div:first-child,
+  .articles > div:first-child {
+    grid-template-columns: 1fr auto;
+  }
+
+  .process > div:first-child span:nth-child(2),
+  .team > div:first-child span:nth-child(2),
+  .awards > div:first-child span:nth-child(2),
+  .clients > div:first-child span:nth-child(2),
+  .stats > div:first-child span:nth-child(2),
+  .articles > div:first-child span:nth-child(2) {
+    text-align: right;
+  }
+
+  .process > div:first-child span:last-child,
+  .team > div:first-child span:last-child,
+  .awards > div:first-child span:last-child,
+  .clients > div:first-child span:last-child,
+  .stats > div:first-child span:last-child,
+  .articles > div:first-child span:last-child {
+    display: none;
+  }
+
+  .clients {
+    height: 1073px;
+  }
+
+  .clientGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 113px;
+  }
+
+  .clientCard {
+    flex: 0 0 168px;
+  }
+
+  .clientCard:nth-child(n + 6) {
+    display: none;
+  }
+
+  .stats {
+    height: 815px;
+  }
+
+  .statsGrid {
+    display: block;
+    padding-top: 113px;
+  }
+
+  .statsGrid article {
+    border-top: 1px solid #d8d8d8;
+    height: 158px;
+    min-height: 158px;
+    padding-top: 30px;
+  }
+
+  .statsGrid article:nth-child(2) {
+    height: 157px;
+    min-height: 157px;
+  }
+
+  .statsGrid article > h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+
+  .statCorner {
+    top: 30px;
+  }
+
+  .statLabel {
+    border: 0;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+  }
+
+  .statsGrid article p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+  }
+
+  .articles {
+    height: 1415px;
+  }
+
+  .articleGrid {
+    gap: 10px;
+    grid-template-columns: 1fr;
+    padding-top: 113px;
+  }
+
+  .articleCard,
+  .articleTall {
+    height: 298px;
+  }
+
+  .articleCard > img,
+  .articleTall > img {
+    height: 256px;
+  }
+
+  .page > footer > div:first-child {
+    padding-top: 60px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .teamTrack {
+    animation: none;
+  }
+
+  .articleCard > img {
+    transition: none;
+  }
+}

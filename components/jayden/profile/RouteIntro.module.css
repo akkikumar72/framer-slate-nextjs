@@ -1,0 +1,115 @@
+.mastheadContent {
+  min-height: 412px;
+  position: relative;
+}
+
+.mastheadTall {
+  min-height: 417px;
+}
+
+.note {
+  position: absolute;
+  right: 18px;
+  top: -13px;
+  width: 102px;
+}
+
+.note img {
+  filter: grayscale(1);
+  height: 71px;
+  object-fit: cover;
+  opacity: 0.34;
+  width: 102px;
+}
+
+.note p {
+  color: rgba(255, 255, 255, 0.16);
+  font-size: 13px;
+  line-height: 19px;
+  margin: 24px 0 0;
+}
+
+.titleBlock {
+  position: absolute;
+  top: 179px;
+}
+
+.withKicker .titleBlock {
+  left: 55px;
+}
+
+.withoutKicker .titleBlock {
+  left: 73px;
+}
+
+.titleBlock > span {
+  color: rgba(255, 255, 255, 0.26);
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: -1px;
+  text-transform: uppercase;
+}
+
+.titleBlock h1 {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 82px;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 74px;
+  margin: 0;
+}
+
+.titleBlock h1 b {
+  display: block;
+  font-weight: inherit;
+}
+
+.mastheadContent > :global(a) {
+  bottom: -7px;
+  left: 0;
+  position: absolute;
+}
+
+@media (max-width: 809px) {
+  .mastheadContent {
+    min-height: 414px;
+  }
+
+  .note {
+    display: none;
+  }
+
+  .titleBlock {
+    left: 0;
+    top: 172px;
+  }
+
+  .withKicker .titleBlock,
+  .withoutKicker .titleBlock {
+    left: 0;
+  }
+
+  .titleBlock h1 {
+    font-size: clamp(56px, 19vw, 78px);
+    line-height: 0.88;
+  }
+
+  .mastheadContent > :global(a) {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .mastheadContent {
+    min-height: 400px;
+  }
+
+  .titleBlock {
+    top: 156px;
+  }
+
+  .titleBlock h1 {
+    font-size: 60px;
+  }
+}

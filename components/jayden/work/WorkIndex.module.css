@@ -1,0 +1,32 @@
+.page {
+  background: #000;
+}
+
+.showcase > div {
+  min-height: 1901px;
+  padding-bottom: 86px;
+  padding-top: 80px;
+}
+
+@media (min-width: 810px) and (max-width: 1199px) {
+  .page > section > div {
+    width: calc(100% - 30px);
+  }
+
+  .showcase > div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 809px) {
+  .page > section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .showcase > div {
+    min-height: 0;
+    padding: 64px 15px;
+  }
+}

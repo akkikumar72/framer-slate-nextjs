@@ -1,0 +1,15 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" id="svg-1927951147_681">
+<g clip-path="url(#svg-1927951147_681_clip0_10846_14338)">
+<path d="M6 13L11 8L6 3" stroke="url(#svg-1927951147_681_paint0_linear_10846_14338)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<defs>
+<linearGradient id="svg-1927951147_681_paint0_linear_10846_14338" x1="10.7778" y1="0.569444" x2="6.92457" y2="0.621915" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F77373"></stop>
+<stop offset="0.5" stop-color="#C762F6"></stop>
+<stop offset="1" stop-color="#814BEE"></stop>
+</linearGradient>
+<clipPath id="svg-1927951147_681_clip0_10846_14338">
+<rect width="16" height="16" fill="white" transform="matrix(-1 0 0 1 16 0)"></rect>
+</clipPath>
+</defs>
+</svg>
