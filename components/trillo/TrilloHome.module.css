@@ -1,0 +1,2902 @@
+.main {
+  background: #f7f7f5;
+  overflow: clip;
+}
+
+.hero {
+  height: 1442px;
+  position: relative;
+}
+
+.heroInner,
+.sectionContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.heroInner {
+  height: 100%;
+}
+
+.heroCopy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.heroCopy h1,
+.heroCopy > p,
+.heroButtons {
+  animation: hero-copy-in 920ms both cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: filter, opacity, transform;
+}
+
+.heroCopy h1 {
+  animation-delay: 180ms;
+}
+
+.heroCopy > p {
+  animation-delay: 360ms;
+}
+
+.heroButtons {
+  animation-delay: 520ms;
+}
+
+@keyframes hero-copy-in {
+  0% {
+    filter: blur(8px);
+    opacity: 0;
+    transform: translate3d(0, 64px, 0) scale(0.96);
+  }
+
+  68% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translate3d(0, -5px, 0) scale(1.006);
+  }
+
+  84% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translate3d(0, 2px, 0) scale(0.998);
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+.heroCopy h1 {
+  font-size: 90px;
+  font-weight: 500;
+  letter-spacing: -4px;
+  line-height: 1;
+  max-width: 700px;
+}
+
+.heroCopy > p {
+  color: #62625f;
+  font-size: 17px;
+  line-height: 1.55;
+  margin-top: 26px;
+  max-width: 514px;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.darkButton,
+.ghostButton,
+.planButton {
+  --trillo-button-border: rgba(59, 59, 59, 0.12);
+  align-items: center;
+  border: 0;
+  border-radius: 12px;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 10px;
+  justify-content: center;
+  line-height: 1.7;
+  padding: 0 22px;
+  position: relative;
+  transition:
+    background 180ms ease,
+    box-shadow 220ms ease,
+    color 180ms ease,
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+  white-space: nowrap;
+}
+
+.darkButton::after,
+.ghostButton::after,
+.planButton::after {
+  border: 1px solid var(--trillo-button-border);
+  border-radius: inherit;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.darkButton {
+  background: #ff3c00;
+  box-shadow: 0 10px 26px rgba(255, 60, 0, 0.2);
+  color: #fff !important;
+  min-height: 52px;
+  width: 191px;
+}
+
+.darkButton:hover {
+  background: #ff3c00;
+  box-shadow: 0 15px 34px rgba(255, 60, 0, 0.3);
+  transform: translateY(-2px) scale(1.01);
+}
+
+.ghostButton {
+  --trillo-button-border: #0a0a0a;
+  background: #f7f7f5;
+  min-height: 52px;
+  width: 168px;
+}
+
+.ghostButton:hover,
+.planButton:hover {
+  box-shadow: 0 12px 28px rgba(10, 10, 10, 0.1);
+  transform: translateY(-2px) scale(1.01);
+}
+
+.darkButton:active,
+.ghostButton:active,
+.planButton:active {
+  box-shadow: none;
+  transform: translateY(1px) scale(0.98);
+}
+
+.darkButton > span,
+.ghostButton > span {
+  display: none;
+}
+
+.darkButton:focus-visible,
+.ghostButton:focus-visible,
+.planButton:focus-visible {
+  outline: 3px solid rgba(255, 60, 0, 0.24);
+  outline-offset: 3px;
+}
+
+.heroStage {
+  height: 849px;
+  left: 50%;
+  perspective: 1600px;
+  perspective-origin: center 24%;
+  position: absolute;
+  top: 503px;
+  transform: translateX(-50%);
+  width: 1184px;
+}
+
+.heroGlow {
+  animation: hero-glow-in 1100ms 320ms both cubic-bezier(0.16, 1, 0.3, 1);
+  border-radius: 28px;
+  height: 626px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform-origin: center;
+  will-change: opacity, transform;
+  width: 1184px;
+}
+
+.heroBadges {
+  align-items: center;
+  animation: hero-badges-in 980ms 480ms both
+    cubic-bezier(0.16, 1, 0.3, 1);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.96);
+  border-radius: 999px;
+  box-shadow: 0 16px 35px rgba(61, 26, 12, 0.08);
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  left: 273px;
+  position: absolute;
+  right: auto;
+  top: 56px;
+  width: 602px;
+  will-change: opacity, transform;
+  z-index: 3;
+}
+
+.heroBadges button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #0a0a0a;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  gap: 8px;
+  min-height: 43px;
+  padding: 0 14px;
+}
+
+.heroBadges button i {
+  background: #b9b9b5;
+  border-radius: 50%;
+  display: inline-block;
+  flex: 0 0 7px;
+  height: 7px;
+  position: relative;
+  transition:
+    background 220ms ease,
+    height 220ms ease,
+    width 220ms ease;
+  width: 7px;
+}
+
+.heroBadges .heroBadgeActive i {
+  align-items: center;
+  background: #0a0a0a;
+  border-radius: 0;
+  clip-path: polygon(
+    50% 0,
+    60% 13%,
+    75% 7%,
+    80% 23%,
+    97% 25%,
+    88% 40%,
+    100% 50%,
+    87% 60%,
+    94% 75%,
+    77% 79%,
+    75% 96%,
+    60% 87%,
+    50% 100%,
+    40% 87%,
+    25% 94%,
+    21% 77%,
+    4% 75%,
+    13% 60%,
+    0 50%,
+    13% 40%,
+    6% 25%,
+    23% 21%,
+    25% 4%,
+    40% 13%
+  );
+  color: #fff;
+  display: inline-flex;
+  flex: 0 0 31px;
+  height: 31px;
+  justify-content: center;
+  width: 31px;
+}
+
+.heroBadges .heroBadgeActive i::after {
+  content: "✓";
+  font-size: 12px;
+}
+
+.dashboardFrame {
+  animation: hero-dashboard-in 1100ms 560ms both
+    cubic-bezier(0.16, 1, 0.3, 1);
+  background: #f8f8f6;
+  border: 1px solid #e9e9e7;
+  border-radius: 28px;
+  box-shadow: 0 30px 75px rgba(40, 21, 16, 0.13);
+  height: 686px;
+  left: 117px;
+  overflow: hidden;
+  position: absolute;
+  top: 163px;
+  transform-origin: center bottom;
+  will-change: opacity, transform;
+  width: 911px;
+}
+
+@keyframes hero-glow-in {
+  0% {
+    filter: blur(18px);
+    opacity: 0;
+    transform: translateY(52px) scale(0.48);
+  }
+
+  68% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(-5px) scale(1.012);
+  }
+
+  84% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(2px) scale(0.998);
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hero-badges-in {
+  0% {
+    filter: blur(10px);
+    opacity: 0;
+    transform: translateY(100px) scale(0.9);
+  }
+
+  70% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(-7px) scale(1.012);
+  }
+
+  86% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(2px) scale(0.998);
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes hero-dashboard-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+    transform: translateY(86px) scale(0.9) rotateX(10deg);
+  }
+
+  67% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(-8px) scale(1.012) rotateX(-1deg);
+  }
+
+  84% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(3px) scale(0.998) rotateX(0);
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0) scale(1) rotateX(0);
+  }
+}
+
+.dashboardImage {
+  height: 652px;
+  left: 18px;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 17px;
+  transform: scale(0.985);
+  transition:
+    opacity 700ms ease,
+    transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
+  width: 875px;
+}
+
+.dashboardImageActive {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.brandSection {
+  height: 121px;
+  position: relative;
+}
+
+.brandSection > p {
+  color: #777771;
+  font-size: 13px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 2px;
+}
+
+.marqueeViewport {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 62px;
+}
+
+.marqueeTrack {
+  align-items: center;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  min-width: max-content;
+  width: max-content;
+}
+
+.marqueeTrack img {
+  flex: none;
+  height: 27px;
+  max-width: 135px;
+  object-fit: contain;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .marqueeTrack {
+    gap: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-width: 0;
+    width: min(1045px, calc(100vw - 60px));
+  }
+
+  .marqueeTrack img:nth-child(n + 6) {
+    display: none;
+  }
+}
+
+.benefitsSection {
+  height: 776px;
+}
+
+.benefitsSection .sectionContainer {
+  height: 712px;
+  padding-top: 114px;
+}
+
+.benefitsSection h2,
+.featureSection > .sectionContainer > h2,
+.workflowSection h2,
+.reviewHeading h2 {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+
+.benefitsSection h2 {
+  text-align: center;
+}
+
+.benefitsGrid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  height: 590px;
+  margin: 14px auto 0;
+  max-width: 1040px;
+}
+
+.aiAssist,
+.benefitCloud {
+  border-radius: 22px;
+  overflow: hidden;
+  position: relative;
+}
+
+.aiAssist {
+  color: #fff;
+  padding: 57px 54px;
+}
+
+.cardBackground {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.aiAssist::after {
+  background: rgba(35, 8, 17, 0.2);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.aiAssistTop,
+.aiPrompts {
+  position: relative;
+  z-index: 1;
+}
+
+.aiAssistTop > p {
+  font-size: 15px;
+  margin-top: 14px;
+}
+
+.aiAssistTop h3 {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -1.7px;
+  line-height: 1.4;
+  margin-top: 22px;
+  max-width: 365px;
+}
+
+.aiPrompts {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 115px;
+}
+
+.aiPrompts span {
+  align-items: center;
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.96);
+  border-radius: 11px;
+  color: #0a0a0a;
+  display: flex;
+  font-size: 13px;
+  min-height: 42px;
+  padding: 0 14px;
+}
+
+.benefitCloud {
+  background:
+    radial-gradient(circle at center, #fff 0 31%, transparent 32%),
+    repeating-radial-gradient(
+      circle at center,
+      transparent 0 70px,
+      rgba(10, 10, 10, 0.055) 71px 72px
+    ),
+    #f0efec;
+}
+
+.customerPortrait {
+  border: 8px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  height: 200px;
+  left: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 195px;
+  transform: translateX(-50%);
+  width: 200px;
+}
+
+.cloudItem {
+  background: #fff;
+  border: 1px solid #dfdedb;
+  border-radius: 999px;
+  box-shadow: 0 12px 28px rgba(18, 18, 16, 0.08);
+  font-size: 13px;
+  left: calc(50% + cos(calc(var(--cloud-index) * 60deg)) * 165px);
+  padding: 12px 16px;
+  position: absolute;
+  top: calc(50% + sin(calc(var(--cloud-index) * 60deg)) * 210px);
+  transform: translate(-50%, -50%) rotate(var(--cloud-rotate, 0deg));
+  white-space: nowrap;
+}
+
+@media (min-width: 1200px) {
+  .cloudItem:nth-of-type(1) {
+    --cloud-rotate: -10deg;
+    left: 25%;
+    top: 34%;
+  }
+
+  .cloudItem:nth-of-type(2) {
+    --cloud-rotate: 3deg;
+    left: 50%;
+    top: 80%;
+  }
+
+  .cloudItem:nth-of-type(3) {
+    --cloud-rotate: 13deg;
+    left: 75%;
+    top: 72%;
+  }
+
+  .cloudItem:nth-of-type(4) {
+    --cloud-rotate: 9deg;
+    left: 28%;
+    top: 71%;
+  }
+
+  .cloudItem:nth-of-type(5) {
+    --cloud-rotate: 8deg;
+    left: 50%;
+    top: 19%;
+  }
+
+  .cloudItem:nth-of-type(6) {
+    --cloud-rotate: 7deg;
+    left: 67%;
+    top: 27%;
+  }
+}
+
+.featureSection {
+  height: 1714px;
+}
+
+.featureSection > .sectionContainer {
+  height: 100%;
+  padding-top: 110px;
+}
+
+.featureSection > .sectionContainer > h2 {
+  margin-inline: auto;
+  position: sticky;
+  text-align: center;
+  top: 60px;
+  width: 100%;
+  z-index: 1;
+}
+
+.featureStories {
+  margin: 72px auto 0;
+  max-width: 1005px;
+  position: relative;
+}
+
+.featureStory {
+  align-items: center;
+  background: #fff;
+  border-radius: 22px;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 553px 452px;
+  height: 460px;
+  overflow: hidden;
+  position: sticky;
+  top: calc(160px + var(--story-index) * 29px);
+  z-index: calc(var(--story-index) + 2);
+}
+
+.featureStory + .featureStory {
+  margin-top: 24px;
+}
+
+.featureStoryReverse {
+  grid-template-columns: 452px 553px;
+}
+
+.featureStoryReverse .featureCopy {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.featureStoryReverse .featureVisual {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.featureCopy h3 {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 1.4;
+}
+
+.featureCopy {
+  padding: 0 56px;
+}
+
+.featureCopy > p {
+  color: #676762;
+  font-size: 15px;
+  line-height: 1.55;
+  margin-top: 10px;
+}
+
+.featureCopy ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  list-style: none;
+  margin-top: 32px;
+  padding: 0;
+}
+
+.featureCopy li {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  gap: 12px;
+}
+
+.featureVisual {
+  border-radius: 22px;
+  height: 460px;
+  overflow: hidden;
+  position: relative;
+}
+
+.featureBackground {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.featureCard {
+  height: auto;
+  left: 50%;
+  max-height: 72%;
+  max-width: 76%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.platformSection {
+  height: 965px;
+}
+
+.platformSection .sectionContainer {
+  height: 845px;
+  padding-top: 120px;
+}
+
+.platformSection h2,
+.insightsSection h2,
+.pricingHeading h2 {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 1.2;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.platformSection h2 {
+  max-width: 570px;
+}
+
+.platformPanel {
+  margin-top: 48px;
+}
+
+.platformTabs {
+  background: #fff;
+  border: 1px solid rgba(10, 10, 10, 0.03);
+  border-radius: 12px;
+  box-shadow:
+    22px 117px 48px rgba(0, 0, 0, 0.01),
+    12px 66px 40px rgba(0, 0, 0, 0.05),
+    6px 29px 30px rgba(0, 0, 0, 0.09),
+    1px 7px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 6px 14px 6px 6px;
+  width: 434px;
+}
+
+.platformTabs button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #7d7d78;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  gap: 9px;
+  justify-content: center;
+  min-height: 47px;
+  padding: 10px 16px;
+  position: relative;
+  transition:
+    background 240ms ease,
+    color 240ms ease,
+    transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+  white-space: nowrap;
+}
+
+.platformTabs button:first-child {
+  flex: 0 0 216px;
+}
+
+.platformTabs button:last-child {
+  flex: 1 1 auto;
+}
+.platformTabs button::after {
+  display: none;
+}
+
+.platformTabs .platformTabActive {
+  background: #f3f2ef;
+  border-radius: 6px;
+  color: #0a0a0a;
+}
+
+.platformTabs button:active {
+  transform: scale(0.98);
+}
+
+.platformVisual {
+  height: 607px;
+  margin: 22px auto 0;
+  position: relative;
+  width: 860px;
+}
+
+.platformBackground {
+  height: 100%;
+  inset: 0;
+  object-fit: contain;
+  position: absolute;
+  width: 100%;
+}
+
+.platformCard {
+  height: 369px;
+  left: 75px;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 118px;
+  transform: translateY(20px) scale(0.965);
+  transition:
+    opacity 440ms ease,
+    transform 680ms cubic-bezier(0.16, 1, 0.3, 1);
+  width: 710px;
+}
+
+.platformCardActive {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  z-index: 1;
+}
+
+.statsSection {
+  height: 444px;
+  padding: 132px 30px 0;
+}
+
+.statsSection .sectionContainer {
+  background: #fff;
+  border-radius: 16px 16px 0 0;
+  height: 312px;
+  max-width: 1184px;
+  padding: 72px 78px 0;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: 1028px;
+}
+
+.stat {
+  border-left: 0;
+  min-height: 168px;
+  padding: 0;
+}
+
+.stat:last-child {
+  border-right: 0;
+}
+
+.statValue {
+  align-items: baseline;
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.4;
+}
+
+.statValue strong {
+  font-weight: 600;
+  min-width: 0;
+  transition: opacity 300ms ease;
+}
+
+.stat h3 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+.stat p {
+  color: #74746f;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 9px;
+  max-width: 245px;
+}
+
+.workflowSection {
+  height: 600px;
+}
+
+.workflowSection .sectionContainer {
+  height: 468px;
+  padding-top: 232px;
+}
+
+.workflowSection h2 {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.workflowGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 94px auto 0;
+  max-width: 1045px;
+}
+
+.workflowCard {
+  border-left: 1px solid #dededb;
+  display: flex;
+  flex-direction: column;
+  min-height: 315px;
+  padding: 0 24px;
+  position: relative;
+}
+
+.workflowCard:last-child {
+  border-right: 1px solid #dededb;
+}
+
+.workflowCard > span {
+  display: none;
+}
+
+.workflowGlyph {
+  display: none;
+}
+
+.workflowGlyph i {
+  border: 2px solid #ff3d0a;
+  border-radius: 10px;
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 22px;
+  transform: rotate(-8deg);
+  width: 52px;
+}
+
+.workflowGlyph i:nth-child(2) {
+  border-color: #151515;
+  left: 14px;
+  top: 11px;
+  transform: rotate(0);
+}
+
+.workflowGlyph i:nth-child(3) {
+  border-color: #d3d3cf;
+  left: 28px;
+  top: 0;
+  transform: rotate(8deg);
+}
+
+.workflowCard h3 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  max-width: 170px;
+}
+
+.workflowCard p {
+  color: #74746f;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: auto;
+  max-width: 175px;
+}
+
+.insightsSection {
+  height: 1693px;
+}
+
+.insightsSection .sectionContainer {
+  height: 1561px;
+  padding-top: 236px;
+}
+
+.insightsSection h2 {
+  max-width: 470px;
+}
+
+.insightsGrid {
+  display: grid;
+  gap: 40px 24px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 64px auto 0;
+  max-width: 1044px;
+}
+
+.insightCard {
+  min-height: 567px;
+}
+
+.insightVisual {
+  border-radius: 22px;
+  height: 445px;
+  overflow: hidden;
+  position: relative;
+}
+
+.insightBackground {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.insightVisual > img:last-child {
+  height: 298px;
+  left: 61px;
+  object-fit: contain;
+  position: absolute;
+  top: 74px;
+  width: 388px;
+}
+
+.insightCard h3 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  margin: 24px 40px 0;
+}
+
+.insightCard > p {
+  color: #74746f;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 4px 40px 0;
+  max-width: 420px;
+}
+
+.reviewSection {
+  height: 1084px;
+}
+
+.reviewSection .sectionContainer {
+  height: 864px;
+  padding-top: 110px;
+}
+
+.reviewHeading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1045px;
+  text-align: center;
+}
+
+.reviewRating {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px 12px;
+  justify-content: center;
+}
+
+.reviewRating strong {
+  font-size: 14px;
+}
+
+.reviewRating > span:last-child {
+  color: #767671;
+  font-size: 12px;
+  flex-basis: auto;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+}
+
+.reviewGrid {
+  display: grid;
+  gap: 95px 0;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 113px auto 0;
+  max-width: 1045px;
+}
+
+.reviewCard {
+  border-left: 1px solid #dededb;
+  height: 280px;
+  padding: 0 24px;
+  position: relative;
+}
+
+.reviewCard:nth-child(3n) {
+  border-right: 1px solid #dededb;
+}
+
+.reviewCard:nth-child(n + 4) {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.reviewLogo {
+  height: 24px;
+  object-fit: contain;
+  object-position: left center;
+  width: 110px;
+}
+
+.reviewCard > p {
+  color: #42423f;
+  font-size: 14px;
+  line-height: 1.55;
+  margin-top: 38px;
+  min-height: 98px;
+}
+
+.reviewer {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  gap: 12px;
+  left: 24px;
+  position: absolute;
+}
+
+.reviewCard:nth-child(n + 4) .reviewer {
+  bottom: 0;
+}
+
+.reviewer > img {
+  border-radius: 50%;
+  height: 48px;
+  object-fit: cover;
+  width: 48px;
+}
+
+.reviewer span {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer strong {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.reviewer small {
+  color: #7b7b76;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.pricingSection {
+  height: 869px;
+  padding: 0 30px;
+}
+
+.pricingContainer {
+  background: #fff;
+  border-radius: 16px 16px 0 0;
+  height: 869px;
+  margin: 0 auto;
+  max-width: 1184px;
+  padding: 96px 40px 0;
+}
+
+.pricingContent {
+  height: 773px;
+  margin: 0 auto;
+  max-width: 795px;
+  position: relative;
+}
+
+.pricingHeading h2 {
+  max-width: none;
+  white-space: nowrap;
+}
+
+.pricingHeading p {
+  color: #5b5b5b;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 16px auto 0;
+  max-width: 560px;
+  text-align: center;
+}
+
+.billingLabels {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.billingLabels button {
+  background: transparent;
+  border: 0;
+  color: #0a0a0a;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 0;
+}
+
+.billingLabels .billingToggle {
+  background: #f7f7f5;
+  border-radius: 999px;
+  height: 28px;
+  padding: 4px;
+  position: relative;
+  width: 49px;
+}
+
+.billingToggle > span {
+  background: #0a0a0a;
+  border-radius: 50%;
+  display: block;
+  height: 20px;
+  transform: translateX(0);
+  transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+  width: 20px;
+}
+
+.billingToggleYearly > span {
+  transform: translateX(21px);
+}
+
+.billingLabels b {
+  background: #c8eb2d;
+  border-radius: 999px;
+  color: #0a0a0a;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  min-height: 25px;
+  padding: 2px 10px 3px;
+}
+
+.pricingGrid {
+  display: grid;
+  gap: 23px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 32px;
+}
+
+.pricingCard {
+  background: #f7f7f5;
+  border: 0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 520px;
+  padding: 32px 40px;
+  position: relative;
+}
+
+.pricingCardPopular {
+  height: 528px;
+  margin-top: -4px;
+}
+
+.popular {
+  background: #ff3c00;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 3px 10px;
+  position: absolute;
+  right: -2px;
+  top: 8px;
+}
+
+.planTop {
+  min-height: 206px;
+}
+
+.planTop h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.planTop > p {
+  color: #5b5b5b;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 3px;
+}
+
+.price {
+  align-items: flex-end;
+  display: flex;
+  gap: 0;
+  margin-top: 16px;
+}
+
+.price strong {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+
+.price > span {
+  color: #5b5b5b;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+
+.planButton {
+  background: #fff;
+  margin-top: 16px;
+  min-height: 44px;
+  padding-inline: 20px;
+  width: 100%;
+}
+
+.planButton > span {
+  display: none;
+}
+
+.planButton:hover {
+  background: #fff;
+  color: #0a0a0a;
+}
+
+.pricingCardPopular .planButton,
+.pricingCardPopular .planButton:hover {
+  background: #ff3c00;
+  color: #fff;
+  min-height: 52px;
+}
+
+.pricingCardPopular .planTop {
+  min-height: 214px;
+}
+
+.planFeatures {
+  padding-top: 0;
+}
+
+.planFeatures > p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.planFeatures ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  margin-top: 18px;
+  padding: 0;
+}
+
+.planFeatures li {
+  align-items: center;
+  color: #0a0a0a;
+  display: flex;
+  font-size: 16px;
+  gap: 6px;
+  line-height: 1.7;
+}
+
+.planFeatures li span {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  color: #0a0a0a;
+  display: inline-flex;
+  flex: 0 0 22px;
+  font-size: 16px;
+  height: 22px;
+  justify-content: center;
+  line-height: 1;
+  width: 22px;
+}
+
+.faqSection {
+  height: 782px;
+  padding: 0 30px 70px;
+}
+
+.faqContainer {
+  background: #fff;
+  border-radius: 14px;
+  height: 712px;
+  margin: 0 auto;
+  max-width: 1184px;
+  padding: 73px 197px 78px;
+}
+
+.faqContainer > h2 {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.faqItem {
+  background: #fff;
+  border: 1px solid #e3e3e0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.faqItemOpen {
+  background: #f7f7f5;
+}
+
+.faqItem > button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  min-height: 77px;
+  padding: 0 26px 0 24px;
+  text-align: left;
+  width: 100%;
+}
+
+.faqItem > button img {
+  transform: rotate(180deg);
+  transition: transform 260ms ease;
+}
+
+.faqItem > button .faqIconOpen {
+  transform: rotate(0);
+}
+
+.faqAnswer {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 280ms ease,
+    opacity 220ms ease;
+}
+
+.faqAnswer > p {
+  color: #696964;
+  font-size: 14px;
+  line-height: 1.55;
+  max-width: 700px;
+  overflow: hidden;
+}
+
+.faqAnswerOpen {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.faqAnswerOpen > p {
+  padding: 0 46px 25px 24px;
+}
+
+@media (min-width: 1200px) and (max-width: 1239px) {
+  .hero {
+    height: 1409px;
+  }
+
+  .insightsSection {
+    height: 1641px;
+  }
+}
+
+@media (min-width: 1240px) and (max-width: 1279px) {
+  .hero {
+    height: 1433px;
+  }
+
+  .insightsSection {
+    height: 1679px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .benefitsSection .sectionContainer {
+    padding-top: 64px;
+  }
+
+  .featureSection > .sectionContainer {
+    padding-top: 110px;
+  }
+
+  .workflowSection .sectionContainer {
+    padding-top: 132px;
+  }
+
+  .insightsSection .sectionContainer {
+    padding-top: 236px;
+  }
+
+  .reviewSection .sectionContainer {
+    padding-top: 110px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hero {
+    height: 1320px;
+  }
+
+  .heroInner,
+  .sectionContainer {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .heroCopy {
+    padding-top: 60px;
+  }
+
+  .heroCopy h1 {
+    font-size: 72px;
+    letter-spacing: -3px;
+  }
+
+  .heroStage {
+    top: 475px;
+    transform: translateX(-50%) scale(0.8);
+    transform-origin: top center;
+  }
+
+  .benefitsSection {
+    height: auto;
+    min-height: 1350px;
+  }
+
+  .benefitsSection .sectionContainer {
+    height: auto;
+    padding-top: 120px;
+  }
+
+  .benefitsGrid {
+    grid-template-columns: 1fr;
+    height: auto;
+    max-width: 550px;
+  }
+
+  .aiAssist,
+  .benefitCloud {
+    height: 590px;
+  }
+
+  .featureSection {
+    height: auto;
+    min-height: 2450px;
+  }
+
+  .featureSection > .sectionContainer {
+    height: auto;
+    padding-top: 120px;
+  }
+
+  .featureStories {
+    max-width: 700px;
+  }
+
+  .featureStory,
+  .featureStoryReverse {
+    gap: 36px;
+    grid-template-columns: 1fr;
+    height: auto;
+    position: relative;
+    top: auto;
+  }
+
+  .featureStory + .featureStory {
+    margin-top: 80px;
+  }
+
+  .featureStoryReverse .featureCopy,
+  .featureStoryReverse .featureVisual {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .featureVisual {
+    grid-row: 1;
+  }
+
+  .featureCopy {
+    grid-row: 2;
+  }
+
+  .platformSection {
+    height: 900px;
+  }
+
+  .platformVisual {
+    transform: scale(0.78);
+    transform-origin: top center;
+  }
+
+  .workflowSection,
+  .statsSection,
+  .reviewSection,
+  .pricingSection,
+  .faqSection {
+    height: auto;
+  }
+
+  .statsSection {
+    padding: 0 30px;
+  }
+
+  .statsSection .sectionContainer,
+  .workflowSection .sectionContainer,
+  .reviewSection .sectionContainer,
+  .faqContainer {
+    height: auto;
+    padding-bottom: 120px;
+  }
+
+  .workflowGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .workflowCard:nth-child(3) {
+    border-top: 1px solid #dededb;
+    padding-top: 36px;
+  }
+
+  .workflowCard:nth-child(4) {
+    border-right: 1px solid #dededb;
+    border-top: 1px solid #dededb;
+    padding-top: 36px;
+  }
+
+  .insightsSection {
+    height: auto;
+    min-height: 1700px;
+  }
+
+  .insightsSection .sectionContainer {
+    height: auto;
+    padding-bottom: 120px;
+  }
+
+  .reviewGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reviewCard:nth-child(3n) {
+    border-right: 0;
+  }
+
+  .reviewCard:nth-child(2n) {
+    border-right: 1px solid #dededb;
+  }
+
+  .reviewCard:nth-child(n + 3) {
+    border-top: 1px solid #dededb;
+    padding-top: 24px;
+  }
+
+  .pricingContainer {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .pricingContent {
+    height: auto;
+  }
+
+  .pricingHeading h2 {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: 1040px;
+  }
+
+  .heroInner,
+  .sectionContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heroCopy {
+    align-items: flex-start;
+    padding-top: 54px;
+    text-align: left;
+  }
+
+  .heroCopy h1 {
+    font-size: 42px;
+    letter-spacing: -1.6px;
+    line-height: 1;
+    max-width: 350px;
+  }
+
+  .heroCopy > p {
+    font-size: 15px;
+    margin-top: 22px;
+    max-width: 340px;
+  }
+
+  .heroButtons {
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .darkButton,
+  .ghostButton {
+    width: 100%;
+  }
+
+  .heroStage {
+    left: 50%;
+    top: 405px;
+    transform: translateX(-50%) scale(0.39);
+  }
+
+  .heroBadges {
+    left: 10px;
+    right: 10px;
+  }
+
+  .brandSection {
+    height: 150px;
+  }
+
+  .brandSection > p {
+    font-size: 12px;
+    padding: 0 20px;
+  }
+
+  .marqueeTrack {
+    gap: 48px;
+  }
+
+  .benefitsSection {
+    min-height: 1170px;
+  }
+
+  .benefitsSection .sectionContainer,
+  .featureSection > .sectionContainer {
+    padding-top: 60px;
+  }
+
+  .benefitsSection h2,
+  .featureSection > .sectionContainer > h2,
+  .workflowSection h2,
+  .reviewHeading h2,
+  .platformSection h2,
+  .insightsSection h2,
+  .pricingHeading h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .benefitsGrid {
+    margin-top: 40px;
+  }
+
+  .aiAssist,
+  .benefitCloud {
+    height: 485px;
+  }
+
+  .aiAssist {
+    padding: 34px 28px;
+  }
+
+  .aiAssistTop h3 {
+    font-size: 28px;
+  }
+
+  .aiPrompts {
+    margin-top: 70px;
+  }
+
+  .customerPortrait {
+    height: 150px;
+    top: 168px;
+    width: 150px;
+  }
+
+  .cloudItem {
+    left: calc(50% + cos(calc(var(--cloud-index) * 60deg)) * 120px);
+    top: calc(50% + sin(calc(var(--cloud-index) * 60deg)) * 165px);
+  }
+
+  .featureSection {
+    min-height: 2200px;
+  }
+
+  .featureStories {
+    margin-top: 48px;
+  }
+
+  .featureStory + .featureStory {
+    margin-top: 68px;
+  }
+
+  .featureVisual {
+    height: 390px;
+  }
+
+  .featureCopy h3 {
+    font-size: 30px;
+  }
+
+  .platformSection {
+    height: 690px;
+  }
+
+  .platformSection .sectionContainer {
+    height: auto;
+    padding-top: 60px;
+  }
+
+  .platformPanel {
+    margin-top: 40px;
+  }
+
+  .platformTabs {
+    gap: 18px;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .platformTabs button {
+    white-space: nowrap;
+  }
+
+  .platformVisual {
+    left: 50%;
+    margin-left: -430px;
+    transform: scale(0.4);
+    transform-origin: top center;
+  }
+
+  .statsSection .sectionContainer {
+    padding-top: 60px;
+  }
+
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat {
+    border-left: 0;
+    border-top: 1px solid #dededb;
+    min-height: 190px;
+    padding: 28px 0;
+  }
+
+  .stat:last-child {
+    border-bottom: 1px solid #dededb;
+    border-right: 0;
+  }
+
+  .workflowSection .sectionContainer {
+    padding-top: 60px;
+  }
+
+  .workflowGrid {
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+  }
+
+  .workflowCard {
+    border-left: 0;
+    border-top: 1px solid #dededb;
+    min-height: 260px;
+    padding: 30px 0;
+  }
+
+  .workflowCard:last-child {
+    border-bottom: 1px solid #dededb;
+    border-right: 0;
+  }
+
+  .insightsSection {
+    min-height: 2540px;
+  }
+
+  .insightsSection .sectionContainer {
+    padding-top: 60px;
+  }
+
+  .insightsGrid {
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+  }
+
+  .insightCard {
+    min-height: 545px;
+  }
+
+  .insightVisual {
+    height: 385px;
+  }
+
+  .insightVisual > img:last-child {
+    height: 255px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 60px);
+  }
+
+  .insightCard h3,
+  .insightCard > p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .reviewSection .sectionContainer {
+    padding-top: 60px;
+  }
+
+  .reviewHeading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .reviewGrid {
+    display: flex;
+    gap: 0;
+    margin-top: 50px;
+    overflow-x: auto;
+    padding-bottom: 24px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .reviewCard,
+  .reviewCard:nth-child(n + 3),
+  .reviewCard:nth-child(n + 4) {
+    border-left: 1px solid #dededb;
+    border-right: 0;
+    border-top: 0;
+    flex: 0 0 310px;
+    padding: 0 24px;
+    scroll-snap-align: start;
+  }
+
+  .reviewCard:last-child {
+    border-right: 1px solid #dededb;
+  }
+
+  .pricingContainer {
+    padding: 60px 20px 120px;
+  }
+
+  .pricingContent {
+    height: auto;
+  }
+
+  .pricingHeading p {
+    text-align: left;
+  }
+
+  .billingLabels {
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+
+  .pricingGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricingCard,
+  .pricingCardPopular {
+    height: auto;
+    min-height: 520px;
+  }
+
+  .faqContainer {
+    padding: 60px 20px 100px;
+  }
+
+  .faqContainer > h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .faqItem > button {
+    font-size: 16px;
+    min-height: 84px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    height: 1170px;
+  }
+
+  .heroStage {
+    aspect-ratio: 1184 / 849;
+    height: auto;
+    top: 439px;
+    transform: translateX(-50%);
+    width: calc(100vw - 60px);
+  }
+
+  .heroCopy {
+    padding-top: 74px;
+  }
+
+  .heroCopy h1 {
+    max-width: 740px;
+  }
+
+  .heroGlow {
+    height: 73.73%;
+    width: 100%;
+  }
+
+  .heroBadges {
+    flex-wrap: wrap;
+    height: 80px;
+    left: 10%;
+    padding: 7px 52px;
+    right: auto;
+    top: 10.4%;
+    width: 80%;
+  }
+
+  .heroBadges button:nth-child(3) {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
+  .heroBadges .heroBadgeActive i {
+    flex-basis: 24px;
+    height: 24px;
+    width: 24px;
+  }
+
+  .dashboardFrame {
+    height: 80.7%;
+    left: 10%;
+    top: 30.1%;
+    width: 80%;
+  }
+
+  .dashboardImage {
+    height: 95%;
+    left: 2.33%;
+    top: 2.5%;
+    width: 95.33%;
+  }
+
+  .brandSection {
+    height: 91px;
+  }
+
+  .benefitsSection {
+    height: 1453px;
+    min-height: 0;
+  }
+
+  .benefitsSection .sectionContainer {
+    padding-top: 80px;
+  }
+
+  .benefitsSection h2,
+  .featureSection > .sectionContainer > h2,
+  .workflowSection h2,
+  .reviewHeading h2,
+  .platformSection h2,
+  .insightsSection h2,
+  .pricingHeading h2 {
+    font-size: 38px;
+    letter-spacing: -1.4px;
+  }
+
+  .benefitsGrid {
+    gap: 24px;
+    margin-top: 62px;
+  }
+
+  .aiAssist,
+  .benefitCloud {
+    height: 582px;
+  }
+
+  .featureSection {
+    height: 1277px;
+    min-height: 0;
+  }
+
+  .featureSection > .sectionContainer {
+    height: 100%;
+    padding-top: 80px;
+  }
+
+  .featureStories {
+    margin-top: 60px;
+    max-width: 700px;
+  }
+
+  .featureStory,
+  .featureStoryReverse {
+    gap: 0;
+    grid-template-columns: 382px 318px;
+    height: 322px;
+    position: sticky;
+    top: calc(125px + var(--story-index) * 22px);
+  }
+
+  .featureStoryReverse {
+    grid-template-columns: 318px 382px;
+  }
+
+  .featureStory + .featureStory {
+    margin-top: 20px;
+  }
+
+  .featureStoryReverse .featureCopy {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .featureStoryReverse .featureVisual {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .featureCopy {
+    grid-row: 1;
+    padding: 0 34px;
+  }
+
+  .featureCopy h3 {
+    font-size: 30px;
+  }
+
+  .featureCopy ul {
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .featureVisual {
+    grid-row: 1;
+    height: 322px;
+  }
+
+  .platformSection {
+    height: 848px;
+  }
+
+  .platformSection .sectionContainer {
+    height: 100%;
+    padding-top: 80px;
+  }
+
+  .platformPanel {
+    margin-top: 48px;
+  }
+
+  .platformVisual {
+    height: 529px;
+    margin-top: 38px;
+    transform: none;
+    width: 750px;
+  }
+
+  .platformCard {
+    height: 322px;
+    left: 65px;
+    top: 103px;
+    width: 619px;
+  }
+
+  .statsSection {
+    height: 525px;
+  }
+
+  .statsSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 150px;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 750px;
+  }
+
+  .stat {
+    min-height: 150px;
+  }
+
+  .stat:nth-child(3) {
+    border-top: 1px solid #dededb;
+    padding-top: 22px;
+  }
+
+  .workflowSection {
+    height: 406px;
+  }
+
+  .workflowSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 80px;
+  }
+
+  .workflowGrid {
+    margin-top: 48px;
+    max-width: 750px;
+    row-gap: 40px;
+  }
+
+  .workflowCard {
+    min-height: 96px;
+  }
+
+  .workflowCard:nth-child(3),
+  .workflowCard:nth-child(4) {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .insightsSection {
+    height: 1232px;
+    min-height: 0;
+  }
+
+  .insightsSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 140px;
+  }
+
+  .insightsGrid {
+    gap: 34px 24px;
+    margin-top: 48px;
+    max-width: 700px;
+  }
+
+  .insightCard {
+    min-height: 430px;
+  }
+
+  .insightVisual {
+    height: 300px;
+  }
+
+  .insightVisual > img:last-child {
+    height: 210px;
+    left: 40px;
+    top: 45px;
+    width: calc(100% - 80px);
+  }
+
+  .insightCard h3,
+  .insightCard > p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .reviewSection {
+    height: 1302px;
+  }
+
+  .reviewSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 80px;
+  }
+
+  .reviewGrid {
+    margin-top: 45px;
+    max-width: 750px;
+  }
+
+  .reviewCard:nth-child(n + 3) {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .pricingSection {
+    height: 830px;
+    padding: 0 20px;
+  }
+
+  .pricingContainer {
+    height: 830px;
+    overflow: visible;
+    padding: 88px 40px 0;
+  }
+
+  .pricingContent {
+    height: auto;
+    max-width: 750px;
+  }
+
+  .pricingCard {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .faqSection {
+    height: 798px;
+  }
+
+  .faqContainer {
+    height: 718px;
+    max-width: 750px;
+    padding: 82px 30px 62px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 809px) {
+  .featureStory,
+  .featureStoryReverse {
+    grid-template-columns: 54.6667% 45.3333%;
+    width: 100%;
+  }
+
+  .featureStoryReverse {
+    grid-template-columns: 45.3333% 54.6667%;
+  }
+
+  .platformVisual {
+    aspect-ratio: 860 / 607;
+    height: auto;
+    width: 100%;
+  }
+
+  .platformCard {
+    height: 60.79%;
+    left: 8.72%;
+    top: 19.44%;
+    width: 82.56%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: 1054px;
+  }
+
+  .heroCopy {
+    align-items: center;
+    padding-top: 130px;
+    text-align: center;
+  }
+
+  .heroCopy h1 {
+    max-width: 330px;
+  }
+
+  .heroCopy > p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 26px;
+    min-height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    text-align: center;
+  }
+
+  .heroButtons {
+    align-items: center;
+    gap: 10px;
+    margin-top: 26px;
+  }
+
+  .darkButton,
+  .ghostButton {
+    min-height: 52px;
+    width: max-content;
+  }
+
+  .heroStage {
+    height: 419px;
+    top: 523px;
+    transform: translateX(-50%);
+    width: 350px;
+  }
+
+  .heroGlow {
+    border-radius: 18px;
+    height: 291px;
+    width: 350px;
+  }
+
+  .heroBadges {
+    align-items: stretch;
+    border-radius: 18px 18px 0 0;
+    flex-direction: column;
+    height: 118px;
+    justify-content: center;
+    left: 18px;
+    padding: 7px 12px;
+    right: 17px;
+    top: 31px;
+    width: auto;
+  }
+
+  .heroBadges button {
+    min-height: 34px;
+    padding: 0 8px;
+  }
+
+  .heroBadges .heroBadgeActive i {
+    flex-basis: 24px;
+    height: 24px;
+    width: 24px;
+  }
+
+  .dashboardFrame {
+    border-radius: 0 0 18px 18px;
+    height: 237px;
+    left: 18px;
+    top: 171px;
+    width: 315px;
+  }
+
+  .dashboardImage {
+    height: 225px;
+    left: 6px;
+    top: 6px;
+    width: 303px;
+  }
+
+  .brandSection {
+    height: 105px;
+  }
+
+  .marqueeTrack {
+    animation: brand-marquee 20s linear infinite;
+    justify-content: flex-start;
+  }
+
+  .benefitsSection {
+    height: 1075px;
+    min-height: 0;
+  }
+
+  .benefitsSection .sectionContainer {
+    padding-bottom: 0;
+  }
+
+  .benefitsGrid {
+    gap: 24px;
+  }
+
+  .aiAssist,
+  .benefitCloud {
+    height: 425px;
+  }
+
+  .aiAssist {
+    padding: 30px 26px;
+  }
+
+  .aiPrompts {
+    margin-top: 44px;
+  }
+
+  .customerPortrait {
+    height: 140px;
+    top: 142px;
+    width: 140px;
+  }
+
+  .featureSection {
+    height: 2055px;
+    min-height: 0;
+  }
+
+  .featureSection > .sectionContainer > h2 {
+    position: relative;
+    top: auto;
+  }
+
+  .featureStory,
+  .featureStoryReverse {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: 579px;
+    position: relative;
+    top: auto;
+  }
+
+  .featureStory:first-child {
+    min-height: 614px;
+  }
+
+  .featureStory:last-child {
+    min-height: 642px;
+  }
+
+  .featureStory + .featureStory {
+    margin-top: 18px;
+  }
+
+  .featureCopy,
+  .featureStoryReverse .featureCopy {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 28px;
+  }
+
+  .featureVisual,
+  .featureStoryReverse .featureVisual {
+    border-radius: 16px 16px 0 0;
+    grid-column: 1;
+    grid-row: 1;
+    height: 360px;
+  }
+
+  .platformSection {
+    height: 581px;
+  }
+
+  .platformSection .sectionContainer {
+    padding-top: 54px;
+  }
+
+  .platformPanel {
+    margin-top: 28px;
+  }
+
+  .platformTabs {
+    background: #fff;
+    border-radius: 16px;
+    flex-direction: column;
+    gap: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 8px;
+    width: 224px;
+  }
+
+  .platformTabs button {
+    border-radius: 10px;
+    min-height: 42px;
+    padding: 0 12px;
+  }
+
+  .platformTabs button::after {
+    display: none;
+  }
+
+  .platformTabs .platformTabActive {
+    background: #f0efec;
+  }
+
+  .platformVisual {
+    height: 247px;
+    left: auto;
+    margin: 18px auto 0;
+    transform: none;
+    width: 350px;
+  }
+
+  .platformCard {
+    height: 152px;
+    left: 20px;
+    top: 48px;
+    width: 310px;
+  }
+
+  .statsSection {
+    height: 682px;
+    padding: 0 20px;
+  }
+
+  .statsSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+
+  .statsGrid {
+    background: #fff;
+    border-radius: 18px;
+    min-height: 622px;
+    padding: 18px 24px;
+  }
+
+  .stat {
+    min-height: 190px;
+  }
+
+  .workflowSection {
+    height: 664px;
+  }
+
+  .workflowSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 54px;
+  }
+
+  .workflowGrid {
+    margin-top: 38px;
+  }
+
+  .workflowCard,
+  .workflowCard:nth-child(3),
+  .workflowCard:nth-child(4) {
+    border-right: 0;
+    min-height: 120px;
+    padding: 18px 0 18px 22px;
+  }
+
+  .workflowGlyph {
+    display: none;
+  }
+
+  .workflowCard h3 {
+    font-size: 19px;
+    max-width: none;
+  }
+
+  .workflowCard p {
+    max-width: 300px;
+  }
+
+  .insightsSection {
+    height: 1986px;
+    min-height: 0;
+  }
+
+  .insightsSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 54px;
+  }
+
+  .insightsGrid {
+    background: #fff;
+    border-radius: 18px;
+    gap: 22px;
+    margin-top: 36px;
+    padding: 20px;
+  }
+
+  .insightCard {
+    min-height: 423px;
+  }
+
+  .insightVisual {
+    height: 300px;
+  }
+
+  .insightVisual > img:last-child {
+    height: 205px;
+    width: calc(100% - 50px);
+  }
+
+  .reviewSection {
+    height: 1907px;
+  }
+
+  .reviewSection .sectionContainer {
+    padding-bottom: 0;
+    padding-top: 54px;
+  }
+
+  .reviewGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .reviewCard,
+  .reviewCard:nth-child(n + 3),
+  .reviewCard:nth-child(n + 4) {
+    border-left: 1px solid #dededb;
+    border-right: 0;
+    border-top: 0;
+    height: 260px;
+    min-height: 260px;
+    padding: 0 24px;
+  }
+
+  .pricingSection {
+    height: 1261px;
+    padding: 0 20px;
+  }
+
+  .pricingContainer {
+    background: #fff;
+    border-radius: 18px;
+    height: 1261px;
+    overflow: hidden;
+    padding: 46px 20px 0;
+  }
+
+  .pricingContent {
+    height: auto;
+  }
+
+  .billingLabels button {
+    cursor: pointer;
+  }
+
+  .pricingGrid {
+    gap: 22px;
+  }
+
+  .pricingCard,
+  .pricingCardPopular {
+    height: 466px;
+    min-height: 466px;
+    padding: 32px 24px;
+  }
+
+  .pricingHeading h2,
+  .pricingHeading p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .pricingHeading h2 {
+    max-width: 300px;
+  }
+
+  .billingLabels {
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .billingLabels b {
+    display: none;
+  }
+
+  .price strong {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+
+  .planTop,
+  .pricingCardPopular .planTop {
+    min-height: 167px;
+  }
+
+  .faqSection {
+    height: 847px;
+    padding: 0 20px 40px;
+  }
+
+  .faqContainer {
+    height: 807px;
+    padding: 54px 20px 50px;
+  }
+
+  .faqItem > button {
+    min-height: 77px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .faqAnswerOpen > p {
+    padding-left: 18px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 389px) {
+  .heroStage,
+  .heroGlow,
+  .platformVisual {
+    width: calc(100vw - 40px);
+  }
+
+  .heroStage {
+    top: 573px;
+  }
+
+  .heroBadges {
+    left: 5%;
+    right: 5%;
+    width: auto;
+  }
+
+  .dashboardFrame {
+    left: 5%;
+    width: 90%;
+  }
+
+  .dashboardImage {
+    left: 2%;
+    width: 96%;
+  }
+
+  .platformCard {
+    left: 5.714%;
+    width: 88.572%;
+  }
+
+  .billingLabels {
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+}
+
+.benefitsSection,
+.featureSection,
+.platformSection,
+.pricingSection,
+.reviewSection {
+  scroll-margin-top: 92px;
+}
+
+@keyframes brand-marquee {
+  to {
+    transform: translateX(calc(-50% - 24px));
+  }
+}
+
+.featureSection > .sectionContainer > h2 {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroCopy h1,
+  .heroCopy > p,
+  .heroButtons,
+  .heroGlow,
+  .heroBadges,
+  .dashboardFrame {
+    animation: none;
+    filter: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .marqueeTrack {
+    animation: none;
+  }
+}
