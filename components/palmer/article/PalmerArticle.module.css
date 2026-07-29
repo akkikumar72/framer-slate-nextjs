@@ -1,0 +1,522 @@
+.article {
+  background: #000;
+  color: #fff;
+  overflow: clip;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 58.5%) minmax(0, 41.5%);
+  min-height: 415px;
+  padding: 140px 24px 58px;
+}
+
+.introLead {
+  padding-right: clamp(36px, 7vw, 118px);
+}
+
+.intro h1 {
+  font-size: 79px;
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.995;
+}
+
+.excerpt {
+  color: #b9b9b9;
+  font-size: 18px;
+  line-height: 1.28;
+  margin-top: 45px;
+  max-width: 560px;
+}
+
+.category {
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 24px;
+  padding: 9px 13px 8px;
+}
+
+.meta {
+  align-self: start;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1px 0 0;
+}
+
+.meta div {
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  min-height: 96px;
+  padding: 14px 12px 20px 0;
+}
+
+.meta div:nth-child(even) {
+  padding-left: 12px;
+}
+
+.meta dt,
+.meta dd {
+  font-size: 13px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.meta dt {
+  color: #777;
+}
+
+.meta dd {
+  margin-top: 18px;
+}
+
+.story {
+  position: relative;
+}
+
+.chapter {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0 24px;
+  position: relative;
+}
+
+.chapterLead {
+  min-height: 3457px;
+}
+
+.chapterCounterpoint {
+  min-height: 1328px;
+}
+
+.chapterCounterpoint .chapterBody {
+  gap: 40px;
+  padding-bottom: 68px;
+}
+
+.stickyImage,
+.overscanImage,
+.finaleImage {
+  margin: 0;
+  overflow: hidden;
+}
+
+.stickyImage {
+  border-radius: 24px;
+  height: 720px;
+  position: sticky;
+  top: 0;
+}
+
+.chapterBody {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-width: 0;
+  padding-bottom: 160px;
+}
+
+.overscanImage {
+  border-radius: 24px;
+  height: 720px;
+}
+
+.chapterCopy {
+  align-items: start;
+  display: grid;
+  gap: 32px 28px;
+  grid-template-columns: 0.34fr 1fr;
+  min-height: 500px;
+  padding: 96px 0;
+}
+
+.chapterCopy span,
+.finaleCopy span {
+  color: #777;
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.chapterCopy h2 {
+  font-size: clamp(45px, 4.3vw, 62px);
+  font-weight: 400;
+  grid-column: 2;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.chapterCopy p {
+  color: #b9b9b9;
+  font-size: 17px;
+  grid-column: 2;
+  line-height: 1.45;
+  max-width: 490px;
+}
+
+.chapterReverse .stickyImage {
+  grid-column: 2;
+}
+
+.chapterReverse .chapterBody {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.finale {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1.5fr 1fr;
+  min-height: 858px;
+  padding: 0 24px 160px;
+}
+
+.finaleImage {
+  border-radius: 24px;
+  height: 720px;
+}
+
+.finaleCopy {
+  align-self: end;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  display: grid;
+  gap: 35px;
+  padding: 18px 0 54px;
+}
+
+.finaleCopy p {
+  font-size: clamp(28px, 2.8vw, 42px);
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+  max-width: 560px;
+}
+
+.more {
+  background: #000;
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+  color: #fff;
+  height: 1206px;
+  overflow: clip;
+  padding: 64px 24px 0;
+  position: relative;
+}
+
+.marquee {
+  margin: 185px -24px 0;
+  overflow: hidden;
+}
+
+.marqueeTrack {
+  animation: article-marquee 18s linear infinite;
+  display: flex;
+  font-size: 166px;
+  font-weight: 600;
+  gap: 24px;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin: 0;
+  white-space: nowrap;
+  width: max-content;
+  will-change: transform;
+}
+
+.marqueeTrack span {
+  display: block;
+}
+
+@keyframes article-marquee {
+  to {
+    transform: translateX(calc(-25% - 6px));
+  }
+}
+
+.moreCard {
+  display: block;
+  height: 600px;
+  margin-top: -2px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.moreBackdrop,
+.moreShade {
+  inset: 0;
+  position: absolute;
+}
+
+.moreBackdrop {
+  filter: saturate(0.75);
+}
+
+.moreShade {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.moreCard .moreInset {
+  height: 50%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: height 600ms cubic-bezier(0.22, 1, 0.36, 1),
+    width 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  width: 50%;
+}
+
+.moreCard:hover .moreInset,
+.moreCard:focus-visible .moreInset {
+  height: 54%;
+  width: 54%;
+}
+
+.moreMeta {
+  align-items: center;
+  background: #fff;
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  left: 50%;
+  min-height: 35px;
+  padding: 0 14px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(590px, 72%);
+}
+
+.moreMeta strong {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.moreMeta small {
+  font-size: 11px;
+}
+
+.moreMeta small:last-child {
+  text-align: right;
+}
+
+@media (max-width: 1199px) {
+  .intro h1 {
+    font-size: 64px;
+  }
+
+  .chapterLead {
+    min-height: 2100px;
+  }
+
+  .chapterCounterpoint {
+    min-height: 1650px;
+  }
+
+  .chapterCounterpoint .chapterBody {
+    gap: 80px;
+    padding-bottom: 160px;
+  }
+
+  .stickyImage,
+  .overscanImage,
+  .finaleImage {
+    height: 650px;
+  }
+
+  .marqueeTrack {
+    font-size: 128px;
+  }
+}
+
+@media (max-width: 809px) {
+  .intro {
+    display: block;
+    min-height: 637px;
+    padding: 140px 24px 54px;
+  }
+
+  .introLead {
+    padding: 0;
+  }
+
+  .intro h1 {
+    font-size: 51px;
+    letter-spacing: -0.05em;
+    line-height: 50.6px;
+  }
+
+  .excerpt {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 34px;
+    max-width: 342px;
+  }
+
+  .category {
+    margin-top: 18px;
+  }
+
+  .meta {
+    margin-top: 46px;
+  }
+
+  .meta div {
+    min-height: 66px;
+    padding-bottom: 12px;
+  }
+
+  .meta dd {
+    margin-top: 10px;
+  }
+
+  .chapter {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    padding: 0 24px;
+  }
+
+  .chapterLead {
+    min-height: 2000px;
+  }
+
+  .chapterCounterpoint {
+    min-height: 1853px;
+  }
+
+  .chapterCounterpoint .chapterBody {
+    gap: 80px;
+    padding-bottom: 120px;
+  }
+
+  .chapterReverse .stickyImage,
+  .chapterReverse .chapterBody {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .stickyImage {
+    border-radius: 24px;
+    height: 280px;
+    position: static;
+    width: 100%;
+  }
+
+  .chapterBody {
+    gap: 80px;
+    overflow: visible;
+    padding-bottom: 120px;
+    width: 100%;
+  }
+
+  .overscanImage {
+    align-self: center;
+    border-radius: 24px;
+    flex: 0 0 auto;
+    height: 390px;
+    width: calc(100% + 103px);
+  }
+
+  .chapterCopy {
+    display: block;
+    min-height: 420px;
+    padding: 52px 0 76px;
+  }
+
+  .chapterCopy h2 {
+    font-size: 43px;
+    line-height: 0.98;
+    margin-top: 48px;
+  }
+
+  .chapterCopy p {
+    font-size: 15px;
+    line-height: 1.45;
+    margin-top: 32px;
+    max-width: 320px;
+  }
+
+  .finale {
+    display: block;
+    min-height: 955px;
+    padding: 0 24px 180px;
+  }
+
+  .finaleImage {
+    height: 280px;
+    width: 100%;
+  }
+
+  .finaleCopy {
+    margin-top: 95px;
+    min-height: 400px;
+    padding-top: 18px;
+  }
+
+  .finaleCopy p {
+    font-size: 36px;
+    margin-top: 22px;
+  }
+
+  .more {
+    height: 1006px;
+    padding: 56px 20px 0;
+  }
+
+  .marquee {
+    margin: 226px -20px 0;
+  }
+
+  .marqueeTrack {
+    animation-duration: 15s;
+    font-size: 76px;
+    gap: 10px;
+    letter-spacing: -4px;
+    line-height: 68px;
+  }
+
+  .moreCard {
+    height: 600px;
+    margin-top: 24px;
+    width: 350px;
+  }
+
+  .moreBackdrop {
+    opacity: 0.18;
+  }
+
+  .moreCard .moreInset {
+    height: 226px;
+    top: 34.3%;
+    width: 215px;
+  }
+
+  .moreMeta {
+    min-height: 33px;
+    padding: 0 10px;
+    top: 34.3%;
+    width: 310px;
+  }
+
+  .moreMeta strong {
+    font-size: 15px;
+  }
+
+  .moreMeta small {
+    font-size: 9px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none;
+    transform: translateX(0);
+  }
+
+  .moreCard .moreInset {
+    transition: none;
+  }
+}
