@@ -1,0 +1,85 @@
+.notFound {
+  background: #f7f7f5;
+  height: 971px;
+  position: relative;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 185px;
+  text-align: center;
+}
+
+.illustration {
+  height: 475px;
+  object-fit: contain;
+  width: 725px;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 1.2;
+  margin-top: 59px;
+}
+
+.content > p {
+  color: #6e6e69;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.homeLink {
+  align-items: center;
+  background: #0a0a0a;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 26px;
+  min-height: 48px;
+  padding: 0 24px;
+  transition:
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.homeLink:hover {
+  background: #ff3d0a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 767px) {
+  .notFound {
+    height: 770px;
+  }
+
+  .content {
+    padding: 120px 20px 0;
+  }
+
+  .illustration {
+    height: auto;
+    max-width: 430px;
+    width: 100%;
+  }
+
+  .content h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-top: 48px;
+  }
+
+  .content > p {
+    max-width: 310px;
+  }
+}

@@ -1,6 +1,6 @@
 # Framer landing pages in Next.js
 
-A single Next.js App Router project containing six isolated landing-page
+A single Next.js App Router project containing seven isolated landing-page
 families. Each design keeps its own route namespace, components, assets, and
 responsive behavior.
 
@@ -13,8 +13,11 @@ responsive behavior.
 | <img src="output/playwright/landing-pages/fuel.png" alt="Fuel landing page at /fuel" width="720"> | <img src="output/playwright/landing-pages/agenio.png" alt="Agenio landing page at /agenio" width="720"> |
 | **Jayden** · `/jayden` | **Saazai** · `/saazai` |
 | <img src="output/playwright/landing-pages/jayden.png" alt="Jayden landing page at /jayden" width="720"> | <img src="output/playwright/landing-pages/saazai.png" alt="Saazai landing page at /saazai" width="720"> |
+| **Trillo** · [`http://localhost:3000/Trillo`](http://localhost:3000/Trillo) | |
+| <img src="output/playwright/landing-pages/trillo.png" alt="Trillo AI sales landing page at /Trillo" width="720"> | |
 
-The screenshots above were captured from the production build at 1440×900.
+The screenshots above were captured from production builds at representative
+desktop viewports.
 
 ## Route map
 
@@ -26,6 +29,7 @@ The screenshots above were captured from the production build at 1440×900.
 | Agenio | `/agenio/*` | Home, about, services, contact, projects index and details, blog, custom 404 |
 | Jayden | `/jayden/*` | Home, work index and details, services, about, contact, custom 404 |
 | Saazai | `/saazai/*` | Home, features, pricing, integration, changelog, about, contact, career, privacy, blog index and articles, custom 404 |
+| Trillo | `/Trillo/*` | Home and custom 404 |
 
 Dynamic portfolio, project, and article routes are backed by local data. The
 root-level `/404` route provides the shared fallback page.
