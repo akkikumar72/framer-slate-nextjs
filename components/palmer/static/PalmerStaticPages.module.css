@@ -1,0 +1,325 @@
+.gallery,
+.contact {
+  min-height: 900px;
+  padding: 118px 24px 0;
+  position: relative;
+}
+
+.gallery {
+  --pointer-x: 0px;
+  --pointer-y: 0px;
+  height: 900px;
+}
+
+.galleryTitle {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}
+
+.galleryTitle h1 {
+  font-size: clamp(100px, 12vw, 172px);
+  font-weight: 400;
+  letter-spacing: -0.08em;
+  line-height: 0.8;
+}
+
+.galleryTitle sup {
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-left: 8px;
+  vertical-align: top;
+}
+
+.galleryTitle a {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
+  display: inline-flex;
+  margin-top: 42px;
+  padding: 12px 18px;
+  transition: background 250ms ease, color 250ms ease;
+}
+
+.galleryTitle a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.galleryGrid {
+  inset: 90px 24px 0;
+  position: absolute;
+}
+
+.galleryItem {
+  height: 210px;
+  position: absolute;
+  transform: translate(
+    calc(var(--pointer-x) * var(--depth)),
+    calc(var(--pointer-y) * var(--depth))
+  );
+  transition: transform 900ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  width: 170px;
+}
+
+.galleryItem img,
+.galleryItem video {
+  filter: saturate(0.85);
+}
+
+.galleryItem1 { left: 4%; top: 18%; }
+.galleryItem2 { left: 25%; top: 3%; width: 150px; }
+.galleryItem3 { right: 23%; top: 5%; }
+.galleryItem4 { right: 3%; top: 24%; width: 220px; }
+.galleryItem5 { bottom: 17%; left: 8%; width: 220px; }
+.galleryItem6 { bottom: 5%; left: 34%; }
+.galleryItem7 { bottom: 6%; right: 27%; width: 205px; }
+.galleryItem8 { bottom: 22%; right: 4%; width: 145px; }
+
+.contact {
+  min-height: 940px;
+}
+
+.contactGrid {
+  align-items: start;
+  display: grid;
+  gap: clamp(80px, 19vw, 242px);
+  grid-template-columns: 490px 1fr;
+  margin-top: 0;
+}
+
+.contactPortrait {
+  height: 338px;
+  margin: 0;
+}
+
+.contactLinks {
+  padding-top: 40px;
+}
+
+.contactLinks a {
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  min-height: 45px;
+}
+
+.contactLinks a:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contactLinks span {
+  display: none;
+}
+
+.contactLinks strong {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.contactLinks i {
+  font-style: normal;
+}
+
+.contactBand {
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  margin: 0;
+  padding: 16px 24px;
+  position: absolute;
+  right: 0;
+  top: 308px;
+  z-index: 3;
+}
+
+.contactTitle {
+  font-size: clamp(130px, 17vw, 236px);
+  font-weight: 400;
+  letter-spacing: -0.09em;
+  line-height: 0.78;
+  padding-top: 65px;
+  white-space: nowrap;
+}
+
+.notFound {
+  height: 3000px;
+  padding-top: 90px;
+  position: relative;
+}
+
+.notFoundSticky {
+  height: 100vh;
+  overflow: hidden;
+  padding: 28px 24px;
+  position: sticky;
+  top: 0;
+}
+
+.notFoundTitle {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 4;
+}
+
+.notFoundTitle h1 {
+  font-size: clamp(92px, 13vw, 180px);
+  font-weight: 400;
+  letter-spacing: -0.08em;
+  line-height: 0.78;
+}
+
+.notFoundTitle h1 br {
+  display: none;
+}
+
+.notFoundTitle a {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  margin-top: 45px;
+  padding-bottom: 5px;
+}
+
+.lostField {
+  inset: 0;
+  position: absolute;
+}
+
+.lostField img {
+  filter: brightness(0.42) saturate(0.65);
+  height: 130px;
+  left: calc((var(--index) * 17%) - 15%);
+  opacity: 0.7;
+  position: absolute;
+  top: calc((var(--index) * 29%) - 80%);
+  transform: rotate(calc((var(--index) - 4) * 3deg));
+  width: 130px;
+}
+
+.lostField img:nth-child(even) {
+  left: calc(95% - (var(--index) * 13%));
+  top: calc((var(--index) * 24%) - 55%);
+}
+
+@media (max-width: 1199px) {
+  .galleryTitle h1 {
+    font-size: 128px;
+  }
+}
+
+@media (max-width: 809px) {
+  .gallery,
+  .contact {
+    padding: 100px 20px 0;
+  }
+
+  .gallery {
+    height: 1190px;
+  }
+
+  .galleryTitle {
+    top: 235px;
+  }
+
+  .galleryTitle h1 {
+    font-size: 74px;
+  }
+
+  .galleryTitle a {
+    margin-top: 28px;
+  }
+
+  .galleryGrid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    inset: 420px 20px auto;
+  }
+
+  .galleryItem,
+  .galleryItem1,
+  .galleryItem2,
+  .galleryItem3,
+  .galleryItem4,
+  .galleryItem5,
+  .galleryItem6,
+  .galleryItem7,
+  .galleryItem8 {
+    height: 160px;
+    inset: auto;
+    position: relative;
+    transform: none;
+    width: auto;
+  }
+
+  .contact {
+    min-height: 904px;
+  }
+
+  .contactGrid {
+    display: block;
+    margin-top: 0;
+  }
+
+  .contactPortrait {
+    height: 403px;
+    width: 100%;
+  }
+
+  .contactLinks {
+    padding-top: 34px;
+  }
+
+  .contactLinks a {
+    grid-template-columns: 1fr 18px;
+    min-height: 48px;
+  }
+
+  .contactLinks strong {
+    font-size: 16px;
+  }
+
+  .contactBand,
+  .contactTitle {
+    display: none;
+  }
+
+  .notFound {
+    padding-top: 76px;
+  }
+
+  .notFoundSticky {
+    padding: 24px 20px;
+  }
+
+  .notFoundTitle h1 {
+    font-size: 76px;
+    line-height: 0.89;
+  }
+
+  .notFoundTitle h1 br {
+    display: block;
+  }
+
+  .lostField img {
+    height: 86px;
+    width: 86px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .galleryItem {
+    transform: none;
+    transition: none;
+  }
+}

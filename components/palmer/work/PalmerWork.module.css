@@ -1,0 +1,451 @@
+.workIndex {
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 90px;
+}
+
+.workLead {
+  border-right: 1px solid rgba(255, 255, 255, 0.18);
+  min-width: 0;
+}
+
+.workLeadSticky {
+  align-items: center;
+  display: flex;
+  height: calc(100vh - 90px);
+  padding: 24px;
+  position: sticky;
+  top: 90px;
+  transform: translateY(55px);
+}
+
+.workLead h1 {
+  font-size: clamp(130px, 14.45vw, 208px);
+  font-weight: 600;
+  letter-spacing: -8px;
+  line-height: 0.81;
+}
+
+.workLead h1 span {
+  display: block;
+}
+
+.workLead sup {
+  font-size: clamp(28px, 3vw, 44px);
+  margin: 48px 0 0 16px;
+  white-space: nowrap;
+}
+
+.projectList {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+  padding: 24px;
+}
+
+.projectCard {
+  display: block;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.projectMedia {
+  background: #111;
+  border-radius: 10px;
+  display: block;
+  height: 530px;
+  overflow: hidden;
+  position: relative;
+}
+
+.projectMedia .projectBackdrop,
+.projectMedia .projectInset {
+  position: absolute;
+  transition: filter 450ms ease, transform 700ms cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.projectMedia .projectBackdrop {
+  height: 100%;
+  inset: 0;
+  width: 100%;
+}
+
+.projectMedia .projectInset {
+  height: 50%;
+  left: 25%;
+  object-position: center;
+  top: 25%;
+  width: 50%;
+}
+
+.serviceRibbon {
+  align-items: center;
+  background: #fff;
+  color: #000;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 26px;
+  inset: calc(50% - 13px) 0 auto;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  transform: scaleX(0.2);
+  transition: opacity 240ms ease, transform 360ms ease;
+}
+
+.projectCard:hover .projectBackdrop,
+.projectCard[data-pointer-active] .projectBackdrop,
+.projectCard:focus-visible .projectBackdrop {
+  filter: brightness(0.78);
+  transform: scale(1.025);
+}
+
+.projectCard:hover .projectInset,
+.projectCard[data-pointer-active] .projectInset,
+.projectCard:focus-visible .projectInset {
+  transform: scale(0.96);
+}
+
+.projectCard:hover .serviceRibbon,
+.projectCard[data-pointer-active] .serviceRibbon,
+.projectCard:focus-visible .serviceRibbon {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.projectCaption {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  min-height: 40px;
+}
+
+.projectCaption strong {
+  font-weight: 400;
+}
+
+.workDetail {
+  padding-top: 90px;
+}
+
+.detailHero {
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  height: 260px;
+  overflow: hidden;
+}
+
+.marquee {
+  max-width: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.marqueeTrack {
+  align-items: center;
+  animation: palmer-title-marquee 22s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.marqueeTrack :is(h1, h2, span) {
+  flex: none;
+  font-size: clamp(130px, 14.45vw, 208px);
+  font-weight: 600;
+  letter-spacing: -8px;
+  line-height: 0.81;
+  padding-right: 0.12em;
+  white-space: nowrap;
+}
+
+.caseStudy {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  display: grid;
+  grid-template-columns: 40.4% 59.6%;
+}
+
+.projectFacts {
+  border-right: 1px solid rgba(255, 255, 255, 0.18);
+  min-width: 0;
+}
+
+.projectFactsInner {
+  padding: 50px 24px 70px;
+  position: sticky;
+  top: 90px;
+}
+
+.projectFacts time {
+  display: block;
+  font-size: 18px;
+}
+
+.projectSummary {
+  color: #999;
+  font-size: 17px;
+  line-height: 1.35;
+  margin-top: 26px !important;
+  max-width: 470px;
+}
+
+.projectFacts dl {
+  margin: 36px 32px 0 0;
+}
+
+.projectFacts dl div {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  font-size: 16px;
+  gap: 5px;
+  padding: 11px 0;
+}
+
+.projectFacts dt {
+  font-weight: 500;
+}
+
+.projectFacts dd {
+  color: #aaa;
+  margin: 0;
+}
+
+.liveLink {
+  border: 2px solid #fff;
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 42px;
+  padding: 8px 16px 7px;
+  text-transform: uppercase;
+}
+
+.mediaColumn {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+  padding: 24px;
+}
+
+.caseMedia {
+  aspect-ratio: 1.15 / 1;
+  border-radius: 10px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.moreWork {
+  padding-bottom: 120px;
+}
+
+.moreWorkEyebrow {
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 110px;
+  padding: 0 24px;
+  text-transform: uppercase;
+}
+
+.moreWorkEyebrow span:nth-child(2) {
+  text-align: center;
+}
+
+.moreWorkEyebrow span:last-child {
+  text-align: right;
+}
+
+.moreWork .marquee {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 70px 0 64px;
+}
+
+.moreWorkGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 24px 0;
+}
+
+.moreWorkGrid .projectMedia {
+  height: auto;
+  aspect-ratio: 1.37 / 1;
+}
+
+@keyframes palmer-title-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1199px) {
+  .workLead h1,
+  .marqueeTrack :is(h1, h2, span) {
+    font-size: 12vw;
+  }
+
+  .projectMedia {
+    height: 42vw;
+  }
+}
+
+@media (max-width: 809px) {
+  .workIndex {
+    display: block;
+    padding: 76px 20px 0;
+  }
+
+  .workLead {
+    border-right: 0;
+  }
+
+  .workLeadSticky {
+    height: auto;
+    padding: 43px 0 30px;
+    position: static;
+    transform: none;
+  }
+
+  .workLead h1 {
+    font-size: 76px;
+    letter-spacing: -8px;
+    line-height: 68px;
+    white-space: nowrap;
+  }
+
+  .workLead h1 span {
+    display: inline-block;
+  }
+
+  .workLead h1 span:first-child {
+    margin-right: 40px;
+  }
+
+  .workLead sup {
+    font-size: 20px;
+    margin: -28px 0 0 8px;
+  }
+
+  .projectList {
+    gap: 20px;
+    padding: 0;
+  }
+
+  .projectMedia,
+  .moreWorkGrid .projectMedia {
+    aspect-ratio: 1 / 1;
+    height: auto;
+  }
+
+  .serviceRibbon {
+    font-size: 15px;
+    opacity: 1;
+    transform: scaleX(1);
+  }
+
+  .projectCaption {
+    font-size: 18px;
+    min-height: 40px;
+  }
+
+  .workDetail {
+    padding-top: 76px;
+  }
+
+  .detailHero {
+    align-items: center;
+    height: 134px;
+    padding-top: 10px;
+  }
+
+  .marqueeTrack :is(h1, h2, span) {
+    font-size: 76px;
+    letter-spacing: -3.5px;
+    line-height: 68px;
+  }
+
+  .caseStudy {
+    display: block;
+  }
+
+  .projectFacts {
+    border-right: 0;
+  }
+
+  .projectFactsInner {
+    padding: 49px 20px 62px;
+    position: static;
+  }
+
+  .projectFacts time {
+    font-size: 18px;
+  }
+
+  .projectSummary {
+    font-size: 17px;
+    margin-top: 23px !important;
+  }
+
+  .projectFacts dl {
+    margin: 31px 0 0;
+  }
+
+  .projectFacts dl div {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+
+  .liveLink {
+    font-size: 17px;
+    margin-top: 42px;
+  }
+
+  .mediaColumn {
+    gap: 20px;
+    padding: 0 20px 60px;
+  }
+
+  .caseMedia {
+    aspect-ratio: 7 / 6;
+  }
+
+  .moreWork {
+    padding-bottom: 80px;
+  }
+
+  .moreWorkEyebrow {
+    font-size: 9px;
+    min-height: 76px;
+    padding: 0 20px;
+  }
+
+  .moreWork .marquee {
+    padding: 38px 0 34px;
+  }
+
+  .moreWorkGrid {
+    gap: 20px;
+    grid-template-columns: 1fr;
+    padding: 36px 20px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none;
+    transform: none;
+  }
+
+  .projectBackdrop,
+  .projectInset,
+  .serviceRibbon {
+    transition: none;
+  }
+}
