@@ -39,6 +39,7 @@ export function PalmerNotFound() {
             <img
               alt=""
               key={src}
+              loading="lazy"
               src={src}
               style={{ "--index": index } as CSSProperties}
             />

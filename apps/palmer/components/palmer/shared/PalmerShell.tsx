@@ -110,111 +110,6 @@ export function PalmerRoot({ children }: { children: ReactNode }) {
     };
   }, []);
 
-  useEffect(() => {
-    const section = document.querySelector<HTMLElement>(
-      "[data-palmer-client-section]",
-    );
-    const scene = document.querySelector<HTMLElement>(
-      "[data-palmer-client-scene]",
-    );
-
-    if (!section || !scene) {
-      return;
-    }
-
-    const motionFrames = [
-      [
-        [371, 546, 501, 337, 0],
-        [-180, 320, 330, 235, -7],
-        [351, 167, 230, 194, 4],
-        [504, -336, 235, 158, -3],
-      ],
-      [
-        [919, 707, 203, 331, 7],
-        [214, 238, 442, 351, -4],
-        [152, 149, 175, 266, 5],
-        [261, -326, 218, 220, -2],
-      ],
-      [
-        [1004, 885, 118, 271, -5],
-        [715, 484, 368, 348, 3],
-        [1290, 360, 236, 290, 7],
-        [122, -300, 118, 287, -4],
-      ],
-      [
-        [765, 985, 218, 213, 6],
-        [1260, 620, 260, 250, -5],
-        [214, 371, 442, 349, 3],
-        [122, -205, 203, 331, -3],
-      ],
-      [
-        [504, 1095, 235, 158, -4],
-        [864, 778, 195, 246, 6],
-        [715, 614, 368, 351, -3],
-        [371, 25, 501, 337, 0],
-      ],
-    ];
-    const offsets = [0, 0.43, 0.87, 1];
-    let animations: Animation[] = [];
-
-    const createAnimations = () => {
-      animations.forEach((animation) => animation.cancel());
-      animations = [];
-
-      if (window.innerWidth < 1200) {
-        return;
-      }
-
-      const scaleX = window.innerWidth / 1244;
-      const scaleY = Math.min(1, window.innerHeight / 1196);
-      const cards = Array.from(
-        scene.querySelectorAll<HTMLElement>("[data-palmer-client-card]"),
-      );
-
-      animations = cards.map((card, index) => {
-        const keyframes = motionFrames[index].map(
-          ([left, top, width, height, rotate], frameIndex) => ({
-            height: `${height * scaleY}px`,
-            left: `${left * scaleX}px`,
-            offset: offsets[frameIndex],
-            top: `${top * scaleY}px`,
-            transform: `rotate(${rotate}deg)`,
-            width: `${width * scaleX}px`,
-          }),
-        );
-        const animation = card.animate(keyframes, {
-          duration: 1000,
-          fill: "both",
-        });
-        animation.pause();
-        return animation;
-      });
-    };
-
-    const update = () => {
-      const travel = Math.max(1, section.offsetHeight - window.innerHeight);
-      const progress = Math.max(
-        0,
-        Math.min(1, (window.scrollY - section.offsetTop) / travel),
-      );
-      animations.forEach((animation) => {
-        animation.currentTime = progress * 1000;
-      });
-    };
-
-    createAnimations();
-    update();
-    window.addEventListener("resize", createAnimations);
-    window.addEventListener("resize", update);
-    window.addEventListener("scroll", update, { passive: true });
-    return () => {
-      animations.forEach((animation) => animation.cancel());
-      window.removeEventListener("resize", createAnimations);
-      window.removeEventListener("resize", update);
-      window.removeEventListener("scroll", update);
-    };
-  }, []);
-
   return (
     <div className={styles.root} id="palmer-top">
       <span
@@ -364,6 +259,7 @@ export function PalmerFaq() {
         <img
           alt=""
           className={styles.faqPortrait}
+          loading="lazy"
           src={palmerAsset("kDDFdQi11eufzZl2QNW6DZQPHc.png")}
         />
         <h2 className={styles.faqDesktopTitle}>
@@ -400,7 +296,7 @@ export function PalmerFooter() {
       </div>
       <div aria-hidden="true" className={styles.footerRail}>
         {footerImages.map((src, index) => (
-          <img alt="" key={`${src}-${index}`} src={src} />
+          <img alt="" key={`${src}-${index}`} loading="lazy" src={src} />
         ))}
       </div>
       <div className={styles.footerBand}>

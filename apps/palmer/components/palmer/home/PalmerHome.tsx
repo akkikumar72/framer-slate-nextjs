@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { palmerAsset } from "@/components/palmer/assets";
 import { articles, projects } from "@/components/palmer/data";
+import {
+  PalmerDeferredVideo,
+  PalmerHeroReel,
+  PalmerHomeMotion,
+} from "./PalmerHomeClient";
 import styles from "./PalmerHome.module.css";
 
 type SectionMetaProps = {
@@ -294,6 +299,7 @@ function ArrowLink({
 export function PalmerHome() {
   return (
     <>
+      <PalmerHomeMotion />
       <section className={styles.hero}>
         <div className={styles.heroLead}>
           <div className={styles.heroCopy}>
@@ -304,22 +310,10 @@ export function PalmerHome() {
               <span>Bold イメージ.</span>
             </h1>
           </div>
-          <div className={styles.heroMedia} data-palmer-reel>
-            <div className={styles.heroReelTilt}>
-              <video
-                aria-label="Nike Running reel"
-                autoPlay
-                loop
-                muted
-                playsInline
-              >
-                <source
-                  src="/palmer/assets/palmer-hero-reel.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-          </div>
+          <PalmerHeroReel
+            posterSrc="/palmer/assets/palmer-hero-poster.jpg"
+            videoSrc="/palmer/assets/palmer-hero-reel.mp4"
+          />
           <div
             aria-label="Creative disciplines"
             className={styles.heroDisciplines}
@@ -351,6 +345,7 @@ export function PalmerHome() {
             <img
               src={palmerAsset("tY8u6w6WcMvM2lq1ng3voV3T5k.jpg")}
               alt="Editorial portrait"
+              loading="lazy"
             />
           </div>
           <div className={styles.introStatement}>
@@ -373,6 +368,7 @@ export function PalmerHome() {
               key={asset}
               src={palmerAsset(asset)}
               alt={`Partner mark ${index + 1}`}
+              loading="lazy"
             />
           ))}
         </div>
@@ -412,11 +408,13 @@ export function PalmerHome() {
                     alt=""
                     aria-hidden="true"
                     className={styles.projectBackdrop}
+                    loading="lazy"
                     src={project.images[1]}
                   />
                   <img
                     alt={`${title} project preview`}
                     className={styles.projectInset}
+                    loading="lazy"
                     src={project.images[0]}
                   />
                   <span className={styles.projectRibbon}>
@@ -481,30 +479,24 @@ export function PalmerHome() {
           <img
             src={palmerAsset("tFXdT1GAWfzky0TCheIFtJR4O3I.png")}
             alt=""
+            loading="lazy"
           />
-          <video
-            aria-hidden="true"
-            autoPlay
+          <PalmerDeferredVideo
             className={styles.profileVideo}
-            loop
-            muted
-            playsInline
-          >
-            <source
-              src={palmerAsset("fEkvm0HYUUFHc0WiH6ssCVGITR0.mp4")}
-              type="video/mp4"
-            />
-          </video>
+            src={palmerAsset("fEkvm0HYUUFHc0WiH6ssCVGITR0.mp4")}
+          />
         </div>
         <div className={styles.profileBottom}>
           <div className={styles.profileStack}>
             <img
               src={palmerAsset("5emb8oOwafbQsfWVIaaZ12WcTM.png")}
               alt="Akihiko editorial profile"
+              loading="lazy"
             />
             <img
               src={palmerAsset("yUjsrtPDoJaAyLT8KHf8xhtWa8A.png")}
               alt=""
+              loading="lazy"
             />
           </div>
           <div>
@@ -540,11 +532,13 @@ export function PalmerHome() {
             className={styles.experiencePortrait}
             src={palmerAsset("Lb6dFhKJo6UvYVXUafcZv0n5E.jpg")}
             alt=""
+            loading="lazy"
           />
           <img
             className={styles.experienceMark}
             src={palmerAsset("4oaOsuXcxdhxXiQToWWNNSmbM.png")}
             alt=""
+            loading="lazy"
           />
         </div>
         <div className={styles.experienceLabels}>
@@ -586,6 +580,7 @@ export function PalmerHome() {
                 <img
                   src={palmerAsset(testimonial.image)}
                   alt={testimonial.name}
+                  loading="lazy"
                 />
                 <div>
                   <strong>{testimonial.name}</strong>
@@ -624,7 +619,12 @@ export function PalmerHome() {
               <p>{award.description}</p>
               <div>
                 {award.images.map((image) => (
-                  <img key={image} src={palmerAsset(image)} alt="" />
+                  <img
+                    alt=""
+                    key={image}
+                    loading="lazy"
+                    src={palmerAsset(image)}
+                  />
                 ))}
               </div>
             </article>
@@ -652,11 +652,13 @@ export function PalmerHome() {
               key={card.label}
             >
               {card.video ? (
-                <video autoPlay loop muted playsInline>
-                  <source src={palmerAsset(card.asset)} type="video/mp4" />
-                </video>
+                <PalmerDeferredVideo src={palmerAsset(card.asset)} />
               ) : (
-                <img src={palmerAsset(card.asset)} alt="" />
+                <img
+                  alt=""
+                  loading="lazy"
+                  src={palmerAsset(card.asset)}
+                />
               )}
               <span>{card.label}</span>
             </div>
@@ -725,6 +727,7 @@ export function PalmerHome() {
                 <img
                   src={palmerAsset(articlePreviews[index].main)}
                   alt=""
+                  loading="lazy"
                 />
               </Link>
               <div className={styles.articleContent}>
@@ -732,6 +735,7 @@ export function PalmerHome() {
                   <img
                     src={palmerAsset(articlePreviews[index].inset)}
                     alt=""
+                    loading="lazy"
                   />
                 </div>
                 <span>0{index + 1}</span>

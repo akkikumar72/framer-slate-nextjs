@@ -4,6 +4,11 @@ import { join } from "node:path";
 const root = process.cwd();
 const manifestPath = join(root, "public/palmer/assets/source-manifest.json");
 const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
+const runtimeManifestPath = join(
+  root,
+  "components/palmer/assets.generated.json",
+);
+const runtimeAssets = JSON.parse(await readFile(runtimeManifestPath, "utf8"));
 const failures = [];
 
 for (const [name, record] of Object.entries(manifest.assets)) {
@@ -15,6 +20,16 @@ for (const [name, record] of Object.entries(manifest.assets)) {
     }
   } catch {
     failures.push(`${name}: missing ${record.local}`);
+  }
+
+  if (runtimeAssets[name] !== record.local) {
+    failures.push(`${name}: runtime asset map is missing or stale`);
+  }
+}
+
+for (const name of Object.keys(runtimeAssets)) {
+  if (!manifest.assets[name]) {
+    failures.push(`${name}: runtime asset map has no source manifest entry`);
   }
 }
 
@@ -67,5 +82,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  `Palmer asset audit passed: ${Object.keys(manifest.assets).length} localized assets, ${manifest.routes.length} source routes.`,
+  `Palmer asset audit passed: ${Object.keys(manifest.assets).length} localized assets, ${Object.keys(runtimeAssets).length} runtime assets, ${manifest.routes.length} source routes.`,
 );

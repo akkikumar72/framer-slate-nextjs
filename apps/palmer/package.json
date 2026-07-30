@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate:asset-map": "node scripts/generate-palmer-runtime-manifest.mjs",
     "dev": "next dev --port 3007",
     "start": "next start --port 3007",
     "build": "next build",

@@ -1,12 +1,11 @@
-import manifest from "@/public/palmer/assets/source-manifest.json";
+import assetMap from "./assets.generated.json";
 
-type AssetRecord = { local: string };
-const assets = manifest.assets as Record<string, AssetRecord>;
+const assets = assetMap as Record<string, string>;
 
 export function palmerAsset(name: string) {
-  const record = assets[name];
-  if (!record) {
+  const local = assets[name];
+  if (!local) {
     throw new Error(`Missing localized Palmer asset: ${name}`);
   }
-  return record.local;
+  return local;
 }
