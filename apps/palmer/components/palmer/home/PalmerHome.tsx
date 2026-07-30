@@ -307,12 +307,15 @@ export function PalmerHome() {
               <span>Pattern Dimensions</span>
               <span>and Moments that</span>
               <span>Connect and Leave a</span>
-              <span>Bold イメージ.</span>
+              <span>
+                Bold <span className={styles.heroJapanese}>イメージ.</span>
+              </span>
             </h1>
           </div>
           <PalmerHeroReel
-            posterSrc="/palmer/assets/palmer-hero-poster.jpg"
-            videoSrc="/palmer/assets/palmer-hero-reel.mp4"
+            label="Palmer project reel"
+            posterSrc="/palmer/assets/palmer-hero-reference.jpg"
+            videoSrc="/palmer/assets/EzwClJ2Vn62LFoIphoP2kTBvQUc.mp4"
           />
           <div
             aria-label="Creative disciplines"
@@ -324,7 +327,9 @@ export function PalmerHome() {
             <span>Web Design</span>
           </div>
         </div>
-        <p className={styles.heroName}>Akihiko™</p>
+        <p className={styles.heroName}>
+          Akihiko<sup>™</sup>
+        </p>
       </section>
 
       <section className={styles.intro}>

@@ -150,6 +150,29 @@
   width: auto;
 }
 
+.heroJapanese {
+  color: #6f6f6f;
+}
+
+.heroMediaLabel {
+  align-items: center;
+  background: #f2f2f0;
+  border-radius: 999px;
+  bottom: 16px;
+  color: #050505;
+  display: flex;
+  font-size: 10px;
+  font-weight: 500;
+  height: 34px;
+  justify-content: center;
+  left: 16px;
+  letter-spacing: 0.02em;
+  position: absolute;
+  text-transform: uppercase;
+  width: 86px;
+  z-index: 2;
+}
+
 .reelDialog {
   background: transparent;
   border: 0;
@@ -1250,7 +1273,7 @@
     width: 350px;
   }
 
-  .hero .heroMedia video {
+  .hero .heroMedia img {
     height: 174%;
     top: -37%;
     width: auto;
@@ -2649,6 +2672,126 @@
   .articleMeta,
   .articleContent > .arrowLink {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    height: 832px;
+  }
+
+  .heroLead {
+    border-bottom: 0;
+    height: 100%;
+  }
+
+  .heroCopy {
+    left: 18px;
+    top: 108px;
+    width: 670px;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(72px, 6.35vw, 91px);
+    font-weight: 400;
+    letter-spacing: -0.055em;
+    line-height: 0.91;
+    width: 670px;
+  }
+
+  .heroDisciplines {
+    align-items: flex-end;
+    background: transparent;
+    color: #f2f2f0;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 400;
+    gap: 1px;
+    height: auto;
+    justify-content: flex-start;
+    left: auto;
+    line-height: 13px;
+    overflow: visible;
+    right: 18px;
+    top: 109px;
+    text-transform: uppercase;
+    transform: none;
+    width: auto;
+  }
+
+  .heroMedia {
+    border-radius: 20px;
+    height: min(304px, 24.44vw);
+    right: 16px;
+    top: 433px;
+    width: min(585px, 47.03vw);
+  }
+
+  .hero .heroMedia img {
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+  }
+
+  .heroName {
+    font-size: clamp(186px, 15.92vw, 230px);
+    font-weight: 500;
+    left: 18px;
+    letter-spacing: -0.065em;
+    line-height: 0.86;
+    top: 697px;
+  }
+
+  .heroName sup {
+    display: inline-block;
+    font-size: 0.12em;
+    letter-spacing: 0;
+    margin-left: 5px;
+    position: relative;
+    top: -2.35em;
+  }
+
+  .intro > .sectionMeta {
+    top: 19px;
+  }
+
+  .introRoles {
+    align-items: center;
+    background: #000;
+    border-bottom: 1px solid #2a2a2a;
+    color: #f2f2f0;
+    font-size: 10px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 1;
+    padding: 0 16px;
+    top: 52px;
+  }
+
+  .introPortrait {
+    height: 797px;
+    left: 9%;
+    top: 172px;
+    width: 28.4%;
+  }
+
+  .introPortrait img {
+    height: auto;
+    transform: translateY(-145px);
+    width: 100%;
+  }
+
+  .introStatement {
+    left: 44.4%;
+    top: 294px;
+    width: 52%;
+  }
+
+  .introStatement > p {
+    font-size: clamp(55px, 4.75vw, 68px);
+    letter-spacing: -0.055em;
+    line-height: 0.94;
   }
 }
 

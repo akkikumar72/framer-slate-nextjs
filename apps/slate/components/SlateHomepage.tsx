@@ -395,34 +395,6 @@ function Header() {
   );
 }
 
-function TemplateBadge() {
-  return (
-    <aside className="template-badge">
-      <a
-        href="https://mrdl.lemonsqueezy.com/checkout/buy/92e5ce51-e17f-4851-90f3-ff60c4a187d4"
-        rel="noreferrer"
-        target="_blank"
-      >
-        <span>New Template</span>
-        <Image
-          alt="New Slate template preview"
-          height={72}
-          loading="eager"
-          src="/assets/template-thumbnail.png"
-          width={108}
-        />
-      </a>
-      <a
-        href="https://mrdl.lemonsqueezy.com/checkout/buy/e7a336c1-037d-4bb0-9e85-2c464991ebe3"
-        rel="noreferrer"
-        target="_blank"
-      >
-        Use Template
-      </a>
-    </aside>
-  );
-}
-
 function Hero() {
   return (
     <section className="hero" id="top">
@@ -920,7 +892,6 @@ export function SlateHomepage() {
         <FinalCta />
       </main>
       <Footer />
-      <TemplateBadge />
     </>
   );
 }
