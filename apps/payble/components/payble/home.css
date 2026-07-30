@@ -1,0 +1,614 @@
+.payble-home-hero {
+  background: #fff;
+  border-bottom: 1px solid var(--payble-line);
+  min-height: 1419px;
+  overflow: hidden;
+  padding-top: 84px;
+  position: relative;
+}
+
+.payble-home-hero__dots {
+  background-image: radial-gradient(#cececb 1px, transparent 1px);
+  background-size: 18px 18px;
+  inset: 84px 0 auto;
+  height: 580px;
+  mask-image: linear-gradient(to bottom, #000 15%, transparent 95%);
+  opacity: 0.82;
+  position: absolute;
+}
+
+.payble-home-hero__copy {
+  padding-top: 62px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.payble-home-hero__copy h1 {
+  font-size: 54px;
+  line-height: 1.2;
+  margin: 16px auto 24px;
+  max-width: 580px;
+}
+
+.payble-home-hero__copy > p {
+  color: var(--payble-muted);
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0 auto 48px;
+  max-width: 580px;
+}
+
+.payble-home-hero__actions {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.payble-home-hero__actions .payble-button {
+  font-size: 12px;
+  min-width: 204px;
+}
+
+.payble-home-hero__presentation {
+  align-items: center;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 10px;
+}
+
+.payble-home-hero__dashboard {
+  height: 816px;
+  left: 50%;
+  position: absolute;
+  top: 633px;
+  transform: translateX(-50%);
+  width: min(1352px, 105.625vw);
+}
+
+.payble-home-hero__dashboard::before {
+  background: rgba(52, 168, 81, 0.22);
+  border-radius: 50%;
+  content: "";
+  filter: blur(100px);
+  height: 420px;
+  left: calc(50% - 300px);
+  position: absolute;
+  top: 130px;
+  width: 600px;
+}
+
+.payble-home-hero__dashboard img {
+  object-fit: contain;
+  object-position: top center;
+}
+
+.payble-trusted {
+  border-bottom: 1px solid var(--payble-line);
+  height: 168px;
+}
+
+.payble-trusted .payble-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.payble-trusted .payble-container > span {
+  color: var(--payble-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.payble-trusted .payble-container > div {
+  align-items: center;
+  display: flex;
+  gap: 58px;
+}
+
+.payble-trusted strong {
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.payble-stats {
+  height: 851px;
+}
+
+.payble-stats__grid {
+  border-left: 1px solid var(--payble-line);
+  border-top: 1px solid var(--payble-line);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.payble-stats__grid article {
+  border-bottom: 1px solid var(--payble-line);
+  border-right: 1px solid var(--payble-line);
+  min-height: 210px;
+  padding: 42px;
+}
+
+.payble-stats__grid h3 {
+  color: var(--payble-green);
+  font-size: 44px;
+  margin-bottom: 22px;
+}
+
+.payble-stats__grid p {
+  color: var(--payble-muted);
+  font-size: 14px;
+  line-height: 1.65;
+  max-width: 440px;
+}
+
+.payble-roadblocks {
+  background: #f8f8f5;
+  min-height: 604px;
+  padding: 70px 0;
+}
+
+.payble-roadblocks .payble-section-heading {
+  margin-bottom: 36px;
+}
+
+.payble-roadblocks__grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.payble-roadblocks__grid article {
+  background: #fff;
+  border: 1px solid var(--payble-line);
+  border-radius: 14px;
+  min-height: 246px;
+  padding: 30px;
+}
+
+.payble-roadblocks__grid h3 {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+.payble-roadblocks__grid ul,
+.payble-management ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.payble-roadblocks__grid li,
+.payble-management li {
+  align-items: flex-start;
+  color: var(--payble-muted);
+  display: flex;
+  font-size: 13px;
+  gap: 10px;
+  line-height: 1.5;
+}
+
+.payble-roadblocks__grid li span,
+.payble-management li span {
+  align-items: center;
+  background: var(--payble-green-soft);
+  border-radius: 999px;
+  color: var(--payble-green-dark);
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 9px;
+  height: 20px;
+  justify-content: center;
+  width: 20px;
+}
+
+.payble-roadblocks__grid .tone-pink li span {
+  background: #f9ecfa;
+  color: var(--payble-pink);
+}
+
+.payble-roadblocks__grid .tone-orange li span {
+  background: #fff2e4;
+  color: #d5750c;
+}
+
+.payble-management {
+  border-bottom: 1px solid var(--payble-line);
+  min-height: 624px;
+  padding: 78px 0;
+}
+
+.payble-management:nth-of-type(even) {
+  background: #fcfcfa;
+}
+
+.payble-management__grid {
+  align-items: center;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 0.9fr 1.1fr;
+}
+
+.payble-management__grid.is-reversed {
+  grid-template-columns: 1.1fr 0.9fr;
+}
+
+.payble-management__grid.is-reversed .payble-management__copy {
+  order: 2;
+}
+
+.payble-management__grid.is-reversed .payble-management__visual {
+  order: 1;
+}
+
+.payble-management__copy h2 {
+  margin: 22px 0 18px;
+}
+
+.payble-management__copy > p {
+  color: var(--payble-muted);
+  font-size: 16px;
+  line-height: 1.65;
+  max-width: 520px;
+}
+
+.payble-management__copy ul {
+  display: grid;
+  gap: 13px 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 28px 0 30px;
+}
+
+.payble-management__visual {
+  align-items: center;
+  background: #eaf6ff;
+  border: 1px solid #cae7fb;
+  border-radius: 18px;
+  display: flex;
+  height: 466px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.payble-management__visual > div {
+  background-image: radial-gradient(rgba(24, 135, 248, 0.4) 1px, transparent 1px);
+  background-size: 18px 18px;
+  inset: 0;
+  opacity: 0.35;
+  position: absolute;
+}
+
+.payble-management__visual img {
+  height: auto;
+  max-height: 390px;
+  position: relative;
+  width: 88%;
+  z-index: 1;
+}
+
+.payble-management.tone-pink .payble-management__visual {
+  background: #faeffb;
+  border-color: #ecd2ef;
+}
+
+.payble-management.tone-orange .payble-management__visual {
+  background: #fff5e9;
+  border-color: #f5dfc4;
+}
+
+.payble-management.tone-orange {
+  height: 576px;
+  min-height: 576px;
+  padding: 54px 0;
+}
+
+.payble-management.tone-orange .payble-management__visual {
+  height: 420px;
+}
+
+.payble-savings {
+  background: #f8f8f5;
+  height: 1091px;
+}
+
+.payble-savings__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.payble-savings__grid article {
+  background: #fff;
+  border: 1px solid var(--payble-line);
+  border-radius: 16px;
+  min-height: 330px;
+  overflow: hidden;
+  padding: 32px;
+  position: relative;
+}
+
+.payble-savings__grid article.is-wide {
+  grid-column: span 2;
+}
+
+.payble-savings__icon {
+  align-items: center;
+  background: var(--payble-green-soft);
+  border-radius: 12px;
+  color: var(--payble-green-dark);
+  display: inline-flex;
+  font-size: 21px;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.payble-savings__grid h3 {
+  font-size: 20px;
+  margin: 24px 0 10px;
+}
+
+.payble-savings__grid p {
+  color: var(--payble-muted);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+.payble-savings__grid img {
+  bottom: -40px;
+  height: auto;
+  max-height: 230px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  width: 56%;
+}
+
+.payble-integrations {
+  min-height: 611px;
+  overflow: hidden;
+  padding-bottom: 76px;
+}
+
+.payble-integrations .payble-section-heading {
+  margin-bottom: 46px;
+}
+
+.payble-integrations .payble-text-link {
+  margin-top: 8px;
+}
+
+.payble-integrations__viewport {
+  mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+  overflow: hidden;
+}
+
+.payble-integrations__track {
+  animation: payble-marquee 32s linear infinite;
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+.payble-integrations__track span {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--payble-line);
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 11px;
+  min-width: 166px;
+  padding: 18px;
+}
+
+.payble-integrations__track i {
+  align-items: center;
+  background: var(--payble-black);
+  border-radius: 9px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 13px;
+  font-style: normal;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+}
+
+@media (max-width: 810px) {
+  .payble-home-hero {
+    min-height: 1130px;
+    padding-top: 76px;
+  }
+
+  .payble-home-hero__copy {
+    padding-top: 64px;
+  }
+
+  .payble-home-hero__copy h1 {
+    font-size: 48px;
+  }
+
+  .payble-home-hero__dashboard {
+    height: 650px;
+    min-width: 970px;
+    top: 560px;
+    width: 970px;
+  }
+
+  .payble-trusted {
+    height: auto;
+    padding: 42px 0;
+  }
+
+  .payble-trusted .payble-container {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .payble-trusted .payble-container > div {
+    flex-wrap: wrap;
+    gap: 24px 38px;
+  }
+
+  .payble-stats__grid,
+  .payble-roadblocks__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-management {
+    padding: 84px 0;
+  }
+
+  .payble-management__grid,
+  .payble-management__grid.is-reversed {
+    gap: 46px;
+    grid-template-columns: 1fr;
+  }
+
+  .payble-management__grid.is-reversed .payble-management__copy,
+  .payble-management__grid.is-reversed .payble-management__visual {
+    order: initial;
+  }
+
+  .payble-savings__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-savings__grid article.is-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .payble-home-hero {
+    height: 822px;
+    min-height: 822px;
+    padding-top: 72px;
+  }
+
+  .payble-home-hero__copy {
+    padding-top: 36px;
+  }
+
+  .payble-home-hero__copy h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 27px;
+  }
+
+  .payble-home-hero__copy > p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .payble-home-hero__dashboard {
+    height: 259px;
+    min-width: 0;
+    top: 563px;
+    width: calc(100% - 32px);
+  }
+
+  .payble-home-hero__actions {
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  .payble-stats__grid article {
+    padding: 32px 24px;
+  }
+
+  .payble-trusted {
+    height: 168px;
+    padding: 28px 0;
+  }
+
+  .payble-stats {
+    height: 1255px;
+  }
+
+  .payble-stats h2,
+  .payble-management h2,
+  .payble-alerts h2 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .payble-roadblocks {
+    height: 1060px;
+    min-height: 1060px;
+    overflow: hidden;
+  }
+
+  .payble-roadblocks__grid article {
+    min-height: 200px;
+    padding: 24px;
+  }
+
+  .payble-management,
+  .payble-management.tone-pink {
+    height: 1045px;
+    min-height: 1045px;
+  }
+
+  .payble-management.tone-pink {
+    height: 1046px;
+  }
+
+  .payble-management.tone-orange {
+    height: 1065px;
+    min-height: 1065px;
+    padding: 84px 0;
+  }
+
+  .payble-management__copy ul {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-management__visual {
+    height: 340px;
+  }
+
+  .payble-savings__grid article {
+    min-height: 300px;
+    padding: 26px;
+  }
+
+  .payble-savings {
+    height: 2164px;
+  }
+
+  .payble-integrations {
+    height: 515px;
+    min-height: 515px;
+    padding: 70px 0 58px;
+  }
+
+  .payble-blog-teasers {
+    height: 1435px;
+    min-height: 1435px;
+    overflow: hidden;
+    padding: 72px 0;
+  }
+
+  .payble-blog-teasers .payble-blog-grid {
+    gap: 24px;
+  }
+
+  .payble-blog-teasers .payble-blog-card__image {
+    aspect-ratio: 1.7;
+  }
+}

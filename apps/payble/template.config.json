@@ -1,0 +1,180 @@
+{
+  "name": "Payble",
+  "slug": "payble",
+  "port": 3009,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/payble", "public/fonts"],
+  "assetPrefixes": ["/payble/", "/fonts/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Payble - AI-Powered Financial Assistant",
+      "canonical": "/",
+      "marker": "Your AI-Powered Financial Assistant"
+    },
+    {
+      "path": "/features",
+      "status": 200,
+      "titleIncludes": "Features",
+      "canonical": "/features",
+      "marker": "Smarter Money Management"
+    },
+    {
+      "path": "/pricing",
+      "status": 200,
+      "titleIncludes": "Pricing",
+      "canonical": "/pricing",
+      "marker": "Flexible Pricing Plans"
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "titleIncludes": "Payble - AI SAAS Template",
+      "canonical": "/blog",
+      "marker": "Your Guide to Smarter Money"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "Contact",
+      "canonical": "/contact",
+      "marker": "Reach Out, We’re Here to Assist"
+    },
+    {
+      "path": "/blog/stay-in-control-how-ai-insights-can-prevent-overspending",
+      "status": 200,
+      "titleIncludes": "Stay in Control: How AI Insights Can Prevent Overspending",
+      "canonical": "/blog/stay-in-control-how-ai-insights-can-prevent-overspending",
+      "marker": "Stay in Control: How AI Insights Can Prevent Overspending"
+    },
+    {
+      "path": "/blog/how-to-manage-irregular-income-with-ai-powered-financial-tools",
+      "status": 200,
+      "titleIncludes": "How to Manage Irregular Income with AI-Powered Financial Tools",
+      "canonical": "/blog/how-to-manage-irregular-income-with-ai-powered-financial-tools",
+      "marker": "How to Manage Irregular Income with AI-Powered Financial Tools"
+    },
+    {
+      "path": "/blog/how-ai-can-help-you-create-custom-budgets-tailored-to-your-needs",
+      "status": 200,
+      "titleIncludes": "How AI Can Help You Create Custom Budgets Tailored to Your Needs",
+      "canonical": "/blog/how-ai-can-help-you-create-custom-budgets-tailored-to-your-needs",
+      "marker": "How AI Can Help You Create Custom Budgets Tailored to Your Needs"
+    },
+    {
+      "path": "/blog/why-multi-account-sync-is-the-key-to-streamlining-your-finances",
+      "status": 200,
+      "titleIncludes": "Why Multi-Account Sync is the Key to Streamlining Your Finances",
+      "canonical": "/blog/why-multi-account-sync-is-the-key-to-streamlining-your-finances",
+      "marker": "Why Multi-Account Sync is the Key to Streamlining Your Finances"
+    },
+    {
+      "path": "/blog/achieve-your-financial-goals-faster-the-role-of-automated-savings-transfers",
+      "status": 200,
+      "titleIncludes": "Achieve Your Financial Goals Faster",
+      "canonical": "/blog/achieve-your-financial-goals-faster-the-role-of-automated-savings-transfers",
+      "marker": "Achieve Your Financial Goals Faster"
+    },
+    {
+      "path": "/blog/real-time-budget-alerts-how-they-keep-your-spending-under-control",
+      "status": 200,
+      "titleIncludes": "Real-Time Budget Alerts",
+      "canonical": "/blog/real-time-budget-alerts-how-they-keep-your-spending-under-control",
+      "marker": "Real-Time Budget Alerts"
+    },
+    {
+      "path": "/blog/the-science-of-financial-forecasting-planning-for-your-financial-future",
+      "status": 200,
+      "titleIncludes": "The Science of Financial Forecasting",
+      "canonical": "/blog/the-science-of-financial-forecasting-planning-for-your-financial-future",
+      "marker": "The Science of Financial Forecasting"
+    },
+    {
+      "path": "/blog/say-goodbye-to-late-fees-the-importance-of-bill-reminders",
+      "status": 200,
+      "titleIncludes": "Say Goodbye to Late Fees",
+      "canonical": "/blog/say-goodbye-to-late-fees-the-importance-of-bill-reminders",
+      "marker": "Say Goodbye to Late Fees"
+    },
+    {
+      "path": "/blog/master-your-spending-how-spending-habit-analysis-can-transform-your-finances",
+      "status": 200,
+      "titleIncludes": "Master Your Spending",
+      "canonical": "/blog/master-your-spending-how-spending-habit-analysis-can-transform-your-finances",
+      "marker": "Master Your Spending"
+    },
+    {
+      "path": "/blog/from-small-change-to-big-savings-the-power-of-round-up-savings",
+      "status": 200,
+      "titleIncludes": "From Small Change to Big Savings",
+      "canonical": "/blog/from-small-change-to-big-savings-the-power-of-round-up-savings",
+      "marker": "From Small Change to Big Savings"
+    },
+    {
+      "path": "/blog/how-to-build-an-effective-budget-a-step-by-step-guide-for-beginners",
+      "status": 200,
+      "titleIncludes": "How to Build an Effective Budget",
+      "canonical": "/blog/how-to-build-an-effective-budget-a-step-by-step-guide-for-beginners",
+      "marker": "How to Build an Effective Budget"
+    },
+    {
+      "path": "/blog/the-power-of-automation-how-ai-driven-tools-simplify-personal-finance",
+      "status": 200,
+      "titleIncludes": "The Power of Automation",
+      "canonical": "/blog/the-power-of-automation-how-ai-driven-tools-simplify-personal-finance",
+      "marker": "The Power of Automation"
+    },
+    {
+      "path": "/useful/privacy-policy",
+      "status": 200,
+      "titleIncludes": "Privacy Policy",
+      "canonical": "/useful/privacy-policy",
+      "marker": "Privacy Policy"
+    },
+    {
+      "path": "/useful/cookie-policy",
+      "status": 200,
+      "titleIncludes": "Cookie Policy",
+      "canonical": "/useful/cookie-policy",
+      "marker": "Cookie Policy"
+    },
+    {
+      "path": "/useful/terms-of-service",
+      "status": 200,
+      "titleIncludes": "Terms of Service",
+      "canonical": "/useful/terms-of-service",
+      "marker": "Terms of Service"
+    },
+    {
+      "path": "/useful/refund-policy",
+      "status": 200,
+      "titleIncludes": "Refund Policy",
+      "canonical": "/useful/refund-policy",
+      "marker": "Refund Policy"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "OOPS! Looks like this page wasn't found!"
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "OOPS! Looks like this page wasn't found!"
+    },
+    {
+      "path": "/blog/__missing__",
+      "status": 404,
+      "marker": "OOPS! Looks like this page wasn't found!"
+    },
+    {
+      "path": "/useful/__missing__",
+      "status": 404,
+      "marker": "OOPS! Looks like this page wasn't found!"
+    }
+  ]
+}
