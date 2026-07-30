@@ -1263,47 +1263,6 @@ p {
   color: var(--blue);
 }
 
-.template-badge {
-  bottom: 26px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  position: fixed;
-  right: 24px;
-  width: 151px;
-  z-index: 30;
-}
-
-.template-badge a {
-  align-items: center;
-  background: #050505;
-  border: 1px solid #333;
-  border-radius: 6px;
-  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
-  color: #fff;
-  display: flex;
-  font-size: 11px;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.template-badge a:first-child {
-  flex-direction: column;
-  gap: 5px;
-  padding: 8px;
-}
-
-.template-badge a:last-child {
-  min-height: 41px;
-}
-
-.template-badge img {
-  border-radius: 3px;
-  height: 72px;
-  object-fit: cover;
-  width: 108px;
-}
-
 .motion-text,
 .motion-card,
 .motion-review,
@@ -2021,16 +1980,6 @@ p {
     gap: 44px;
   }
 
-  .template-badge {
-    bottom: 16px;
-    display: flex;
-    right: 28px;
-    width: 143px;
-  }
-
-  .template-badge a:first-child {
-    display: none;
-  }
 }
 
 @media (max-width: 430px) {

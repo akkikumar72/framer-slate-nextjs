@@ -179,11 +179,13 @@ export function PalmerDeferredVideo({
 }
 
 type PalmerHeroReelProps = {
+  label: string;
   posterSrc: string;
   videoSrc: string;
 };
 
 export function PalmerHeroReel({
+  label,
   posterSrc,
   videoSrc,
 }: PalmerHeroReelProps) {
@@ -214,7 +216,7 @@ export function PalmerHeroReel({
     <>
       <button
         aria-haspopup="dialog"
-        aria-label="Play Nike Running reel"
+        aria-label={`Play ${label}`}
         className={styles.heroMedia}
         data-palmer-reel
         onClick={() => setOpen(true)}
@@ -229,9 +231,10 @@ export function PalmerHeroReel({
             src={posterSrc}
           />
         </span>
+        <span className={styles.heroMediaLabel}>Play Reel</span>
       </button>
       <dialog
-        aria-label="Nike Running reel"
+        aria-label={label}
         className={styles.reelDialog}
         onCancel={close}
         onClick={closeFromBackdrop}
@@ -249,7 +252,7 @@ export function PalmerHeroReel({
               Close
             </button>
             <video
-              aria-label="Nike Running reel"
+              aria-label={label}
               autoPlay
               controls
               playsInline

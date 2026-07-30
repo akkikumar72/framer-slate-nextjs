@@ -5,7 +5,7 @@ import "./globals.css";
 const description =
   "Independent design direction, identity, motion, and digital experiences by Akihiko.";
 const socialImage = {
-  url: "/palmer/assets/palmer-hero-poster.jpg",
+  url: "/palmer/assets/palmer-hero-reference.jpg",
   width: 1280,
   height: 720,
   alt: "Palmer digital design portfolio by Akihiko",
