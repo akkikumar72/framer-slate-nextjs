@@ -1,0 +1,30 @@
+{
+  "name": "Grovia",
+  "slug": "grovia",
+  "port": 3002,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/grovia"],
+  "assetPrefixes": ["/grovia/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Grovia",
+      "canonical": "/",
+      "marker": "Strategy and growth for"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "That page is out of reach."
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "That page is out of reach."
+    }
+  ]
+}
