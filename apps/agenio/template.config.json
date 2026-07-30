@@ -1,0 +1,91 @@
+{
+  "name": "Agenio",
+  "slug": "agenio",
+  "port": 3004,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/agenio"],
+  "assetPrefixes": ["/agenio/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/",
+      "marker": "AI driven"
+    },
+    {
+      "path": "/about-us",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/about-us",
+      "marker": "Agenio Empowerin"
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/services",
+      "marker": "We build intelligent"
+    },
+    {
+      "path": "/projects",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/projects",
+      "marker": "Featured Work"
+    },
+    {
+      "path": "/projects/ai-chatbot-website",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/projects/ai-chatbot-website",
+      "marker": "AI Chatbot"
+    },
+    {
+      "path": "/projects/nova-ai-assistant",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/projects/nova-ai-assistant",
+      "marker": "Nova AI"
+    },
+    {
+      "path": "/projects/ai-brand-identity",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/projects/ai-brand-identity",
+      "marker": "AI Brand"
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/blog",
+      "marker": "Blog Three Column"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "AgencyIO - AI Agency Framer Template",
+      "canonical": "/contact",
+      "marker": "Get In Touch"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    },
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    },
+    {
+      "path": "/projects/not-a-real-project",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    }
+  ]
+}

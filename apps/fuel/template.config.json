@@ -1,0 +1,131 @@
+{
+  "name": "Fuel",
+  "slug": "fuel",
+  "port": 3003,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/fuel"],
+  "assetPrefixes": ["/fuel/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Fuel - Premium Agency & Portfolio",
+      "canonical": "/",
+      "marker": "Design-forward"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "titleIncludes": "Fuel - Premium Agency & Portfolio",
+      "canonical": "/about",
+      "marker": "We Are Here"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "Fuel - Premium Agency & Portfolio",
+      "canonical": "/contact",
+      "marker": "Get In Touch"
+    },
+    {
+      "path": "/work",
+      "status": 200,
+      "titleIncludes": "Portfolio - Fuel - Premium Agency & Portfolio",
+      "canonical": "/work/portfolio",
+      "marker": "Latest"
+    },
+    {
+      "path": "/work/portfolio",
+      "status": 200,
+      "titleIncludes": "Portfolio - Fuel - Premium Agency & Portfolio",
+      "canonical": "/work/portfolio",
+      "marker": "Latest"
+    },
+    {
+      "path": "/work/portfolio/vellfire-calibration",
+      "status": 200,
+      "titleIncludes": "Vellfire Calibration",
+      "canonical": "/work/portfolio/vellfire-calibration",
+      "marker": "Vellfire Calibration"
+    },
+    {
+      "path": "/work/portfolio/dunwill-lanson",
+      "status": 200,
+      "titleIncludes": "Dunwill Lanson",
+      "canonical": "/work/portfolio/dunwill-lanson",
+      "marker": "Dunwill Lanson"
+    },
+    {
+      "path": "/work/portfolio/noara-willis",
+      "status": 200,
+      "titleIncludes": "Noara Willis",
+      "canonical": "/work/portfolio/noara-willis",
+      "marker": "Noara Willis"
+    },
+    {
+      "path": "/work/portfolio/nike-studios",
+      "status": 200,
+      "titleIncludes": "Nike Studios",
+      "canonical": "/work/portfolio/nike-studios",
+      "marker": "Nike Studios"
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "titleIncludes": "Velocity Becomes",
+      "canonical": "/blog/velocity-becomes",
+      "marker": "Velocity Becomes"
+    },
+    {
+      "path": "/blog/velocity-becomes",
+      "status": 200,
+      "titleIncludes": "Velocity Becomes",
+      "canonical": "/blog/velocity-becomes",
+      "marker": "Velocity Becomes"
+    },
+    {
+      "path": "/blog/way-to-clearance",
+      "status": 200,
+      "titleIncludes": "Way To Clearance",
+      "canonical": "/blog/way-to-clearance",
+      "marker": "Way To Clearance"
+    },
+    {
+      "path": "/blog/all-grapples",
+      "status": 200,
+      "titleIncludes": "All Grapples",
+      "canonical": "/blog/all-grapples",
+      "marker": "All Grapples"
+    },
+    {
+      "path": "/blog/flowers-love",
+      "status": 200,
+      "titleIncludes": "Flowers Love",
+      "canonical": "/blog/flowers-love",
+      "marker": "Flowers Love"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "404 Error"
+    },
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "marker": "404 Error"
+    },
+    {
+      "path": "/blog/not-a-real-article",
+      "status": 404,
+      "marker": "404 Error"
+    },
+    {
+      "path": "/work/portfolio/not-a-real-project",
+      "status": 404,
+      "marker": "404 Error"
+    }
+  ]
+}
