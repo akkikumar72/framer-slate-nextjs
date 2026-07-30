@@ -1,0 +1,12 @@
+{
+  "name": "@framer-templates/template-validation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "template-validation": "./bin/template-validation.mjs"
+  },
+  "files": [
+    "bin"
+  ]
+}
