@@ -1,0 +1,30 @@
+{
+  "name": "Trillo",
+  "slug": "trillo",
+  "port": 3008,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/trillo", "public/fonts"],
+  "assetPrefixes": ["/trillo/", "/fonts/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Trillo",
+      "canonical": "/",
+      "marker": "Find Targeted Leads with Trillo AI"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Sorry! Page not found"
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "Sorry! Page not found"
+    }
+  ]
+}

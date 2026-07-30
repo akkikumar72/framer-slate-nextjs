@@ -1,0 +1,56 @@
+@font-face {
+  font-display: swap;
+  font-family: "Grovia Albert";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("/grovia/albert-sans.woff2") format("woff2");
+}
+
+.page {
+  align-items: center;
+  background: #f4f2ee;
+  color: #050505;
+  display: flex;
+  flex-direction: column;
+  font-family: "Grovia Albert", "Helvetica Neue", Arial, sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 32px;
+  text-align: center;
+}
+
+.page img {
+  height: auto;
+  margin-bottom: 64px;
+  width: 132px;
+}
+
+.page p {
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.page h1 {
+  font-size: clamp(48px, 8vw, 86px);
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 0.94;
+  margin: 20px 0;
+  max-width: 760px;
+}
+
+.page span {
+  color: #605f5f;
+  line-height: 1.6;
+  max-width: 420px;
+}
+
+.page a {
+  background: #050505;
+  border-radius: 999px;
+  color: white;
+  margin-top: 32px;
+  padding: 14px 24px;
+}

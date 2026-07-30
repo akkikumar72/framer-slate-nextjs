@@ -1,0 +1,28 @@
+{
+  "name": "@framer-templates/trillo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3008",
+    "start": "next start --port 3008",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "audit:assets": "template-validation assets && node scripts/audit-trillo-assets.mjs",
+    "audit:trillo-assets": "node scripts/audit-trillo-assets.mjs",
+    "check": "npm run typecheck && npm run audit:assets",
+    "test:routes": "template-validation routes"
+  },
+  "dependencies": {
+    "next": "16.2.11",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@framer-templates/template-validation": "*",
+    "@framer-templates/typescript-config": "*",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
+  }
+}

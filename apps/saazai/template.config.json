@@ -1,0 +1,161 @@
+{
+  "name": "Saazai",
+  "slug": "saazai",
+  "port": 3006,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/saazai/assets", "public/fonts"],
+  "assetPrefixes": ["/saazai/assets/", "/fonts/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Saazai - Be 10X more efficient",
+      "canonical": "/",
+      "marker": "Be 10X more efficient"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "titleIncludes": "About us",
+      "canonical": "/about",
+      "marker": "Redefining how"
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "titleIncludes": "Blog",
+      "canonical": "/blog",
+      "marker": "Featured blogs"
+    },
+    {
+      "path": "/career",
+      "status": 200,
+      "titleIncludes": "Careers",
+      "canonical": "/career",
+      "marker": "Drive your career"
+    },
+    {
+      "path": "/changelog",
+      "status": 200,
+      "titleIncludes": "Changelog",
+      "canonical": "/changelog",
+      "marker": "Latest Enhancements"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "Contact us",
+      "canonical": "/contact",
+      "marker": "Contact us"
+    },
+    {
+      "path": "/features",
+      "status": 200,
+      "titleIncludes": "Features",
+      "canonical": "/features",
+      "marker": "Smarter features."
+    },
+    {
+      "path": "/integration",
+      "status": 200,
+      "titleIncludes": "Integrations",
+      "canonical": "/integration",
+      "marker": "Smart connections"
+    },
+    {
+      "path": "/pricing",
+      "status": 200,
+      "titleIncludes": "Pricing",
+      "canonical": "/pricing",
+      "marker": "Start with a plan."
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "titleIncludes": "Privacy policy",
+      "canonical": "/privacy",
+      "marker": "Information We Collect"
+    },
+    {
+      "path": "/blog/what-is-a-no-code-ready-website-design",
+      "status": 200,
+      "titleIncludes": "What is a no-code ready website design?",
+      "canonical": "/blog/what-is-a-no-code-ready-website-design",
+      "marker": "What is a no-code ready website design?"
+    },
+    {
+      "path": "/blog/what-is-the-difference-and-when-to-use-them",
+      "status": 200,
+      "titleIncludes": "What is the difference and when to use them?",
+      "canonical": "/blog/what-is-the-difference-and-when-to-use-them",
+      "marker": "What is the difference and when to use them?"
+    },
+    {
+      "path": "/blog/how-to-build-a-community-around-your-brand",
+      "status": 200,
+      "titleIncludes": "How to build a community around your brand?",
+      "canonical": "/blog/how-to-build-a-community-around-your-brand",
+      "marker": "How to build a community around your brand?"
+    },
+    {
+      "path": "/blog/tips-to-boost-your-ai-agents-route-accuracy",
+      "status": 200,
+      "titleIncludes": "Tips to Boost Your AI Agents Route Accuracy",
+      "canonical": "/blog/tips-to-boost-your-ai-agents-route-accuracy",
+      "marker": "Tips to Boost Your AI Agents Route Accuracy"
+    },
+    {
+      "path": "/blog/top-benefits-of-using-digital-dispatch-software",
+      "status": 200,
+      "titleIncludes": "Top Benefits of Using Digital Dispatch Software",
+      "canonical": "/blog/top-benefits-of-using-digital-dispatch-software",
+      "marker": "Top Benefits of Using Digital Dispatch Software"
+    },
+    {
+      "path": "/blog/smart-ways-to-supercharge-your-ai-agent",
+      "status": 200,
+      "titleIncludes": "Smart Ways to Supercharge Your AI Agent",
+      "canonical": "/blog/smart-ways-to-supercharge-your-ai-agent",
+      "marker": "Smart Ways to Supercharge Your AI Agent"
+    },
+    {
+      "path": "/blog/empower-your-drivers-with-smarter-mobile-tools",
+      "status": 200,
+      "titleIncludes": "Empower Your Drivers With Smarter Mobile Tools",
+      "canonical": "/blog/empower-your-drivers-with-smarter-mobile-tools",
+      "marker": "Empower Your Drivers With Smarter Mobile Tools"
+    },
+    {
+      "path": "/blog/route-optimization-tactics-that-actually-work-fast",
+      "status": 200,
+      "titleIncludes": "Route Optimization Tactics That Actually Work Fast",
+      "canonical": "/blog/route-optimization-tactics-that-actually-work-fast",
+      "marker": "Route Optimization Tactics That Actually Work Fast"
+    },
+    {
+      "path": "/blog/what-to-expect-in-trucking-tech-trends",
+      "status": 200,
+      "titleIncludes": "What to Expect in Trucking Tech Trends",
+      "canonical": "/blog/what-to-expect-in-trucking-tech-trends",
+      "marker": "What to Expect in Trucking Tech Trends"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Sorry this page is not available."
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "Sorry this page is not available."
+    },
+    {
+      "path": "/blog/__missing__",
+      "status": 404,
+      "marker": "Sorry this page is not available."
+    }
+  ]
+}
