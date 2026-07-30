@@ -1,0 +1,124 @@
+{
+  "name": "Palmer",
+  "slug": "palmer",
+  "port": 3007,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/palmer/assets"],
+  "assetPrefixes": ["/palmer/assets/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Palmer",
+      "canonical": "/",
+      "marker": "Pattern Dimensions"
+    },
+    {
+      "path": "/work",
+      "status": 200,
+      "titleIncludes": "Work",
+      "canonical": "/work",
+      "marker": "All Works"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "titleIncludes": "Gallery",
+      "canonical": "/gallery",
+      "marker": "Gallery"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "Contact",
+      "canonical": "/contact",
+      "marker": "Contact Now"
+    },
+    {
+      "path": "/work/sonder-goods",
+      "status": 200,
+      "titleIncludes": "Sonder Goods",
+      "canonical": "/work/sonder-goods",
+      "marker": "Sonder Goods"
+    },
+    {
+      "path": "/work/halo-wear",
+      "status": 200,
+      "titleIncludes": "Halo Wear",
+      "canonical": "/work/halo-wear",
+      "marker": "Halo Wear"
+    },
+    {
+      "path": "/work/lucent-lab",
+      "status": 200,
+      "titleIncludes": "Lucent Lab",
+      "canonical": "/work/lucent-lab",
+      "marker": "Lucent Lab"
+    },
+    {
+      "path": "/work/arc-bloom",
+      "status": 200,
+      "titleIncludes": "Arc Bloom",
+      "canonical": "/work/arc-bloom",
+      "marker": "Arc Bloom"
+    },
+    {
+      "path": "/work/atelier-nara",
+      "status": 200,
+      "titleIncludes": "Atelier Nara",
+      "canonical": "/work/atelier-nara",
+      "marker": "Atelier Nara"
+    },
+    {
+      "path": "/article/gregory-lalle",
+      "status": 200,
+      "titleIncludes": "Gregory Lalle",
+      "canonical": "/article/gregory-lalle",
+      "marker": "Gregory Lalle"
+    },
+    {
+      "path": "/article/clive-willow",
+      "status": 200,
+      "titleIncludes": "Clive Willow",
+      "canonical": "/article/clive-willow",
+      "marker": "Clive Willow"
+    },
+    {
+      "path": "/article/raven-claw",
+      "status": 200,
+      "titleIncludes": "Raven Claw",
+      "canonical": "/article/raven-claw",
+      "marker": "Raven Claw"
+    },
+    {
+      "path": "/article/clay-nicolas",
+      "status": 200,
+      "titleIncludes": "Clay Nicolas",
+      "canonical": "/article/clay-nicolas",
+      "marker": "Clay Nicolas"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Not Found."
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "Not Found."
+    },
+    {
+      "path": "/work/__missing__",
+      "status": 404,
+      "marker": "Not Found."
+    },
+    {
+      "path": "/article/__missing__",
+      "status": 404,
+      "marker": "Not Found."
+    }
+  ]
+}
