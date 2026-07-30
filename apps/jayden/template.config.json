@@ -1,0 +1,84 @@
+{
+  "name": "Jayden",
+  "slug": "jayden",
+  "port": 3005,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/jayden"],
+  "assetPrefixes": ["/jayden/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Jayden - Personal Portfolio",
+      "canonical": "/",
+      "marker": "View My Work"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "titleIncludes": "About | Jayden",
+      "canonical": "/about",
+      "marker": "Meet Jayden"
+    },
+    {
+      "path": "/service",
+      "status": 200,
+      "titleIncludes": "Services | Jayden",
+      "canonical": "/service",
+      "marker": "Brand Design"
+    },
+    {
+      "path": "/work",
+      "status": 200,
+      "titleIncludes": "Works | Jayden",
+      "canonical": "/work",
+      "marker": "X-direct Mobile"
+    },
+    {
+      "path": "/work/x---direct-mobile",
+      "status": 200,
+      "titleIncludes": "X-direct Mobile | Jayden",
+      "canonical": "/work/x---direct-mobile",
+      "marker": "X-direct Mobile"
+    },
+    {
+      "path": "/work/helve-website-redesign",
+      "status": 200,
+      "titleIncludes": "Helve Website Redesign | Jayden",
+      "canonical": "/work/helve-website-redesign",
+      "marker": "Helve Website Redesign"
+    },
+    {
+      "path": "/work/ui-ux-agency",
+      "status": 200,
+      "titleIncludes": "UI/UX Agency Design | Jayden",
+      "canonical": "/work/ui-ux-agency",
+      "marker": "UI/UX Agency Design"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "Contact | Jayden",
+      "canonical": "/contact",
+      "marker": "Start a Project"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Page Not Found"
+    },
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "marker": "Page Not Found"
+    },
+    {
+      "path": "/work/not-a-real-project",
+      "status": 404,
+      "marker": "Page Not Found"
+    }
+  ]
+}
