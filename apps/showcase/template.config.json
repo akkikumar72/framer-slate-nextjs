@@ -1,0 +1,36 @@
+{
+  "name": "Showcase",
+  "slug": "showcase",
+  "port": 3000,
+  "sourceRoots": [
+    "app"
+  ],
+  "assetRoots": [
+    "public/templates"
+  ],
+  "assetPrefixes": [
+    "/templates/"
+  ],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Template Workspace",
+      "canonical": "/",
+      "marker": "Nine templates. One focused workspace."
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "This page is outside the catalog."
+    },
+    {
+      "path": "/definitely-not-a-template",
+      "status": 404,
+      "marker": "This page is outside the catalog."
+    }
+  ]
+}
