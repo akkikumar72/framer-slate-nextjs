@@ -1,6 +1,6 @@
 # Framer landing pages in Next.js
 
-A single Next.js App Router project containing eight isolated landing-page
+A single Next.js App Router project containing nine isolated landing-page
 families. Each design keeps its own route namespace, components, assets, and
 responsive behavior.
 
@@ -15,8 +15,10 @@ responsive behavior.
 | <img src="output/playwright/landing-pages/jayden.png" alt="Jayden landing page at /jayden" width="720"> | <img src="output/playwright/landing-pages/saazai.png" alt="Saazai landing page at /saazai" width="720"> |
 | **Palmer** · [`http://localhost:3000/palmer`](http://localhost:3000/palmer) | **Trillo** · [`http://localhost:3000/Trillo`](http://localhost:3000/Trillo) |
 | <img src="output/playwright/landing-pages/palmer.png" alt="Palmer editorial portfolio landing page at /palmer" width="720"> | <img src="output/playwright/landing-pages/trillo.png" alt="Trillo AI sales landing page at /Trillo" width="720"> |
+| **Rivero hero** · [`http://localhost:3000/rivero`](http://localhost:3000/rivero) | **Rivero footer** · [`http://localhost:3000/rivero`](http://localhost:3000/rivero) |
+| <img src="output/playwright/landing-pages/rivero.jpg" alt="Rivero HR platform hero at /rivero" width="720"> | <img src="output/playwright/landing-pages/rivero-footer.jpg" alt="Rivero responsive CTA and footer at /rivero" width="720"> |
 
-The screenshots above show local renders at representative desktop viewports.
+The screenshots above show settled local renders at representative desktop viewports.
 
 ## Route map
 
@@ -30,6 +32,7 @@ The screenshots above show local renders at representative desktop viewports.
 | Saazai | `/saazai/*` | Home, features, pricing, integration, changelog, about, contact, career, privacy, blog index and articles, custom 404 |
 | Palmer | `/palmer/*` | Home, work index and five case studies, gallery, contact, four editorial articles, custom 404 |
 | Trillo | `/Trillo/*` | Home and custom 404 |
+| Rivero | `/rivero/*` | Home, features, pricing variants, about, appointment, contact, reviews, integrations, case studies, changelog, blog, legal pages, custom 404 |
 
 Dynamic portfolio, project, and article routes are backed by local data. The
 root-level `/404` route provides the shared fallback page.

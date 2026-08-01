@@ -5,12 +5,13 @@
   "scripts": {
     "audit:jayden-assets": "node scripts/audit-jayden-assets.mjs",
     "audit:palmer-assets": "node scripts/audit-palmer-assets.mjs",
+    "audit:rivero-assets": "node scripts/audit-rivero-assets.mjs",
     "audit:saazai-assets": "node scripts/audit-saazai-assets.mjs",
     "audit:trillo-assets": "node scripts/audit-trillo-assets.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check": "tsc --noEmit && npm run check:fuel-assets && npm run audit:saazai-assets && npm run audit:palmer-assets && npm run audit:trillo-assets",
+    "check": "tsc --noEmit && npm run check:fuel-assets && npm run audit:saazai-assets && npm run audit:palmer-assets && npm run audit:trillo-assets && npm run audit:rivero-assets",
     "check:fuel-assets": "node scripts/check-fuel-assets.mjs"
   },
   "dependencies": {
