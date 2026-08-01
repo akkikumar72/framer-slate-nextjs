@@ -1,0 +1,30 @@
+{
+  "name": "Slate",
+  "slug": "slate",
+  "port": 3001,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/assets", "public/fonts"],
+  "assetPrefixes": ["/assets/", "/fonts/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Slate",
+      "canonical": "/",
+      "marker": "Notes that"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "This note got away."
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "This note got away."
+    }
+  ]
+}

@@ -1,0 +1,1615 @@
+.payble-root {
+  --payble-black: #080808;
+  --payble-green: #38a852;
+  --payble-green-dark: #267b3b;
+  --payble-green-soft: #ebf8ee;
+  --payble-blue: #1687f8;
+  --payble-orange: #ff9d2d;
+  --payble-pink: #b843c2;
+  --payble-text: #161616;
+  --payble-muted: #696969;
+  --payble-line: #dfdfdf;
+  --payble-soft: #f6f6f3;
+  --payble-width: 1184px;
+  background: #fff;
+  color: var(--payble-text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  min-height: 100vh;
+  overflow: clip;
+}
+
+.payble-root *,
+.payble-root *::before,
+.payble-root *::after {
+  box-sizing: border-box;
+}
+
+.payble-root a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.payble-root button,
+.payble-root input,
+.payble-root textarea,
+.payble-root select {
+  font: inherit;
+}
+
+.payble-root h1,
+.payble-root h2,
+.payble-root h3,
+.payble-root p {
+  margin-top: 0;
+}
+
+.payble-root h1,
+.payble-root h2,
+.payble-root h3 {
+  color: var(--payble-black);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+}
+
+.payble-root h1 {
+  font-size: clamp(48px, 4.2vw, 60px);
+  line-height: 1.08;
+}
+
+.payble-root h2 {
+  font-size: clamp(36px, 3.4vw, 52px);
+  line-height: 1.08;
+}
+
+.payble-root h3 {
+  font-size: 24px;
+  line-height: 1.18;
+}
+
+.payble-container {
+  margin-inline: auto;
+  max-width: var(--payble-width);
+  width: calc(100% - 64px);
+}
+
+.payble-sr-only {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.payble-header {
+  background: rgba(255, 255, 255, 0.93);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  height: 84px;
+  inset: 0 0 auto;
+  position: fixed;
+  z-index: 100;
+  backdrop-filter: blur(18px);
+}
+
+.payble-header__inner {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  height: 100%;
+  margin-inline: auto;
+  max-width: 1184px;
+  width: calc(100% - 64px);
+}
+
+.payble-header__logo {
+  justify-self: start;
+}
+
+.payble-logo {
+  align-items: center;
+  display: inline-flex;
+  font-size: 22px;
+  font-weight: 600;
+  gap: 9px;
+  letter-spacing: -0.04em;
+}
+
+.payble-logo__mark {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(2, 9px);
+  height: 20px;
+  transform: rotate(45deg);
+  width: 20px;
+}
+
+.payble-logo__mark span {
+  background: var(--payble-green);
+  border-radius: 8px 8px 2px 8px;
+}
+
+.payble-logo__mark span:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+.payble-logo__mark span:nth-child(3) {
+  transform: rotate(-90deg);
+}
+
+.payble-logo__mark span:nth-child(4) {
+  transform: rotate(180deg);
+}
+
+.payble-nav {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+}
+
+.payble-nav a {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  transition: color 180ms ease;
+}
+
+.payble-nav a:hover,
+.payble-nav a[aria-current="page"] {
+  color: var(--payble-black);
+}
+
+.payble-nav a[aria-current="page"]::after {
+  background: var(--payble-green);
+  border-radius: 100%;
+  bottom: -11px;
+  content: "";
+  height: 4px;
+  left: calc(50% - 2px);
+  position: absolute;
+  width: 4px;
+}
+
+.payble-header__cta {
+  justify-self: end;
+}
+
+.payble-button {
+  align-items: center;
+  appearance: none;
+  background: var(--payble-black);
+  border: 1px solid var(--payble-black);
+  border-radius: 9px;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 12px;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 22px;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.payble-button:hover {
+  background: #242424;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.payble-button--small {
+  border-radius: 7px;
+  min-height: 40px;
+  padding: 9px 16px;
+}
+
+.payble-menu,
+.payble-mobile-nav {
+  display: none;
+}
+
+.payble-page {
+  padding-top: 84px;
+}
+
+.payble-kicker {
+  align-items: center;
+  border: 1px solid #d7ddd8;
+  border-radius: 999px;
+  color: #3a403b;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 8px;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+.payble-kicker::before {
+  background: var(--payble-green);
+  border-radius: 999px;
+  content: "";
+  height: 7px;
+  width: 7px;
+}
+
+.payble-kicker--dark {
+  border-color: rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.payble-page-hero {
+  background-color: #fff;
+  background-image: radial-gradient(#d6d6d3 1px, transparent 1px);
+  background-size: 18px 18px;
+  border-bottom: 1px solid var(--payble-line);
+  display: block;
+  height: 401px;
+  min-height: 401px;
+  padding-top: 0;
+  position: relative;
+  text-align: center;
+}
+
+.payble-page-hero::before {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.56),
+    rgba(255, 255, 255, 0.94)
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.payble-page-hero .payble-container {
+  max-width: 1184px;
+  padding-top: 142px;
+  position: relative;
+}
+
+.payble-page-hero h1 {
+  font-size: 54px;
+  line-height: 1.2;
+  margin: 22px auto 18px;
+}
+
+.payble-page-hero p {
+  color: var(--payble-muted);
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.payble-section {
+  border-bottom: 1px solid var(--payble-line);
+  padding: 112px 0;
+}
+
+.payble-section-heading {
+  margin: 0 auto 56px;
+  max-width: 720px;
+  text-align: center;
+}
+
+.payble-section-heading h2 {
+  margin: 20px 0 16px;
+}
+
+.payble-section-heading > p,
+.payble-faq__intro > p {
+  color: var(--payble-muted);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.payble-section-heading--row {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  max-width: none;
+  text-align: left;
+}
+
+.payble-section-heading--row h2 {
+  margin-bottom: 0;
+}
+
+.payble-text-link {
+  align-items: center;
+  border-bottom: 1px solid var(--payble-black);
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 9px;
+  padding-bottom: 4px;
+}
+
+.payble-testimonials {
+  background: #f8f8f5;
+  height: 813px;
+  min-height: 813px;
+  padding: 88px 0;
+}
+
+.payble-testimonial-card {
+  background: #fff;
+  border: 1px solid var(--payble-line);
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  min-height: 410px;
+  overflow: hidden;
+}
+
+.payble-testimonial-card__visual {
+  background: #e7eee8;
+  min-height: 410px;
+  position: relative;
+}
+
+.payble-testimonial-card__visual img {
+  object-fit: cover;
+}
+
+.payble-testimonial-card__quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 52px 64px;
+}
+
+.payble-quote-mark {
+  color: var(--payble-green);
+  font-family: Georgia, serif;
+  font-size: 68px;
+  height: 56px;
+  line-height: 1;
+}
+
+.payble-testimonial-card blockquote {
+  font-size: 25px;
+  letter-spacing: -0.035em;
+  line-height: 1.45;
+  margin: 0 0 30px;
+}
+
+.payble-testimonial-card__quote > div:not(.payble-carousel-controls) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.payble-testimonial-card__quote > div span {
+  color: var(--payble-muted);
+  font-size: 14px;
+}
+
+.payble-carousel-controls {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.payble-carousel-controls button {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.payble-carousel-controls span {
+  color: var(--payble-muted);
+  font-size: 12px;
+}
+
+.payble-alerts {
+  min-height: 851px;
+}
+
+.payble-alerts__grid {
+  align-items: center;
+  display: grid;
+  gap: 84px;
+  grid-template-columns: 1fr 0.9fr;
+}
+
+.payble-alerts h2 {
+  margin: 22px 0 18px;
+}
+
+.payble-alerts__grid > div > p {
+  color: var(--payble-muted);
+  font-size: 17px;
+  line-height: 1.65;
+  max-width: 540px;
+}
+
+.payble-alert-tabs {
+  border-top: 1px solid var(--payble-line);
+  margin-top: 36px;
+}
+
+.payble-alert-tabs button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--payble-line);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 21px 8px;
+  text-align: left;
+  width: 100%;
+}
+
+.payble-alert-tabs button span {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.payble-alert-tabs button small {
+  color: var(--payble-muted);
+  line-height: 1.5;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 220ms ease;
+}
+
+.payble-alert-tabs button[aria-selected="true"] {
+  padding-left: 20px;
+}
+
+.payble-alert-tabs button[aria-selected="true"] span {
+  color: var(--payble-green-dark);
+}
+
+.payble-alert-tabs button[aria-selected="true"] small {
+  max-height: 60px;
+  opacity: 1;
+}
+
+.payble-alert-preview {
+  background:
+    radial-gradient(circle at 70% 28%, rgba(255, 255, 255, 0.85), transparent 24%),
+    linear-gradient(145deg, #e9f8ed, #c8ebd1);
+  border: 1px solid #bfe0c7;
+  border-radius: 42px;
+  box-shadow: 0 30px 80px rgba(39, 105, 55, 0.13);
+  min-height: 520px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+}
+
+.payble-alert-preview.tone-blue {
+  background: linear-gradient(145deg, #eaf5ff, #c4e2ff);
+  border-color: #bddaff;
+}
+
+.payble-alert-preview.tone-pink {
+  background: linear-gradient(145deg, #f9edf9, #ecc8ef);
+  border-color: #e6bce9;
+}
+
+.payble-phone-bar {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.payble-alert-notification {
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 18px;
+  box-shadow: 0 18px 54px rgba(0, 0, 0, 0.12);
+  display: flex;
+  gap: 14px;
+  margin-top: 58px;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(16px);
+}
+
+.payble-alert-notification__icon {
+  align-items: center;
+  background: var(--payble-green);
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex: 0 0 auto;
+  font-weight: 700;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+
+.payble-alert-notification div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.payble-alert-notification small {
+  color: #777;
+}
+
+.payble-alert-notification p {
+  color: #555;
+  font-size: 13px;
+  margin: 0;
+}
+
+.payble-alert-orbit {
+  border: 1px solid rgba(50, 142, 72, 0.35);
+  border-radius: 999px;
+  height: 360px;
+  left: 50%;
+  position: absolute;
+  top: 210px;
+  transform: translateX(-50%);
+  width: 360px;
+}
+
+.payble-alert-orbit::before,
+.payble-alert-orbit::after {
+  border: 1px solid rgba(50, 142, 72, 0.22);
+  border-radius: inherit;
+  content: "";
+  inset: 34px;
+  position: absolute;
+}
+
+.payble-alert-orbit::after {
+  inset: 72px;
+}
+
+.payble-pricing {
+  height: 1040px;
+  min-height: 1040px;
+  padding: 60px 0;
+}
+
+.payble-pricing.is-compact {
+  min-height: 825px;
+  padding-top: 64px;
+}
+
+.payble-price-toggle {
+  background: #f1f1ee;
+  border-radius: 999px;
+  display: flex;
+  margin: 0 auto 34px;
+  padding: 4px;
+  width: max-content;
+}
+
+.payble-price-toggle button {
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  min-height: 38px;
+  padding: 8px 16px;
+}
+
+.payble-price-toggle button.is-active {
+  background: #fff;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.payble-price-toggle span {
+  color: var(--payble-green-dark);
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.payble-price-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.payble-price-grid article {
+  background: #fff;
+  border: 1px solid var(--payble-line);
+  border-radius: 16px;
+  min-height: 540px;
+  padding: 32px;
+  position: relative;
+}
+
+.payble-price-grid article.is-popular {
+  background: var(--payble-black);
+  border-color: var(--payble-black);
+  color: #fff;
+}
+
+.payble-price-grid article.is-popular h3,
+.payble-price-grid article.is-popular .payble-price strong {
+  color: #fff;
+}
+
+.payble-price-grid article.is-popular > p,
+.payble-price-grid article.is-popular > small,
+.payble-price-grid article.is-popular .payble-price span {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.payble-price-grid article.is-popular .payble-button {
+  background: #fff;
+  border-color: #fff;
+  color: #111 !important;
+}
+
+.payble-popular {
+  background: var(--payble-green);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 6px 10px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  text-transform: uppercase;
+}
+
+.payble-price-grid h3 {
+  margin-bottom: 10px;
+}
+
+.payble-price-grid article > p {
+  color: var(--payble-muted);
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 68px;
+}
+
+.payble-price {
+  align-items: baseline;
+  display: flex;
+  gap: 7px;
+  margin-top: 25px;
+}
+
+.payble-price strong {
+  color: var(--payble-black);
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+.payble-price span,
+.payble-price-grid article > small {
+  color: var(--payble-muted);
+}
+
+.payble-price-grid .payble-button {
+  margin: 26px 0;
+  width: 100%;
+}
+
+.payble-price-grid ul {
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 25px 0 0;
+}
+
+.payble-price-grid li {
+  font-size: 14px;
+}
+
+.payble-price-grid li span {
+  color: var(--payble-green);
+  font-weight: 700;
+  margin-right: 7px;
+}
+
+.payble-faq {
+  height: 891px;
+  min-height: 891px;
+  padding: 47px 0;
+}
+
+.payble-faq__grid {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 0.75fr 1.25fr;
+}
+
+.payble-faq__intro {
+  align-self: start;
+  position: sticky;
+  top: 132px;
+}
+
+.payble-faq__intro h2 {
+  margin: 22px 0 18px;
+}
+
+.payble-faq__intro .payble-text-link {
+  margin-top: 12px;
+}
+
+.payble-faq__items {
+  border-top: 1px solid var(--payble-line);
+}
+
+.payble-faq__item {
+  border-bottom: 1px solid var(--payble-line);
+}
+
+.payble-faq__item button {
+  align-items: center;
+  appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
+  justify-content: space-between;
+  line-height: 1.45;
+  padding: 27px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.payble-faq__item button > span:last-child {
+  align-items: center;
+  border: 1px solid #d5d5d5;
+  border-radius: 999px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 20px;
+  height: 32px;
+  justify-content: center;
+  margin-left: 18px;
+  width: 32px;
+}
+
+.payble-faq__item > div {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 260ms ease;
+}
+
+.payble-faq__item > div.is-open {
+  max-height: 180px;
+}
+
+.payble-faq__item p {
+  color: var(--payble-muted);
+  line-height: 1.65;
+  margin: -8px 54px 27px 0;
+}
+
+.payble-download {
+  background: #fff;
+  border-bottom: 1px solid var(--payble-line);
+  height: 710px;
+  padding: 64px 0;
+}
+
+.payble-download__card {
+  background: var(--payble-black);
+  border-radius: 20px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  height: 582px;
+  overflow: hidden;
+  position: relative;
+}
+
+.payble-download__copy {
+  align-self: center;
+  max-width: 620px;
+  padding: 68px;
+  position: relative;
+  z-index: 2;
+}
+
+.payble-download__copy h2 {
+  color: #fff;
+  margin: 24px 0 18px;
+}
+
+.payble-download__copy > p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.payble-download__stores {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.payble-download__stores > a {
+  align-items: center;
+  background: #fff;
+  border-radius: 9px;
+  color: #111;
+  display: flex;
+  gap: 10px;
+  min-width: 154px;
+  padding: 10px 14px;
+}
+
+.payble-download__stores > a > span:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.payble-download__stores small {
+  font-size: 9px;
+}
+
+.payble-download__stores strong {
+  font-size: 15px;
+}
+
+.payble-download__phone {
+  align-self: end;
+  height: 540px;
+  justify-self: center;
+  position: relative;
+  width: 372px;
+}
+
+.payble-download__phone img {
+  height: auto;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.payble-download__glow {
+  background: rgba(50, 174, 82, 0.55);
+  border-radius: 50%;
+  filter: blur(90px);
+  height: 340px;
+  left: 30px;
+  position: absolute;
+  top: 120px;
+  width: 340px;
+}
+
+.payble-newsletter {
+  background-color: #f8f8f5;
+  background-image: radial-gradient(#d2d2cf 1px, transparent 1px);
+  background-size: 18px 18px;
+  border-bottom: 1px solid var(--payble-line);
+  height: 475px;
+  position: relative;
+}
+
+.payble-newsletter::before {
+  background: rgba(248, 248, 245, 0.74);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.payble-newsletter__inner {
+  align-items: center;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 1fr 0.9fr;
+  height: 100%;
+  position: relative;
+}
+
+.payble-newsletter h2 {
+  font-size: 44px;
+  margin: 22px 0 14px;
+}
+
+.payble-newsletter__inner > div > p {
+  color: var(--payble-muted);
+  line-height: 1.65;
+  max-width: 540px;
+}
+
+.payble-newsletter__form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr auto;
+}
+
+.payble-newsletter__form input {
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 9px;
+  min-height: 52px;
+  outline: none;
+  padding: 0 18px;
+}
+
+.payble-newsletter__form input:focus {
+  border-color: var(--payble-green);
+  box-shadow: 0 0 0 3px rgba(56, 168, 82, 0.12);
+}
+
+.payble-newsletter__form > p {
+  color: var(--payble-green-dark);
+  font-size: 13px;
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.payble-footer {
+  background: #fff;
+  min-height: 535px;
+}
+
+.payble-footer__top {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1.1fr 0.9fr 1.5fr;
+  min-height: 435px;
+  padding: 84px 0 60px;
+}
+
+.payble-footer__brand {
+  align-self: start;
+}
+
+.payble-footer__top > p {
+  color: var(--payble-muted);
+  line-height: 1.7;
+  max-width: 310px;
+}
+
+.payble-footer__links {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.payble-footer__links > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.payble-footer__links strong {
+  font-size: 13px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.payble-footer__links a {
+  color: var(--payble-muted);
+  font-size: 14px;
+}
+
+.payble-footer__links a:hover {
+  color: var(--payble-black);
+}
+
+.payble-footer__bottom {
+  align-items: center;
+  border-top: 1px solid var(--payble-line);
+  color: var(--payble-muted);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.payble-footer__bottom a {
+  color: var(--payble-black);
+}
+
+.payble-blog-grid {
+  display: grid;
+  gap: 40px 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.payble-blog-card a {
+  display: block;
+}
+
+.payble-blog-card__image {
+  aspect-ratio: 1.5;
+  background: #eee;
+  border-radius: 12px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.payble-blog-card__image img {
+  object-fit: cover;
+  transition: transform 400ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.payble-blog-card:hover .payble-blog-card__image img {
+  transform: scale(1.035);
+}
+
+.payble-blog-card__meta {
+  color: var(--payble-muted);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin: 17px 0 12px;
+}
+
+.payble-blog-card h3 {
+  font-size: 21px;
+  line-height: 1.3;
+  margin-bottom: 18px;
+}
+
+.payble-blog-card .payble-text-link {
+  font-size: 12px;
+}
+
+.payble-blog-teasers {
+  min-height: 804px;
+}
+
+.payble-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.payble-contact-form label {
+  color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 600;
+  gap: 8px;
+}
+
+.payble-contact-form__row {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.payble-contact-form input,
+.payble-contact-form textarea,
+.payble-contact-form select {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  color: var(--payble-text);
+  min-height: 48px;
+  outline: none;
+  padding: 12px 14px;
+}
+
+.payble-contact-form textarea {
+  min-height: 126px;
+  resize: vertical;
+}
+
+.payble-contact-form input:focus,
+.payble-contact-form textarea:focus,
+.payble-contact-form select:focus {
+  border-color: var(--payble-green);
+  box-shadow: 0 0 0 3px rgba(56, 168, 82, 0.12);
+}
+
+.payble-contact-form__consent {
+  align-items: flex-start;
+  flex-direction: row !important;
+  font-weight: 400 !important;
+}
+
+.payble-contact-form__consent input {
+  flex: 0 0 auto;
+  min-height: auto;
+  width: auto;
+}
+
+.payble-contact-form__consent a {
+  text-decoration: underline;
+}
+
+.payble-contact-form > p[role="status"] {
+  color: var(--payble-green-dark);
+  margin: 0;
+}
+
+@keyframes payble-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes payble-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media (max-width: 980px) {
+  .payble-nav {
+    gap: 20px;
+  }
+
+  .payble-alerts__grid {
+    gap: 50px;
+  }
+
+  .payble-download__copy {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 810px) {
+  .payble-container,
+  .payble-header__inner {
+    width: calc(100% - 40px);
+  }
+
+  .payble-root h1 {
+    font-size: clamp(40px, 11vw, 54px);
+  }
+
+  .payble-root h2 {
+    font-size: clamp(34px, 8.5vw, 46px);
+  }
+
+  .payble-nav,
+  .payble-header__cta {
+    display: none;
+  }
+
+  .payble-header__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payble-menu {
+    align-items: center;
+    appearance: none;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 999px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 42px;
+    justify-content: center;
+    width: 42px;
+  }
+
+  .payble-menu span {
+    background: #111;
+    height: 1px;
+    transition: transform 180ms ease;
+    width: 16px;
+  }
+
+  .payble-mobile-nav {
+    background: #fff;
+    border-bottom: 1px solid var(--payble-line);
+    display: block;
+    left: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: none;
+    position: absolute;
+    top: 83px;
+    transition:
+      max-height 260ms ease,
+      opacity 180ms ease,
+      padding 260ms ease;
+    width: 100%;
+  }
+
+  .payble-mobile-nav.is-open {
+    max-height: 520px;
+    opacity: 1;
+    padding-bottom: 24px;
+    padding-top: 18px;
+    pointer-events: auto;
+  }
+
+  .payble-mobile-nav nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payble-mobile-nav nav a {
+    border-bottom: 1px solid #ededed;
+    font-size: 18px;
+    padding: 15px 2px;
+  }
+
+  .payble-mobile-nav .payble-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .payble-page-hero {
+    height: 430px;
+    min-height: 430px;
+  }
+
+  .payble-page-hero .payble-container {
+    padding-top: 128px;
+  }
+
+  .payble-section {
+    padding: 84px 0;
+  }
+
+  .payble-section-heading {
+    margin-bottom: 44px;
+  }
+
+  .payble-section-heading--row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .payble-testimonial-card {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-testimonial-card__visual {
+    min-height: 420px;
+  }
+
+  .payble-testimonial-card__quote {
+    padding: 42px;
+  }
+
+  .payble-alerts__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-alert-preview {
+    min-height: 480px;
+  }
+
+  .payble-price-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-price-grid article {
+    min-height: auto;
+  }
+
+  .payble-price-grid article > p {
+    min-height: 0;
+  }
+
+  .payble-faq__grid {
+    gap: 50px;
+    grid-template-columns: 1fr;
+  }
+
+  .payble-testimonials,
+  .payble-pricing,
+  .payble-faq {
+    height: auto;
+  }
+
+  .payble-faq__intro {
+    position: static;
+  }
+
+  .payble-download {
+    height: auto;
+    padding: 44px 0;
+  }
+
+  .payble-download__card {
+    grid-template-columns: 1fr;
+    height: 910px;
+  }
+
+  .payble-download__copy {
+    padding: 52px 42px 24px;
+  }
+
+  .payble-download__phone {
+    height: 470px;
+    width: 325px;
+  }
+
+  .payble-newsletter {
+    height: auto;
+  }
+
+  .payble-newsletter__inner {
+    gap: 38px;
+    grid-template-columns: 1fr;
+    min-height: 520px;
+    padding: 72px 0;
+  }
+
+  .payble-footer__top {
+    grid-template-columns: 1fr;
+    padding: 64px 0;
+  }
+
+  .payble-footer__links {
+    margin-top: 12px;
+  }
+
+  .payble-footer__bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  .payble-blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .payble-container,
+  .payble-header__inner {
+    width: calc(100% - 32px);
+  }
+
+  .payble-header {
+    border: 1px solid #ededed;
+    border-radius: 12px;
+    height: 58px;
+    left: 12px;
+    right: 12px;
+    top: 12px;
+  }
+
+  .payble-header__inner {
+    width: calc(100% - 24px);
+  }
+
+  .payble-logo {
+    font-size: 22px;
+  }
+
+  .payble-menu {
+    border: 0;
+    border-radius: 0;
+    height: 40px;
+    width: 40px;
+  }
+
+  .payble-mobile-nav {
+    border: 1px solid var(--payble-line);
+    border-radius: 12px;
+    left: 0;
+    top: 64px;
+  }
+
+  .payble-page {
+    padding-top: 76px;
+  }
+
+  .payble-page-hero {
+    height: 420px;
+    min-height: 420px;
+  }
+
+  .payble-page-hero .payble-container {
+    padding-top: 118px;
+  }
+
+  .payble-page-hero h1 {
+    font-size: 40px;
+  }
+
+  .payble-root h2 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .payble-section {
+    padding: 72px 0;
+  }
+
+  .payble-testimonial-card__visual {
+    min-height: 350px;
+  }
+
+  .payble-testimonial-card__quote {
+    padding: 32px 24px;
+  }
+
+  .payble-testimonial-card blockquote {
+    font-size: 21px;
+  }
+
+  .payble-alert-preview {
+    border-radius: 28px;
+    min-height: 420px;
+  }
+
+  .payble-alerts {
+    height: 720px;
+    min-height: 720px;
+    overflow: hidden;
+    padding: 72px 0;
+  }
+
+  .payble-alert-preview {
+    display: none;
+  }
+
+  .payble-testimonials {
+    height: 864px;
+    min-height: 864px;
+    overflow: hidden;
+    padding: 72px 0;
+  }
+
+  .payble-testimonial-card__visual {
+    min-height: 250px;
+  }
+
+  .payble-testimonial-card__quote {
+    padding: 24px;
+  }
+
+  .payble-pricing:not(.is-compact) {
+    height: 2117px;
+    min-height: 2117px;
+    overflow: hidden;
+    padding: 72px 0;
+  }
+
+  .payble-price-grid {
+    gap: 12px;
+  }
+
+  .payble-price-grid article {
+    padding: 22px;
+  }
+
+  .payble-price-grid article {
+    padding: 28px 22px;
+  }
+
+  .payble-price-toggle {
+    width: 100%;
+  }
+
+  .payble-price-toggle button {
+    flex: 1;
+  }
+
+  .payble-faq__item button {
+    font-size: 15px;
+  }
+
+  .payble-faq {
+    height: 1433px;
+    min-height: 1433px;
+    overflow: hidden;
+    padding: 72px 0;
+  }
+
+  .payble-download {
+    height: 902px;
+    overflow: hidden;
+    padding: 44px 0;
+  }
+
+  .payble-download__card {
+    height: 814px;
+  }
+
+  .payble-download__copy {
+    padding: 40px 24px 20px;
+  }
+
+  .payble-download__stores {
+    flex-direction: column;
+  }
+
+  .payble-download__stores > a {
+    width: max-content;
+  }
+
+  .payble-download__phone {
+    height: 410px;
+    width: 286px;
+  }
+
+  .payble-newsletter h2 {
+    font-size: 24px;
+  }
+
+  .payble-newsletter {
+    height: 434px;
+    overflow: hidden;
+  }
+
+  .payble-newsletter__inner {
+    min-height: 434px;
+    padding: 54px 0;
+  }
+
+  .payble-newsletter__form {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-newsletter__form .payble-button {
+    width: 100%;
+  }
+
+  .payble-footer__links {
+    gap: 28px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .payble-footer {
+    min-height: 1234px;
+  }
+
+  .payble-blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-contact-form__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .payble-root *,
+  .payble-root *::before,
+  .payble-root *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

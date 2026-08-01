@@ -1,58 +1,353 @@
-# Framer landing pages in Next.js
+# Framer templates Turborepo
 
-A single Next.js App Router project containing nine isolated landing-page
-families. Each design keeps its own route namespace, components, assets, and
-responsive behavior.
+Nine standalone Next.js template applications and a lightweight showcase live
+in one npm-workspaces Turborepo. Each template owns its routes, components,
+assets, metadata, validation contract, and deployment boundary.
 
-## Landing pages
+## Browse the workspace
 
-| **Slate** · `/` | **Grovia** · `/grovia` |
-| --- | --- |
-| <img src="output/playwright/landing-pages/slate.png" alt="Slate landing page at the root route" width="720"> | <img src="output/playwright/landing-pages/grovia.png" alt="Grovia landing page at /grovia" width="720"> |
-| **Fuel** · `/fuel` | **Agenio** · `/agenio` |
-| <img src="output/playwright/landing-pages/fuel.png" alt="Fuel landing page at /fuel" width="720"> | <img src="output/playwright/landing-pages/agenio.png" alt="Agenio landing page at /agenio" width="720"> |
-| **Jayden** · `/jayden` | **Saazai** · `/saazai` |
-| <img src="output/playwright/landing-pages/jayden.png" alt="Jayden landing page at /jayden" width="720"> | <img src="output/playwright/landing-pages/saazai.png" alt="Saazai landing page at /saazai" width="720"> |
-| **Palmer** · [`http://localhost:3000/palmer`](http://localhost:3000/palmer) | **Trillo** · [`http://localhost:3000/Trillo`](http://localhost:3000/Trillo) |
-| <img src="output/playwright/landing-pages/palmer.png" alt="Palmer editorial portfolio landing page at /palmer" width="720"> | <img src="output/playwright/landing-pages/trillo.png" alt="Trillo AI sales landing page at /Trillo" width="720"> |
-| **Rivero hero** · [`http://localhost:3000/rivero`](http://localhost:3000/rivero) | **Rivero footer** · [`http://localhost:3000/rivero`](http://localhost:3000/rivero) |
-| <img src="output/playwright/landing-pages/rivero.jpg" alt="Rivero HR platform hero at /rivero" width="720"> | <img src="output/playwright/landing-pages/rivero-footer.jpg" alt="Rivero responsive CTA and footer at /rivero" width="720"> |
+[Open the Showcase catalog](http://localhost:3000/) ·
+[View its full-page capture](output/playwright/landing-pages/showcase-full.png)
 
-The screenshots above show settled local renders at representative desktop viewports.
+<a href="http://localhost:3000/">
+  <img src="output/playwright/landing-pages/showcase.png" alt="Framer template workspace Showcase at http://localhost:3000/" width="1440">
+</a>
 
-## Route map
+## Template showcase
 
-| Site | Route family | Included pages |
-| --- | --- | --- |
-| Slate | `/` | Main marketing page |
-| Grovia | `/grovia` | Main strategy and growth page |
-| Fuel | `/fuel/*` | Home, about, contact, work, portfolio index and details, blog index and articles, custom 404 |
-| Agenio | `/agenio/*` | Home, about, services, contact, projects index and details, blog, custom 404 |
-| Jayden | `/jayden/*` | Home, work index and details, services, about, contact, custom 404 |
-| Saazai | `/saazai/*` | Home, features, pricing, integration, changelog, about, contact, career, privacy, blog index and articles, custom 404 |
-| Palmer | `/palmer/*` | Home, work index and five case studies, gallery, contact, four editorial articles, custom 404 |
-| Trillo | `/Trillo/*` | Home and custom 404 |
-| Rivero | `/rivero/*` | Home, features, pricing variants, about, appointment, contact, reviews, integrations, case studies, changelog, blog, legal pages, custom 404 |
+Each screenshot opens the template at its standalone local URL. Expand
+**Routes** below any design to open every valid page declared in that
+workspace's `template.config.json`.
 
-Dynamic portfolio, project, and article routes are backed by local data. The
-root-level `/404` route provides the shared fallback page.
+### Slate
 
-## Run locally
+`@framer-templates/slate` ·
+[http://localhost:3001/](http://localhost:3001/) · port `3001`
+
+<a href="http://localhost:3001/">
+  <img src="apps/showcase/public/templates/slate.png" alt="Slate landing page at http://localhost:3001/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (1)</strong></summary>
+
+- [`/`](http://localhost:3001/)
+
+</details>
+
+### Grovia
+
+`@framer-templates/grovia` ·
+[http://localhost:3002/](http://localhost:3002/) · port `3002`
+
+<a href="http://localhost:3002/">
+  <img src="apps/showcase/public/templates/grovia.png" alt="Grovia landing page at http://localhost:3002/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (1)</strong></summary>
+
+- [`/`](http://localhost:3002/)
+
+</details>
+
+### Fuel
+
+`@framer-templates/fuel` ·
+[http://localhost:3003/](http://localhost:3003/) · port `3003`
+
+<a href="http://localhost:3003/">
+  <img src="apps/showcase/public/templates/fuel.png" alt="Fuel landing page at http://localhost:3003/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (14)</strong></summary>
+
+- [`/`](http://localhost:3003/)
+- [`/about`](http://localhost:3003/about)
+- [`/contact`](http://localhost:3003/contact)
+- [`/work`](http://localhost:3003/work)
+- [`/work/portfolio`](http://localhost:3003/work/portfolio)
+- [`/work/portfolio/vellfire-calibration`](http://localhost:3003/work/portfolio/vellfire-calibration)
+- [`/work/portfolio/dunwill-lanson`](http://localhost:3003/work/portfolio/dunwill-lanson)
+- [`/work/portfolio/noara-willis`](http://localhost:3003/work/portfolio/noara-willis)
+- [`/work/portfolio/nike-studios`](http://localhost:3003/work/portfolio/nike-studios)
+- [`/blog`](http://localhost:3003/blog)
+- [`/blog/velocity-becomes`](http://localhost:3003/blog/velocity-becomes)
+- [`/blog/way-to-clearance`](http://localhost:3003/blog/way-to-clearance)
+- [`/blog/all-grapples`](http://localhost:3003/blog/all-grapples)
+- [`/blog/flowers-love`](http://localhost:3003/blog/flowers-love)
+
+</details>
+
+### Agenio
+
+`@framer-templates/agenio` ·
+[http://localhost:3004/](http://localhost:3004/) · port `3004`
+
+<a href="http://localhost:3004/">
+  <img src="apps/showcase/public/templates/agenio.png" alt="Agenio landing page at http://localhost:3004/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (9)</strong></summary>
+
+- [`/`](http://localhost:3004/)
+- [`/about-us`](http://localhost:3004/about-us)
+- [`/services`](http://localhost:3004/services)
+- [`/projects`](http://localhost:3004/projects)
+- [`/projects/ai-chatbot-website`](http://localhost:3004/projects/ai-chatbot-website)
+- [`/projects/nova-ai-assistant`](http://localhost:3004/projects/nova-ai-assistant)
+- [`/projects/ai-brand-identity`](http://localhost:3004/projects/ai-brand-identity)
+- [`/blog`](http://localhost:3004/blog)
+- [`/contact`](http://localhost:3004/contact)
+
+</details>
+
+### Jayden
+
+`@framer-templates/jayden` ·
+[http://localhost:3005/](http://localhost:3005/) · port `3005`
+
+<a href="http://localhost:3005/">
+  <img src="apps/showcase/public/templates/jayden.png" alt="Jayden landing page at http://localhost:3005/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (8)</strong></summary>
+
+- [`/`](http://localhost:3005/)
+- [`/about`](http://localhost:3005/about)
+- [`/service`](http://localhost:3005/service)
+- [`/work`](http://localhost:3005/work)
+- [`/work/x---direct-mobile`](http://localhost:3005/work/x---direct-mobile)
+- [`/work/helve-website-redesign`](http://localhost:3005/work/helve-website-redesign)
+- [`/work/ui-ux-agency`](http://localhost:3005/work/ui-ux-agency)
+- [`/contact`](http://localhost:3005/contact)
+
+</details>
+
+### Saazai
+
+`@framer-templates/saazai` ·
+[http://localhost:3006/](http://localhost:3006/) · port `3006`
+
+<a href="http://localhost:3006/">
+  <img src="apps/showcase/public/templates/saazai.png" alt="Saazai landing page at http://localhost:3006/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (19)</strong></summary>
+
+- [`/`](http://localhost:3006/)
+- [`/about`](http://localhost:3006/about)
+- [`/blog`](http://localhost:3006/blog)
+- [`/career`](http://localhost:3006/career)
+- [`/changelog`](http://localhost:3006/changelog)
+- [`/contact`](http://localhost:3006/contact)
+- [`/features`](http://localhost:3006/features)
+- [`/integration`](http://localhost:3006/integration)
+- [`/pricing`](http://localhost:3006/pricing)
+- [`/privacy`](http://localhost:3006/privacy)
+- [`/blog/what-is-a-no-code-ready-website-design`](http://localhost:3006/blog/what-is-a-no-code-ready-website-design)
+- [`/blog/what-is-the-difference-and-when-to-use-them`](http://localhost:3006/blog/what-is-the-difference-and-when-to-use-them)
+- [`/blog/how-to-build-a-community-around-your-brand`](http://localhost:3006/blog/how-to-build-a-community-around-your-brand)
+- [`/blog/tips-to-boost-your-ai-agents-route-accuracy`](http://localhost:3006/blog/tips-to-boost-your-ai-agents-route-accuracy)
+- [`/blog/top-benefits-of-using-digital-dispatch-software`](http://localhost:3006/blog/top-benefits-of-using-digital-dispatch-software)
+- [`/blog/smart-ways-to-supercharge-your-ai-agent`](http://localhost:3006/blog/smart-ways-to-supercharge-your-ai-agent)
+- [`/blog/empower-your-drivers-with-smarter-mobile-tools`](http://localhost:3006/blog/empower-your-drivers-with-smarter-mobile-tools)
+- [`/blog/route-optimization-tactics-that-actually-work-fast`](http://localhost:3006/blog/route-optimization-tactics-that-actually-work-fast)
+- [`/blog/what-to-expect-in-trucking-tech-trends`](http://localhost:3006/blog/what-to-expect-in-trucking-tech-trends)
+
+</details>
+
+### Palmer
+
+`@framer-templates/palmer` ·
+[http://localhost:3007/](http://localhost:3007/) · port `3007`
+
+<a href="http://localhost:3007/">
+  <img src="apps/showcase/public/templates/palmer.png" alt="Palmer landing page at http://localhost:3007/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (13)</strong></summary>
+
+- [`/`](http://localhost:3007/)
+- [`/work`](http://localhost:3007/work)
+- [`/gallery`](http://localhost:3007/gallery)
+- [`/contact`](http://localhost:3007/contact)
+- [`/work/sonder-goods`](http://localhost:3007/work/sonder-goods)
+- [`/work/halo-wear`](http://localhost:3007/work/halo-wear)
+- [`/work/lucent-lab`](http://localhost:3007/work/lucent-lab)
+- [`/work/arc-bloom`](http://localhost:3007/work/arc-bloom)
+- [`/work/atelier-nara`](http://localhost:3007/work/atelier-nara)
+- [`/article/gregory-lalle`](http://localhost:3007/article/gregory-lalle)
+- [`/article/clive-willow`](http://localhost:3007/article/clive-willow)
+- [`/article/raven-claw`](http://localhost:3007/article/raven-claw)
+- [`/article/clay-nicolas`](http://localhost:3007/article/clay-nicolas)
+
+</details>
+
+### Trillo
+
+`@framer-templates/trillo` ·
+[http://localhost:3008/](http://localhost:3008/) · port `3008`
+
+<a href="http://localhost:3008/">
+  <img src="apps/showcase/public/templates/trillo.png" alt="Trillo landing page at http://localhost:3008/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (1)</strong></summary>
+
+- [`/`](http://localhost:3008/)
+
+</details>
+
+### Payble
+
+`@framer-templates/payble` ·
+[http://localhost:3009/](http://localhost:3009/) · port `3009`
+
+<a href="http://localhost:3009/">
+  <img src="apps/showcase/public/templates/payble.png" alt="Payble landing page at http://localhost:3009/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (21)</strong></summary>
+
+- [`/`](http://localhost:3009/)
+- [`/features`](http://localhost:3009/features)
+- [`/pricing`](http://localhost:3009/pricing)
+- [`/blog`](http://localhost:3009/blog)
+- [`/contact`](http://localhost:3009/contact)
+- [`/blog/stay-in-control-how-ai-insights-can-prevent-overspending`](http://localhost:3009/blog/stay-in-control-how-ai-insights-can-prevent-overspending)
+- [`/blog/how-to-manage-irregular-income-with-ai-powered-financial-tools`](http://localhost:3009/blog/how-to-manage-irregular-income-with-ai-powered-financial-tools)
+- [`/blog/how-ai-can-help-you-create-custom-budgets-tailored-to-your-needs`](http://localhost:3009/blog/how-ai-can-help-you-create-custom-budgets-tailored-to-your-needs)
+- [`/blog/why-multi-account-sync-is-the-key-to-streamlining-your-finances`](http://localhost:3009/blog/why-multi-account-sync-is-the-key-to-streamlining-your-finances)
+- [`/blog/achieve-your-financial-goals-faster-the-role-of-automated-savings-transfers`](http://localhost:3009/blog/achieve-your-financial-goals-faster-the-role-of-automated-savings-transfers)
+- [`/blog/real-time-budget-alerts-how-they-keep-your-spending-under-control`](http://localhost:3009/blog/real-time-budget-alerts-how-they-keep-your-spending-under-control)
+- [`/blog/the-science-of-financial-forecasting-planning-for-your-financial-future`](http://localhost:3009/blog/the-science-of-financial-forecasting-planning-for-your-financial-future)
+- [`/blog/say-goodbye-to-late-fees-the-importance-of-bill-reminders`](http://localhost:3009/blog/say-goodbye-to-late-fees-the-importance-of-bill-reminders)
+- [`/blog/master-your-spending-how-spending-habit-analysis-can-transform-your-finances`](http://localhost:3009/blog/master-your-spending-how-spending-habit-analysis-can-transform-your-finances)
+- [`/blog/from-small-change-to-big-savings-the-power-of-round-up-savings`](http://localhost:3009/blog/from-small-change-to-big-savings-the-power-of-round-up-savings)
+- [`/blog/how-to-build-an-effective-budget-a-step-by-step-guide-for-beginners`](http://localhost:3009/blog/how-to-build-an-effective-budget-a-step-by-step-guide-for-beginners)
+- [`/blog/the-power-of-automation-how-ai-driven-tools-simplify-personal-finance`](http://localhost:3009/blog/the-power-of-automation-how-ai-driven-tools-simplify-personal-finance)
+- [`/useful/privacy-policy`](http://localhost:3009/useful/privacy-policy)
+- [`/useful/cookie-policy`](http://localhost:3009/useful/cookie-policy)
+- [`/useful/terms-of-service`](http://localhost:3009/useful/terms-of-service)
+- [`/useful/refund-policy`](http://localhost:3009/useful/refund-policy)
+
+</details>
+
+Every template serves from `/` when run independently. Existing
+family-prefixed asset paths remain intact.
+
+## Requirements
+
+- Node.js `22.22.3`
+- npm `10.9.8`
+
+The repository includes an `.nvmrc`, so `nvm use` selects the expected Node
+version.
+
+## Install and run
+
+Install all workspaces once from the repository root:
 
 ```bash
-npm install
+npm ci
+```
+
+Run the showcase:
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
-## Production build
+Run every application on its assigned port:
 
 ```bash
-npm run check
-npm run build
-npm start
+npm run dev:all
 ```
 
-The implementation uses local assets, native React interactions, and responsive
-CSS.
+Run one template:
+
+```bash
+npm run dev --workspace=@framer-templates/fuel
+```
+
+Filter Turbo tasks to one application:
+
+```bash
+npx turbo run build check --filter=@framer-templates/fuel
+```
+
+## Validation
+
+Each application exposes the same interface:
+
+- `dev` and `start`
+- `build`
+- `typecheck`
+- `audit:assets`
+- `check`
+- `test:routes`
+
+Run the complete acceptance sequence:
+
+```bash
+npm run verify
+```
+
+`verify` runs checks, builds, and route contracts sequentially so generated
+Next.js types are never read while a build is replacing them. Route contracts
+live in each application's `template.config.json`. They cover every valid
+static and generated route, invalid dynamic slugs, branded 404 pages, titles,
+canonical paths, and visible markers.
+
+## Environment
+
+Each template accepts `NEXT_PUBLIC_SITE_URL` for canonical metadata:
+
+```bash
+NEXT_PUBLIC_SITE_URL=https://fuel.example.com \
+  npm run build --workspace=@framer-templates/fuel
+```
+
+The showcase accepts one public URL per template so its cards can point to
+independent deployments:
+
+```bash
+cp apps/showcase/.env.example apps/showcase/.env.local
+```
+
+Set `NEXT_PUBLIC_SLATE_URL`, `NEXT_PUBLIC_GROVIA_URL`, and the remaining
+template URL variables in that file. Localhost defaults match the ports in the
+workspace map.
+
+## Repository structure
+
+```text
+apps/
+  showcase/
+  slate/
+  grovia/
+  fuel/
+  agenio/
+  jayden/
+  saazai/
+  palmer/
+  trillo/
+  payble/
+packages/
+  template-validation/
+  typescript-config/
+```
+
+`packages/template-validation` owns the generic asset and route checks.
+Template-specific asset audits remain app-local where the original design
+needed additional rules. `packages/typescript-config` supplies the strict
+shared Next.js compiler configuration while every app retains its local `@/*`
+alias.

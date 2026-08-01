@@ -1,0 +1,349 @@
+.payble-blog-index.payble-page,
+.payble-article-page.payble-page {
+  padding-top: 0;
+}
+
+.payble-journal {
+  border-bottom: 1px solid var(--payble-line);
+  height: 1624px;
+  min-height: 1624px;
+  padding: 44px 0;
+}
+
+.payble-journal-grid {
+  display: grid;
+  gap: 28px 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.payble-journal-card {
+  min-width: 0;
+}
+
+.payble-journal-card > a {
+  display: block;
+}
+
+.payble-journal-card__image {
+  aspect-ratio: 1.5;
+  background: #efefec;
+  border-radius: 12px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.payble-journal-card__image img {
+  object-fit: cover;
+  transition: transform 450ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.payble-journal-card__meta {
+  align-items: center;
+  color: var(--payble-muted);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin: 16px 0 10px;
+}
+
+.payble-journal-card__meta > span {
+  align-items: center;
+  border: 1px solid #d8d8d5;
+  border-radius: 50%;
+  color: var(--payble-black);
+  display: inline-flex;
+  height: 25px;
+  justify-content: center;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+  width: 25px;
+}
+
+.payble-journal-card h2 {
+  font-size: 20px;
+  line-height: 1.32;
+  margin: 0;
+  max-width: 355px;
+}
+
+.payble-journal-card:hover .payble-journal-card__image img {
+  transform: scale(1.035);
+}
+
+.payble-journal-card:hover .payble-journal-card__meta > span {
+  background: var(--payble-black);
+  color: #fff;
+  transform: translate(1px, -1px);
+}
+
+.payble-article {
+  border-bottom: 1px solid var(--payble-line);
+  min-height: 1670px;
+}
+
+.payble-article__header {
+  margin: 0 auto;
+  max-width: 920px;
+  padding: 184px 0 0;
+  text-align: center;
+}
+
+.payble-article__header h1 {
+  font-size: clamp(46px, 4.35vw, 58px);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.payble-article__cover {
+  aspect-ratio: 2 / 1;
+  background: #efefec;
+  border-radius: 12px;
+  margin-top: 48px;
+  overflow: hidden;
+  position: relative;
+}
+
+.payble-article__cover img {
+  object-fit: cover;
+}
+
+.payble-article__body-layout {
+  align-items: start;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: minmax(0, 760px) minmax(220px, 1fr);
+  margin-top: 72px;
+  padding-bottom: 70px;
+}
+
+.payble-article__prose section + section {
+  margin-top: 25px;
+}
+
+.payble-article__prose h3 {
+  font-size: 19px;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+  margin: 0 0 9px;
+}
+
+.payble-article__prose p,
+.payble-article__prose li {
+  color: #636363;
+  font-size: 15px;
+  line-height: 1.62;
+}
+
+.payble-article__prose p {
+  margin: 0;
+}
+
+.payble-article__prose ul {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding-left: 21px;
+}
+
+.payble-article__prose li::marker {
+  color: var(--payble-green);
+}
+
+.payble-article__byline {
+  border-left: 1px solid var(--payble-line);
+  display: grid;
+  gap: 32px;
+  padding-left: 32px;
+}
+
+.payble-article__byline > div {
+  display: grid;
+  gap: 13px;
+}
+
+.payble-article__byline > div > span {
+  color: #8a8a8a;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.payble-article__byline time {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.payble-article__author {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.payble-article__author img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.payble-article__author div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.payble-article__author strong {
+  font-size: 14px;
+}
+
+.payble-article__author small {
+  color: var(--payble-muted);
+  font-size: 11px;
+}
+
+.payble-related {
+  border-bottom: 1px solid var(--payble-line);
+  min-height: 589px;
+  padding: 58px 0 56px;
+}
+
+.payble-related__heading {
+  align-items: end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.payble-related__heading h3 {
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.payble-related__heading h3:first-child {
+  color: var(--payble-muted);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-bottom: 7px;
+}
+
+.payble-journal-grid--related .payble-journal-card__image {
+  aspect-ratio: 1.5;
+}
+
+.payble-journal-grid--related .payble-journal-card h2 {
+  font-size: 18px;
+}
+
+@media (max-width: 810px) {
+  .payble-journal {
+    min-height: auto;
+    padding: 52px 0 72px;
+  }
+
+  .payble-journal-grid {
+    gap: 42px 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .payble-article__header {
+    padding-top: 160px;
+  }
+
+  .payble-article__cover {
+    border-radius: 10px;
+    margin-top: 42px;
+  }
+
+  .payble-article__body-layout {
+    gap: 42px;
+    grid-template-columns: 1fr;
+    margin-top: 56px;
+  }
+
+  .payble-article__byline {
+    border-left: 0;
+    border-top: 1px solid var(--payble-line);
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0 0;
+  }
+
+  .payble-related {
+    padding: 64px 0;
+  }
+
+  .payble-journal-grid--related {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .payble-journal-grid--related .payble-journal-card h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .payble-blog-index.payble-page,
+  .payble-article-page.payble-page {
+    padding-top: 0;
+  }
+
+  .payble-journal {
+    padding: 40px 0 64px;
+  }
+
+  .payble-journal-grid,
+  .payble-journal-grid--related {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-journal-card h2 {
+    font-size: 20px;
+  }
+
+  .payble-article__header {
+    padding-top: 132px;
+  }
+
+  .payble-article__header h1 {
+    font-size: 39px;
+  }
+
+  .payble-article__cover {
+    aspect-ratio: 1.25;
+    margin-top: 36px;
+  }
+
+  .payble-article__body-layout {
+    margin-top: 44px;
+    padding-bottom: 58px;
+  }
+
+  .payble-article__prose section + section {
+    margin-top: 28px;
+  }
+
+  .payble-article__prose p,
+  .payble-article__prose li {
+    font-size: 15px;
+  }
+
+  .payble-article__byline {
+    grid-template-columns: 1fr;
+  }
+
+  .payble-related__heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .payble-journal-card__image img,
+  .payble-journal-card__meta > span {
+    transition: none;
+  }
+}
