@@ -1,6 +1,6 @@
 # Framer templates Turborepo
 
-Nine standalone Next.js template applications and a lightweight showcase live
+Ten standalone Next.js template applications and a lightweight showcase live
 in one npm-workspaces Turborepo. Each template owns its routes, components,
 assets, metadata, validation contract, and deployment boundary.
 
@@ -15,7 +15,7 @@ assets, metadata, validation contract, and deployment boundary.
 
 ## Template showcase
 
-Each screenshot opens the template at its standalone local URL. Expand
+Each preview opens the template at its standalone local URL. Expand
 **Routes** below any design to open every valid page declared in that
 workspace's `template.config.json`.
 
@@ -241,6 +241,31 @@ workspace's `template.config.json`.
 
 </details>
 
+### Pilar
+
+`@framer-templates/pilar` ·
+[http://localhost:3010/](http://localhost:3010/) · port `3010`
+
+[Blue](http://localhost:3010/?theme=blue) ·
+[Brown](http://localhost:3010/?theme=brown) ·
+[Violet](http://localhost:3010/?theme=violet)
+
+<p>
+  <a href="http://localhost:3010/?theme=blue"><img src="apps/pilar/public/pilar/assets/landscape-theme-blue.webp" alt="Pilar blue theme" width="32%"></a>
+  <a href="http://localhost:3010/?theme=brown"><img src="apps/pilar/public/pilar/assets/landscape-theme-brown.webp" alt="Pilar brown theme" width="32%"></a>
+  <a href="http://localhost:3010/?theme=violet"><img src="apps/pilar/public/pilar/assets/landscape-theme-violet.webp" alt="Pilar violet theme" width="32%"></a>
+</p>
+
+<details>
+<summary><strong>Routes (4)</strong></summary>
+
+- [`/`](http://localhost:3010/)
+- [`/contact`](http://localhost:3010/contact)
+- [`/privacy`](http://localhost:3010/privacy)
+- [`/terms`](http://localhost:3010/terms)
+
+</details>
+
 Every template serves from `/` when run independently. Existing
 family-prefixed asset paths remain intact.
 
@@ -341,6 +366,7 @@ apps/
   palmer/
   trillo/
   payble/
+  pilar/
 packages/
   template-validation/
   typescript-config/

@@ -1,0 +1,35 @@
+{
+  "source": "https://pliar.framer.website/",
+  "routes": ["/", "/contact", "/privacy", "/terms", "custom-404"],
+  "assets": {
+    "dashboard": { "local": "pilar/assets/dashboard.avif" },
+    "generatedLandscape": { "local": "pilar/assets/landscape-v3.webp", "origin": "OpenAI image generation" },
+    "generatedLandscapeBlue": { "local": "pilar/assets/landscape-theme-blue.webp", "origin": "OpenAI image generation" },
+    "generatedLandscapeBrown": { "local": "pilar/assets/landscape-theme-brown.webp", "origin": "OpenAI image generation" },
+    "generatedLandscapeViolet": { "local": "pilar/assets/landscape-theme-violet.webp", "origin": "OpenAI image generation" },
+    "brandIcon": { "local": "pilar/assets/brand-icon.avif" },
+    "mailchimp": { "local": "pilar/assets/mailchimp.avif" },
+    "strava": { "local": "pilar/assets/strava.avif" },
+    "googleAnalytics": { "local": "pilar/assets/google-analytics.avif" },
+    "yelp": { "local": "pilar/assets/yelp.avif" },
+    "slack": { "local": "pilar/assets/slack.avif" },
+    "gmail": { "local": "pilar/assets/gmail.avif" },
+    "telegram": { "local": "pilar/assets/telegram.avif" },
+    "medium": { "local": "pilar/assets/medium.avif" },
+    "sarah": { "local": "pilar/assets/sarah.avif" },
+    "james": { "local": "pilar/assets/james.avif" },
+    "priya": { "local": "pilar/assets/priya.avif" },
+    "marcus": { "local": "pilar/assets/marcus.avif" },
+    "elena": { "local": "pilar/assets/elena.avif" },
+    "david": { "local": "pilar/assets/david.avif" },
+    "geist400": { "local": "pilar/assets/geist-400.woff2" },
+    "geist500": { "local": "pilar/assets/geist-500.woff2" },
+    "inter400": { "local": "pilar/assets/inter-400.woff2" },
+    "inter500": { "local": "pilar/assets/inter-500.woff2" }
+  },
+  "backups": {
+    "previousGeneratedLandscape": { "local": "pilar/assets/landscape-v2.webp" },
+    "originalHeroLandscape": { "local": "pilar/assets/hero-landscape.avif" },
+    "originalLandscapeCutout": { "local": "pilar/assets/landscape-cutout.avif" }
+  }
+}
