@@ -15,7 +15,8 @@
         "NEXT_PUBLIC_SAAZAI_URL",
         "NEXT_PUBLIC_PALMER_URL",
         "NEXT_PUBLIC_TRILLO_URL",
-        "NEXT_PUBLIC_PAYBLE_URL"
+        "NEXT_PUBLIC_PAYBLE_URL",
+        "NEXT_PUBLIC_DASHFLUENCE_URL"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",

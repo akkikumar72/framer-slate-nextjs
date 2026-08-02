@@ -82,6 +82,17 @@ const templates = [
     image: "/templates/payble.png",
     url: process.env.NEXT_PUBLIC_PAYBLE_URL ?? "http://localhost:3009",
   },
+  {
+    name: "Dashfluence",
+    slug: "dashfluence",
+    packageName: "@framer-templates/dashfluence",
+    port: 3018,
+    routes: 35,
+    image: "/templates/dashfluence.png",
+    url:
+      process.env.NEXT_PUBLIC_DASHFLUENCE_URL ??
+      "http://localhost:3018/Dashfluence",
+  },
 ] as const;
 
 export default function ShowcasePage() {
@@ -105,7 +116,7 @@ export default function ShowcasePage() {
       <section className="hero" aria-labelledby="page-title">
         <p className="eyebrow">Framer template archive / 2026</p>
         <h1 id="page-title">
-          Nine templates.
+          Ten templates.
           <br />
           One focused workspace.
         </h1>
@@ -125,7 +136,7 @@ export default function ShowcasePage() {
             </div>
             <div>
               <dt>Ports</dt>
-              <dd>3001–09</dd>
+              <dd>3001–09 · 3018</dd>
             </div>
           </dl>
         </div>

@@ -122,7 +122,7 @@ async function auditAssets(template) {
       failures.push(`cross-app source dependency in ${relativeFile}`);
     }
 
-    if (legacyRoutePrefixPattern.test(source)) {
+    if (!template.routePrefix && legacyRoutePrefixPattern.test(source)) {
       failures.push(`legacy route prefix in navigation or metadata: ${relativeFile}`);
     }
   }

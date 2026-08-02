@@ -1,0 +1,862 @@
+.page {
+  background: #fff;
+  color: var(--dash-dark);
+  margin-top: -100px;
+}
+
+.workIndexHero {
+  overflow: hidden;
+  padding: 200px 30px 160px;
+}
+
+.indexContainer,
+.detail,
+.faqContainer,
+.blogContainer {
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+}
+
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.indexIntro {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.indexIntro h1,
+.detailTop h1 {
+  font-size: 78px;
+  letter-spacing: -2px;
+  line-height: 1.15;
+}
+
+.indexIntro h1 {
+  max-width: 353px;
+}
+
+.indexIntro > p {
+  color: rgba(0, 1, 17, .5);
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 404px;
+}
+
+.masonry {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.workRow {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.workCard {
+  color: var(--dash-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.page .workCard[data-dash-reveal],
+.page .blogCard[data-dash-reveal] {
+  transform: scale(.7);
+}
+
+.workCardNarrow {
+  max-width: 467px;
+}
+
+.soloCard {
+  align-self: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.soloCard .workCard {
+  max-width: none;
+  width: 100%;
+}
+
+.workImage {
+  aspect-ratio: 1.55039;
+  background: #f6f6f6;
+  border-radius: 16px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.workImage::after {
+  background: rgba(0, 1, 17, 0);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: background-color 450ms ease;
+}
+
+.workImage img {
+  object-fit: cover;
+  transition: transform 760ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.workCard:hover .workImage img,
+.workCard:focus-visible .workImage img {
+  transform: scale(1.1);
+}
+
+.workCard:hover .workImage::after,
+.workCard:focus-visible .workImage::after {
+  background: rgba(0, 1, 17, .1);
+}
+
+.workCard:active .workImage img {
+  transform: scale(1.025);
+}
+
+.workCard:active .workImage::after {
+  background: rgba(0, 1, 17, .04);
+}
+
+.workCard:focus-visible,
+.blogCard:focus-visible,
+.backLink:focus-visible,
+.faqArrow:focus-visible,
+.faqList summary:focus-visible {
+  outline: 3px solid var(--dash-blue);
+  outline-offset: 4px;
+}
+
+.workCardBody {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.workText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.workTitle {
+  font-family: var(--dash-serif);
+  font-size: 29px;
+  letter-spacing: -1px;
+  line-height: 1.4;
+}
+
+.workDescription {
+  color: rgba(0, 1, 17, .6);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.categoryPill {
+  border: 1px solid rgba(217, 217, 217, .72);
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 7px 14px;
+  text-transform: uppercase;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 200px 30px 100px;
+}
+
+.detailTop {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.detailTop h1 {
+  max-width: 44%;
+  padding-right: 40px;
+}
+
+.metadata {
+  display: grid;
+  flex: 1;
+  gap: 24px;
+  grid-template-columns: 136px 157px 144px minmax(170px, 190px);
+  justify-content: end;
+  margin: 0;
+  max-width: 700px;
+}
+
+.metadata > div {
+  background: #f6f6f6;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 96px;
+  padding: 20px;
+}
+
+.metadata dt {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.metadata dd {
+  color: #54545a;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.detailHeroImage {
+  aspect-ratio: 1.96581;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.page .detailHeroImage[data-dash-reveal] {
+  transform: translateX(min(700px, 55vw));
+}
+
+.detailHeroImage img {
+  object-fit: cover;
+}
+
+.articleBody {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.articleBody section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.articleBody h2 {
+  font-size: 36px;
+  letter-spacing: -1px;
+  line-height: 1.4;
+}
+
+.articleBody p {
+  color: #54545a;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.secondaryImage {
+  aspect-ratio: 1.56695;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.secondaryImage img {
+  object-fit: cover;
+}
+
+.backLink {
+  align-items: center;
+  background: var(--dash-dark);
+  border-radius: 100px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  text-transform: uppercase;
+  transition: transform 200ms ease;
+  width: max-content;
+}
+
+.backLink:hover,
+.backLink:focus-visible {
+  transform: translateY(-2px);
+}
+
+.backLink:active {
+  transform: translateY(1px) scale(.98);
+}
+
+.faqSection,
+.blogSection {
+  overflow: hidden;
+  padding: 0 30px 160px;
+}
+
+.faqContainer {
+  align-items: flex-start;
+  display: flex;
+  gap: 65px;
+}
+
+.faqIntro {
+  display: flex;
+  flex: 0 1 406px;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.faqIntro > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faqIntro h2,
+.blogHeading h2 {
+  font-size: 48px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+}
+
+.faqIntro p {
+  color: rgba(0, 1, 17, .6);
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 321px;
+}
+
+.faqArrow {
+  align-items: center;
+  background: var(--dash-dark);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  justify-content: center;
+  transition: transform 220ms ease;
+  width: 50px;
+}
+
+.faqArrow:hover,
+.faqArrow:focus-visible {
+  transform: rotate(8deg) scale(1.04);
+}
+
+.faqArrow:active {
+  transform: rotate(4deg) scale(.96);
+}
+
+.faqList {
+  flex: 1;
+  max-width: 889px;
+}
+
+.faqList details {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.faqList details:first-child {
+  border-top: 1px solid #d9d9d9;
+}
+
+.faqList summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-family: var(--dash-serif);
+  font-size: 24px;
+  justify-content: space-between;
+  line-height: 1.35;
+  list-style: none;
+  min-height: 92px;
+  padding: 22px 0;
+  transition: color 160ms ease;
+}
+
+.faqList summary:active {
+  color: #246cae;
+}
+
+.faqList summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqList summary > span {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+}
+
+.faqList summary b {
+  color: #8a8a8f;
+  font-family: var(--dash-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  padding-top: 7px;
+}
+
+.faqList summary i {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.faqList summary i::before,
+.faqList summary i::after {
+  background: var(--dash-dark);
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  transition: transform 200ms ease;
+  width: 18px;
+}
+
+.faqList summary i::after {
+  transform: rotate(90deg);
+}
+
+.faqList details[open] summary i::after {
+  transform: rotate(0deg);
+}
+
+.faqList details > p {
+  color: #54545a;
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 720px;
+  padding: 0 42px 28px 60px;
+}
+
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.blogHeading {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogHeading > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+}
+
+.blogHeading > p {
+  color: rgba(0, 1, 17, .5);
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 404px;
+}
+
+.blogGrid {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.blogCardNarrow {
+  max-width: 465px;
+}
+
+.blogImage {
+  aspect-ratio: 1.55039;
+  border-radius: 16px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.blogImage img {
+  object-fit: cover;
+  transition: transform 650ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.blogCard:hover .blogImage img,
+.blogCard:focus-visible .blogImage img {
+  transform: scale(1.1);
+}
+
+.blogCard:active .blogImage img {
+  transform: scale(1.02);
+}
+
+.blogCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blogCopy small {
+  color: #54545a;
+  font-size: 13px;
+}
+
+.blogCopy strong {
+  font-family: var(--dash-serif);
+  font-size: 29px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.35;
+}
+
+.blogCopy > span {
+  color: rgba(0, 1, 17, .6);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.blogCopy b {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.blogCopy b i {
+  font-style: normal;
+  transition: transform 180ms ease;
+}
+
+.blogCard:hover .blogCopy b i,
+.blogCard:focus-visible .blogCopy b i {
+  transform: translate(2px, -2px);
+}
+
+.blogCard:active .blogCopy b i {
+  transform: translate(1px, -1px);
+}
+
+@media (max-width: 1199px) {
+  .page {
+    margin-top: -65px;
+  }
+
+  .workIndexHero {
+    padding: 120px 30px 80px;
+  }
+
+  .indexContainer,
+  .blogContainer {
+    gap: 60px;
+  }
+
+  .indexIntro h1,
+  .detailTop h1 {
+    font-size: 50px;
+    letter-spacing: -1.5px;
+  }
+
+  .indexIntro h1 {
+    max-width: 314px;
+  }
+
+  .masonry {
+    gap: 60px;
+  }
+
+  .workCard,
+  .workCardNarrow,
+  .soloCard {
+    max-width: 47%;
+    width: 47%;
+  }
+
+  .detail {
+    gap: 60px;
+    max-width: none;
+    padding: 120px 30px 80px;
+  }
+
+  .detailTop {
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .detailTop h1 {
+    max-width: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .metadata {
+    flex: none;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 768px;
+    width: 100%;
+  }
+
+  .detailHeroImage {
+    border-radius: 12px;
+  }
+
+  .articleBody {
+    gap: 40px;
+  }
+
+  .faqSection,
+  .blogSection {
+    padding: 0 30px 80px;
+  }
+
+  .faqContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .faqIntro {
+    flex: none;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .faqIntro p {
+    max-width: none;
+  }
+
+  .faqList {
+    max-width: none;
+    width: 100%;
+  }
+
+  .blogHeading > div {
+    max-width: 330px;
+    padding-right: 40px;
+  }
+
+  .blogCard {
+    max-width: 54%;
+    width: 54%;
+  }
+
+  .blogCardNarrow {
+    max-width: 40%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .workIndexHero {
+    padding: 100px 20px 60px;
+  }
+
+  .indexContainer,
+  .blogContainer {
+    gap: 40px;
+  }
+
+  .indexIntro {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .indexIntro h1,
+  .detailTop h1 {
+    font-size: 46px;
+    letter-spacing: -1px;
+  }
+
+  .indexIntro h1 {
+    max-width: none;
+  }
+
+  .indexIntro > p {
+    max-width: none;
+  }
+
+  .masonry {
+    gap: 40px;
+  }
+
+  .workRow {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .workCard,
+  .workCardNarrow,
+  .soloCard {
+    max-width: none;
+    width: 100%;
+  }
+
+  .workCard {
+    gap: 20px;
+  }
+
+  .workCardBody {
+    gap: 20px;
+  }
+
+  .workTitle {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  .detail {
+    gap: 50px;
+    padding: 100px 20px 60px;
+  }
+
+  .detailTop {
+    gap: 24px;
+  }
+
+  .metadata {
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    max-width: none;
+  }
+
+  .metadata > div {
+    min-height: 94px;
+  }
+
+  .detailHeroImage {
+    aspect-ratio: 1.96581;
+    border-radius: 8px;
+  }
+
+  .articleBody {
+    gap: 30px;
+  }
+
+  .articleBody section {
+    gap: 14px;
+  }
+
+  .articleBody h2 {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  .secondaryImage {
+    border-radius: 8px;
+  }
+
+  .faqSection,
+  .blogSection {
+    padding: 0 20px 60px;
+  }
+
+  .faqContainer {
+    align-items: center;
+    gap: 16px;
+  }
+
+  .faqIntro {
+    gap: 20px;
+  }
+
+  .faqIntro h2,
+  .blogHeading h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+
+  .faqArrow {
+    height: 44px;
+    width: 44px;
+  }
+
+  .faqList summary {
+    font-size: 19px;
+    min-height: 78px;
+    padding: 18px 0;
+  }
+
+  .faqList summary > span {
+    gap: 12px;
+    padding-right: 12px;
+  }
+
+  .faqList summary b {
+    padding-top: 4px;
+  }
+
+  .faqList details > p {
+    padding: 0 8px 24px 36px;
+  }
+
+  .blogHeading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .blogHeading > div {
+    max-width: none;
+    padding: 0;
+  }
+
+  .blogHeading > p {
+    max-width: none;
+  }
+
+  .blogGrid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .blogCard,
+  .blogCardNarrow {
+    max-width: none;
+    width: 100%;
+  }
+
+  .blogCopy strong {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workImage img,
+  .blogImage img,
+  .backLink,
+  .faqArrow {
+    transition: none;
+  }
+}

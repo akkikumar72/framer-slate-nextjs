@@ -1,0 +1,328 @@
+.page {
+  background: #fff;
+  color: var(--dash-dark);
+}
+
+.legalHero,
+.faqSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
+.legalHero {
+  align-items: center;
+  display: grid;
+  grid-template-columns: minmax(0, 816px) minmax(320px, 404px);
+  justify-content: space-between;
+  padding: 100px 30px 0;
+}
+
+.legalHero h1 {
+  font-family: var(--dash-serif);
+  font-size: 78px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.legalHero > p {
+  color: #898989;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 404px;
+}
+
+.legalArticle {
+  margin: 195px auto 0;
+  max-width: 768px;
+}
+
+.legalBlock + .legalBlock {
+  margin-top: 48px;
+}
+
+.legalBlock h2,
+.legalBlock h3 {
+  font-family: var(--dash-serif);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+.legalBlock h2 {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.legalBlock h3 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.legalBlock p,
+.legalBlock li {
+  color: #66676e;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.legalBlock h2 + p,
+.legalBlock h3 + p,
+.legalBlock p + p,
+.legalBlock p + ul {
+  margin-top: 23px;
+}
+
+.legalBlock ul {
+  margin: 20px 0 0;
+  padding-left: 24px;
+}
+
+.legalBlock li {
+  padding-left: 2px;
+}
+
+.legalBlock li + li {
+  margin-top: 3px;
+}
+
+.faqSection {
+  display: grid;
+  grid-template-columns: 406px 749px;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding: 0 30px 160px;
+}
+
+.eyebrow {
+  align-items: center;
+  color: #31313a;
+  display: flex;
+  font-size: 14px;
+  gap: 7px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.eyebrow span {
+  color: var(--dash-blue);
+  font-size: 20px;
+  line-height: 1;
+}
+
+.faqIntro h2 {
+  font-family: var(--dash-serif);
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.faqIntro > p:not(.eyebrow) {
+  color: #898989;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 38px;
+  max-width: 321px;
+}
+
+.faqIntro > a {
+  align-items: center;
+  background: var(--dash-dark);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 38px;
+  min-height: 44px;
+  padding: 16px 21px;
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faqIntro > a:hover,
+.faqIntro > a:focus-visible {
+  transform: translateY(-2px);
+}
+
+.faqIntro > a:focus-visible,
+.accordion summary:focus-visible {
+  outline: 3px solid var(--dash-blue);
+  outline-offset: 4px;
+}
+
+.faqIntro > a:active {
+  transform: translateY(1px) scale(.98);
+}
+
+.accordion details {
+  border-bottom: 1px solid #d3d4d7;
+}
+
+.accordion summary {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 30px;
+  justify-content: space-between;
+  line-height: 1.7;
+  list-style: none;
+  padding: 0 0 18px;
+  transition: color 160ms ease;
+}
+
+.accordion summary:active {
+  color: #246cae;
+}
+
+.accordion details + details summary {
+  padding-top: 14px;
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.disclosureIcon {
+  flex: 0 0 16px;
+  height: 16px;
+  margin-top: 8px;
+  position: relative;
+  width: 16px;
+}
+
+.disclosureIcon::before,
+.disclosureIcon::after {
+  background: var(--dash-dark);
+  content: "";
+  height: 1.5px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  transition: transform 220ms ease;
+  width: 16px;
+}
+
+.disclosureIcon::after {
+  transform: rotate(90deg);
+}
+
+.accordion details[open] .disclosureIcon::after {
+  transform: rotate(0);
+}
+
+.accordion details > p {
+  color: #898989;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 682px;
+  padding: 2px 36px 28px 0;
+}
+
+@media (max-width: 1199px) {
+  .legalHero {
+    column-gap: 48px;
+    grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.7fr);
+  }
+
+  .legalArticle {
+    max-width: calc(100% - 240px);
+  }
+
+  .faqSection {
+    gap: 8vw;
+    grid-template-columns: minmax(320px, 0.8fr) minmax(0, 1.35fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .legalHero {
+    display: block;
+    padding: 35px 20px 0;
+  }
+
+  .legalHero h1 {
+    font-size: 46px;
+    line-height: 1.15;
+  }
+
+  .legalHero > p {
+    margin-top: 27px;
+    max-width: 350px;
+  }
+
+  .legalArticle {
+    margin-top: 48px;
+    max-width: none;
+    padding: 0 20px;
+  }
+
+  .legalBlock + .legalBlock {
+    margin-top: 40px;
+  }
+
+  .legalBlock h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .legalBlock h3 {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+
+  .legalBlock p,
+  .legalBlock li {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .legalBlock h2 + p,
+  .legalBlock h3 + p,
+  .legalBlock p + p,
+  .legalBlock p + ul {
+    margin-top: 27px;
+  }
+
+  .faqSection {
+    display: block;
+    margin-top: 150px;
+    padding: 0 20px 120px;
+  }
+
+  .faqIntro h2 {
+    font-size: 46px;
+    line-height: 1.15;
+  }
+
+  .faqIntro > p:not(.eyebrow) {
+    margin-top: 28px;
+  }
+
+  .faqIntro > a {
+    margin-top: 30px;
+  }
+
+  .accordion {
+    margin-top: 70px;
+  }
+
+  .accordion summary {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 19px;
+  }
+
+  .accordion details + details summary {
+    padding-top: 18px;
+  }
+
+  .accordion details > p {
+    font-size: 14px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+  }
+}
