@@ -1,0 +1,445 @@
+.page {
+  min-width: 0;
+  overflow: clip;
+  background: var(--pliar-paper);
+  color: var(--pliar-ink);
+}
+
+.contactMain,
+.notFoundMain {
+  box-sizing: border-box;
+  background: var(--pliar-paper);
+}
+
+.contactMain {
+  display: flex;
+  min-height: 1239px;
+  align-items: center;
+  padding: 150px 32px 100px;
+}
+
+.contactGrid {
+  display: grid;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: minmax(0, 410px) minmax(0, 430px);
+  align-items: center;
+  justify-content: space-between;
+  gap: 96px;
+  animation: secondaryEnter 560ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.contactIntro {
+  padding-left: 18px;
+  transform: translateY(14px);
+}
+
+.contactIntro h1 {
+  max-width: 390px;
+  margin: 0;
+  color: var(--pliar-ink);
+  font-family: var(--pliar-heading-font, "Pliar Geist", sans-serif);
+  font-size: 44.8px;
+  font-weight: 500;
+  letter-spacing: -1.792px;
+  line-height: 53.76px;
+}
+
+.contactIntro .contactLead {
+  max-width: 300px;
+  margin: 20px 0 35px;
+  color: var(--pliar-muted);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: 22.4px;
+}
+
+.contactDetails {
+  max-width: 410px;
+  margin: 0;
+  font-style: normal;
+}
+
+.contactDetails a,
+.contactDetails p {
+  display: flex;
+  min-height: 64px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  border-bottom: 1px solid var(--pliar-line);
+  color: var(--pliar-muted);
+  font-size: 15px;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.contactDetails a:hover {
+  color: var(--pliar-ink);
+}
+
+.contactDetails a:focus-visible {
+  border-radius: 4px;
+  outline: 2px solid var(--pliar-accent);
+  outline-offset: 3px;
+}
+
+.contactDetails svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  fill: none;
+  stroke: var(--pliar-accent);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.contactForm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 18px;
+  transform: translateY(-18px);
+}
+
+.formField {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--pliar-muted);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.formField input,
+.formField select,
+.formField textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background: var(--pliar-soft);
+  color: var(--pliar-ink);
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.35;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.formField input,
+.formField select {
+  height: 48px;
+  padding: 0 14px;
+}
+
+.formField textarea {
+  min-height: 138px;
+  resize: vertical;
+  padding: 15px 14px;
+}
+
+.formField input::placeholder,
+.formField textarea::placeholder,
+.formField select:invalid {
+  color: color-mix(in srgb, var(--pliar-muted) 78%, var(--pliar-paper));
+  opacity: 1;
+}
+
+.formField input:hover,
+.formField select:hover,
+.formField textarea:hover {
+  background: var(--pliar-soft-strong);
+}
+
+.formField input:focus-visible,
+.formField select:focus-visible,
+.formField textarea:focus-visible {
+  border-color: color-mix(in srgb, var(--pliar-accent) 56%, var(--pliar-paper));
+  background: var(--pliar-paper);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--pliar-accent) 12%, transparent);
+}
+
+.formField input[aria-invalid="true"],
+.formField select[aria-invalid="true"],
+.formField textarea[aria-invalid="true"] {
+  border-color: #d93d10;
+}
+
+.selectWrap {
+  position: relative;
+  display: block;
+}
+
+.selectWrap select {
+  appearance: none;
+  padding-right: 42px;
+}
+
+.selectWrap > svg {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.selectWrap > svg path {
+  fill: none;
+  stroke: var(--pliar-muted);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.25;
+}
+
+.fieldError {
+  margin-top: -2px;
+  color: #b3300d;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.submitArea {
+  position: relative;
+}
+
+.submitArea button {
+  width: 100%;
+  min-height: 42px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--pliar-accent);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.submitArea button:hover {
+  background: var(--pliar-accent-strong);
+  box-shadow: 0 8px 24px var(--pliar-theme-shadow);
+  transform: translateY(-1px);
+}
+
+.submitArea button:active {
+  transform: translateY(0);
+}
+
+.submitArea button:focus-visible,
+.backLink:focus-visible {
+  outline: 2px solid var(--pliar-accent);
+  outline-offset: 3px;
+}
+
+.formStatus {
+  position: absolute;
+  top: calc(100% + 9px);
+  left: 0;
+  width: 100%;
+  margin: 0;
+  color: var(--pliar-muted);
+  font-size: 12px;
+  text-align: center;
+}
+
+.notFoundMain {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.notFoundContent {
+  display: flex;
+  width: min(100%, 520px);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: secondaryEnter 560ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.notFoundLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  color: var(--pliar-muted);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.lightningMark {
+  display: grid;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: var(--pliar-accent);
+  place-items: center;
+}
+
+.lightningMark svg {
+  width: 10px;
+  height: 10px;
+  fill: #fff;
+}
+
+.notFoundContent h1 {
+  max-width: 450px;
+  margin: 29px 0 30px;
+  color: var(--pliar-ink);
+  font-family: var(--pliar-heading-font, "Pliar Geist", sans-serif);
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -1.12px;
+  line-height: 33.6px;
+}
+
+.backLink {
+  display: inline-flex;
+  min-height: 38px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--pliar-secondary-button);
+  color: var(--pliar-ink);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition:
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.backLink:hover {
+  background: var(--pliar-soft-strong);
+  transform: translateY(-1px);
+}
+
+@keyframes secondaryEnter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .contactMain {
+    min-height: auto;
+    padding: 170px 28px 120px;
+  }
+
+  .contactGrid {
+    max-width: 580px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 70px;
+  }
+
+  .contactIntro {
+    padding-left: 0;
+    transform: none;
+  }
+
+  .contactForm {
+    transform: none;
+  }
+
+  .contactIntro h1,
+  .contactLead,
+  .contactDetails {
+    max-width: none;
+  }
+
+  .notFoundMain { min-height: 100vh; }
+}
+
+@media (max-width: 540px) {
+  .contactMain {
+    padding: 114px 20px 96px;
+  }
+
+  .contactGrid {
+    gap: 52px;
+  }
+
+  .contactIntro h1 {
+    font-size: 44.8px;
+    letter-spacing: -1.792px;
+    line-height: 53.76px;
+  }
+
+  .contactIntro .contactLead {
+    margin: 26px 0 28px;
+  }
+
+  .contactDetails a,
+  .contactDetails p {
+    min-height: 61px;
+    font-size: 14px;
+  }
+
+  .contactForm {
+    gap: 17px;
+  }
+
+  .formField input,
+  .formField select {
+    height: 50px;
+  }
+
+  .formField textarea {
+    min-height: 132px;
+  }
+
+  .submitArea button {
+    min-height: 46px;
+  }
+
+  .notFoundMain { min-height: 100vh; padding: 0 20px; }
+
+  .notFoundContent h1 {
+    max-width: 350px;
+    margin: 24px 0 27px;
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contactGrid,
+  .notFoundContent {
+    animation: none;
+  }
+
+  .contactDetails a,
+  .formField input,
+  .formField select,
+  .formField textarea,
+  .submitArea button,
+  .backLink {
+    scroll-behavior: auto;
+    transition: none;
+  }
+}

@@ -83,6 +83,15 @@ const templates = [
     url: process.env.NEXT_PUBLIC_PAYBLE_URL ?? "http://localhost:3009",
   },
   {
+    name: "Pilar",
+    slug: "pilar",
+    packageName: "@framer-templates/pilar",
+    port: 3010,
+    routes: 4,
+    image: "/templates/pilar.webp",
+    url: process.env.NEXT_PUBLIC_PILAR_URL ?? "http://localhost:3010",
+  },
+  {
     name: "Dashfluence",
     slug: "dashfluence",
     packageName: "@framer-templates/dashfluence",
@@ -136,7 +145,7 @@ export default function ShowcasePage() {
             </div>
             <div>
               <dt>Ports</dt>
-              <dd>3001–09 · 3018</dd>
+              <dd>3001–10 · 3018</dd>
             </div>
           </dl>
         </div>
