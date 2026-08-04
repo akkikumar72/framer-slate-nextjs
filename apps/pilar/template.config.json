@@ -1,0 +1,51 @@
+{
+  "name": "Pilar",
+  "slug": "pilar",
+  "port": 3010,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/pilar/assets"],
+  "assetPrefixes": ["/pilar/assets/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Modern AI SaaS Website Template",
+      "canonical": "/",
+      "marker": "AI agents that handle emails, meetings, research, and reporting."
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "titleIncludes": "Contact",
+      "canonical": "/contact",
+      "marker": "Get in Touch"
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "titleIncludes": "Privacy Policy",
+      "canonical": "/privacy",
+      "marker": "Privacy Policy"
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "titleIncludes": "Terms of Service",
+      "canonical": "/terms",
+      "marker": "Terms of Service"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "The page you are looking for is not available."
+    },
+    {
+      "path": "/__missing__",
+      "status": 404,
+      "marker": "The page you are looking for is not available."
+    }
+  ]
+}
