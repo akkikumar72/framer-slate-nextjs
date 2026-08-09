@@ -2900,3 +2900,245 @@
     animation: none;
   }
 }
+
+/* Keep the reconstructed fixed-size artwork contained at every breakpoint. */
+@media (min-width: 1200px) {
+  .hero {
+    height: 1280px;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(68px, 6.25vw, 80px);
+    max-width: 760px;
+  }
+
+  .heroStage {
+    top: 430px;
+  }
+
+  .benefitsSection {
+    height: 816px;
+  }
+
+  .featureSection {
+    height: 1750px;
+  }
+
+  .platformSection {
+    height: 1064px;
+  }
+
+  .statsSection {
+    height: 460px;
+  }
+
+  .workflowSection {
+    height: 720px;
+  }
+
+  .pricingSection,
+  .pricingContainer {
+    height: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    height: 1120px;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(56px, 8.2vw, 68px);
+  }
+
+  .heroStage {
+    max-width: 960px;
+    top: 410px;
+  }
+
+  .heroBadges {
+    flex-wrap: nowrap;
+    height: 56px;
+    left: 6%;
+    padding: 6px 14px;
+    width: 88%;
+  }
+
+  .heroBadges button {
+    flex: 0 1 auto;
+    font-size: clamp(13px, 1.4vw, 16px);
+    min-width: 0;
+    padding-inline: 8px;
+    white-space: nowrap;
+  }
+
+  .heroBadges button:nth-child(3) {
+    flex-basis: auto;
+  }
+
+  .benefitsSection {
+    height: 1470px;
+  }
+
+  .featureSection {
+    height: 1300px;
+  }
+
+  .platformSection {
+    height: 940px;
+  }
+
+  .statsSection {
+    height: 560px;
+  }
+
+  .workflowSection {
+    height: 540px;
+  }
+
+  .insightsSection {
+    height: 1280px;
+  }
+
+  .reviewSection {
+    height: 1340px;
+  }
+
+  .pricingSection,
+  .pricingContainer {
+    height: 940px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: clamp(930px, 268vw, 1054px);
+  }
+
+  .heroStage {
+    height: min(419px, calc((100vw - 32px) * 1.197));
+    top: clamp(500px, 143vw, 573px);
+    width: min(350px, calc(100vw - 32px));
+  }
+
+  .heroGlow {
+    height: 69.5%;
+    width: 100%;
+  }
+
+  .heroBadges {
+    height: 28.2%;
+    left: 5%;
+    right: auto;
+    top: 7.4%;
+    width: 90%;
+  }
+
+  .dashboardFrame {
+    height: 56.6%;
+    left: 5%;
+    top: 40.8%;
+    width: 90%;
+  }
+
+  .dashboardImage {
+    height: 95%;
+    left: 2%;
+    top: 2.5%;
+    width: 96%;
+  }
+
+  .benefitsSection,
+  .featureSection,
+  .platformSection,
+  .statsSection,
+  .workflowSection,
+  .insightsSection,
+  .reviewSection,
+  .pricingSection,
+  .faqSection {
+    height: auto;
+    min-height: 0;
+  }
+
+  .benefitsSection .sectionContainer,
+  .featureSection > .sectionContainer,
+  .platformSection .sectionContainer,
+  .statsSection .sectionContainer,
+  .workflowSection .sectionContainer,
+  .insightsSection .sectionContainer,
+  .reviewSection .sectionContainer {
+    height: auto;
+    padding-bottom: 72px;
+  }
+
+  .featureStory,
+  .featureStory:first-child,
+  .featureStory:last-child,
+  .featureStoryReverse {
+    min-height: 0;
+  }
+
+  .featureVisual,
+  .featureStoryReverse .featureVisual {
+    height: clamp(300px, 92vw, 360px);
+  }
+
+  .platformVisual {
+    aspect-ratio: 860 / 607;
+    height: auto;
+    width: min(350px, 100%);
+  }
+
+  .platformCard {
+    height: 61.54%;
+    left: 5.714%;
+    top: 19.43%;
+    width: 88.572%;
+  }
+
+  .reviewGrid {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    padding-bottom: 16px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .reviewCard,
+  .reviewCard:nth-child(n + 3),
+  .reviewCard:nth-child(n + 4) {
+    flex: 0 0 min(310px, calc(100vw - 72px));
+    height: 280px;
+    min-height: 280px;
+    scroll-snap-align: start;
+  }
+
+  .pricingContainer,
+  .faqContainer {
+    height: auto;
+    overflow: visible;
+  }
+
+  .pricingContainer {
+    padding-bottom: 52px;
+  }
+
+  .pricingCard,
+  .pricingCardPopular {
+    height: auto;
+    min-height: 490px;
+  }
+
+  .faqSection {
+    padding-bottom: 40px;
+  }
+
+  .benefitsSection,
+  .platformSection,
+  .workflowSection,
+  .reviewSection,
+  .pricingSection {
+    padding-bottom: 24px;
+  }
+}

@@ -150,6 +150,7 @@ dd {
 
 .template-card {
   border-top: 1px solid var(--line);
+  container-type: inline-size;
   min-width: 0;
   padding: 16px 0 80px;
 }
@@ -214,8 +215,14 @@ dd {
   align-items: start;
   display: grid;
   gap: 24px;
-  grid-template-columns: 1fr 1.35fr;
+  grid-template-columns: 1fr;
   padding-top: 18px;
+}
+
+@container (min-width: 560px) {
+  .card-copy {
+    grid-template-columns: 1fr 1.35fr;
+  }
 }
 
 .index {

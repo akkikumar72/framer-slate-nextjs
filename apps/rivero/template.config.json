@@ -1,0 +1,79 @@
+{
+  "name": "Rivero",
+  "slug": "rivero",
+  "port": 3011,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/rivero/assets"],
+  "assetPrefixes": ["/rivero/assets/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Rivero",
+      "canonical": "/",
+      "marker": "Get Actionable Insights"
+    },
+    { "path": "/about", "status": 200 },
+    { "path": "/pricing-v1", "status": 200 },
+    { "path": "/pricing-v2", "status": 200 },
+    { "path": "/feature", "status": 200 },
+    { "path": "/reviews", "status": 200 },
+    { "path": "/blog", "status": 200 },
+    { "path": "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated", "status": 200 },
+    { "path": "/blog/discover-the-latest-trends-tips-strategies-in-hr-payroll-management-stay-informed", "status": 200 },
+    { "path": "/blog/introduce-the-blog-and-encourage-users-to-explore-valuable-hr-insights", "status": 200 },
+    { "path": "/blog/how-hr-analytics-can-boost-team-performance", "status": 200 },
+    { "path": "/blog/5-effective-ways-to-simplify-payroll-with-automation", "status": 200 },
+    { "path": "/blog/top-employee-engagement-strategies-for-2025", "status": 200 },
+    { "path": "/blog/why-employee-engagement-is-the-key-to-retention", "status": 200 },
+    { "path": "/blog/how-to-build-a-strong-company-culture-from-day-one", "status": 200 },
+    { "path": "/blog/streamline-your-hiring-process-with-ai-powered-tools", "status": 200 },
+    { "path": "/blog/why-employee-engagement-drives-employee-retention", "status": 200 },
+    { "path": "/blog/how-to-create-a-strong-company-culture-from-the-start", "status": 200 },
+    { "path": "/blog/optimize-your-hiring-process-with-ai-driven-tools", "status": 200 },
+    { "path": "/case-study", "status": 200 },
+    { "path": "/case-study/how-improved-hr-efficiency-by-60", "status": 200 },
+    { "path": "/case-study/optimizing-hr-systems-for-growth", "status": 200 },
+    { "path": "/case-study/hr-analytics-driving-strategic-decisions", "status": 200 },
+    { "path": "/case-study/improving-compliance-across-hr-departments", "status": 200 },
+    { "path": "/case-study/reducing-errors-in-hr-operations", "status": 200 },
+    { "path": "/case-study/digital-transformation-in-hr-operations", "status": 200 },
+    { "path": "/case-study/what-specific-hr-or-payroll-issues", "status": 200 },
+    { "path": "/integrations", "status": 200 },
+    { "path": "/integrations/fusematrix", "status": 200 },
+    { "path": "/integrations/paylink", "status": 200 },
+    { "path": "/integrations/teamconnect", "status": 200 },
+    { "path": "/integrations/cloudhub", "status": 200 },
+    { "path": "/integrations/shiftmaster", "status": 200 },
+    { "path": "/integrations/talentflow", "status": 200 },
+    { "path": "/integrations/slackmate", "status": 200 },
+    { "path": "/integrations/taskboard", "status": 200 },
+    { "path": "/integrations/hrbridge", "status": 200 },
+    { "path": "/contact-us", "status": 200 },
+    { "path": "/appointment", "status": 200 },
+    { "path": "/legal/privacy-policy", "status": 200 },
+    { "path": "/legal/terms-conditions", "status": 200 },
+    { "path": "/changelog/ai-powered-lead-scoring-(3.2.0)-h", "status": 200 },
+    { "path": "/changelog/enhanced-analytics-dashboard-(3.1.0)b", "status": 200 },
+    { "path": "/changelog/enhanced-analytics-dashboard-(3.0.0)n", "status": 200 },
+    { "path": "/changelog/enhanced-analytics-dashboard-(2.5.0)j", "status": 200 }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Page you’er Looking For Is Not Found!"
+    },
+    {
+      "path": "/definitely-not-rivero",
+      "status": 404,
+      "marker": "Page you’er Looking For Is Not Found!"
+    },
+    {
+      "path": "/blog/not-a-real-post",
+      "status": 404,
+      "marker": "Page you’er Looking For Is Not Found!"
+    }
+  ]
+}

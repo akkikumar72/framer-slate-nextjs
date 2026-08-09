@@ -1,6 +1,6 @@
 # Framer templates Turborepo
 
-Ten standalone Next.js template applications and a lightweight showcase live
+Eleven standalone Next.js template applications and a lightweight showcase live
 in one npm-workspaces Turborepo. Each template owns its routes, components,
 assets, metadata, validation contract, and deployment boundary.
 
@@ -266,6 +266,65 @@ workspace's `template.config.json`.
 
 </details>
 
+### Rivero
+
+`@framer-templates/rivero` ·
+[http://localhost:3011/](http://localhost:3011/) · port `3011`
+
+<a href="http://localhost:3011/">
+  <img src="apps/showcase/public/templates/rivero.jpg" alt="Rivero landing page at http://localhost:3011/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (45)</strong></summary>
+
+- [`/`](http://localhost:3011/)
+- [`/about`](http://localhost:3011/about)
+- [`/pricing-v1`](http://localhost:3011/pricing-v1)
+- [`/pricing-v2`](http://localhost:3011/pricing-v2)
+- [`/feature`](http://localhost:3011/feature)
+- [`/reviews`](http://localhost:3011/reviews)
+- [`/blog`](http://localhost:3011/blog)
+- [`/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated`](http://localhost:3011/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated)
+- [`/blog/discover-the-latest-trends-tips-strategies-in-hr-payroll-management-stay-informed`](http://localhost:3011/blog/discover-the-latest-trends-tips-strategies-in-hr-payroll-management-stay-informed)
+- [`/blog/introduce-the-blog-and-encourage-users-to-explore-valuable-hr-insights`](http://localhost:3011/blog/introduce-the-blog-and-encourage-users-to-explore-valuable-hr-insights)
+- [`/blog/how-hr-analytics-can-boost-team-performance`](http://localhost:3011/blog/how-hr-analytics-can-boost-team-performance)
+- [`/blog/5-effective-ways-to-simplify-payroll-with-automation`](http://localhost:3011/blog/5-effective-ways-to-simplify-payroll-with-automation)
+- [`/blog/top-employee-engagement-strategies-for-2025`](http://localhost:3011/blog/top-employee-engagement-strategies-for-2025)
+- [`/blog/why-employee-engagement-is-the-key-to-retention`](http://localhost:3011/blog/why-employee-engagement-is-the-key-to-retention)
+- [`/blog/how-to-build-a-strong-company-culture-from-day-one`](http://localhost:3011/blog/how-to-build-a-strong-company-culture-from-day-one)
+- [`/blog/streamline-your-hiring-process-with-ai-powered-tools`](http://localhost:3011/blog/streamline-your-hiring-process-with-ai-powered-tools)
+- [`/blog/why-employee-engagement-drives-employee-retention`](http://localhost:3011/blog/why-employee-engagement-drives-employee-retention)
+- [`/blog/how-to-create-a-strong-company-culture-from-the-start`](http://localhost:3011/blog/how-to-create-a-strong-company-culture-from-the-start)
+- [`/blog/optimize-your-hiring-process-with-ai-driven-tools`](http://localhost:3011/blog/optimize-your-hiring-process-with-ai-driven-tools)
+- [`/case-study`](http://localhost:3011/case-study)
+- [`/case-study/how-improved-hr-efficiency-by-60`](http://localhost:3011/case-study/how-improved-hr-efficiency-by-60)
+- [`/case-study/optimizing-hr-systems-for-growth`](http://localhost:3011/case-study/optimizing-hr-systems-for-growth)
+- [`/case-study/hr-analytics-driving-strategic-decisions`](http://localhost:3011/case-study/hr-analytics-driving-strategic-decisions)
+- [`/case-study/improving-compliance-across-hr-departments`](http://localhost:3011/case-study/improving-compliance-across-hr-departments)
+- [`/case-study/reducing-errors-in-hr-operations`](http://localhost:3011/case-study/reducing-errors-in-hr-operations)
+- [`/case-study/digital-transformation-in-hr-operations`](http://localhost:3011/case-study/digital-transformation-in-hr-operations)
+- [`/case-study/what-specific-hr-or-payroll-issues`](http://localhost:3011/case-study/what-specific-hr-or-payroll-issues)
+- [`/integrations`](http://localhost:3011/integrations)
+- [`/integrations/fusematrix`](http://localhost:3011/integrations/fusematrix)
+- [`/integrations/paylink`](http://localhost:3011/integrations/paylink)
+- [`/integrations/teamconnect`](http://localhost:3011/integrations/teamconnect)
+- [`/integrations/cloudhub`](http://localhost:3011/integrations/cloudhub)
+- [`/integrations/shiftmaster`](http://localhost:3011/integrations/shiftmaster)
+- [`/integrations/talentflow`](http://localhost:3011/integrations/talentflow)
+- [`/integrations/slackmate`](http://localhost:3011/integrations/slackmate)
+- [`/integrations/taskboard`](http://localhost:3011/integrations/taskboard)
+- [`/integrations/hrbridge`](http://localhost:3011/integrations/hrbridge)
+- [`/contact-us`](http://localhost:3011/contact-us)
+- [`/appointment`](http://localhost:3011/appointment)
+- [`/legal/privacy-policy`](http://localhost:3011/legal/privacy-policy)
+- [`/legal/terms-conditions`](http://localhost:3011/legal/terms-conditions)
+- [`/changelog/ai-powered-lead-scoring-(3.2.0)-h`](http://localhost:3011/changelog/ai-powered-lead-scoring-(3.2.0)-h)
+- [`/changelog/enhanced-analytics-dashboard-(3.1.0)b`](http://localhost:3011/changelog/enhanced-analytics-dashboard-(3.1.0)b)
+- [`/changelog/enhanced-analytics-dashboard-(3.0.0)n`](http://localhost:3011/changelog/enhanced-analytics-dashboard-(3.0.0)n)
+- [`/changelog/enhanced-analytics-dashboard-(2.5.0)j`](http://localhost:3011/changelog/enhanced-analytics-dashboard-(2.5.0)j)
+</details>
+
 Every template serves from `/` when run independently. Existing
 family-prefixed asset paths remain intact.
 
@@ -367,6 +426,7 @@ apps/
   trillo/
   payble/
   pilar/
+  rivero/
 packages/
   template-validation/
   typescript-config/
