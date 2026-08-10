@@ -349,8 +349,58 @@ workspace's `template.config.json`.
 
 </details>
 
-Every template serves from `/` when run independently. Existing
-family-prefixed asset paths remain intact.
+### Dashfluence
+
+`@framer-templates/dashfluence` ·
+[http://localhost:3018/Dashfluence](http://localhost:3018/Dashfluence) · port `3018`
+
+| Desktop | Mobile |
+| --- | --- |
+| <a href="http://localhost:3018/Dashfluence"><img src="apps/showcase/public/templates/dashfluence.png" alt="Dashfluence digital marketing landing page desktop hero at /Dashfluence" width="960"></a> | <a href="http://localhost:3018/Dashfluence"><img src="apps/showcase/public/templates/dashfluence-mobile.png" alt="Dashfluence digital marketing landing page mobile hero at /Dashfluence" width="390"></a> |
+
+<details>
+<summary><strong>Routes (35)</strong></summary>
+
+- [`/Dashfluence`](http://localhost:3018/Dashfluence)
+- [`/Dashfluence/about`](http://localhost:3018/Dashfluence/about)
+- [`/Dashfluence/services`](http://localhost:3018/Dashfluence/services)
+- [`/Dashfluence/services/digital-strategy-funnel-mapping`](http://localhost:3018/Dashfluence/services/digital-strategy-funnel-mapping)
+- [`/Dashfluence/services/strategy-content-production`](http://localhost:3018/Dashfluence/services/strategy-content-production)
+- [`/Dashfluence/services/seo-organic-growth`](http://localhost:3018/Dashfluence/services/seo-organic-growth)
+- [`/Dashfluence/services/paid-media-management`](http://localhost:3018/Dashfluence/services/paid-media-management)
+- [`/Dashfluence/services/cro-analytics-optimization`](http://localhost:3018/Dashfluence/services/cro-analytics-optimization)
+- [`/Dashfluence/work`](http://localhost:3018/Dashfluence/work)
+- [`/Dashfluence/work/radiant-skincare-branding`](http://localhost:3018/Dashfluence/work/radiant-skincare-branding)
+- [`/Dashfluence/work/illuminate-your-natural-beauty`](http://localhost:3018/Dashfluence/work/illuminate-your-natural-beauty)
+- [`/Dashfluence/work/where-radiance-meets-ritual`](http://localhost:3018/Dashfluence/work/where-radiance-meets-ritual)
+- [`/Dashfluence/work/brighter-skin-bolder-you`](http://localhost:3018/Dashfluence/work/brighter-skin-bolder-you)
+- [`/Dashfluence/work/let-your-skin-light-the-way`](http://localhost:3018/Dashfluence/work/let-your-skin-light-the-way)
+- [`/Dashfluence/work/clean-ingredients-visible-glow`](http://localhost:3018/Dashfluence/work/clean-ingredients-visible-glow)
+- [`/Dashfluence/work/formulated-for-radiance-backed-by-science`](http://localhost:3018/Dashfluence/work/formulated-for-radiance-backed-by-science)
+- [`/Dashfluence/work/start-your-glow-up-from-the-skin-out`](http://localhost:3018/Dashfluence/work/start-your-glow-up-from-the-skin-out)
+- [`/Dashfluence/blog`](http://localhost:3018/Dashfluence/blog)
+- [`/Dashfluence/blog/seo-in-2025-what-still-works`](http://localhost:3018/Dashfluence/blog/seo-in-2025-what-still-works)
+- [`/Dashfluence/blog/how-to-create-scroll-stopping-ads`](http://localhost:3018/Dashfluence/blog/how-to-create-scroll-stopping-ads)
+- [`/Dashfluence/blog/mastering-social-media-growth`](http://localhost:3018/Dashfluence/blog/mastering-social-media-growth)
+- [`/Dashfluence/blog/the-power-of-data-driven-marketing`](http://localhost:3018/Dashfluence/blog/the-power-of-data-driven-marketing)
+- [`/Dashfluence/blog/boosting-brand-awareness-fast`](http://localhost:3018/Dashfluence/blog/boosting-brand-awareness-fast)
+- [`/Dashfluence/blog/secrets-to-high-roi-campaigns`](http://localhost:3018/Dashfluence/blog/secrets-to-high-roi-campaigns)
+- [`/Dashfluence/blog/growing-with-influencer-marketing`](http://localhost:3018/Dashfluence/blog/growing-with-influencer-marketing)
+- [`/Dashfluence/blog/social-media-mistakes-to-avoid`](http://localhost:3018/Dashfluence/blog/social-media-mistakes-to-avoid)
+- [`/Dashfluence/blog/storytelling-for-brand-impact`](http://localhost:3018/Dashfluence/blog/storytelling-for-brand-impact)
+- [`/Dashfluence/blog/trends-shaping-2025-marketing`](http://localhost:3018/Dashfluence/blog/trends-shaping-2025-marketing)
+- [`/Dashfluence/blog/scaling-ads-without-wasting-budget`](http://localhost:3018/Dashfluence/blog/scaling-ads-without-wasting-budget)
+- [`/Dashfluence/blog/how-to-improve-engagement-rates`](http://localhost:3018/Dashfluence/blog/how-to-improve-engagement-rates)
+- [`/Dashfluence/pricing`](http://localhost:3018/Dashfluence/pricing)
+- [`/Dashfluence/reviews`](http://localhost:3018/Dashfluence/reviews)
+- [`/Dashfluence/contact-us`](http://localhost:3018/Dashfluence/contact-us)
+- [`/Dashfluence/legal/privacy-policy`](http://localhost:3018/Dashfluence/legal/privacy-policy)
+- [`/Dashfluence/legal/terms-and-conditions`](http://localhost:3018/Dashfluence/legal/terms-and-conditions)
+
+</details>
+
+Every template serves from `/` when run independently unless their preserved source
+namespace is listed above. Existing family-prefixed asset paths remain intact.
 
 ## Requirements
 
@@ -452,6 +502,7 @@ apps/
   pilar/
   rivero/
   agentik/
+  dashfluence/
 packages/
   template-validation/
   typescript-config/

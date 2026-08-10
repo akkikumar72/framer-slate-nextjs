@@ -109,6 +109,17 @@ const templates = [
     image: "/templates/agentik.jpg",
     url: process.env.NEXT_PUBLIC_AGENTIK_URL ?? "http://localhost:3012",
   },
+  {
+    name: "Dashfluence",
+    slug: "dashfluence",
+    packageName: "@framer-templates/dashfluence",
+    port: 3018,
+    routes: 35,
+    image: "/templates/dashfluence.png",
+    url:
+      process.env.NEXT_PUBLIC_DASHFLUENCE_URL ??
+      "http://localhost:3018/Dashfluence",
+  },
 ] as const;
 
 export default function ShowcasePage() {
@@ -152,7 +163,7 @@ export default function ShowcasePage() {
             </div>
             <div>
               <dt>Ports</dt>
-              <dd>3001–12</dd>
+              <dd>3001–12 · 3018</dd>
             </div>
           </dl>
         </div>
