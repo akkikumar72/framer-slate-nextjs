@@ -1,0 +1,1157 @@
+{
+  "source": "Browser pageAssets inventories from the rendered Rivero reference",
+  "generatedAt": "2026-08-01T06:03:07.754Z",
+  "assets": [
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/04e4c31d84990e44.svg",
+      "name": "svg-6",
+      "routes": [
+        "/blog"
+      ],
+      "url": "inline-svg:04e4c31d84990e44"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/06becc88e3401d28.png",
+      "name": "fWYY72D9DpFglHGn44t5kJPngw.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/fWYY72D9DpFglHGn44t5kJPngw.png?width=348&height=329"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/0dd2090f12ada355.svg",
+      "name": "3sfeiXwc2hSY2Olc43NCqOIlYKs.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/about",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/3sfeiXwc2hSY2Olc43NCqOIlYKs.svg?width=112&height=36"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/17f5939679c34949.svg",
+      "name": "yBuc6NKeOrKt5P5BTb7ZBEMqX4.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/yBuc6NKeOrKt5P5BTb7ZBEMqX4.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/1dd6655f5571d88a.svg",
+      "name": "svg-1",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/feature"
+      ],
+      "url": "inline-svg:1dd6655f5571d88a"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/213973ced11f9638.jpg",
+      "name": "dhpaRBfYCyXTo8NWrgbFRsyzI.jpg",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/dhpaRBfYCyXTo8NWrgbFRsyzI.jpg?scale-down-to=2048&width=3745&height=2499"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/246801ef6244db09.svg",
+      "name": "13XpKUVoI512rz2B33IUwLA4kk.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/13XpKUVoI512rz2B33IUwLA4kk.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/2c5e613fd639581c.svg",
+      "name": "svg-3",
+      "routes": [
+        "/about"
+      ],
+      "url": "inline-svg:2c5e613fd639581c"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/2c88243865b00823.png",
+      "name": "cEX2SfGn51Nus0wFZRREfblOUiY.png",
+      "routes": [
+        "/case-study"
+      ],
+      "url": "https://framerusercontent.com/images/cEX2SfGn51Nus0wFZRREfblOUiY.png?width=478&height=323"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/2f3638d9a63647a9.jpg",
+      "name": "RXXcIhwPyuXkksTYjJsb8M9UYA.jpg",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/RXXcIhwPyuXkksTYjJsb8M9UYA.jpg?scale-down-to=2048&width=4096&height=4096"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/30c9ca93a7f5c1b7.svg",
+      "name": "XHlBOuZCcEafcKXuLWWFkWuaRU.svg",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/XHlBOuZCcEafcKXuLWWFkWuaRU.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/3a84a2fb41bd030c.png",
+      "name": "PA6ajWyagxCUJMpsxZ7Hxn6l3DQ.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/PA6ajWyagxCUJMpsxZ7Hxn6l3DQ.png?width=96&height=81"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/3cfc4261c367a9bf.svg",
+      "name": "svg-2",
+      "routes": [
+        "/contact-us"
+      ],
+      "url": "inline-svg:3cfc4261c367a9bf"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/3f5d39c85bdf9be4.png",
+      "name": "D9l1cmMuvMm7INjAwVxXFQwZOY.png",
+      "routes": [
+        "/case-study"
+      ],
+      "url": "https://framerusercontent.com/images/D9l1cmMuvMm7INjAwVxXFQwZOY.png?width=478&height=323"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/42abe2df4e713bbe.svg",
+      "name": "svg-942811776_218",
+      "routes": [
+        "/about"
+      ],
+      "url": "inline-svg:42abe2df4e713bbe"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/42ad26ceac76e84b.jpg",
+      "name": "5vEelm31aj7ZDNWa6bJVc9DPW5I.jpg",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/5vEelm31aj7ZDNWa6bJVc9DPW5I.jpg?scale-down-to=2048&width=4096&height=2731"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/47b9eaa47d8f3ae5.svg",
+      "name": "p2WvJZ6D468awJwV4x6i0mAIRQI.svg",
+      "routes": [
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/p2WvJZ6D468awJwV4x6i0mAIRQI.svg?width=350&height=196"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/5316c39ffd5b15fb.png",
+      "name": "B1WpD2PiK17lTQNivnniA0Cyb4.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/B1WpD2PiK17lTQNivnniA0Cyb4.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/53184d05e43df318.svg",
+      "name": "svg-4",
+      "routes": [
+        "/contact-us"
+      ],
+      "url": "inline-svg:53184d05e43df318"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/590d085209950d80.svg",
+      "name": "svg-3",
+      "routes": [
+        "/blog"
+      ],
+      "url": "inline-svg:590d085209950d80"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/5be6c8d8e8989a7f.svg",
+      "name": "pT8fvVXnP1BLJuP24jurqZGhgs.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/pT8fvVXnP1BLJuP24jurqZGhgs.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/5c04c6b3ce789266.png",
+      "name": "FRZ4ov65Oc1rQlMkOis95g45YE.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/FRZ4ov65Oc1rQlMkOis95g45YE.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/5cb73f77d8385618.png",
+      "name": "IRHiZUR881pp5430D7mb22KOg.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/IRHiZUR881pp5430D7mb22KOg.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/png",
+      "kind": "image",
+      "localPath": "/rivero/assets/5cb9bb4da0e196d2.png",
+      "name": "yd45x6oiZHbrU1FawRTFVmHFqY.png",
+      "routes": [
+        "/integrations",
+        "/integrations/fusematrix"
+      ],
+      "url": "https://framerusercontent.com/images/yd45x6oiZHbrU1FawRTFVmHFqY.png?width=96&height=102"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/5cc9f957bc378f67.png",
+      "name": "Yt53Bbi9OnCEqRznp8iFKhqiRs.png",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/Yt53Bbi9OnCEqRznp8iFKhqiRs.png?width=348&height=329"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/63f63f8f7d6daed7.svg",
+      "name": "839AkP2KsscOzonnBU04ohtoXE.svg",
+      "routes": [
+        "/pricing-v1"
+      ],
+      "url": "https://framerusercontent.com/images/839AkP2KsscOzonnBU04ohtoXE.svg?width=20&height=21"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/64c68020db672502.svg",
+      "name": "FuRKGEn2FxW9RlLSd0QAEpfV0D4.svg",
+      "routes": [
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/FuRKGEn2FxW9RlLSd0QAEpfV0D4.svg?width=350&height=196"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/64e36bea0abd32bd.svg",
+      "name": "zfzZxEfrQKqOWbOp01YoctO88.svg",
+      "routes": [
+        "/",
+        "/feature",
+        "/appointment"
+      ],
+      "url": "https://framerusercontent.com/images/zfzZxEfrQKqOWbOp01YoctO88.svg?width=344&height=294"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/660c9721c81a869f.svg",
+      "name": "2010478406",
+      "routes": [
+        "/pricing-v1",
+        "/pricing-v2",
+        "/feature",
+        "/reviews",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "inline-svg:660c9721c81a869f"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/67192fff05503581.png",
+      "name": "3O7gOy6yB1tto8aYmgDEqnThaGg.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/3O7gOy6yB1tto8aYmgDEqnThaGg.png?width=96&height=63"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/6a6749bb598f01a6.png",
+      "name": "gEJ3vTcxGoCdFbuFJpNZOvZ5Js.png",
+      "routes": [
+        "/case-study/how-improved-hr-efficiency-by-60"
+      ],
+      "url": "https://framerusercontent.com/images/gEJ3vTcxGoCdFbuFJpNZOvZ5Js.png?width=2388&height=1328"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/6b1962b198f1e042.jpg",
+      "name": "RXXcIhwPyuXkksTYjJsb8M9UYA.jpg",
+      "routes": [
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated"
+      ],
+      "url": "https://framerusercontent.com/images/RXXcIhwPyuXkksTYjJsb8M9UYA.jpg?width=4096&height=4096"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/6be8a53d812614d5.jpg",
+      "name": "6KhzalRj8rW1BmpFjkEdZQiU3w.jpg",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/6KhzalRj8rW1BmpFjkEdZQiU3w.jpg?scale-down-to=1024&width=4096&height=2731"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/72527fb7dc4b3bae.png",
+      "name": "WBughDDOyLGHKNFGhB70t5ir54.png",
+      "routes": [
+        "/case-study"
+      ],
+      "url": "https://framerusercontent.com/images/WBughDDOyLGHKNFGhB70t5ir54.png?width=478&height=323"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/7627e864c878b59e.svg",
+      "name": "MRBVDB7kNGTJ3QSTx3okn2Ug0A.svg",
+      "routes": [
+        "/case-study/how-improved-hr-efficiency-by-60"
+      ],
+      "url": "https://framerusercontent.com/images/MRBVDB7kNGTJ3QSTx3okn2Ug0A.svg?width=56&height=56"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/792d95436eeec5ad.svg",
+      "name": "Qg9qF5jNibtz6XeYy7aXdQkzY9o.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/about",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/Qg9qF5jNibtz6XeYy7aXdQkzY9o.svg?width=113&height=36"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/7cb9ee24d16702f5.svg",
+      "name": "svg-5",
+      "routes": [
+        "/contact-us"
+      ],
+      "url": "inline-svg:7cb9ee24d16702f5"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/7d300913e4796d43.svg",
+      "name": "wtM5VA4EWbEtL4WcMMGl9UFonJ0.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/wtM5VA4EWbEtL4WcMMGl9UFonJ0.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/7e9cb40c7157b462.png",
+      "name": "RDNDeaBzu8x5HYLoShaNf8Asv1A.png",
+      "routes": [
+        "/appointment"
+      ],
+      "url": "https://framerusercontent.com/images/RDNDeaBzu8x5HYLoShaNf8Asv1A.png?width=360&height=360"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/84ebafaf91b8aa74.svg",
+      "name": "svg-4",
+      "routes": [
+        "/blog"
+      ],
+      "url": "inline-svg:84ebafaf91b8aa74"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/8626a1977dcc9694.svg",
+      "name": "bpklrJMMfoqDysodLMtLESRH5E.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/about",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/bpklrJMMfoqDysodLMtLESRH5E.svg?width=101&height=23"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/8d47f6c65c4c6295.svg",
+      "name": "bNNK6lKV9CA68auivwX8jIwrZQ.svg",
+      "routes": [
+        "/",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/bNNK6lKV9CA68auivwX8jIwrZQ.svg?width=448&height=326"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/8d57f6a08c8c6fe0.svg",
+      "name": "ACV8faZRkFqNjtIyQyRqpmRQKL0.svg",
+      "routes": [
+        "/",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/ACV8faZRkFqNjtIyQyRqpmRQKL0.svg?width=448&height=326"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/8fc876fa23447d35.png",
+      "name": "lv5ViOyfAwJHaQWqmvNm1hRrySQ.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/lv5ViOyfAwJHaQWqmvNm1hRrySQ.png?width=348&height=329"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/90cbc2835aa9d6f2.svg",
+      "name": "pGUt6OFvnoeD8pym4e4dPHvB748.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/pGUt6OFvnoeD8pym4e4dPHvB748.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/914b72c5ab5a9a1c.png",
+      "name": "SOE7Rq8hI6c39C7PvHqlxxsNuq4.png",
+      "routes": [
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/SOE7Rq8hI6c39C7PvHqlxxsNuq4.png?width=2024&height=1434"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/9c0d6ec5b9eb94c5.png",
+      "name": "uIUUcVkjfEb0kApZRMWGduBCMh4.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/uIUUcVkjfEb0kApZRMWGduBCMh4.png?width=96&height=96"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/a1de9296fa420011.png",
+      "name": "KML0g5TScyBSyeoPC2h7sa3xhM.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/KML0g5TScyBSyeoPC2h7sa3xhM.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/a387f2bd0bcc3d97.jpg",
+      "name": "nArVFDEm9PZJDRwRZZs2x6Eq1M.jpg",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/nArVFDEm9PZJDRwRZZs2x6Eq1M.jpg?scale-down-to=1024&width=4096&height=2731"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/a3f407ca109c1002.png",
+      "name": "pHIdLmbguJvtXafU639ApLxHM30.png",
+      "routes": [
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60"
+      ],
+      "url": "https://framerusercontent.com/images/pHIdLmbguJvtXafU639ApLxHM30.png?width=478&height=323"
+    },
+    {
+      "contentType": "image/png",
+      "kind": "image",
+      "localPath": "/rivero/assets/a5cdc78e03d9e3f9.png",
+      "name": "hLxj3j17VWrM2PpAypaC8mlcg.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/hLxj3j17VWrM2PpAypaC8mlcg.png?width=96&height=78"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/a897ff168394bf52.png",
+      "name": "h1ZYRs1zfiD4WrawWsUq8uCsuYk.png",
+      "routes": [
+        "/case-study"
+      ],
+      "url": "https://framerusercontent.com/images/h1ZYRs1zfiD4WrawWsUq8uCsuYk.png?width=478&height=323"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/a8c15a53fbd5c323.svg",
+      "name": "GIPxMdogQmPAsrtGB9CyWLLOI.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/about",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/GIPxMdogQmPAsrtGB9CyWLLOI.svg?width=125&height=36"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/ab8d12b637cbfd88.svg",
+      "name": "svg-2",
+      "routes": [
+        "/blog"
+      ],
+      "url": "inline-svg:ab8d12b637cbfd88"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/acb06ca49410acd1.svg",
+      "name": "MTP5l6H95VXrXmfip880js4zSHc.svg",
+      "routes": [
+        "/contact-us"
+      ],
+      "url": "https://framerusercontent.com/assets/MTP5l6H95VXrXmfip880js4zSHc.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/ad77bd49d0482ce6.svg",
+      "name": "jPPcg2T0oN3FPVXv6sdD7cvUU.svg",
+      "routes": [
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/jPPcg2T0oN3FPVXv6sdD7cvUU.svg?width=350&height=196"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/b017aad5c5cb363e.png",
+      "name": "gEJ3vTcxGoCdFbuFJpNZOvZ5Js.png",
+      "routes": [
+        "/case-study"
+      ],
+      "url": "https://framerusercontent.com/images/gEJ3vTcxGoCdFbuFJpNZOvZ5Js.png?scale-down-to=1024&width=2388&height=1328"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/b2901f122cb9ef0c.png",
+      "name": "On2u4iiGdRhPWcjD0ScGzmMy0s.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/On2u4iiGdRhPWcjD0ScGzmMy0s.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/b42d2ad9d76eb2c4.svg",
+      "name": "svg-6",
+      "routes": [
+        "/about"
+      ],
+      "url": "inline-svg:b42d2ad9d76eb2c4"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/b513395c0f68da72.png",
+      "name": "dFBoRFkiJpnK1gVsq2kMSWfA.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/dFBoRFkiJpnK1gVsq2kMSWfA.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/b681a7d545403371.png",
+      "name": "OTH087SJiTrl8nkEfJ5oVzgts.png",
+      "routes": [
+        "/"
+      ],
+      "url": "https://framerusercontent.com/images/OTH087SJiTrl8nkEfJ5oVzgts.png?scale-down-to=2048&width=4048&height=2868"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/b73569043c9da0ce.png",
+      "name": "9DbedvRroqfi6m2q0dhc9vOddQ.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/9DbedvRroqfi6m2q0dhc9vOddQ.png?width=96&height=96"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/baeddeb698cbeb84.png",
+      "name": "e94LqRXfWihSGsSTDD4lde6etlE.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/e94LqRXfWihSGsSTDD4lde6etlE.png?width=96&height=96"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/bb75ef63dcf6f612.svg",
+      "name": "svg-3",
+      "routes": [
+        "/contact-us"
+      ],
+      "url": "inline-svg:bb75ef63dcf6f612"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/c463e01fad72e1a5.png",
+      "name": "kIuf8BWeS5uF599OiO2HJRJgWA.png",
+      "routes": [
+        "/case-study"
+      ],
+      "url": "https://framerusercontent.com/images/kIuf8BWeS5uF599OiO2HJRJgWA.png?width=478&height=323"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/cd4d7a7bed1e01d3.svg",
+      "name": "xuNGFcbdn6xZer8Wl64o9bFcw.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/about",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/xuNGFcbdn6xZer8Wl64o9bFcw.svg?width=130&height=36"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/cf0e3d35fd34d6d4.png",
+      "name": "grtKiXaQ3XkXAEtAiNBLGiFFW7Y.png",
+      "routes": [
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/grtKiXaQ3XkXAEtAiNBLGiFFW7Y.png?width=200&height=200"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/d0a0f917dd67b232.png",
+      "name": "yRHBLco9CDEtIMDJ3qxTEYjOfMg.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/yRHBLco9CDEtIMDJ3qxTEYjOfMg.png?width=96&height=96"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/d214f296bdfb3a9b.png",
+      "name": "qXQyjZxviBPFqCV17YR687lmRI.png",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/qXQyjZxviBPFqCV17YR687lmRI.png?width=348&height=329"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/d47acc453b432e23.svg",
+      "name": "YVFWtvuDtpmpBWnIcb4YmEJFw.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/YVFWtvuDtpmpBWnIcb4YmEJFw.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/d4b1b00e5f45e749.svg",
+      "name": "svg-3",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/feature",
+        "/reviews",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "inline-svg:d4b1b00e5f45e749"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/d7b97a334984d46a.svg",
+      "name": "svg-5",
+      "routes": [
+        "/about"
+      ],
+      "url": "inline-svg:d7b97a334984d46a"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/d7f740d5f960e31a.svg",
+      "name": "D2f4cC3ZfVyUQuJG4B1oON0qjA.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/D2f4cC3ZfVyUQuJG4B1oON0qjA.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/da9e5be0fc913255.svg",
+      "name": "2958435244",
+      "routes": [
+        "/blog"
+      ],
+      "url": "inline-svg:da9e5be0fc913255"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/df78dd170f317693.svg",
+      "name": "IBzoPtDFAfGqgQqhCz0rvP84eOA.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/about",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/IBzoPtDFAfGqgQqhCz0rvP84eOA.svg?width=141&height=22"
+    },
+    {
+      "contentType": "image/avif",
+      "kind": "image",
+      "localPath": "/rivero/assets/e455a754dd5c3d2a.png",
+      "name": "u2FgNn13mZjrI8yyqM3OWwfCk.png",
+      "routes": [
+        "/integrations"
+      ],
+      "url": "https://framerusercontent.com/images/u2FgNn13mZjrI8yyqM3OWwfCk.png?width=96&height=108"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/e5fd9a7b4e8323de.svg",
+      "name": "NXBMNEL7FrBgmiQkkQ2dj0b19I.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/feature"
+      ],
+      "url": "https://framerusercontent.com/images/NXBMNEL7FrBgmiQkkQ2dj0b19I.svg?width=107&height=33"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/e68e03fd10f049a6.png",
+      "name": "51mHdEMBCoMI2zEUgQSzXQ9n4B0.png",
+      "routes": [
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated"
+      ],
+      "url": "https://framerusercontent.com/images/51mHdEMBCoMI2zEUgQSzXQ9n4B0.png?width=4016&height=1820"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/e6c6300dae38229b.svg",
+      "name": "svg-2",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/feature",
+        "/reviews",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "inline-svg:e6c6300dae38229b"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/e772043dad86d88e.svg",
+      "name": "svg-2",
+      "routes": [
+        "/about"
+      ],
+      "url": "inline-svg:e772043dad86d88e"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/e7e671b1b36af720.svg",
+      "name": "7QpRrYJNkAFfSWT0073kVqrnYc.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/reviews"
+      ],
+      "url": "https://framerusercontent.com/images/7QpRrYJNkAFfSWT0073kVqrnYc.svg?width=40&height=40"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/e7f9e9ed122dc966.svg",
+      "name": "svg-1",
+      "routes": [
+        "/about",
+        "/reviews",
+        "/blog",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/contact-us",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "inline-svg:e7f9e9ed122dc966"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/eac89115f94d75a0.svg",
+      "name": "TQLr9mtyvcMiVA6xrUtTQHqGuNM.svg",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/about",
+        "/feature",
+        "/reviews",
+        "/blog",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/contact-us",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "https://framerusercontent.com/images/TQLr9mtyvcMiVA6xrUtTQHqGuNM.svg?width=123&height=38"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/efa2bc9299586276.svg",
+      "name": "2010478406",
+      "routes": [
+        "/about",
+        "/blog",
+        "/contact-us"
+      ],
+      "url": "inline-svg:efa2bc9299586276"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/f03adea9dc8242f9.svg",
+      "name": "svg-5",
+      "routes": [
+        "/blog"
+      ],
+      "url": "inline-svg:f03adea9dc8242f9"
+    },
+    {
+      "contentType": "image/webp",
+      "kind": "image",
+      "localPath": "/rivero/assets/f5b98463cf9909a4.png",
+      "name": "QUdslOMbQ2XNFNKBW4DkLDH3M.png",
+      "routes": [
+        "/404"
+      ],
+      "url": "https://framerusercontent.com/images/QUdslOMbQ2XNFNKBW4DkLDH3M.png?scale-down-to=1024&width=1300&height=789"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "kind": "image",
+      "localPath": "/rivero/assets/fe5710e22698304c.svg",
+      "name": "899284707",
+      "routes": [
+        "/contact-us"
+      ],
+      "url": "inline-svg:fe5710e22698304c"
+    }
+  ],
+  "failures": [
+    {
+      "contentType": null,
+      "name": "YA9Qr0Wd4kDdMtDqHTLMkiQ.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/pricing-v1"
+      ],
+      "url": "https://fonts.gstatic.com/s/kalam/v18/YA9Qr0Wd4kDdMtDqHTLMkiQ.woff2"
+    },
+    {
+      "contentType": null,
+      "name": "GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/about",
+        "/feature",
+        "/reviews",
+        "/blog",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/contact-us",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2"
+    },
+    {
+      "contentType": null,
+      "name": "iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/about",
+        "/feature",
+        "/reviews",
+        "/blog",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/contact-us",
+        "/appointment"
+      ],
+      "url": "https://framerusercontent.com/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2"
+    },
+    {
+      "contentType": null,
+      "name": "UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/",
+        "/pricing-v1",
+        "/pricing-v2",
+        "/about",
+        "/feature",
+        "/reviews",
+        "/blog",
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/case-study/how-improved-hr-efficiency-by-60",
+        "/integrations",
+        "/integrations/fusematrix",
+        "/contact-us",
+        "/appointment",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2"
+    },
+    {
+      "contentType": null,
+      "name": "yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h"
+      ],
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2"
+    },
+    {
+      "contentType": null,
+      "name": "c7jwos1DYfpSHV05byLLMan93Os.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/c7jwos1DYfpSHV05byLLMan93Os.jpg?scale-down-to=1024&width=4096&height=2683"
+    },
+    {
+      "contentType": null,
+      "name": "fw257WGjNkSv96geYYRLbpn1fY.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/fw257WGjNkSv96geYYRLbpn1fY.jpg?scale-down-to=1024&width=4096&height=2679"
+    },
+    {
+      "contentType": null,
+      "name": "m3wNCEg5vrWzRy55y1Jb8CkUcEQ.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/m3wNCEg5vrWzRy55y1Jb8CkUcEQ.jpg?scale-down-to=1024&width=4096&height=2304"
+    },
+    {
+      "contentType": null,
+      "name": "MtdzFZyshGk77Kfshdi5mnDOjPI.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/MtdzFZyshGk77Kfshdi5mnDOjPI.jpg?scale-down-to=1024&width=4096&height=2315"
+    },
+    {
+      "contentType": null,
+      "name": "QiteyYAjxDuIdAngasiaa5k1o.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/QiteyYAjxDuIdAngasiaa5k1o.jpg?scale-down-to=1024&width=4096&height=2731"
+    },
+    {
+      "contentType": null,
+      "name": "tndhuqbAobpSTdZr0jnSSAHEl8.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog"
+      ],
+      "url": "https://framerusercontent.com/images/tndhuqbAobpSTdZr0jnSSAHEl8.jpg?scale-down-to=1024&width=4096&height=2731"
+    },
+    {
+      "contentType": null,
+      "name": "VrjQcJ7r8qd0Ca197BiYBH9178.svg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch",
+      "routes": [
+        "/blog/learn-about-emerging-trends-best-practices-in-hr-payroll-systems-stay-updated",
+        "/case-study",
+        "/integrations",
+        "/changelog/ai-powered-lead-scoring-(3.2.0)-h",
+        "/legal/terms-conditions",
+        "/404"
+      ],
+      "url": "https://framerusercontent.com/images/VrjQcJ7r8qd0Ca197BiYBH9178.svg"
+    }
+  ]
+}

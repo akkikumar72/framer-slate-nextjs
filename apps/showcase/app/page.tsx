@@ -92,6 +92,15 @@ const templates = [
     url: process.env.NEXT_PUBLIC_PILAR_URL ?? "http://localhost:3010",
   },
   {
+    name: "Rivero",
+    slug: "rivero",
+    packageName: "@framer-templates/rivero",
+    port: 3011,
+    routes: 45,
+    image: "/templates/rivero.jpg",
+    url: process.env.NEXT_PUBLIC_RIVERO_URL ?? "http://localhost:3011",
+  },
+  {
     name: "Dashfluence",
     slug: "dashfluence",
     packageName: "@framer-templates/dashfluence",
@@ -125,7 +134,7 @@ export default function ShowcasePage() {
       <section className="hero" aria-labelledby="page-title">
         <p className="eyebrow">Framer template archive / 2026</p>
         <h1 id="page-title">
-          Ten templates.
+          {templates.length} templates.
           <br />
           One focused workspace.
         </h1>
@@ -145,7 +154,7 @@ export default function ShowcasePage() {
             </div>
             <div>
               <dt>Ports</dt>
-              <dd>3001–10 · 3018</dd>
+              <dd>3001–11 · 3018</dd>
             </div>
           </dl>
         </div>

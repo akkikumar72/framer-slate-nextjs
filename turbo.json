@@ -17,6 +17,7 @@
         "NEXT_PUBLIC_TRILLO_URL",
         "NEXT_PUBLIC_PAYBLE_URL",
         "NEXT_PUBLIC_PILAR_URL",
+        "NEXT_PUBLIC_RIVERO_URL",
         "NEXT_PUBLIC_DASHFLUENCE_URL"
       ],
       "inputs": [
