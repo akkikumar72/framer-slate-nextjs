@@ -101,6 +101,15 @@ const templates = [
     url: process.env.NEXT_PUBLIC_RIVERO_URL ?? "http://localhost:3011",
   },
   {
+    name: "Agentik",
+    slug: "agentik",
+    packageName: "@framer-templates/agentik",
+    port: 3012,
+    routes: 9,
+    image: "/templates/agentik.jpg",
+    url: process.env.NEXT_PUBLIC_AGENTIK_URL ?? "http://localhost:3012",
+  },
+  {
     name: "Dashfluence",
     slug: "dashfluence",
     packageName: "@framer-templates/dashfluence",
@@ -154,7 +163,7 @@ export default function ShowcasePage() {
             </div>
             <div>
               <dt>Ports</dt>
-              <dd>3001–11 · 3018</dd>
+              <dd>3001–12 · 3018</dd>
             </div>
           </dl>
         </div>

@@ -1,0 +1,33 @@
+{
+  "source": "https://agentik.framer.ai/",
+  "capturedAt": "2026-08-09",
+  "assets": [
+    {"local": "manrope-regular.woff2", "source": "https://framerusercontent.com/third-party-assets/fontshare/wf/2TYFCBHUANEXS6QGR5EQDUNAFH6LSWM3/AYNOU3VEA4LRTDNKJQUFNVNUTYSGOUOP/UXO4O7K2G3HI3D2VKD7UXVJVJD26P4BQ.woff2"},
+    {"local": "manrope-variable.woff2", "source": "https://framerusercontent.com/third-party-assets/fontshare/wf/6KNUAYMK3PTPQA22366IWF5JUVT35NZ3/E4CLT6PE4W64IV56BHAWFRZFLHPZIXFF/DEPNXL2T77QGX4DXZAN3G53TXHO2JEFP.woff2"},
+    {"local": "manrope-bold.woff2", "source": "https://framerusercontent.com/third-party-assets/fontshare/wf/NGBUP45ES3F7RD5XGKPEDJ6QEPO4TMOK/EXDVWJ2EDDVVV65UENMX33EDDYBX6OF7/6P4FPMFQH7CCC7RZ4UU4NKSGJ2RLF7V5.woff2"},
+    {"local": "case-study-daniel.avif", "source": "https://framerusercontent.com/images/romMNl5fihhSdcWWvTYD80Lzwbg.jpg?width=1800&height=2400"},
+    {"local": "case-study-michelle.avif", "source": "https://framerusercontent.com/images/IojgKs2HWUp4XnQxFsbSZzfqzzU.png?width=1800&height=2400"},
+    {"local": "about-hero.png", "source": "https://framerusercontent.com/images/EbckL2sRUhheqRAXHIOw3DSiJV0.png?width=1800&height=2400"},
+    {"local": "careers-hero.png", "source": "https://framerusercontent.com/images/7N3L9qaiUgnr2VKyUZT3c63R65k.png?width=1800&height=2400"},
+    {"local": "blog-logistics.avif", "source": "https://framerusercontent.com/images/6FeegQ7F00OfnB2yuGkPjKYqvM.png?width=2400&height=987"},
+    {"local": "blog-voice-agents.avif", "source": "https://framerusercontent.com/images/LSpIaIusBTDIjrA4bEuQYnYFrgE.png?width=1808&height=2400"},
+    {"local": "blog-sales-pipeline.png", "source": "https://framerusercontent.com/images/yOTcv01U5d1SP4Ccnq6lPGltbmA.png?width=1800&height=2400"},
+    {"local": "blog-ai-tools.png", "source": "https://framerusercontent.com/images/a0e1P9oYHConsCT2MvnXM6hCVvc.png?width=2400&height=1600"},
+    {"local": "team-sarah.png", "source": "https://framerusercontent.com/images/Z86jpiklx7WPp7yboJIet4lbDN0.png?width=1800&height=2400"},
+    {"local": "team-adnan.avif", "source": "https://framerusercontent.com/images/MnPDOi6MwuDA6IdXfVHohfe1jI.png?width=1800&height=2400"},
+    {"local": "team-evelyn.png", "source": "https://framerusercontent.com/images/THhLw8AjLp2eEosK4Sx8djpDlk.png?width=1800&height=2400"},
+    {"local": "team-emmanuel.avif", "source": "https://framerusercontent.com/images/slftTUygLIeH8CX9JvJjtdHP0.png?width=1800&height=2400"},
+    {"local": "team-eniola.png", "source": "https://framerusercontent.com/images/ak65r0y6EMluG0b1eOKTwIdBpQ.png?width=1800&height=2400"},
+    {"local": "team-tom.png", "source": "https://framerusercontent.com/images/MjpLeXZODx4sCg5MAbBg3uMVBQ.png?width=1800&height=2400"},
+    {"local": "creator-ramish.avif", "source": "https://framerusercontent.com/images/8Q3wD9sC3p4rB8rfGijPKdgNiRw.jpeg?width=839&height=936"},
+    {"local": "process-discovery.mp4", "source": "https://framerusercontent.com/assets/4RLsmZA5pXtFSDmZ1K23jFuyAA.mp4"},
+    {"local": "process-build.mp4", "source": "https://framerusercontent.com/assets/M89MaRJXWRL7NLBldcIFTViGA.mp4"},
+    {"local": "emoji-workflow.avif", "source": "https://framerusercontent.com/images/6162giRg3JNoTaX6aQ3Xpx52Uog.png?width=512&height=512"},
+    {"local": "emoji-analytics.avif", "source": "https://framerusercontent.com/images/UI3xpROMh7de94V1ut4cDriPXEc.png?width=512&height=512"},
+    {"local": "emoji-chat.avif", "source": "https://framerusercontent.com/images/XYfwpaVqFvZmi9CXk7Idg8M484.png?width=512&height=512"},
+    {"local": "emoji-integration.avif", "source": "https://framerusercontent.com/images/73K2vi0gBaOF8N3arO5dTjTGp8.png?width=512&height=512"},
+    {"local": "emoji-agent.avif", "source": "https://framerusercontent.com/images/xxKejhFJ8sbdVl8G3D6QTINZKvY.png?width=512&height=512"},
+    {"local": "emoji-voice.avif", "source": "https://framerusercontent.com/images/UTVkNMi7XjC9dEVk5GSZRs9HbT0.png?width=512&height=512"},
+    {"local": "emoji-automation.avif", "source": "https://framerusercontent.com/images/hkz71w6kJEJ4V1rZLqNFk1PCkQ.png?width=512&height=512"}
+  ]
+}

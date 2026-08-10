@@ -1,6 +1,6 @@
 # Showcase
 
-`@framer-templates/showcase` runs at
+`@framer-templates/showcase` includes Agentik and the other standalone template apps. It runs at
 [http://localhost:3000/](http://localhost:3000/).
 
 | [Open Showcase](http://localhost:3000/) |

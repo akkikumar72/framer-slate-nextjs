@@ -1,6 +1,6 @@
 # Framer templates Turborepo
 
-Eleven standalone Next.js template applications and a lightweight showcase live
+Twelve standalone Next.js template applications and a lightweight showcase live
 in one npm-workspaces Turborepo. Each template owns its routes, components,
 assets, metadata, validation contract, and deployment boundary.
 
@@ -325,6 +325,30 @@ workspace's `template.config.json`.
 - [`/changelog/enhanced-analytics-dashboard-(2.5.0)j`](http://localhost:3011/changelog/enhanced-analytics-dashboard-(2.5.0)j)
 </details>
 
+### Agentik
+
+`@framer-templates/agentik` ·
+[http://localhost:3012/](http://localhost:3012/) · port `3012`
+
+<a href="http://localhost:3012/">
+  <img src="apps/showcase/public/templates/agentik.jpg" alt="Agentik AI automation agency landing page at http://localhost:3012/" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (9)</strong></summary>
+
+- [`/`](http://localhost:3012/)
+- [`/about`](http://localhost:3012/about)
+- [`/careers`](http://localhost:3012/careers)
+- [`/contact`](http://localhost:3012/contact)
+- [`/blog`](http://localhost:3012/blog)
+- [`/blog/how-we-saved-a-logistics-company-200-hours-a-month`](http://localhost:3012/blog/how-we-saved-a-logistics-company-200-hours-a-month)
+- [`/blog/why-voice-agents-are-the-next-big-thing-for-agencies`](http://localhost:3012/blog/why-voice-agents-are-the-next-big-thing-for-agencies)
+- [`/blog/a-beginner-s-guide-to-automating-your-sales-pipeline`](http://localhost:3012/blog/a-beginner-s-guide-to-automating-your-sales-pipeline)
+- [`/blog/five-ai-tools-every-small-business-should-use-in-2026`](http://localhost:3012/blog/five-ai-tools-every-small-business-should-use-in-2026)
+
+</details>
+
 ### Dashfluence
 
 `@framer-templates/dashfluence` ·
@@ -477,6 +501,7 @@ apps/
   payble/
   pilar/
   rivero/
+  agentik/
   dashfluence/
 packages/
   template-validation/
