@@ -1,16 +1,23 @@
 "use client";
 
-import type { FormEvent } from "react";
+import { type FormEvent, useState } from "react";
 
 import styles from "./ContactPage.module.css";
 
 export function ContactForm() {
+  const [status, setStatus] = useState("");
+
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setStatus("Preview only. No job request was sent.");
   }
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form
+      className={styles.form}
+      onInput={() => setStatus("")}
+      onSubmit={handleSubmit}
+    >
       <div className={styles.formIntro}>
         <h1>Get In Touch”</h1>
         <p>
@@ -76,6 +83,9 @@ export function ContactForm() {
       <button className={styles.submit} type="submit">
         Submit
       </button>
+      <p className={styles.status} role="status">
+        {status}
+      </p>
     </form>
   );
 }

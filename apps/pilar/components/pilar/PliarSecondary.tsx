@@ -202,7 +202,7 @@ export function PliarContactPage() {
             <div className={styles.submitArea}>
               <button type="submit">Send Inquiry</button>
               <p className={styles.formStatus} role="status" aria-live="polite">
-                {submitted ? "Thanks. Your inquiry is ready for our team." : ""}
+                {submitted ? "Validated locally. No information was sent." : ""}
               </p>
             </div>
           </form>

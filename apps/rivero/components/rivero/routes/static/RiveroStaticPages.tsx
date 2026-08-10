@@ -207,14 +207,19 @@ export function ReviewsPage() {
   </main></RiveroPageFrame>;
 }
 
-function stopForm(event: FormEvent<HTMLFormElement>) { event.preventDefault(); }
-
 export function ContactPage() {
+  const [status, setStatus] = useState("");
+  function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setStatus("Validated locally. No message was sent.");
+  }
+
   return <RiveroPageFrame><main className={styles.lightPage}>
     <InnerHero light title="Contact Us" copy="A brief line encouraging users to contact your team for support, inquiries, or demo requests."/>
     <section className={styles.contactContent}>
-      <form aria-label="Contact Rivero" className={styles.contactForm} onSubmit={stopForm}>
+      <form aria-label="Contact Rivero" className={styles.contactForm} onInput={() => setStatus("")} onSubmit={submit}>
         <h2>Get in touch with us</h2><div className={styles.twoFields}><input aria-label="First name" placeholder="First name *" required/><input aria-label="Last name" placeholder="Last name *" required/></div><input aria-label="Work email" placeholder="Work email *" required type="email"/><select aria-label="Business type" defaultValue="" required><option disabled value="">Business type *</option><option>Analytics Consulting</option><option>Digital Marketing</option><option>Strategy Consulting</option><option>BI Solutions</option></select><textarea aria-label="Message" placeholder="What do you have on your mind?"/><label className={styles.consent}><input type="checkbox"/><span>I&apos;d like to occasionally receive other communication from Webuir, such as content and product news.</span></label><button type="submit">Send Message <i>↗</i></button>
+        <p className={styles.formStatus} role="status">{status}</p>
       </form>
       <div className={styles.contactCards}>{[["✦","Chat with Sales","Talk to our product experts.","info88@example.com","mailto:info88@example.com"],["⌖","Visit Our Office","Stop by and meet the team.","Maplewood Minnesota, USA","https://maps.app.goo.gl/sGTk48ehqM2AQRwA6"],["✆","Talk with Team","Talk to our product experts.","+1 (800) 321-9876","tel:+18003219876"]].map(([icon,title,copy,label,href],index)=><article data-rivero-reveal key={title} style={{"--rivero-delay":`${index*80}ms`} as CSSProperties}><i>{icon}</i><div><span>{title}</span><p>{copy}</p><a href={href}>{label}</a></div></article>)}</div>
     </section>
@@ -223,10 +228,17 @@ export function ContactPage() {
 }
 
 export function AppointmentPage() {
+  const [status, setStatus] = useState("");
+  function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setStatus("Validated locally. No appointment was booked.");
+  }
+
   return <RiveroPageFrame><main className={styles.lightPage}>
     <InnerHero light title="Schedule a Demo Call" copy="Experience how our HR platform streamlines every part of your workflow, from payroll and attendance to onboarding and performance management."/>
-    <form aria-label="Schedule a Rivero demo" className={styles.appointmentForm} onSubmit={stopForm}>
+    <form aria-label="Schedule a Rivero demo" className={styles.appointmentForm} onInput={() => setStatus("")} onSubmit={submit}>
       <div className={styles.twoFields}><label>First Name*<input placeholder="David" required/></label><label>Last Name*<input placeholder="Carlos" required/></label></div><label>Email*<input placeholder="hello@gmail.com" required type="email"/></label><div className={styles.twoFields}><label>Company Name*<input placeholder="Company" required/></label><label>Job Title*<input placeholder="CEO" required/></label></div><label>Team Size*<input min="1" placeholder="***" required type="number"/></label><label>Message*<textarea placeholder="Your Message" required/></label><button type="submit">Send Message <i>↗</i></button>
+      <p className={styles.formStatus} role="status">{status}</p>
     </form>
     <SeamlessSection /><HowItWorks />
   </main></RiveroPageFrame>;

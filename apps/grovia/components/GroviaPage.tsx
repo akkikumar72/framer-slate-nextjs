@@ -797,8 +797,11 @@ function FAQSection() {
 }
 
 function ContactSection() {
+  const [status, setStatus] = useState("");
+
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    setStatus("Preview only. No message was sent.");
   };
 
   return (
@@ -816,7 +819,11 @@ function ContactSection() {
             <Rating light />
           </div>
         </div>
-        <form className={styles.contactForm} onSubmit={onSubmit}>
+        <form
+          className={styles.contactForm}
+          onInput={() => setStatus("")}
+          onSubmit={onSubmit}
+        >
           <label>
             <span>Name</span>
             <input aria-label="Name" placeholder="Jane Smith" />
@@ -838,6 +845,9 @@ function ContactSection() {
             <span>Submit</span>
             <ArrowBubble dark />
           </button>
+          <p className={styles.formStatus} role="status">
+            {status}
+          </p>
         </form>
       </div>
     </section>
@@ -845,18 +855,24 @@ function ContactSection() {
 }
 
 function Footer() {
+  const [status, setStatus] = useState("");
+
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    setStatus("Preview only. No subscription was created.");
   };
 
   return (
     <footer className={styles.footer}>
       <div className={styles.newsletter}>
         <h2>Sign up for our newsletter</h2>
-        <form onSubmit={onSubmit}>
+        <form onInput={() => setStatus("")} onSubmit={onSubmit}>
           <input aria-label="Newsletter email" placeholder="name@email.com" type="email" />
           <button type="submit">Subscribe</button>
         </form>
+        <p className={styles.newsletterStatus} role="status">
+          {status}
+        </p>
       </div>
       <div className={styles.footerPages}>
         <h3>↳ Pages</h3>

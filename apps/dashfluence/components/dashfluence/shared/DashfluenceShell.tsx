@@ -208,23 +208,28 @@ export function SectionEyebrow({ children, tone = "dark" }: { children: ReactNod
 }
 
 function NewsletterForm() {
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState("");
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!event.currentTarget.reportValidity()) return;
-    setSent(true);
-    event.currentTarget.reset();
+    setStatus(
+      "Email validated locally. Newsletter delivery is not connected in this demo.",
+    );
   }
 
   return (
-    <form className={styles.newsletter} onSubmit={submit}>
+    <form
+      className={styles.newsletter}
+      onInput={() => setStatus("")}
+      onSubmit={submit}
+    >
       <label htmlFor="dashfluence-email">Want smarter growth tips in your inbox?</label>
       <p>Join our newsletter for strategies and case studies from the team.</p>
       <div className={styles.newsletterField}>
         <input id="dashfluence-email" name="Email" placeholder="Enter your email" required type="email" />
-        <button disabled={sent} type="submit">{sent ? "Sent" : "Send"}</button>
+        <button type="submit">Send</button>
       </div>
-      <span aria-live="polite" className={styles.newsletterStatus}>{sent ? "Thanks. You’re on the list." : ""}</span>
+      <span aria-live="polite" className={styles.newsletterStatus} role="status">{status}</span>
     </form>
   );
 }

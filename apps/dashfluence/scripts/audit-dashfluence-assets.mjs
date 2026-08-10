@@ -7,6 +7,19 @@ const sourceRoots = [
   path.join(repo, "components", "dashfluence"),
 ];
 const assetRoot = path.join(repo, "public", "dashfluence", "assets");
+const homepageServiceAssets = [
+  "8pav5SU3BnJ6wETIuurnrNxivo.png",
+  "P6VdABYaeMyqzy5lJeVzQ2GSH90-home.webp",
+  "FZtr09azaTHn6YwdMESKE3Ss3tg.jpg",
+  "6hoh6HKRqD2wucm9QOitChDY4S0.png",
+  "pwOCQ86eV6uTDBY7fWUfJB09WU-home.webp",
+];
+const homepageDerivatives = new Set([
+  "P6VdABYaeMyqzy5lJeVzQ2GSH90-home.webp",
+  "pwOCQ86eV6uTDBY7fWUfJB09WU-home.webp",
+]);
+const derivativeBudgetBytes = 153_600;
+const homepageServiceBudgetBytes = 1_258_291;
 
 async function filesUnder(root) {
   const entries = await readdir(root, { withFileTypes: true });
@@ -57,7 +70,24 @@ if (remoteVisualReferences.length) {
   throw new Error(`Remote Dashfluence visual references:\n${remoteVisualReferences.join("\n")}`);
 }
 
+let homepageServiceBytes = 0;
+for (const filename of homepageServiceAssets) {
+  const details = await stat(path.join(assetRoot, filename));
+  homepageServiceBytes += details.size;
+  if (homepageDerivatives.has(filename) && details.size > derivativeBudgetBytes) {
+    throw new Error(
+      `Dashfluence homepage derivative ${filename} is ${details.size} bytes; allowed ${derivativeBudgetBytes} bytes.`,
+    );
+  }
+}
+if (homepageServiceBytes > homepageServiceBudgetBytes) {
+  throw new Error(
+    `Dashfluence homepage service assets total ${homepageServiceBytes} bytes; allowed ${homepageServiceBudgetBytes} bytes.`,
+  );
+}
+
 console.log("Dashfluence asset audit passed.");
 console.log(`${localReferences.size} explicit local runtime references checked.`);
 console.log(`${storedAssets.length} files stored under public/dashfluence/assets (${(totalBytes / 1024 / 1024).toFixed(1)} MiB).`);
+console.log(`Homepage service assets total ${homepageServiceBytes} bytes.`);
 console.log("0 remote visual references found.");

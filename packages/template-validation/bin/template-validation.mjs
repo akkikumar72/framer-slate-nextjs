@@ -9,6 +9,12 @@ import {
 } from "node:fs/promises";
 import { createServer } from "node:net";
 import path from "node:path";
+import {
+  validateInvalidResponse,
+  validatePageResponse,
+  validateRedirectResponse,
+  validateTemplateRouteConfig,
+} from "../lib/route-contracts.mjs";
 
 const projectRoot = process.cwd();
 const configPath = path.join(projectRoot, "template.config.json");
@@ -166,6 +172,16 @@ async function auditAssets(template) {
 }
 
 async function verifyRoutes(template) {
+  const configFailures = validateTemplateRouteConfig(template);
+  if (configFailures.length > 0) {
+    console.error(`${template.name} route contract is invalid:`);
+    for (const failure of configFailures) {
+      console.error(`- ${failure}`);
+    }
+    process.exitCode = 1;
+    return;
+  }
+
   const validationPort = await chooseValidationPort(template.port);
   const server = spawn(
     process.platform === "win32" ? "next.cmd" : "next",
@@ -197,64 +213,48 @@ async function verifyRoutes(template) {
   try {
     await waitForServer(validationPort, server, () => output);
     const failures = [];
+    const routeGroups = [
+      ["valid", template.routes ?? []],
+      ["redirect", template.redirects ?? []],
+      ["invalid", template.invalidRoutes ?? []],
+    ];
 
-    for (const contract of [
-      ...(template.routes ?? []),
-      ...(template.invalidRoutes ?? []),
-    ]) {
-      const response = await fetch(
-        `http://127.0.0.1:${validationPort}${contract.path}`,
-      );
-      const html = await response.text();
-      const text = decodeHtml(
-        html
-          .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
-          .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
-          .replace(/<[^>]+>/g, " ")
-          .replace(/\s+/g, " ")
-          .trim(),
-      );
-
-      if (response.status !== contract.status) {
-        failures.push(
-          `${contract.path}: expected ${contract.status}, received ${response.status}`,
-        );
-      }
-      if (
-        contract.marker &&
-        !text.includes(contract.marker) &&
-        !decodeHtml(html).includes(contract.marker)
-      ) {
-        failures.push(
-          `${contract.path}: missing visible marker "${contract.marker}"`,
-        );
-      }
-      if (contract.titleIncludes) {
-        const title = decodeHtml(
-          html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? "",
-        );
-        if (!title.includes(contract.titleIncludes)) {
-          failures.push(
-            `${contract.path}: title "${title}" does not include "${contract.titleIncludes}"`,
-          );
-        }
-      }
-      if (contract.canonical) {
-        const canonicalUrl = findCanonical(html);
-        if (!canonicalUrl) {
-          failures.push(`${contract.path}: canonical link is missing`);
-        } else {
-          const canonicalPath = normalizePath(
-            new URL(
-              canonicalUrl,
-              `http://127.0.0.1:${validationPort}`,
-            ).pathname,
-          );
-          if (canonicalPath !== normalizePath(contract.canonical)) {
+    for (const [kind, contracts] of routeGroups) {
+      for (const contract of contracts) {
+        const requestUrl =
+          `http://127.0.0.1:${validationPort}${contract.path}`;
+        try {
+          const response = await fetch(requestUrl, {
+            redirect: "manual",
+            signal: AbortSignal.timeout(15000),
+          });
+          if (kind === "redirect") {
             failures.push(
-              `${contract.path}: canonical ${canonicalPath} does not match ${contract.canonical}`,
+              ...validateRedirectResponse(contract, {
+                status: response.status,
+                location: response.headers.get("location"),
+                requestUrl,
+              }),
+            );
+          } else if (kind === "invalid") {
+            failures.push(
+              ...validateInvalidResponse(contract, {
+                status: response.status,
+              }),
+            );
+            await response.arrayBuffer();
+          } else {
+            failures.push(
+              ...validatePageResponse(contract, {
+                status: response.status,
+                html: await response.text(),
+                requestUrl,
+              }),
             );
           }
+        } catch (error) {
+          const detail = error instanceof Error ? error.message : String(error);
+          failures.push(`${contract.path}: request failed: ${detail}`);
         }
       }
     }
@@ -267,7 +267,7 @@ async function verifyRoutes(template) {
       process.exitCode = 1;
     } else {
       console.log(
-        `${template.name} route verification passed: ${(template.routes ?? []).length} valid and ${(template.invalidRoutes ?? []).length} invalid routes.`,
+        `${template.name} route verification passed: ${(template.routes ?? []).length} valid, ${(template.redirects ?? []).length} redirects, and ${(template.invalidRoutes ?? []).length} invalid routes.`,
       );
     }
   } finally {
@@ -309,7 +309,9 @@ async function waitForServer(port, server, getOutput) {
       );
     }
     try {
-      const response = await fetch(`http://127.0.0.1:${port}/`);
+      const response = await fetch(`http://127.0.0.1:${port}/`, {
+        signal: AbortSignal.timeout(2000),
+      });
       await response.arrayBuffer();
       return;
     } catch {
@@ -317,35 +319,6 @@ async function waitForServer(port, server, getOutput) {
     }
   }
   throw new Error(`Timed out waiting for Next.js server on port ${port}.`);
-}
-
-function findCanonical(html) {
-  return (
-    html.match(
-      /<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["'][^>]*>/i,
-    )?.[1] ??
-    html.match(
-      /<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical["'][^>]*>/i,
-    )?.[1] ??
-    null
-  );
-}
-
-function normalizePath(value) {
-  if (value === "/") {
-    return value;
-  }
-  return value.replace(/\/+$/, "");
-}
-
-function decodeHtml(value) {
-  return value
-    .replaceAll("&amp;", "&")
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#x27;", "'")
-    .replaceAll("&#39;", "'")
-    .replaceAll("&lt;", "<")
-    .replaceAll("&gt;", ">");
 }
 
 function escapeRegex(value) {

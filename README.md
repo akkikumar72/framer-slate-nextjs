@@ -1,6 +1,6 @@
 # Framer templates Turborepo
 
-Twelve standalone Next.js template applications and a lightweight showcase live
+Thirteen standalone Next.js template applications and a lightweight showcase live
 in one npm-workspaces Turborepo. Each template owns its routes, components,
 assets, metadata, validation contract, and deployment boundary.
 
@@ -416,6 +416,7 @@ Install all workspaces once from the repository root:
 
 ```bash
 npm ci
+npx playwright install chromium
 ```
 
 Run the showcase:
@@ -459,11 +460,26 @@ Run the complete acceptance sequence:
 npm run verify
 ```
 
+Run the production browser baseline directly after building:
+
+```bash
+npm run build && npm run test:browser
+```
+
+The browser suite starts one production application at a time and always
+stops it before moving to the next template.
+
 `verify` runs checks, builds, and route contracts sequentially so generated
 Next.js types are never read while a build is replacing them. Route contracts
-live in each application's `template.config.json`. They cover every valid
-static and generated route, invalid dynamic slugs, branded 404 pages, titles,
-canonical paths, and visible markers.
+live in each application's `template.config.json`: `routes` describe 2xx pages,
+`redirects` describe responses that must not be followed, and `invalidRoutes`
+cover invalid dynamic slugs and branded 404 pages. New routes use an exact
+`title`; `titleIncludes` remains supported for legacy substring checks. Every
+valid page also declares its canonical path and a marker checked only in
+visible response text after scripts and styles are removed. Invalid-route
+status is proven over HTTP; the browser suite proves every invalid marker is
+visible after hydration and exercises a representative interaction in each
+app.
 
 ## Environment
 

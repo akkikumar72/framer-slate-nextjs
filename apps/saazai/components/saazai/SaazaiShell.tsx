@@ -101,8 +101,9 @@ function SaazaiFooter() {
       form.reportValidity();
       return;
     }
-    setStatus("You’re on the list. Thanks for subscribing.");
-    form.reset();
+    setStatus(
+      "Email validated locally. Newsletter delivery is not connected in this demo.",
+    );
   }
 
   return (
@@ -151,7 +152,7 @@ function SaazaiFooter() {
         </div>
         <div className={styles.newsletter}>
           <h2>Join Our Newsletter</h2>
-          <form onSubmit={subscribe}>
+          <form onInput={() => setStatus("")} onSubmit={subscribe}>
             <label className={styles.srOnly} htmlFor="saazai-newsletter">
               Email address
             </label>

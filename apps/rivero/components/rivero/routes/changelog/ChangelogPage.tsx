@@ -1,9 +1,9 @@
 import { type CSSProperties } from "react";
 import { RiveroPageFrame } from "../../RiveroShell";
-import { changelogEntries } from "./data";
+import type { ChangelogEntry } from "./data";
 import styles from "./ChangelogPage.module.css";
 
-export function ChangelogPage() {
+export function ChangelogPage({ entry }: { entry: ChangelogEntry }) {
   return (
     <RiveroPageFrame>
       <main>
@@ -16,22 +16,19 @@ export function ChangelogPage() {
               </p>
             </header>
             <div className={styles.entries}>
-              {changelogEntries.map((entry, index) => (
-                <article
-                  className={index === 0 ? styles.featured : ""}
-                  data-rivero-reveal="card"
-                  key={entry.version}
-                  style={{ "--rivero-delay": `${index * 70}ms` } as CSSProperties}
-                >
-                  <time>{entry.date}</time>
-                  <div className={styles.entryCopy}>
-                    <span>{entry.version}</span>
-                    <h2>{entry.title}</h2>
-                    <p>{entry.body}</p>
-                    {entry.subheading ? <><h3>{entry.subheading}</h3><p>{entry.detail}</p></> : null}
-                  </div>
-                </article>
-              ))}
+              <article
+                className={styles.featured}
+                data-rivero-reveal="card"
+                style={{ "--rivero-delay": "0ms" } as CSSProperties}
+              >
+                <time>{entry.date}</time>
+                <div className={styles.entryCopy}>
+                  <span>{entry.version}</span>
+                  <h2>{entry.title}</h2>
+                  <p>{entry.body}</p>
+                  {entry.subheading ? <><h3>{entry.subheading}</h3><p>{entry.detail}</p></> : null}
+                </div>
+              </article>
             </div>
           </div>
         </section>

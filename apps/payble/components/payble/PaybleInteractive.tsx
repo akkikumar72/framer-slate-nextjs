@@ -396,17 +396,21 @@ export function NewsletterForm() {
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    const email = String(data.get("email") ?? "").trim();
+    const email = event.currentTarget.elements.namedItem("email");
     setMessage(
-      email.includes("@")
-        ? "You’re on the list. Watch your inbox."
+      email instanceof HTMLInputElement && email.validity.valid
+        ? "Email validated locally. Newsletter delivery is not connected in this demo."
         : "Enter a valid email address.",
     );
   }
 
   return (
-    <form className="payble-newsletter__form" onSubmit={submit} noValidate>
+    <form
+      className="payble-newsletter__form"
+      noValidate
+      onInput={() => setMessage("")}
+      onSubmit={submit}
+    >
       <label className="payble-sr-only" htmlFor="payble-newsletter-email">
         Email address
       </label>
@@ -421,7 +425,7 @@ export function NewsletterForm() {
       <button className="payble-button" type="submit">
         Subscribe <span aria-hidden="true">↗</span>
       </button>
-      {message && <p role="status">{message}</p>}
+      <p role="status">{message}</p>
     </form>
   );
 }
@@ -436,12 +440,15 @@ export function ContactForm() {
       form.reportValidity();
       return;
     }
-    form.reset();
-    setMessage("Thanks. Your message is ready for the Payble team.");
+    setMessage("Details validated locally. No information was sent.");
   }
 
   return (
-    <form className="payble-contact-form" onSubmit={submit}>
+    <form
+      className="payble-contact-form"
+      onInput={() => setMessage("")}
+      onSubmit={submit}
+    >
       <div className="payble-contact-form__row">
         <label>
           Full Name
@@ -493,7 +500,7 @@ export function ContactForm() {
       <button className="payble-button" type="submit">
         Send Message <span aria-hidden="true">↗</span>
       </button>
-      {message && <p role="status">{message}</p>}
+      <p role="status">{message}</p>
     </form>
   );
 }

@@ -38,8 +38,7 @@ export function ContactForm() {
       return;
     }
 
-    setStatus("Thanks. Your message has been received.");
-    form.reset();
+    setStatus("Details validated locally. No information was sent.");
   }
 
   async function copy(value: string) {
@@ -51,7 +50,11 @@ export function ContactForm() {
   return (
     <section className={styles.contactArea}>
       <div className={styles.contactGrid}>
-        <form className={styles.contactForm} onSubmit={submit}>
+        <form
+          className={styles.contactForm}
+          onInput={() => setStatus("")}
+          onSubmit={submit}
+        >
           <SectionLabel>Contact Details</SectionLabel>
           <h2>Lets contact.</h2>
           <div className={styles.formRow}>
