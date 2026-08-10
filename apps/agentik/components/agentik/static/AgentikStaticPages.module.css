@@ -1,0 +1,1849 @@
+.rail {
+  width: min(1200px, calc(100% - 80px));
+  margin: 0 auto;
+  border-right: 1px solid var(--agentik-line);
+  border-left: 1px solid var(--agentik-line);
+}
+
+.accentEyebrow {
+  color: var(--agentik-accent) !important;
+}
+
+.splitHero,
+.missionSection,
+.teamSection,
+.blogSection,
+.openingsSection,
+.contactHero,
+.contactFormSection,
+.contactFaqSection {
+  border-bottom: 1px solid var(--agentik-line);
+  background: var(--agentik-bg);
+}
+
+.splitHeroRail {
+  display: grid;
+  min-height: calc(100svh - 1px);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: calc(100svh - 115.6px) 114.6px;
+}
+
+.heroMedia,
+.heroCopy {
+  min-width: 0;
+  grid-row: 1;
+}
+
+.heroMedia {
+  grid-column: 1;
+  overflow: hidden;
+  border-right: 1px solid var(--agentik-line);
+  background: #e7e7e7;
+}
+
+.heroMedia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutHero .heroMedia img {
+  object-position: 49% 50%;
+}
+
+.aboutHero .heroCopy {
+  padding-left: 40px;
+}
+
+.careersHero .heroMedia {
+  grid-column: 2;
+  border-right: 0;
+  border-left: 1px solid var(--agentik-line);
+}
+
+.careersHero .heroMedia img {
+  object-position: 50% 50%;
+}
+
+.heroCopy {
+  display: flex;
+  grid-column: 2;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 39px 34px;
+}
+
+.careersHero .heroCopy {
+  grid-column: 1;
+}
+
+.heroTitle h1,
+.contactHeroCopy h1,
+.notFoundCopy h1 {
+  max-width: 560px;
+  font-size: 68px;
+  font-weight: 400;
+  font-variation-settings: "wght" 550;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.heroTitle h1 {
+  max-width: 520px;
+}
+
+.heroEyebrow {
+  margin-bottom: 31px;
+}
+
+.heroLead {
+  max-width: 515px;
+  margin-top: 16px;
+  color: var(--agentik-muted);
+  font-size: 16px;
+  line-height: 1.7;
+  text-wrap: balance;
+}
+
+.heroActions {
+  display: flex;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.heroActions a:first-child {
+  width: 163px;
+  min-width: 163px;
+}
+
+.heroActions a:last-child {
+  width: 156px;
+  min-width: 156px;
+}
+
+.heroActions a {
+  height: 47px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.heroActions a,
+.teamAction a,
+.blogAction a,
+.openingsAction a,
+.applyButton,
+.homeButton {
+  gap: 12px;
+}
+
+.heroActions svg,
+.teamAction svg,
+.blogAction svg,
+.openingsAction svg,
+.applyButton svg,
+.homeButton svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
+.heroCopy.heroCopy [data-agentik-reveal],
+.contactHeroCopy.contactHeroCopy[data-agentik-reveal],
+.notFoundCopy.notFoundCopy[data-agentik-reveal] {
+  filter: blur(2px);
+  transform: perspective(700px) translateY(22px) rotateX(-3deg) scale(0.985);
+  transform-origin: 50% 100%;
+  transition-duration: 760ms;
+  transition-property: opacity, transform, filter;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.heroCopy.heroCopy [data-agentik-reveal][data-agentik-reveal-state="visible"],
+.contactHeroCopy.contactHeroCopy[data-agentik-reveal][data-agentik-reveal-state="visible"],
+.notFoundCopy.notFoundCopy[data-agentik-reveal][data-agentik-reveal-state="visible"] {
+  filter: blur(0);
+  transform: perspective(700px) translateY(0) rotateX(0) scale(1);
+}
+
+.metricStrip {
+  display: grid;
+  min-width: 0;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--agentik-line);
+}
+
+.metric {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid var(--agentik-line);
+  text-align: center;
+}
+
+.metric:last-child {
+  border-right: 0;
+}
+
+.metric strong {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.metric span {
+  margin-top: 3px;
+  color: var(--agentik-muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.missionRail {
+  min-height: 588.6px;
+}
+
+.missionHeading {
+  display: flex;
+  min-height: 362.6px;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 140px 54px;
+  flex-direction: column;
+  border-bottom: 1px solid var(--agentik-line);
+  text-align: center;
+}
+
+.missionHeading h2,
+.teamHeading h2,
+.blogHeading h2,
+.openingsHeading h2,
+.contactFaqHeading h2 {
+  font-size: 56px;
+  font-weight: 400;
+  font-variation-settings: "wght" 550;
+  letter-spacing: -0.04em;
+  line-height: 1.115;
+}
+
+.missionHeading h2 {
+  max-width: 850px;
+  margin-top: 29px;
+}
+
+.missionHeading > p:last-child,
+.teamHeading > p:last-child,
+.blogHeading > p:last-child,
+.openingsHeading > p:last-child,
+.contactFaqHeading > p:last-child {
+  color: var(--agentik-muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.missionHeading > p:last-child {
+  max-width: 610px;
+  margin-top: 16px;
+}
+
+.pillarGrid {
+  display: grid;
+  min-height: 226px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pillarReveal {
+  min-width: 0;
+  border-right: 1px solid var(--agentik-line);
+}
+
+.pillarReveal:last-child {
+  border-right: 0;
+}
+
+.pillarCard {
+  height: 100%;
+  padding: 31px 39px 26px;
+}
+
+.pillarCard h3 {
+  margin-top: 23px;
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.pillarCard > p:last-child {
+  max-width: 330px;
+  margin-top: 12px;
+  color: var(--agentik-muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.teamRail {
+  min-height: 1478.8px;
+}
+
+.teamHeader {
+  display: grid;
+  height: 367.6px;
+  min-height: 0;
+  grid-template-columns: 2fr 1fr;
+  align-items: end;
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.teamHeading {
+  padding: 70px 39px 42px;
+}
+
+.teamHeading h2 {
+  max-width: 720px;
+  margin-top: 29px;
+}
+
+.teamHeading > p:last-child {
+  max-width: 600px;
+  margin-top: 17px;
+}
+
+.teamAction {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 39px 49px;
+}
+
+.teamHeaderCentered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.teamHeaderCentered .teamHeading {
+  display: flex;
+  align-items: center;
+  padding: 62px 90px 51px;
+  flex-direction: column;
+}
+
+.teamHeaderCentered .teamHeading h2 {
+  max-width: 760px;
+}
+
+.teamGrid {
+  display: grid;
+  width: calc(100% + 2px);
+  margin-left: -1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.teamReveal {
+  height: 555.6px;
+  min-width: 0;
+  border-right: 1px solid var(--agentik-line);
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.teamReveal:nth-child(3n) {
+  border-right: 0;
+}
+
+.teamReveal:nth-last-child(-n + 3) {
+  border-bottom: 0;
+}
+
+.teamCard {
+  height: 100%;
+}
+
+.teamImage {
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--agentik-line);
+  background: #e5e5e5;
+}
+
+.teamImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.teamCard:hover .teamImage img {
+  transform: scale(1.035);
+}
+
+.teamDetails {
+  position: relative;
+  height: 155.6px;
+  min-height: 0;
+  padding: 24px 23px 22px;
+}
+
+.teamDetails > span {
+  color: var(--agentik-muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.teamDetails h3 {
+  margin-top: 9px;
+  padding-right: 78px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.socialLinks {
+  position: absolute;
+  right: 23px;
+  bottom: 24px;
+  display: flex;
+  gap: 8px;
+}
+
+.socialLinks a {
+  display: grid;
+  width: 31px;
+  height: 31px;
+  place-items: center;
+  border: 1px solid var(--agentik-line);
+  border-radius: 50%;
+  background: var(--agentik-surface);
+  transition: border-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.socialLinks a:hover,
+.socialLinks a:focus-visible {
+  border-color: var(--agentik-accent);
+  color: var(--agentik-accent);
+  transform: translateY(-2px);
+}
+
+.socialLinks svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.teamSection {
+  border-bottom: 0;
+}
+
+.blogRail {
+  min-height: 856px;
+}
+
+@media (min-width: 1200px) {
+  .blogRail {
+    height: 856px;
+    min-height: 0;
+    overflow: hidden;
+  }
+}
+
+.blogHeader {
+  display: grid;
+  min-height: 368px;
+  grid-template-columns: 2fr 1fr;
+  align-items: end;
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.blogHeading {
+  padding: 72px 39px 42px;
+}
+
+.blogHeading h2 {
+  max-width: 680px;
+  margin-top: 29px;
+}
+
+.blogHeading > p:last-child {
+  max-width: 600px;
+  margin-top: 17px;
+}
+
+.blogAction {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 39px 49px;
+}
+
+.blogGrid {
+  display: grid;
+  min-height: 489px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.blogReveal {
+  min-width: 0;
+}
+
+.blogReveal:first-child {
+  border-right: 1px solid var(--agentik-line);
+}
+
+.blogCard {
+  display: flex;
+  height: 100%;
+  min-width: 0;
+  padding: 0 23px 29px;
+  flex-direction: column;
+}
+
+.blogCover {
+  display: block;
+  height: 315px;
+  margin: 0 -23px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--agentik-line);
+  background: #e5e5e5;
+}
+
+.blogCover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.blogCard:hover .blogCover img,
+.blogCard:focus-visible .blogCover img {
+  transform: scale(1.08);
+}
+
+.blogCard > strong {
+  margin-top: 20px;
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.blogMeta {
+  display: flex;
+  margin-top: auto;
+  padding-top: 15px;
+  align-items: center;
+  gap: 9px;
+}
+
+.blogMeta small {
+  overflow: hidden;
+  color: var(--agentik-muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blogMeta i {
+  color: var(--agentik-accent);
+  font-style: normal;
+}
+
+.blogMeta img {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.openingsRail {
+  min-height: 0;
+  padding-bottom: 0;
+}
+
+.openingsHeader {
+  display: grid;
+  height: 367.6px;
+  min-height: 0;
+  grid-template-columns: 2fr 1fr;
+  align-items: end;
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.openingsHeading {
+  padding: 72px 39px 48px;
+}
+
+.openingsHeading h2 {
+  max-width: 720px;
+  margin-top: 29px;
+}
+
+.openingsHeading > p:last-child {
+  max-width: 695px;
+  margin-top: 17px;
+}
+
+.openingsAction {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 39px 55px;
+}
+
+.jobList {
+  width: calc(100% + 2px);
+  margin-left: -1px;
+}
+
+.jobReveal {
+  height: 196.4px;
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.jobReveal:last-child {
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.jobCard {
+  display: grid;
+  height: 100%;
+  min-height: 0;
+  padding: 28px 40px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.jobCopy {
+  min-width: 0;
+}
+
+.jobMeta {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--agentik-muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.jobMeta i {
+  color: var(--agentik-accent);
+  font-style: normal;
+}
+
+.jobCopy h3 {
+  margin-top: 14px;
+  font-size: 31px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.jobCopy > p:last-child {
+  max-width: 780px;
+  margin-top: 9px;
+  color: var(--agentik-muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.applyButton {
+  min-width: 148px;
+}
+
+.loadMore {
+  display: block;
+  width: calc(100% + 2px);
+  min-width: 0;
+  height: 54.4px;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  border: 1px solid var(--agentik-line);
+  border-radius: 0;
+  background: var(--agentik-surface);
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  transition: border-color 220ms ease, color 220ms ease, transform 220ms ease;
+}
+
+.loadMore:hover,
+.loadMore:focus-visible {
+  color: var(--agentik-accent);
+}
+
+.openingsSection {
+  border-bottom: 0;
+}
+
+.contactHeroRail {
+  display: flex;
+  min-height: 531.4px;
+  align-items: center;
+  justify-content: center;
+  padding: 134.6px 39px 28px;
+  text-align: center;
+}
+
+.contactHeroCopy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactHeroCopy h1 {
+  max-width: 786px;
+  margin-top: 31px;
+}
+
+.contactHeroCopy > p:last-child {
+  max-width: 620px;
+  margin-top: 17px;
+  color: var(--agentik-muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.contactFormRail {
+  min-height: 248.8px;
+  padding: 0;
+}
+
+.contactForm {
+  display: grid;
+  width: calc(100% + 2px);
+  height: 248.8px;
+  margin-left: -1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  overflow: hidden;
+}
+
+.formField {
+  display: flex;
+  min-width: 0;
+  min-height: 99.9px;
+  flex-direction: column;
+  gap: 0;
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.formField:nth-child(odd) {
+  border-right: 1px solid var(--agentik-line);
+}
+
+.formField > span {
+  display: flex;
+  height: 50px;
+  flex: 0 0 50px;
+  align-items: center;
+  padding: 0 23px;
+  border-bottom: 1px solid var(--agentik-line);
+  color: var(--agentik-muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.formField em {
+  margin-left: 2px;
+  color: var(--agentik-accent);
+  font-style: normal;
+}
+
+.formField input,
+.formField select {
+  width: 100%;
+  height: 49px;
+  padding: 0 23px;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background: var(--agentik-surface);
+  color: var(--agentik-ink);
+  font-size: 13px;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.formField select {
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--agentik-muted) 50%),
+    linear-gradient(135deg, var(--agentik-muted) 50%, transparent 50%);
+  background-position:
+    calc(100% - 17px) 21px,
+    calc(100% - 12px) 21px;
+  background-repeat: no-repeat;
+  background-size: 5px 5px, 5px 5px;
+}
+
+.formField input::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+.formField input:focus,
+.formField select:focus {
+  border-color: var(--agentik-accent);
+  box-shadow: 0 0 0 3px rgb(161 173 255 / 18%);
+}
+
+.submitButton.submitButton {
+  width: 100%;
+  height: 49px;
+  grid-column: 1 / -1;
+  border-radius: 0;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.contactFaqRail {
+  display: grid;
+  min-height: 1024px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.contactFaqHeading {
+  padding: 80px 39px;
+  border-right: 1px solid var(--agentik-line);
+}
+
+.contactFaqHeading h2 {
+  max-width: 480px;
+  margin-top: 31px;
+}
+
+.contactFaqHeading > p:last-child {
+  max-width: 500px;
+  margin-top: 19px;
+}
+
+.contactFaqList {
+  align-self: start;
+  padding: 61px 39px 40px;
+}
+
+.faqItem {
+  border-bottom: 1px solid var(--agentik-line);
+}
+
+.faqItem button {
+  display: flex;
+  width: 100%;
+  min-height: 84px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+
+.faqItem button span {
+  padding-right: 24px;
+  font-size: 18px;
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+
+.faqItem button i {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 auto;
+  border: 1px solid var(--agentik-line);
+  border-radius: 50%;
+  background: var(--agentik-surface);
+}
+
+.faqItem button i::before,
+.faqItem button i::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 1px;
+  background: var(--agentik-ink);
+  content: "";
+  transform: translate(-50%, -50%);
+  transition: transform 240ms ease;
+}
+
+.faqItem button i::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.faqItem[data-open="true"] button i::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.faqAnswer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 380ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.faqAnswer > div {
+  overflow: hidden;
+}
+
+.faqAnswer p {
+  max-width: 475px;
+  padding: 0 30px 0 0;
+  color: var(--agentik-muted);
+  font-size: 14px;
+  line-height: 1.75;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity 260ms ease, transform 320ms ease, padding-bottom 320ms ease;
+}
+
+.faqItem[data-open="true"] .faqAnswer {
+  grid-template-rows: 1fr;
+}
+
+.faqItem[data-open="true"] .faqAnswer p {
+  padding-bottom: 25px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contactFormSection,
+.contactFaqSection {
+  border-bottom: 0;
+}
+
+.notFoundHero {
+  min-height: 100svh;
+  border-bottom: 1px solid var(--agentik-line);
+  background: var(--agentik-bg);
+}
+
+.notFoundRail {
+  display: flex;
+  min-height: calc(100svh - 1px);
+  align-items: center;
+  justify-content: center;
+  padding: 1px 39px 0;
+}
+
+.notFoundCopy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.notFoundCopy h1 {
+  width: 730px;
+  max-width: 100%;
+  margin-top: 32px;
+}
+
+.notFoundCopy > p:nth-of-type(2) {
+  width: 552px;
+  max-width: 100%;
+  margin-top: 16px;
+  color: var(--agentik-muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.homeButton {
+  width: 161px;
+  min-width: 161px;
+  height: 47px;
+  margin-top: 32px;
+}
+
+.homeButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.notFoundCopy .accentEyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.7;
+}
+
+.mobileHomeLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.desktopHomeLabel {
+  display: none;
+}
+
+@media (max-width: 1199.98px) {
+  .rail {
+    width: 730px;
+  }
+
+  .splitHero,
+  .missionSection,
+  .teamSection,
+  .blogSection {
+    border-bottom: 0;
+  }
+
+  .splitHeroRail {
+    min-height: 900px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 425px 365px 110px;
+  }
+
+  .careersHero .splitHeroRail {
+    grid-template-rows: 286px 504px 110px;
+  }
+
+  .heroCopy,
+  .careersHero .heroCopy {
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: flex-start;
+    padding: 86px 39px 26px;
+  }
+
+  .careersHero .heroCopy {
+    padding-top: 56px;
+  }
+
+  .heroMedia,
+  .careersHero .heroMedia {
+    grid-column: 1;
+    grid-row: 2;
+    border-top: 1px solid var(--agentik-line);
+    border-right: 0;
+    border-left: 0;
+  }
+
+  .heroMedia img,
+  .aboutHero .heroMedia img,
+  .careersHero .heroMedia img {
+    object-position: 50% 39%;
+  }
+
+  .metricStrip {
+    grid-row: 3;
+  }
+
+  .heroTitle h1,
+  .contactHeroCopy h1,
+  .notFoundCopy h1 {
+    max-width: 660px;
+    font-size: 56px;
+  }
+
+  .notFoundRail {
+    padding: 125px 39px 44px;
+  }
+
+  .notFoundCopy .accentEyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.7;
+  }
+
+  .notFoundCopy h1 {
+    width: 611px;
+    max-width: 100%;
+    margin-top: 32px;
+  }
+
+  .notFoundCopy > p:nth-of-type(2) {
+    width: 552px;
+    max-width: 100%;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .homeButton {
+    width: 161px;
+    min-width: 161px;
+    height: 47px;
+    margin-top: 32px;
+  }
+
+  .homeButton svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .desktopHomeLabel {
+    display: none;
+  }
+
+  .mobileHomeLabel {
+    display: inline-flex;
+  }
+
+  .missionHeading {
+    height: 332px;
+    min-height: 0;
+    padding: 90px 39px 30px;
+  }
+
+  .missionRail {
+    height: 560.992px;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .pillarGrid {
+    min-height: 229px;
+  }
+
+  .pillarGrid,
+  .teamGrid,
+  .blogGrid {
+    width: calc(100% + 2px);
+    margin-left: -1px;
+  }
+
+  .missionHeading h2,
+  .teamHeading h2,
+  .blogHeading h2,
+  .openingsHeading h2,
+  .contactFaqHeading h2 {
+    font-size: 48px;
+  }
+
+  .pillarCard {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .pillarCard h3 {
+    font-size: 25px;
+  }
+
+  .pillarCard > p:last-child {
+    font-size: 13px;
+  }
+
+  .teamHeader {
+    height: 390px;
+    min-height: 0;
+  }
+
+  .teamHeaderCentered {
+    height: 336px;
+    min-height: 0;
+  }
+
+  .teamHeading {
+    padding: 90px 39px 30px;
+  }
+
+  .teamHeaderCentered .teamHeading {
+    padding: 90px 39px 30px;
+  }
+
+  .teamAction {
+    padding: 0 39px 30px;
+  }
+
+  .teamImage {
+    height: 400px;
+  }
+
+  .teamDetails {
+    height: 150px;
+    min-height: 0;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .teamDetails h3 {
+    padding-right: 0;
+    font-size: 21px;
+  }
+
+  .socialLinks {
+    position: static;
+    margin-top: 15px;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .teamReveal,
+  .teamReveal:nth-child(3n),
+  .teamReveal:nth-last-child(-n + 3) {
+    height: 550px;
+    border-right: 1px solid var(--agentik-line);
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .teamReveal:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .teamCard {
+    height: 100%;
+  }
+
+  .blogRail {
+    height: 765.82px;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .blogHeader {
+    height: 411px;
+    min-height: 0;
+  }
+
+  .blogHeading {
+    padding: 90px 39px 30px;
+  }
+
+  .blogAction {
+    padding-right: 39px;
+    padding-bottom: 30px;
+  }
+
+  .blogGrid {
+    height: 354.82px;
+    min-height: 0;
+  }
+
+  .blogCover {
+    height: 191.625px;
+  }
+
+  .blogCard > strong {
+    font-size: 23px;
+  }
+
+  .openingsHeader {
+    height: 411px;
+    min-height: 0;
+  }
+
+  .openingsHeading {
+    padding: 90px 39px 30px;
+  }
+
+  .openingsAction {
+    padding-right: 39px;
+    padding-bottom: 30px;
+  }
+
+  .jobCard {
+    padding-right: 25px;
+    padding-left: 25px;
+    gap: 24px;
+  }
+
+  .jobReveal {
+    height: 191.6px;
+  }
+
+  .jobCopy > p:last-child {
+    max-width: 490px;
+    font-size: 13px;
+  }
+
+  .contactHeroRail {
+    min-height: 472.6px;
+    padding-top: 103px;
+    padding-bottom: 21px;
+  }
+
+  .contactFormRail {
+    min-height: 248.8px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .contactFaqRail {
+    min-height: 910px;
+  }
+
+  .contactFaqHeading {
+    padding: 65px 25px;
+  }
+
+  .contactFaqList {
+    padding: 41px 25px 28px;
+  }
+
+  .faqItem button {
+    min-height: 77px;
+  }
+
+  .faqItem button span {
+    font-size: 16px;
+  }
+
+  .faqAnswer p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 809.98px) {
+  .rail {
+    width: 350px;
+  }
+
+  .splitHeroRail {
+    grid-template-rows: 591.8px 383px 220px;
+  }
+
+  .aboutHero .splitHeroRail {
+    min-height: 1194.8px;
+  }
+
+  .careersHero .splitHeroRail {
+    min-height: 1031.8px;
+    grid-template-rows: 428.8px 383px 220px;
+  }
+
+  .heroCopy,
+  .careersHero .heroCopy {
+    padding: 123px 19px 41px;
+  }
+
+  .careersHero .heroCopy {
+    padding-top: 113px;
+  }
+
+  .heroEyebrow {
+    margin-bottom: 28px;
+  }
+
+  .heroTitle h1,
+  .contactHeroCopy h1,
+  .notFoundCopy h1 {
+    max-width: 100%;
+    font-size: 44px;
+    line-height: 1.2;
+  }
+
+  .heroLead {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .heroActions {
+    display: grid;
+    width: 100%;
+    margin-top: 28px;
+    grid-template-columns: 1fr;
+  }
+
+  .heroActions a:first-child,
+  .heroActions a:last-child {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .metricStrip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 110px);
+  }
+
+  .metric {
+    border-right: 1px solid var(--agentik-line);
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .metric:nth-child(1) {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .metric:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .metric:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1;
+    border-right: 0;
+  }
+
+  .metric strong {
+    font-size: 28px;
+  }
+
+  .metric span {
+    font-size: 8px;
+  }
+
+  .missionRail {
+    min-height: 901px;
+  }
+
+  .missionHeading {
+    min-height: 337px;
+    align-items: flex-start;
+    padding: 50px 19px 30px;
+    text-align: left;
+  }
+
+  .missionHeading h2,
+  .teamHeading h2,
+  .blogHeading h2,
+  .openingsHeading h2,
+  .contactFaqHeading h2 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .missionHeading h2 {
+    margin-top: 32px;
+  }
+
+  .teamHeading h2,
+  .blogHeading h2,
+  .openingsHeading h2,
+  .contactFaqHeading h2 {
+    margin-top: 36px;
+  }
+
+  .missionHeading > p:last-child,
+  .teamHeading > p:last-child,
+  .blogHeading > p:last-child,
+  .openingsHeading > p:last-child,
+  .contactFaqHeading > p:last-child {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .pillarGrid {
+    min-height: 564px;
+    grid-template-columns: 1fr;
+  }
+
+  .pillarReveal {
+    min-height: 188px;
+    border-right: 0;
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .pillarReveal:last-child {
+    border-bottom: 0;
+  }
+
+  .pillarCard {
+    padding: 29px 19px 25px;
+  }
+
+  .pillarCard h3 {
+    margin-top: 22px;
+    font-size: 28px;
+  }
+
+  .pillarCard > p:last-child {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .teamRail {
+    min-height: 0;
+  }
+
+  .teamHeader,
+  .teamHeaderCentered {
+    display: flex;
+    height: 395px;
+    min-height: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .teamHeading,
+  .teamHeaderCentered .teamHeading {
+    align-items: flex-start;
+    padding: 50px 19px 20px;
+    text-align: left;
+  }
+
+  .teamAction {
+    justify-content: flex-start;
+    padding: 7px 19px 30px;
+  }
+
+  .teamHeaderCentered {
+    height: 320px;
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .teamReveal,
+  .teamReveal:nth-child(3n),
+  .teamReveal:nth-last-child(-n + 3) {
+    height: 550px;
+    border-right: 0;
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .teamReveal:last-child {
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .teamImage {
+    height: 400px;
+  }
+
+  .teamDetails {
+    height: 150px;
+    min-height: 0;
+    padding: 20px 23px;
+  }
+
+  .teamDetails h3 {
+    padding-right: 76px;
+    font-size: 25px;
+  }
+
+  .socialLinks {
+    position: absolute;
+    right: 19px;
+    bottom: 23px;
+    margin-top: 0;
+  }
+
+  .blogRail {
+    height: 1143.52px;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .blogHeader {
+    display: flex;
+    height: 416px;
+    min-height: 0;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .blogHeading {
+    padding: 50px 19px 20px;
+  }
+
+  .blogAction {
+    justify-content: flex-start;
+    padding: 7px 19px 39px;
+  }
+
+  .blogGrid {
+    height: 727.52px;
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .blogReveal {
+    height: 346.96px;
+    min-height: 0;
+  }
+
+  .blogReveal:first-child {
+    height: 380.56px;
+    border-right: 0;
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .blogCard {
+    padding: 0 19px 25px;
+  }
+
+  .blogCover {
+    height: 183.75px;
+    margin: 0 -19px;
+  }
+
+  .blogCard > strong {
+    font-size: 24px;
+  }
+
+  .openingsRail {
+    min-height: 0;
+    padding-bottom: 0;
+  }
+
+  .openingsHeader {
+    display: flex;
+    height: 437px;
+    min-height: 0;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .openingsHeading {
+    padding: 50px 19px 20px;
+  }
+
+  .openingsAction {
+    justify-content: flex-start;
+    padding: 8px 19px 39px;
+  }
+
+  .teamAction a,
+  .blogAction a,
+  .openingsAction a {
+    width: 310px;
+    height: 47px;
+    min-width: 0;
+  }
+
+  .jobCard {
+    display: flex;
+    height: 100%;
+    min-height: 0;
+    align-items: flex-start;
+    padding: 34px 24px 24px;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .jobMeta {
+    flex-wrap: wrap;
+    gap: 6px 8px;
+  }
+
+  .jobCopy h3 {
+    margin-top: 14px;
+    font-size: 29px;
+  }
+
+  .jobCopy > p:last-child {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .applyButton {
+    width: 100%;
+    min-width: 0;
+    margin-top: auto;
+  }
+
+  .loadMore {
+    width: calc(100% + 2px);
+    margin: 0 0 0 -1px;
+  }
+
+  .jobReveal {
+    height: 317.4px;
+  }
+
+  .contactHeroRail {
+    min-height: 487.8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 147.6px 19px 17.4px;
+    text-align: left;
+  }
+
+  .contactHeroCopy {
+    align-items: flex-start;
+  }
+
+  .contactHeroCopy h1 {
+    margin-top: 28px;
+  }
+
+  .contactHeroCopy > p:last-child {
+    margin-top: 17px;
+    font-size: 15px;
+  }
+
+  .contactFormRail {
+    min-height: 451px;
+    padding: 0;
+  }
+
+  .contactForm {
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .formField {
+    min-height: 101.2px;
+    gap: 0;
+    border-bottom: 0;
+    border-right: 0;
+    box-shadow: inset 0 -1px var(--agentik-line);
+  }
+
+  .formField > span {
+    height: 52.4px;
+    flex-basis: 52.4px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .formField input,
+  .formField select {
+    height: 48.8px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .formField select {
+    width: calc(100% - 24px);
+  }
+
+  .submitButton.submitButton {
+    height: 46.4px;
+    grid-column: 1;
+    margin-top: 0;
+  }
+
+  .contactFaqRail {
+    display: block;
+    min-height: 1066.8px;
+  }
+
+  .contactFaqHeading {
+    min-height: 350px;
+    padding: 61px 19px 43px;
+    border-right: 0;
+    border-bottom: 1px solid var(--agentik-line);
+  }
+
+  .contactFaqHeading h2 {
+    margin-top: 28px;
+  }
+
+  .contactFaqList {
+    padding: 23px 19px 28px;
+  }
+
+  .faqItem button {
+    min-height: 72px;
+  }
+
+  .faqItem button span {
+    padding-right: 15px;
+    font-size: 15px;
+  }
+
+  .faqAnswer p {
+    padding-right: 12px;
+    font-size: 12px;
+  }
+
+  .notFoundRail {
+    padding: 1px 19px 0;
+  }
+
+  .notFoundCopy {
+    align-items: center;
+    text-align: center;
+  }
+
+  .notFoundCopy .accentEyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.7;
+  }
+
+  .notFoundCopy h1 {
+    margin-top: 32px;
+  }
+
+  .notFoundCopy > p:nth-of-type(2) {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .homeButton {
+    height: 47px;
+    width: 310px;
+    margin-top: 32px;
+  }
+
+  .desktopHomeLabel {
+    display: none;
+  }
+
+  .mobileHomeLabel {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 389px) {
+  .rail {
+    width: calc(100% - 40px);
+  }
+
+  .notFoundCopy {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .teamAction a,
+  .blogAction a,
+  .openingsAction a,
+  .homeButton {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroCopy.heroCopy [data-agentik-reveal],
+  .contactHeroCopy.contactHeroCopy[data-agentik-reveal],
+  .notFoundCopy.notFoundCopy[data-agentik-reveal] {
+    filter: none;
+    transform: none;
+    transition-duration: 0.01ms;
+  }
+
+  .teamImage img,
+  .blogCover img,
+  .faqAnswer,
+  .faqAnswer p,
+  .loadMore,
+  .socialLinks a {
+    transition-duration: 0.01ms;
+  }
+}
