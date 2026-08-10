@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Template Workspace",
   description:
-    "Eleven standalone Next.js template applications in one Turborepo workspace.",
+    "Twelve standalone Next.js template applications in one Turborepo workspace.",
   alternates: {
     canonical: "/",
   },

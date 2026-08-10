@@ -1,0 +1,43 @@
+{
+  "name": "Agentik",
+  "slug": "agentik",
+  "port": 3012,
+  "sourceRoots": ["app", "components"],
+  "assetRoots": ["public/agentik/assets"],
+  "assetPrefixes": ["/agentik/assets/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleIncludes": "Agentik",
+      "canonical": "/",
+      "marker": "AI made easy so your business scales fast"
+    },
+    { "path": "/about", "status": 200, "marker": "We help businesses scale with AI" },
+    { "path": "/careers", "status": 200, "marker": "Help us bring AI to businesses everywhere" },
+    { "path": "/contact", "status": 200, "marker": "Let's talk about what AI can do for you" },
+    { "path": "/blog", "status": 200, "marker": "We help businesses scale with AI" },
+    { "path": "/blog/how-we-saved-a-logistics-company-200-hours-a-month", "status": 200 },
+    { "path": "/blog/why-voice-agents-are-the-next-big-thing-for-agencies", "status": 200 },
+    { "path": "/blog/a-beginner-s-guide-to-automating-your-sales-pipeline", "status": 200 },
+    { "path": "/blog/five-ai-tools-every-small-business-should-use-in-2026", "status": 200 }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/404",
+      "status": 404,
+      "marker": "Even AI can't find this page"
+    },
+    {
+      "path": "/definitely-not-agentik",
+      "status": 404,
+      "marker": "Even AI can't find this page"
+    },
+    {
+      "path": "/blog/not-a-real-post",
+      "status": 404,
+      "marker": "Even AI can't find this page"
+    }
+  ]
+}
