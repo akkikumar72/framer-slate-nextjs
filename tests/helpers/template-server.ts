@@ -1,8 +1,11 @@
-import { spawn, type ChildProcessWithoutNullStreams } from "node:child_process";
+import { spawn, type ChildProcessByStdio } from "node:child_process";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { createServer } from "node:net";
 import path from "node:path";
 import { createRequire } from "node:module";
+import type { Readable } from "node:stream";
+
+type TemplateChild = ChildProcessByStdio<null, Readable, Readable>;
 
 type NormalRoute = {
   path: string;
@@ -123,7 +126,7 @@ export async function startTemplate(
   return { baseUrl, stop, template };
 }
 
-function createStop(child: ChildProcessWithoutNullStreams) {
+function createStop(child: TemplateChild) {
   let closed = false;
   let stopping: Promise<void> | undefined;
   const close = new Promise<void>((resolve) => {
@@ -168,7 +171,7 @@ function isPortAvailable(port: number) {
 
 async function waitForReady(
   url: string,
-  child: ChildProcessWithoutNullStreams,
+  child: TemplateChild,
   getOutput: () => string,
 ) {
   const deadline = Date.now() + 30000;

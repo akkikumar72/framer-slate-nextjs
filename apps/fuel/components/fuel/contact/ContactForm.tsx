@@ -21,9 +21,9 @@ export function ContactForm() {
       <div className={styles.formIntro}>
         <h1>Get In Touch”</h1>
         <p>
-          Pick a plan, submit a job request, and your イメージ will kickoff
+          Preview a project request with the form below.
           <br />
-          within 24 hours.
+          Connect form delivery before accepting submissions.
         </p>
       </div>
       <div className={styles.formRow}>

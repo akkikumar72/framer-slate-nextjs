@@ -454,6 +454,9 @@ Each application exposes the same interface:
 - `check`
 - `test:routes`
 
+At the repository root, `npm run check` runs every workspace check and then a
+strict TypeScript check for the Playwright configuration, helpers, and specs.
+
 Run the complete acceptance sequence:
 
 ```bash
@@ -469,17 +472,17 @@ npm run build && npm run test:browser
 The browser suite starts one production application at a time and always
 stops it before moving to the next template.
 
-`verify` runs checks, builds, and route contracts sequentially so generated
-Next.js types are never read while a build is replacing them. Route contracts
-live in each application's `template.config.json`: `routes` describe 2xx pages,
-`redirects` describe responses that must not be followed, and `invalidRoutes`
-cover invalid dynamic slugs and branded 404 pages. New routes use an exact
-`title`; `titleIncludes` remains supported for legacy substring checks. Every
-valid page also declares its canonical path and a marker checked only in
-visible response text after scripts and styles are removed. Invalid-route
-status is proven over HTTP; the browser suite proves every invalid marker is
-visible after hydration and exercises a representative interaction in each
-app.
+`verify` runs checks, builds, route contracts, and browser tests sequentially
+so generated Next.js types are never read while a build is replacing them.
+Route contracts live in each application's `template.config.json`: `routes`
+describe 2xx pages, `redirects` describe responses that must not be followed,
+and `invalidRoutes` cover invalid dynamic slugs and branded 404 pages. New
+routes use an exact `title`; `titleIncludes` remains supported for legacy
+substring checks. Every valid page also declares its canonical path and a
+marker checked only in visible response text after scripts and styles are
+removed. Invalid-route status is proven over HTTP; the browser suite proves
+every invalid marker is visible after hydration and exercises a representative
+interaction in each app.
 
 ## Environment
 

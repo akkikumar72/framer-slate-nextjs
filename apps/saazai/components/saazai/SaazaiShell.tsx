@@ -169,7 +169,7 @@ function SaazaiFooter() {
             </button>
           </form>
           <p>
-            * We’ll send you weekly updates for better business management.
+            * Preview only. Connect newsletter delivery before accepting subscriptions.
           </p>
           <output aria-live="polite">{status}</output>
         </div>

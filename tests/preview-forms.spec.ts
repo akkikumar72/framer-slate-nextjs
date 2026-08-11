@@ -25,6 +25,15 @@ const messages = {
     "Email validated locally. Newsletter delivery is not connected in this demo.",
 } as const;
 
+const previewCopy = {
+  fuelContact:
+    "Preview a project request with the form below. Connect form delivery before accepting submissions.",
+  pilarContact:
+    "Preview the inquiry flow below. This demo does not contact a team.",
+  saazaiNewsletter:
+    "* Preview only. Connect newsletter delivery before accepting subscriptions.",
+} as const;
+
 test.describe.configure({ mode: "serial" });
 
 test("Fuel keeps its contact request local", async ({ page }) => {
@@ -34,6 +43,15 @@ test("Fuel keeps its contact request local", async ({ page }) => {
     const form = page.locator("form").filter({
       has: page.getByRole("button", { name: "Submit", exact: true }),
     });
+    const previewIntro = form.locator("p").filter({
+      hasText: "Preview a project request with the form below.",
+    });
+    await expect
+      .poll(async () =>
+        (await previewIntro.innerText()).replace(/\s+/g, " ").trim(),
+      )
+      .toBe(previewCopy.fuelContact);
+    await expect(form.getByText("within 24 hours")).toHaveCount(0);
     await expectNativeInvalidBlocked(form, messages.fuelContact);
 
     await form.locator('[name="firstName"]').fill("Preview");
@@ -168,6 +186,12 @@ test("Saazai keeps contact and newsletter details local", async ({ page }) => {
     const newsletterSection = page.getByRole("contentinfo").filter({
       has: page.getByRole("heading", { name: "Join Our Newsletter" }),
     });
+    await expect(
+      newsletterSection.getByText(previewCopy.saazaiNewsletter, { exact: true }),
+    ).toBeVisible();
+    await expect(
+      newsletterSection.getByText("send you weekly updates"),
+    ).toHaveCount(0);
     const newsletter = newsletterSection.locator("form").filter({
       has: page.locator("#saazai-newsletter"),
     });
@@ -248,6 +272,11 @@ test("Pilar keeps its contact inquiry local", async ({ page }) => {
   const server = await startTemplate(findTemplate("pilar"));
   try {
     await open(page, server.baseUrl, "/contact");
+    const contactPage = page.getByRole("main");
+    await expect(
+      contactPage.getByText(previewCopy.pilarContact, { exact: true }),
+    ).toBeVisible();
+    await expect(contactPage.getByText("get back to you quickly")).toHaveCount(0);
     const form = page.locator("form").filter({
       has: page.locator('[name="purpose"]'),
     });

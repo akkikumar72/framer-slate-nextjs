@@ -92,7 +92,7 @@ export function PliarContactPage() {
           <section className={styles.contactIntro} aria-labelledby="pliar-contact-heading">
             <h1 id="pliar-contact-heading">Get in Touch</h1>
             <p className={styles.contactLead}>
-              Our team is here to help. Reach out and we’ll get back to you quickly.
+              Preview the inquiry flow below. This demo does not contact a team.
             </p>
 
             <address className={styles.contactDetails}>
