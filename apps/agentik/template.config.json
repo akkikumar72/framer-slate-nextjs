@@ -10,18 +10,18 @@
     {
       "path": "/",
       "status": 200,
-      "titleIncludes": "Agentik",
+      "title": "Agentik | AI Automation Agency",
       "canonical": "/",
       "marker": "AI made easy so your business scales fast"
     },
-    { "path": "/about", "status": 200, "marker": "We help businesses scale with AI" },
-    { "path": "/careers", "status": 200, "marker": "Help us bring AI to businesses everywhere" },
-    { "path": "/contact", "status": 200, "marker": "Let's talk about what AI can do for you" },
-    { "path": "/blog", "status": 200, "marker": "We help businesses scale with AI" },
-    { "path": "/blog/how-we-saved-a-logistics-company-200-hours-a-month", "status": 200 },
-    { "path": "/blog/why-voice-agents-are-the-next-big-thing-for-agencies", "status": 200 },
-    { "path": "/blog/a-beginner-s-guide-to-automating-your-sales-pipeline", "status": 200 },
-    { "path": "/blog/five-ai-tools-every-small-business-should-use-in-2026", "status": 200 }
+    { "path": "/about", "status": 200, "title": "About | Agentik", "canonical": "/about", "marker": "We help businesses scale with AI" },
+    { "path": "/careers", "status": 200, "title": "Careers | Agentik", "canonical": "/careers", "marker": "Help us bring AI to businesses everywhere" },
+    { "path": "/contact", "status": 200, "title": "Contact | Agentik", "canonical": "/contact", "marker": "Let's talk about what AI can do for you" },
+    { "path": "/blog", "status": 200, "title": "Agentik | Framer Website Template | AI Automation Agency", "canonical": "/blog", "marker": "We help businesses scale with AI" },
+    { "path": "/blog/how-we-saved-a-logistics-company-200-hours-a-month", "status": 200, "title": "How we saved a logistics company 200 hours a month | Framer Website Template for AI Automation Agencies", "canonical": "/blog/how-we-saved-a-logistics-company-200-hours-a-month", "marker": "How we saved a logistics company 200 hours a month" },
+    { "path": "/blog/why-voice-agents-are-the-next-big-thing-for-agencies", "status": 200, "title": "Why voice agents are the next big thing for agencies | Framer Website Template for AI Automation Agencies", "canonical": "/blog/why-voice-agents-are-the-next-big-thing-for-agencies", "marker": "Why voice agents are the next big thing for agencies" },
+    { "path": "/blog/a-beginner-s-guide-to-automating-your-sales-pipeline", "status": 200, "title": "A beginner's guide to automating your sales pipeline | Framer Website Template for AI Automation Agencies", "canonical": "/blog/a-beginner-s-guide-to-automating-your-sales-pipeline", "marker": "A beginner's guide to automating your sales pipeline" },
+    { "path": "/blog/five-ai-tools-every-small-business-should-use-in-2026", "status": 200, "title": "Five AI tools every small business should use in 2026 | Framer Website Template for AI Automation Agencies", "canonical": "/blog/five-ai-tools-every-small-business-should-use-in-2026", "marker": "Five AI tools every small business should use in 2026" }
   ],
   "invalidRoutes": [
     {

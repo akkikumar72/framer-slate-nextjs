@@ -29,13 +29,6 @@
       "marker": "Get In Touch"
     },
     {
-      "path": "/work",
-      "status": 200,
-      "titleIncludes": "Portfolio - Fuel - Premium Agency & Portfolio",
-      "canonical": "/work/portfolio",
-      "marker": "Latest"
-    },
-    {
       "path": "/work/portfolio",
       "status": 200,
       "titleIncludes": "Portfolio - Fuel - Premium Agency & Portfolio",
@@ -71,13 +64,6 @@
       "marker": "Nike Studios"
     },
     {
-      "path": "/blog",
-      "status": 200,
-      "titleIncludes": "Velocity Becomes",
-      "canonical": "/blog/velocity-becomes",
-      "marker": "Velocity Becomes"
-    },
-    {
       "path": "/blog/velocity-becomes",
       "status": 200,
       "titleIncludes": "Velocity Becomes",
@@ -104,6 +90,18 @@
       "titleIncludes": "Flowers Love",
       "canonical": "/blog/flowers-love",
       "marker": "Flowers Love"
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/work",
+      "status": 307,
+      "location": "/work/portfolio"
+    },
+    {
+      "path": "/blog",
+      "status": 307,
+      "location": "/blog/velocity-becomes"
     }
   ],
   "invalidRoutes": [

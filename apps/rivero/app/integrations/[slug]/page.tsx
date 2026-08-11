@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const integration = integrationBySlug.get((await params).slug);
   if (!integration) return {};
   return {
-    title: { absolute: "Rivero - SaaS & Startup Template" },
+    title: integration.name,
     description: integration.description,
     alternates: { canonical: `/integrations/${integration.slug}` },
   };

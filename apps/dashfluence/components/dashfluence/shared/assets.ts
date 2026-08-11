@@ -28,10 +28,10 @@ export const dashfluenceAssets = {
   ].map(dashfluenceAsset),
   services: [
     "8pav5SU3BnJ6wETIuurnrNxivo.png",
-    "P6VdABYaeMyqzy5lJeVzQ2GSH90.jpg",
+    "P6VdABYaeMyqzy5lJeVzQ2GSH90-home.webp",
     "FZtr09azaTHn6YwdMESKE3Ss3tg.jpg",
     "6hoh6HKRqD2wucm9QOitChDY4S0.png",
-    "pwOCQ86eV6uTDBY7fWUfJB09WU.jpg",
+    "pwOCQ86eV6uTDBY7fWUfJB09WU-home.webp",
   ].map(dashfluenceAsset),
   work: [
     "jAbJAmSYyYg78AqhLtKgpxB5s.png",

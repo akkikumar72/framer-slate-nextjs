@@ -1,22 +1,29 @@
 "use client";
 
-import type { FormEvent } from "react";
+import { type FormEvent, useState } from "react";
 
 import styles from "./ContactPage.module.css";
 
 export function ContactForm() {
+  const [status, setStatus] = useState("");
+
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setStatus("Preview only. No job request was sent.");
   }
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form
+      className={styles.form}
+      onInput={() => setStatus("")}
+      onSubmit={handleSubmit}
+    >
       <div className={styles.formIntro}>
         <h1>Get In Touch”</h1>
         <p>
-          Pick a plan, submit a job request, and your イメージ will kickoff
+          Preview a project request with the form below.
           <br />
-          within 24 hours.
+          Connect form delivery before accepting submissions.
         </p>
       </div>
       <div className={styles.formRow}>
@@ -76,6 +83,9 @@ export function ContactForm() {
       <button className={styles.submit} type="submit">
         Submit
       </button>
+      <p className={styles.status} role="status">
+        {status}
+      </p>
     </form>
   );
 }

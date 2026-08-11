@@ -160,6 +160,7 @@
 .appointmentForm { gap: 19px; margin: -714px auto 141px; max-width: 800px; min-height: 714px; padding: 34px; position: relative; z-index: 3; }
 .appointmentForm label { color: #322b80; display: flex; flex-direction: column; font-size: 12px; font-weight: 600; gap: 8px; }
 .appointmentForm > button { align-self: stretch; }
+.formStatus { color: #7268ea; font-size: 12px; line-height: 18px; margin: -8px 0 0; min-height: 18px; }
 .appointmentForm + .seamlessSection { min-height: 603px; padding-bottom: 35px; padding-top: 53px; }
 
 .legalHero { min-height: 2661px; padding: 170px 30px 100px; }
