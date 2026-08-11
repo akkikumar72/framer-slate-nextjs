@@ -58,7 +58,29 @@ const interactions: Record<string, Interaction> = {
     await expect(
       page.getByRole("dialog", { name: "Palmer project reel" }),
     ).toBeVisible();
-    await expect(page.getByRole("button", { name: "Close reel" })).toBeVisible();
+    const closeReel = page.getByRole("button", { name: "Close reel" });
+    await expect(closeReel).toBeVisible();
+    await closeReel.click();
+
+    const response = await page.goto(
+      new URL("/work/arc-bloom", page.url()).toString(),
+      { waitUntil: "domcontentloaded" },
+    );
+    expect(response?.status()).toBe(200);
+    await expect(
+      page.getByRole("heading", {
+        level: 1,
+        name: "Arc & Bloom /",
+        exact: true,
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("region", {
+        name: "Arc & Bloom project information",
+        exact: true,
+      }),
+    ).toBeVisible();
+    await expect(page).toHaveTitle(/Arc Bloom/);
   },
   payble: async (page) => {
     const yearly = page.getByRole("button", { name: /^Yearly/ });
@@ -91,6 +113,37 @@ const interactions: Record<string, Interaction> = {
         exact: false,
       }),
     ).toBeVisible();
+
+    const response = await page.goto(
+      new URL("/reviews", page.url()).toString(),
+      { waitUntil: "domcontentloaded" },
+    );
+    expect(response?.status()).toBe(200);
+
+    const images = page.getByRole("img", {
+      name: "Rivero customer",
+      exact: true,
+    });
+    await expect(images).toHaveCount(4);
+    const sources = await images.evaluateAll((elements) =>
+      elements.map((element) => element.getAttribute("src")),
+    );
+    expect(sources).toEqual([
+      "/rivero/assets/06becc88e3401d28.png",
+      "/rivero/assets/5cc9f957bc378f67.png",
+      "/rivero/assets/8fc876fa23447d35.png",
+      "/rivero/assets/d214f296bdfb3a9b.png",
+    ]);
+    await expect
+      .poll(() =>
+        images.evaluateAll((elements) =>
+          elements.every((element) => {
+            const image = element as HTMLImageElement;
+            return image.complete && image.naturalWidth > 0;
+          }),
+        ),
+      )
+      .toBe(true);
   },
   saazai: async (page) => {
     await page.getByRole("button", { name: "Next testimonial" }).click();
