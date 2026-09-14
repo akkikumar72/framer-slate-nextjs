@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile, readdir } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 import {
@@ -141,24 +141,17 @@ test("invalid routes require identity config and reject status mismatches", () =
   );
 });
 
-test("every template config satisfies the route contract", async () => {
+test("every app has a valid template route contract", async () => {
   const appsDirectory = fileURLToPath(new URL("../../../apps/", import.meta.url));
   const entries = await readdir(appsDirectory, { withFileTypes: true });
-  const configPaths = [];
+  const appNames = entries
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
 
-  for (const entry of entries) {
-    if (!entry.isDirectory()) continue;
-    const configPath = `${appsDirectory}/${entry.name}/template.config.json`;
-    try {
-      await access(configPath);
-      configPaths.push(configPath);
-    } catch {
-      // This workspace directory is not a runnable template.
-    }
-  }
-
-  assert.equal(configPaths.length, 14);
-  for (const configPath of configPaths.sort()) {
+  assert.ok(appNames.length > 0, "No app directories were discovered");
+  for (const appName of appNames) {
+    const configPath = `${appsDirectory}/${appName}/template.config.json`;
     const template = JSON.parse(await readFile(configPath, "utf8"));
     assert.deepEqual(
       validateTemplateRouteConfig(template),
