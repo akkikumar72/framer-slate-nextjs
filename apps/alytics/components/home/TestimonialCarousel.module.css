@@ -1,0 +1,11 @@
+.carousel{position:relative;height:410px;width:100%;user-select:none}
+.viewport{position:relative;height:320px;width:100%;touch-action:pan-y;cursor:grab;clip-path:inset(0 0 -50px)}
+.viewport[data-dragging=true]{cursor:grabbing}
+.slide{position:absolute;inset:0 auto auto 0;width:100%;height:320px}
+.slide>*{height:320px;margin:0}
+.slide img{pointer-events:none;-webkit-user-drag:none}
+.controls{display:flex;justify-content:flex-end;gap:10px;margin-top:50px}
+.controls button{display:flex;align-items:center;justify-content:center;padding:0;width:40px;height:40px;border:0;border-radius:40px;background:#126dfb;cursor:pointer}
+.controls img{display:block;width:40px;height:40px;pointer-events:none}
+.controls button:focus-visible{outline:2px solid #0d0d0d;outline-offset:3px}
+.controls button:disabled{opacity:.5;cursor:default}

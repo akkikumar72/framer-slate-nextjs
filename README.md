@@ -543,3 +543,16 @@ Hulio is available at `http://localhost:3013/hulio` and from the showcase catalo
 The migration includes all 23 published content pages and the branded 404: home, about, team, pricing, contact, privacy policy, projects with six case studies, and the blog with nine articles. All visual assets and fonts are bundled locally. The contact form validates locally and explicitly reports that no message was sent. No backend delivery service is configured.
 
 Evidence, route inventory, source attribution, and validation notes: [Hulio documentation](apps/hulio/docs/README.md).
+
+
+### Alytics
+
+`@framer-templates/alytics` · [Open Alytics](http://localhost:3015/alytics) · port `3015`
+
+<a href="http://localhost:3015/alytics"><img src="apps/showcase/public/templates/alytics-home.png" alt="Alytics SaaS analytics template preview" width="1440"></a>
+
+Available from the showcase catalog and its `/alytics` route. Run `npm run dev --workspace=@framer-templates/alytics` or `npm run dev:all`.
+
+Includes the home page, newsletter, blog index, all four articles, and the custom 404. Original visual assets and fonts are bundled locally. The newsletter validates inputs locally and explicitly reports that no subscription was created.
+
+[All routes, implementation details, and validation evidence](apps/alytics/README.md).

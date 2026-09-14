@@ -1,0 +1,32 @@
+.header { position: fixed; inset: 0 0 auto; z-index: 50; overflow: hidden; background: #fff; box-shadow: 0 1px 20px rgb(0 0 0 / 3%); padding: 14px 48px; height: 68px; }
+.container { width: 100%; max-width: 1104px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; }
+.name { display: flex; align-items: center; }
+.logo { display: flex; align-items: center; }
+.logo :global(.logo) { font-size: 24px; line-height: 1.2; letter-spacing: -.96px; }
+.logo img { width: 30px; height: 30px; }
+.navigation { display: flex; align-items: center; gap: 10px; }
+.link { display: flex; align-items: center; justify-content: center; height: 40px; padding: 10px 12px; border-radius: 8px; font-size: 16px; font-weight: 500; line-height: 1.4; letter-spacing: -.64px; color: var(--muted); white-space: nowrap; }
+.toggle { display: none; width: 30px; height: 30px; position: relative; padding: 0; border: 0; border-radius: 6px; background: #fff; }
+.toggle span { position: absolute; left: 6px; top: 14px; width: 18px; height: 2px; border-radius: 10px; background: #000; }
+.action { flex: none; }
+@media (max-width: 1199.98px) {
+  .header { height: 58px; padding: 14px 32px; }
+  .header[data-menu-open="true"] { padding: 14px 16px 20px; overflow-y: auto; scrollbar-width: none; }
+  .header::-webkit-scrollbar { display: none; }
+  .container { max-width: 748px; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 28px; }
+  .header[data-menu-open="true"] .container { padding-bottom: 32px; }
+  .name { justify-content: space-between; width: 100%; height: 30px; }
+  .logo :global(.logo) { font-size: 22px; letter-spacing: -.88px; }
+  .toggle { display: block; }
+  .navigation, .action { display: none; }
+  .navigation[data-open="true"] { display: flex; flex-direction: column; align-items: flex-start; width: 100%; }
+  .link { padding: 0; font-size: 20px; font-weight: 500; letter-spacing: -.8px; color: #000; }
+  .action[data-open="true"] { display: block; width: 100%; }
+  .action :global(.button) { width: 100%; }
+}
+@media (max-width: 809.98px) {
+  .header { padding: 14px 16px; }
+  .container { max-width: 358px; }
+  .logo :global(.logo) { font-size: 20px; letter-spacing: -.8px; }
+  .link { font-size: 18px; letter-spacing: -.72px; }
+}

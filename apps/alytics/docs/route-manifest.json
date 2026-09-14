@@ -1,0 +1,193 @@
+[
+  {
+    "path": "/alytics",
+    "referenceUrl": "https://alytics.framer.website/",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "landing",
+    "kind": "static",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true,
+      "motionAudit": "home-motion-evidence.md",
+      "motionViewports": [
+        1474,
+        810,
+        390
+      ],
+      "reducedMotion": true
+    }
+  },
+  {
+    "path": "/alytics/newsletter",
+    "referenceUrl": "https://alytics.framer.website/newsletter",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "newsletter",
+    "kind": "static",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  },
+  {
+    "path": "/alytics/blog",
+    "referenceUrl": "https://alytics.framer.website/blog",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "blog",
+    "kind": "static",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  },
+  {
+    "path": "/alytics/blog/streamlining-saas-operations-without-adding-overhead",
+    "referenceUrl": "https://alytics.framer.website/blog/streamlining-saas-operations-without-adding-overhead",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "article",
+    "kind": "CMS-like",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  },
+  {
+    "path": "/alytics/blog/growing-a-saas-without-breaking-your-systems",
+    "referenceUrl": "https://alytics.framer.website/blog/growing-a-saas-without-breaking-your-systems",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "article",
+    "kind": "CMS-like",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  },
+  {
+    "path": "/alytics/blog/designing-saas-workflows-that-actually-scale",
+    "referenceUrl": "https://alytics.framer.website/blog/designing-saas-workflows-that-actually-scale",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "article",
+    "kind": "CMS-like",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  },
+  {
+    "path": "/alytics/blog/the-real-cost-of-manual-saas-work",
+    "referenceUrl": "https://alytics.framer.website/blog/the-real-cost-of-manual-saas-work",
+    "evidence": [
+      "project-tree",
+      "sitemap",
+      "rendered-reference"
+    ],
+    "family": "article",
+    "kind": "CMS-like",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 200,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  },
+  {
+    "path": "/alytics/404",
+    "referenceUrl": "https://alytics.framer.website/404",
+    "evidence": [
+      "project-tree",
+      "footer-link",
+      "rendered-reference"
+    ],
+    "family": "404",
+    "kind": "not-found",
+    "sharedShell": "alytics",
+    "status": "implemented-and-verified",
+    "confidence": "high",
+    "validation": {
+      "httpStatus": 404,
+      "viewports": [
+        1474,
+        810,
+        390
+      ],
+      "productionBrowser": true
+    }
+  }
+]
