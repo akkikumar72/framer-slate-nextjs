@@ -1,0 +1,220 @@
+{
+  "name": "Hulio",
+  "slug": "hulio",
+  "routePrefix": "/hulio",
+  "port": 3013,
+  "sourceRoots": [
+    "app",
+    "components",
+    "lib"
+  ],
+  "assetRoots": [
+    "public/hulio"
+  ],
+  "assetPrefixes": [
+    "/hulio/"
+  ],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/hulio",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio",
+      "marker": "Award Winning Creative Digital Agency"
+    },
+    {
+      "path": "/hulio/contact",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/contact",
+      "marker": "Let\u2019s talk and create something cool together."
+    },
+    {
+      "path": "/hulio/pricing",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/pricing",
+      "marker": "Some Affordable Pricing Plans for you!"
+    },
+    {
+      "path": "/hulio/team",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/team",
+      "marker": "Meet Our Creative and Talented Team"
+    },
+    {
+      "path": "/hulio/blog",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog",
+      "marker": "The latest blog from us."
+    },
+    {
+      "path": "/hulio/project",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project",
+      "marker": "Creative Work with Real World Results"
+    },
+    {
+      "path": "/hulio/about",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/about",
+      "marker": "Where Creativity Meets Digital Success"
+    },
+    {
+      "path": "/hulio/privacy-policy",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/privacy-policy",
+      "marker": "Privacy Policy"
+    },
+    {
+      "path": "/hulio/project-details/bold-typography-in-packaging",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project-details/bold-typography-in-packaging",
+      "marker": "Bold Typography in Packaging"
+    },
+    {
+      "path": "/hulio/project-details/professional-poster-design",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project-details/professional-poster-design",
+      "marker": "Oribox \u2014 Professional Poster Design"
+    },
+    {
+      "path": "/hulio/project-details/clarity-task-management-app-ui",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project-details/clarity-task-management-app-ui",
+      "marker": "Clarity \u2014 Task Management App UI"
+    },
+    {
+      "path": "/hulio/project-details/minimalist-packaging-concepts",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project-details/minimalist-packaging-concepts",
+      "marker": "Minimalist Packaging Concepts"
+    },
+    {
+      "path": "/hulio/project-details/velocity-urban-mobility-platform-design",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project-details/velocity-urban-mobility-platform-design",
+      "marker": "VeloCity \u2014 Urban Mobility Platform Design"
+    },
+    {
+      "path": "/hulio/project-details/novaui-modern-dashboard-design",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/project-details/novaui-modern-dashboard-design",
+      "marker": "NovaUI \u2014 Modern Dashboard Design"
+    },
+    {
+      "path": "/hulio/blog-details/how-digital-agencies-transform-online-presence-4",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/how-digital-agencies-transform-online-presence-4",
+      "marker": "How digital agencies transform online presence"
+    },
+    {
+      "path": "/hulio/blog-details/the-impact-of-digital-agencies-on-brand-visibility",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/the-impact-of-digital-agencies-on-brand-visibility",
+      "marker": "The Impact of Digital Agencies on Brand Visibility"
+    },
+    {
+      "path": "/hulio/blog-details/how-creative-agencies-elevate-online-identity",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/how-creative-agencies-elevate-online-identity",
+      "marker": "How Creative Agencies Elevate Online Identity"
+    },
+    {
+      "path": "/hulio/blog-details/why-businesses-rely-on-digital-agencies-for-growth",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/why-businesses-rely-on-digital-agencies-for-growth",
+      "marker": "Why Businesses Rely on Digital Agencies for Growth"
+    },
+    {
+      "path": "/hulio/blog-details/the-role-of-digital-experts-in-shaping-modern-brands",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/the-role-of-digital-experts-in-shaping-modern-brands",
+      "marker": "The Role of Digital Experts in Shaping Modern Brands"
+    },
+    {
+      "path": "/hulio/blog-details/transforming-online-presence-the-digital-agency-advantage",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/transforming-online-presence-the-digital-agency-advantage",
+      "marker": "Transforming Online Presence: The Digital Agency Advantage"
+    },
+    {
+      "path": "/hulio/blog-details/how-to-launch-a-digital-agency-in-2025",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/how-to-launch-a-digital-agency-in-2025",
+      "marker": "How to Launch a Digital Agency in 2025"
+    },
+    {
+      "path": "/hulio/blog-details/5-mistakes-every-new-digital-agency-makes",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/5-mistakes-every-new-digital-agency-makes",
+      "marker": "5 Mistakes Every New Digital Agency Makes"
+    },
+    {
+      "path": "/hulio/blog-details/what-clients-really-want-from-digital-agencies",
+      "status": 200,
+      "titleIncludes": "Hulio",
+      "canonical": "/hulio/blog-details/what-clients-really-want-from-digital-agencies",
+      "marker": "What Clients Really Want from Digital Agencies"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/hulio/404",
+      "status": 404,
+      "marker": "Oops..."
+    },
+    {
+      "path": "/hulio/__missing__",
+      "status": 404,
+      "marker": "Oops..."
+    },
+    {
+      "path": "/hulio/project-details/__missing__",
+      "status": 404,
+      "marker": "Oops..."
+    },
+    {
+      "path": "/hulio/blog-details/__missing__",
+      "status": 404,
+      "marker": "Oops..."
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/",
+      "status": 307,
+      "location": "/hulio"
+    },
+    {
+      "path": "/Hulio",
+      "status": 307,
+      "location": "/hulio"
+    },
+    {
+      "path": "/Hulio/about",
+      "status": 307,
+      "location": "/hulio/about"
+    }
+  ]
+}

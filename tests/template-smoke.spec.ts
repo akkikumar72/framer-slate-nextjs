@@ -47,6 +47,42 @@ const interactions: Record<string, Interaction> = {
       }),
     ).toBeVisible();
   },
+  hulio: async (page) => {
+    await page.locator('a[href="/hulio/project"]').first().click();
+    await expect(page).toHaveURL(/\/hulio\/project$/);
+    await expect(
+      page.getByRole("heading", {
+        level: 1,
+        name: "Creative Work with Real World Results",
+        exact: true,
+      }),
+    ).toBeVisible();
+
+    const projectCards = page.locator('a[href^="/hulio/project-details/"]');
+    await expect(projectCards).toHaveCount(4);
+    const loadMore = page.getByRole("button", {
+      name: "Load More",
+      exact: true,
+    });
+    await loadMore.click();
+    await expect(projectCards).toHaveCount(6);
+    await expect(loadMore).toHaveCount(0);
+
+    const projectPath = "/hulio/project-details/bold-typography-in-packaging";
+    await page.locator(`a[href="${projectPath}"]`).first().click();
+    await expect(page).toHaveURL(new RegExp(`${projectPath}$`));
+    await expect(
+      page.getByRole("heading", {
+        level: 1,
+        name: "Bold Typography in Packaging",
+        exact: true,
+      }),
+    ).toBeVisible();
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      new RegExp(`${projectPath}$`),
+    );
+  },
   jayden: async (page) => {
     const service = page.getByRole("button", { name: /UI\/UX Design/ });
     await service.click();

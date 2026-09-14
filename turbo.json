@@ -19,7 +19,8 @@
         "NEXT_PUBLIC_PILAR_URL",
         "NEXT_PUBLIC_RIVERO_URL",
         "NEXT_PUBLIC_AGENTIK_URL",
-        "NEXT_PUBLIC_DASHFLUENCE_URL"
+        "NEXT_PUBLIC_DASHFLUENCE_URL",
+        "NEXT_PUBLIC_HULIO_URL"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",
