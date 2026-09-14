@@ -1,6 +1,6 @@
 # Framer templates Turborepo
 
-Thirteen standalone Next.js template applications and a lightweight showcase live
+Standalone Next.js template applications and a lightweight showcase live
 in one npm-workspaces Turborepo. Each template owns its routes, components,
 assets, metadata, validation contract, and deployment boundary.
 
@@ -532,3 +532,14 @@ Template-specific asset audits remain app-local where the original design
 needed additional rules. `packages/typescript-config` supplies the strict
 shared Next.js compiler configuration while every app retains its local `@/*`
 alias.
+
+
+### Hulio
+
+<a href="http://localhost:3013/hulio"><img src="apps/showcase/public/templates/hulio-home.png" alt="Hulio creative digital agency template preview" width="1440"></a>
+
+Hulio is available at `http://localhost:3013/hulio` and from the showcase catalog. The showcase `/hulio` entry redirects to the independent template app. Start it with `npm run dev --workspace=@framer-templates/hulio`, or start the complete catalog with `npm run dev:all`.
+
+The migration includes all 23 published content pages and the branded 404: home, about, team, pricing, contact, privacy policy, projects with six case studies, and the blog with nine articles. All visual assets and fonts are bundled locally. The contact form validates locally and explicitly reports that no message was sent. No backend delivery service is configured.
+
+Evidence, route inventory, source attribution, and validation notes: [Hulio documentation](apps/hulio/docs/README.md).

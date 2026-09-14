@@ -1,0 +1,602 @@
+[
+  {
+    "path": "/hulio",
+    "referenceUrl": "https://hulio.framer.website/",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "home",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/contact",
+    "referenceUrl": "https://hulio.framer.website/contact",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "contact",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/pricing",
+    "referenceUrl": "https://hulio.framer.website/pricing",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "pricing",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/team",
+    "referenceUrl": "https://hulio.framer.website/team",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "team",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog",
+    "referenceUrl": "https://hulio.framer.website/blog",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project",
+    "referenceUrl": "https://hulio.framer.website/project",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/404",
+    "referenceUrl": "https://hulio.framer.website/404",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "404",
+    "kind": "not-found",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/about",
+    "referenceUrl": "https://hulio.framer.website/about",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "about",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/privacy-policy",
+    "referenceUrl": "https://hulio.framer.website/privacy-policy",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "privacy-policy",
+    "kind": "static",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project-details/bold-typography-in-packaging",
+    "referenceUrl": "https://hulio.framer.website/project-details/bold-typography-in-packaging",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project-details/professional-poster-design",
+    "referenceUrl": "https://hulio.framer.website/project-details/professional-poster-design",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project-details/clarity-task-management-app-ui",
+    "referenceUrl": "https://hulio.framer.website/project-details/clarity-task-management-app-ui",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project-details/minimalist-packaging-concepts",
+    "referenceUrl": "https://hulio.framer.website/project-details/minimalist-packaging-concepts",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project-details/velocity-urban-mobility-platform-design",
+    "referenceUrl": "https://hulio.framer.website/project-details/velocity-urban-mobility-platform-design",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/project-details/novaui-modern-dashboard-design",
+    "referenceUrl": "https://hulio.framer.website/project-details/novaui-modern-dashboard-design",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "project-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/how-digital-agencies-transform-online-presence-4",
+    "referenceUrl": "https://hulio.framer.website/blog-details/how-digital-agencies-transform-online-presence-4",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/the-impact-of-digital-agencies-on-brand-visibility",
+    "referenceUrl": "https://hulio.framer.website/blog-details/the-impact-of-digital-agencies-on-brand-visibility",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/how-creative-agencies-elevate-online-identity",
+    "referenceUrl": "https://hulio.framer.website/blog-details/how-creative-agencies-elevate-online-identity",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/why-businesses-rely-on-digital-agencies-for-growth",
+    "referenceUrl": "https://hulio.framer.website/blog-details/why-businesses-rely-on-digital-agencies-for-growth",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/the-role-of-digital-experts-in-shaping-modern-brands",
+    "referenceUrl": "https://hulio.framer.website/blog-details/the-role-of-digital-experts-in-shaping-modern-brands",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/transforming-online-presence-the-digital-agency-advantage",
+    "referenceUrl": "https://hulio.framer.website/blog-details/transforming-online-presence-the-digital-agency-advantage",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/how-to-launch-a-digital-agency-in-2025",
+    "referenceUrl": "https://hulio.framer.website/blog-details/how-to-launch-a-digital-agency-in-2025",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/5-mistakes-every-new-digital-agency-makes",
+    "referenceUrl": "https://hulio.framer.website/blog-details/5-mistakes-every-new-digital-agency-makes",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  },
+  {
+    "path": "/hulio/blog-details/what-clients-really-want-from-digital-agencies",
+    "referenceUrl": "https://hulio.framer.website/blog-details/what-clients-really-want-from-digital-agencies",
+    "evidence": [
+      "published-sitemap",
+      "public-page"
+    ],
+    "family": "blog-detail",
+    "kind": "data-driven",
+    "sharedShell": "hulio",
+    "risk": "medium",
+    "confidence": "high",
+    "viewports": [
+      1440,
+      810,
+      390
+    ],
+    "status": "implemented",
+    "verification": {
+      "http": "passed",
+      "desktopBrowser": "passed",
+      "phoneBrowser": "passed",
+      "familyReport": "README.md"
+    }
+  }
+]

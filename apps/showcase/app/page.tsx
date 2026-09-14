@@ -120,6 +120,15 @@ const templates = [
       process.env.NEXT_PUBLIC_DASHFLUENCE_URL ??
       "http://localhost:3018/Dashfluence",
   },
+  {
+    name: "Hulio",
+    slug: "hulio",
+    packageName: "@framer-templates/hulio",
+    port: 3013,
+    routes: 23,
+    image: "/templates/hulio-home.png",
+    url: process.env.NEXT_PUBLIC_HULIO_URL ?? "http://localhost:3013/hulio",
+  },
 ] as const;
 
 export default function ShowcasePage() {
@@ -163,7 +172,7 @@ export default function ShowcasePage() {
             </div>
             <div>
               <dt>Ports</dt>
-              <dd>3001–12 · 3018</dd>
+              <dd>{templates.map((template) => template.port).sort((a, b) => a - b).join(" · ")}</dd>
             </div>
           </dl>
         </div>
@@ -171,7 +180,7 @@ export default function ShowcasePage() {
 
       <section className="catalog" id="catalog" aria-label="Template catalog">
         {templates.map((template, index) => (
-          <article className="template-card" key={template.slug}>
+          <article className="template-card" id={template.slug} key={template.slug}>
             <a
               className="preview"
               href={template.url}
