@@ -9,11 +9,30 @@ assets, metadata, validation contract, and deployment boundary.
 [Open the Showcase catalog](http://localhost:3000/) ·
 [View its full-page capture](output/playwright/landing-pages/showcase-full.png)
 
+Run `npm run dev:all`, then open any template below. Select its name to jump to its preview and routes.
+
+| Template | Local URL |
+| --- | --- |
+| [Slate](#slate) | [http://localhost:3001/](http://localhost:3001/) |
+| [Grovia](#grovia) | [http://localhost:3002/](http://localhost:3002/) |
+| [Fuel](#fuel) | [http://localhost:3003/](http://localhost:3003/) |
+| [Agenio](#agenio) | [http://localhost:3004/](http://localhost:3004/) |
+| [Jayden](#jayden) | [http://localhost:3005/](http://localhost:3005/) |
+| [Saazai](#saazai) | [http://localhost:3006/](http://localhost:3006/) |
+| [Palmer](#palmer) | [http://localhost:3007/](http://localhost:3007/) |
+| [Trillo](#trillo) | [http://localhost:3008/](http://localhost:3008/) |
+| [Payble](#payble) | [http://localhost:3009/](http://localhost:3009/) |
+| [Pilar](#pilar) | [http://localhost:3010/](http://localhost:3010/) |
+| [Rivero](#rivero) | [http://localhost:3011/](http://localhost:3011/) |
+| [Agentik](#agentik) | [http://localhost:3012/](http://localhost:3012/) |
+| [Hulio](#hulio) | [http://localhost:3013/hulio](http://localhost:3013/hulio) |
+| [Orbital](#orbital) | [http://localhost:3014/orbital](http://localhost:3014/orbital) |
+| [Alytics](#alytics) | [http://localhost:3015/alytics](http://localhost:3015/alytics) |
+| [Dashfluence](#dashfluence) | [http://localhost:3018/Dashfluence](http://localhost:3018/Dashfluence) |
+
 <a href="http://localhost:3000/">
   <img src="output/playwright/landing-pages/showcase.png" alt="Framer template workspace Showcase at http://localhost:3000/" width="1440">
 </a>
-
-## Template showcase
 
 Each preview opens the template at its standalone local URL. Expand
 **Routes** below any design to open every valid page declared in that
@@ -349,6 +368,109 @@ workspace's `template.config.json`.
 
 </details>
 
+### Hulio
+
+`@framer-templates/hulio` ·
+[http://localhost:3013/hulio](http://localhost:3013/hulio) · port `3013`
+
+<a href="http://localhost:3013/hulio"><img src="apps/showcase/public/templates/hulio-home.png" alt="Hulio creative digital agency template preview" width="1440"></a>
+
+Hulio is available at `http://localhost:3013/hulio` and from the showcase catalog. The showcase `/hulio` entry redirects to the independent template app. Start it with `npm run dev --workspace=@framer-templates/hulio`, or start the complete catalog with `npm run dev:all`.
+
+The migration includes all 23 published content pages and the branded 404: home, about, team, pricing, contact, privacy policy, projects with six case studies, and the blog with nine articles. All visual assets and fonts are bundled locally. The contact form validates locally and explicitly reports that no message was sent. No backend delivery service is configured.
+
+<details>
+<summary><strong>Routes (23)</strong></summary>
+
+- [`/hulio`](http://localhost:3013/hulio)
+- [`/hulio/contact`](http://localhost:3013/hulio/contact)
+- [`/hulio/pricing`](http://localhost:3013/hulio/pricing)
+- [`/hulio/team`](http://localhost:3013/hulio/team)
+- [`/hulio/blog`](http://localhost:3013/hulio/blog)
+- [`/hulio/project`](http://localhost:3013/hulio/project)
+- [`/hulio/about`](http://localhost:3013/hulio/about)
+- [`/hulio/privacy-policy`](http://localhost:3013/hulio/privacy-policy)
+- [`/hulio/project-details/bold-typography-in-packaging`](http://localhost:3013/hulio/project-details/bold-typography-in-packaging)
+- [`/hulio/project-details/professional-poster-design`](http://localhost:3013/hulio/project-details/professional-poster-design)
+- [`/hulio/project-details/clarity-task-management-app-ui`](http://localhost:3013/hulio/project-details/clarity-task-management-app-ui)
+- [`/hulio/project-details/minimalist-packaging-concepts`](http://localhost:3013/hulio/project-details/minimalist-packaging-concepts)
+- [`/hulio/project-details/velocity-urban-mobility-platform-design`](http://localhost:3013/hulio/project-details/velocity-urban-mobility-platform-design)
+- [`/hulio/project-details/novaui-modern-dashboard-design`](http://localhost:3013/hulio/project-details/novaui-modern-dashboard-design)
+- [`/hulio/blog-details/how-digital-agencies-transform-online-presence-4`](http://localhost:3013/hulio/blog-details/how-digital-agencies-transform-online-presence-4)
+- [`/hulio/blog-details/the-impact-of-digital-agencies-on-brand-visibility`](http://localhost:3013/hulio/blog-details/the-impact-of-digital-agencies-on-brand-visibility)
+- [`/hulio/blog-details/how-creative-agencies-elevate-online-identity`](http://localhost:3013/hulio/blog-details/how-creative-agencies-elevate-online-identity)
+- [`/hulio/blog-details/why-businesses-rely-on-digital-agencies-for-growth`](http://localhost:3013/hulio/blog-details/why-businesses-rely-on-digital-agencies-for-growth)
+- [`/hulio/blog-details/the-role-of-digital-experts-in-shaping-modern-brands`](http://localhost:3013/hulio/blog-details/the-role-of-digital-experts-in-shaping-modern-brands)
+- [`/hulio/blog-details/transforming-online-presence-the-digital-agency-advantage`](http://localhost:3013/hulio/blog-details/transforming-online-presence-the-digital-agency-advantage)
+- [`/hulio/blog-details/how-to-launch-a-digital-agency-in-2025`](http://localhost:3013/hulio/blog-details/how-to-launch-a-digital-agency-in-2025)
+- [`/hulio/blog-details/5-mistakes-every-new-digital-agency-makes`](http://localhost:3013/hulio/blog-details/5-mistakes-every-new-digital-agency-makes)
+- [`/hulio/blog-details/what-clients-really-want-from-digital-agencies`](http://localhost:3013/hulio/blog-details/what-clients-really-want-from-digital-agencies)
+
+</details>
+
+Evidence, route inventory, source attribution, and validation notes: [Hulio documentation](apps/hulio/docs/README.md).
+
+
+### Orbital
+
+`@framer-templates/orbital` · [Open Orbital](http://localhost:3014/orbital) · port `3014`
+
+<a href="http://localhost:3014/orbital"><img src="apps/showcase/public/templates/orbital.jpg" alt="Orbital AI template preview with multi-agent hero and full-width company logos" width="1440"></a>
+
+The showcase `/orbital` route redirects to the standalone Orbital app. Run `npm run dev --workspace=@framer-templates/orbital` or `npm run dev:all`.
+
+Includes all 16 source pages: homepage, About, Contact, blog index, nine articles, two legal pages, and the custom 404. Images, fonts, and vector art are local. The contact form validates inputs and clearly reports that delivery is not connected.
+
+<details>
+<summary><strong>Routes (15 content pages + custom 404)</strong></summary>
+
+- [`/orbital`](http://localhost:3014/orbital)
+- [`/orbital/about`](http://localhost:3014/orbital/about)
+- [`/orbital/blog`](http://localhost:3014/orbital/blog)
+- [`/orbital/contact`](http://localhost:3014/orbital/contact)
+- [`/orbital/404`](http://localhost:3014/orbital/404)
+- [`/orbital/legal/privacy-policy`](http://localhost:3014/orbital/legal/privacy-policy)
+- [`/orbital/legal/terms-conditions`](http://localhost:3014/orbital/legal/terms-conditions)
+- [`/orbital/blog/why-ci-evaluations-matter`](http://localhost:3014/orbital/blog/why-ci-evaluations-matter)
+- [`/orbital/blog/orbital-3.0-multi-agent-runtime`](http://localhost:3014/orbital/blog/orbital-3.0-multi-agent-runtime)
+- [`/orbital/blog/measuring-agent-reliability`](http://localhost:3014/orbital/blog/measuring-agent-reliability)
+- [`/orbital/blog/build-a-support-agent-fast`](http://localhost:3014/orbital/blog/build-a-support-agent-fast)
+- [`/orbital/blog/zero-downtime-agent-deployments`](http://localhost:3014/orbital/blog/zero-downtime-agent-deployments)
+- [`/orbital/blog/we-raised-our-series-b`](http://localhost:3014/orbital/blog/we-raised-our-series-b)
+- [`/orbital/blog/guardrails-now-enforced`](http://localhost:3014/orbital/blog/guardrails-now-enforced)
+- [`/orbital/blog/what-we-learned-from-2m-runs`](http://localhost:3014/orbital/blog/what-we-learned-from-2m-runs)
+- [`/orbital/blog/connecting-snowflake-safely`](http://localhost:3014/orbital/blog/connecting-snowflake-safely)
+
+</details>
+
+[Orbital implementation and validation notes](apps/orbital/README.md).
+
+
+### Alytics
+
+`@framer-templates/alytics` · [Open Alytics](http://localhost:3015/alytics) · port `3015`
+
+<a href="http://localhost:3015/alytics"><img src="apps/showcase/public/templates/alytics-home.png" alt="Alytics SaaS analytics template preview" width="1440"></a>
+
+Available from the showcase catalog and its `/alytics` route. Run `npm run dev --workspace=@framer-templates/alytics` or `npm run dev:all`.
+
+Includes the home page, newsletter, blog index, all four articles, and the custom 404. Original visual assets and fonts are bundled locally. The newsletter validates inputs locally and explicitly reports that no subscription was created.
+
+<details>
+<summary><strong>Routes (7)</strong></summary>
+
+- [`/alytics`](http://localhost:3015/alytics)
+- [`/alytics/newsletter`](http://localhost:3015/alytics/newsletter)
+- [`/alytics/blog`](http://localhost:3015/alytics/blog)
+- [`/alytics/blog/streamlining-saas-operations-without-adding-overhead`](http://localhost:3015/alytics/blog/streamlining-saas-operations-without-adding-overhead)
+- [`/alytics/blog/growing-a-saas-without-breaking-your-systems`](http://localhost:3015/alytics/blog/growing-a-saas-without-breaking-your-systems)
+- [`/alytics/blog/designing-saas-workflows-that-actually-scale`](http://localhost:3015/alytics/blog/designing-saas-workflows-that-actually-scale)
+- [`/alytics/blog/the-real-cost-of-manual-saas-work`](http://localhost:3015/alytics/blog/the-real-cost-of-manual-saas-work)
+
+</details>
+
+[All routes, implementation details, and validation evidence](apps/alytics/README.md).
+
 ### Dashfluence
 
 `@framer-templates/dashfluence` ·
@@ -521,6 +643,9 @@ apps/
   pilar/
   rivero/
   agentik/
+  hulio/
+  orbital/
+  alytics/
   dashfluence/
 packages/
   template-validation/
@@ -532,62 +657,3 @@ Template-specific asset audits remain app-local where the original design
 needed additional rules. `packages/typescript-config` supplies the strict
 shared Next.js compiler configuration while every app retains its local `@/*`
 alias.
-
-
-### Hulio
-
-<a href="http://localhost:3013/hulio"><img src="apps/showcase/public/templates/hulio-home.png" alt="Hulio creative digital agency template preview" width="1440"></a>
-
-Hulio is available at `http://localhost:3013/hulio` and from the showcase catalog. The showcase `/hulio` entry redirects to the independent template app. Start it with `npm run dev --workspace=@framer-templates/hulio`, or start the complete catalog with `npm run dev:all`.
-
-The migration includes all 23 published content pages and the branded 404: home, about, team, pricing, contact, privacy policy, projects with six case studies, and the blog with nine articles. All visual assets and fonts are bundled locally. The contact form validates locally and explicitly reports that no message was sent. No backend delivery service is configured.
-
-Evidence, route inventory, source attribution, and validation notes: [Hulio documentation](apps/hulio/docs/README.md).
-
-
-### Orbital
-
-`@framer-templates/orbital` · [Open Orbital](http://localhost:3014/orbital) · port `3014`
-
-<a href="http://localhost:3014/orbital"><img src="apps/showcase/public/templates/orbital.jpg" alt="Orbital AI template preview with multi-agent hero and full-width company logos" width="1440"></a>
-
-The showcase `/orbital` route redirects to the standalone Orbital app. Run `npm run dev --workspace=@framer-templates/orbital` or `npm run dev:all`.
-
-Includes all 16 source pages: homepage, About, Contact, blog index, nine articles, two legal pages, and the custom 404. Images, fonts, and vector art are local. The contact form validates inputs and clearly reports that delivery is not connected.
-
-<details>
-<summary><strong>Routes (15 content pages + custom 404)</strong></summary>
-
-- [`/orbital`](http://localhost:3014/orbital)
-- [`/orbital/about`](http://localhost:3014/orbital/about)
-- [`/orbital/blog`](http://localhost:3014/orbital/blog)
-- [`/orbital/contact`](http://localhost:3014/orbital/contact)
-- [`/orbital/404`](http://localhost:3014/orbital/404)
-- [`/orbital/legal/privacy-policy`](http://localhost:3014/orbital/legal/privacy-policy)
-- [`/orbital/legal/terms-conditions`](http://localhost:3014/orbital/legal/terms-conditions)
-- [`/orbital/blog/why-ci-evaluations-matter`](http://localhost:3014/orbital/blog/why-ci-evaluations-matter)
-- [`/orbital/blog/orbital-3.0-multi-agent-runtime`](http://localhost:3014/orbital/blog/orbital-3.0-multi-agent-runtime)
-- [`/orbital/blog/measuring-agent-reliability`](http://localhost:3014/orbital/blog/measuring-agent-reliability)
-- [`/orbital/blog/build-a-support-agent-fast`](http://localhost:3014/orbital/blog/build-a-support-agent-fast)
-- [`/orbital/blog/zero-downtime-agent-deployments`](http://localhost:3014/orbital/blog/zero-downtime-agent-deployments)
-- [`/orbital/blog/we-raised-our-series-b`](http://localhost:3014/orbital/blog/we-raised-our-series-b)
-- [`/orbital/blog/guardrails-now-enforced`](http://localhost:3014/orbital/blog/guardrails-now-enforced)
-- [`/orbital/blog/what-we-learned-from-2m-runs`](http://localhost:3014/orbital/blog/what-we-learned-from-2m-runs)
-- [`/orbital/blog/connecting-snowflake-safely`](http://localhost:3014/orbital/blog/connecting-snowflake-safely)
-
-</details>
-
-[Orbital implementation and validation notes](apps/orbital/README.md).
-
-
-### Alytics
-
-`@framer-templates/alytics` · [Open Alytics](http://localhost:3015/alytics) · port `3015`
-
-<a href="http://localhost:3015/alytics"><img src="apps/showcase/public/templates/alytics-home.png" alt="Alytics SaaS analytics template preview" width="1440"></a>
-
-Available from the showcase catalog and its `/alytics` route. Run `npm run dev --workspace=@framer-templates/alytics` or `npm run dev:all`.
-
-Includes the home page, newsletter, blog index, all four articles, and the custom 404. Original visual assets and fonts are bundled locally. The newsletter validates inputs locally and explicitly reports that no subscription was created.
-
-[All routes, implementation details, and validation evidence](apps/alytics/README.md).
