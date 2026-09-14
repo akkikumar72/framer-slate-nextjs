@@ -1,0 +1,35 @@
+.page { color: #000; }
+.contact { border: 1px solid #ccc; padding: 76px 0 100px; }
+.intro { max-width: 570px; margin: 65px auto 60px; text-align: center; }
+.intro h1 { margin: 0 0 12px; font-family: "Asta Sans", sans-serif; font-size: 48px; line-height: 1.1; font-weight: 600; letter-spacing: 0; }
+.intro p { max-width: 600px; margin: 0 auto; color: #707070; }
+.form { display: grid; gap: 20px; width: 808px; max-width: calc(100% - 32px); margin: 0 auto; }
+.twoColumns { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form label { display: grid; gap: 8px; color: #333; }
+.form input, .form select, .form textarea { width: 100%; box-sizing: border-box; border: 1px solid #dedede; border-radius: 0; background: #fff; color: #111; font: inherit; outline: none; }
+.form input, .form select { height: 48px; padding: 0 16px; }
+.form textarea { min-height: 124px; padding: 12px 16px; resize: vertical; }
+.form input::placeholder, .form textarea::placeholder { color: #999; opacity: 1; }
+.form input:focus, .form select:focus, .form textarea:focus { border-color: #000; box-shadow: inset 0 0 0 1px #000; }
+.submitRow { display: flex; align-items: center; justify-content: flex-end; gap: 24px; }
+.submitRow button { min-width: 156px; height: 48px; border: 0; background: #000; color: #fff; font: inherit; cursor: pointer; }
+.status { flex: 1; margin: 0; color: #707070; font-size: 14px; }
+.status:empty { display: none; }
+@media (max-width: 809px) {
+  .contact { padding: 76px 0 56px; }
+  .intro { width: calc(100% - 22px); margin: 48px auto 46px; padding: 0; text-align: center; }
+  .intro h1 { font-size: 28px; }
+  .form { max-width: calc(100% - 22px); }
+  .twoColumns { grid-template-columns: 1fr; gap: 16px; }
+}
+@media (max-width: 479px) {
+  .intro h1 { font-size: 28px; }
+  .submitRow { align-items: stretch; flex-direction: column; }
+  .submitRow button { width: 100%; }
+}
+@media (min-width: 810px) and (max-width: 1439px) {
+  .intro h1 { font-size: 32px; }
+  .contact { padding: 76px 0 80px; }
+  .intro { margin-top: 54px; margin-bottom: 48px; padding: 0; }
+  .form { max-width: calc(100% - 38px); }
+}

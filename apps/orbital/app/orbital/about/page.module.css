@@ -1,0 +1,100 @@
+.page { color: #000; padding-top: 76px; }
+.hero, .section { box-shadow: inset 0 0 0 1px #ccc; }
+.hero { min-height: 418px; padding: 0 0 70px; overflow: hidden; }
+.heroContent { position: relative; display: flex; width: 100%; padding-left: 32px; }
+.heroText { display: flex; flex: 1 1 auto; flex-direction: column; gap: 26px; width: 1px; max-width: 823px; padding-top: 70px; }
+.heroCopy { display: grid; gap: 11px; }
+.heroCopy h1 { margin: 0; font-family: "Asta Sans", sans-serif; font-size: 48px; line-height: 1.1; font-weight: 600; letter-spacing: 0; }
+.heroCopy p { max-width: 714px; margin: 0; color: #707070; }
+.heroArt { position: absolute; top: 0; right: 0; width: 320px; height: 320px; object-fit: contain; }
+.metrics { display: flex; gap: 64px; width: 100%; }
+.metric { display: grid; gap: 8px; }
+.metric strong { font-family: "Asta Sans", sans-serif; font-size: 32px; line-height: 1; font-weight: 600; }
+.metric span { color: #707070; }
+.section { margin-top: 47px; position: relative; }
+.section::before { content: ""; position: absolute; left: -1px; right: -1px; top: -48px; height: 47px; background: url('/orbital/assets/home-line-ABp26PLKJN.png') center / 100% 47px no-repeat; }
+.story { padding-bottom: 100px; }
+.storyGrid { display: grid; grid-template-columns: minmax(0, 512px) minmax(0, 605px); justify-content: space-between; gap: 0; margin-top: 63px; padding: 0 32px; }
+.storyGrid h2, .sectionHeading h2 { margin: 0; font-family: "Asta Sans", sans-serif; font-size: 36px; line-height: 1.2; font-weight: 600; letter-spacing: 0; }
+.storyCopy { display: grid; gap: 14px; }
+.storyCopy p, .sectionHeading p, .principle p, .person p { margin: 0; color: #707070; }
+.storyImageWrap { width: 100%; max-width: 984px; margin: 63px auto 0; }
+.storyImage { display: block; width: 100%; aspect-ratio: 984 / 513; object-fit: cover; }
+.sectionHeading { padding: 42px 42px 36px; }
+.sectionHeading p { margin-top: 12px; }
+.platform { padding-bottom: 100px; background: #f7f7f7; }
+.platform .sectionHeading { display: flex; align-items: center; justify-content: space-between; margin-top: 64px; padding: 0 32px; }
+.platform .sectionHeading p { width: 333px; max-width: 100%; margin-top: 0; }
+.principles { display: grid; grid-template-columns: repeat(3, 1fr); margin: 64px 32px 0; }
+.principle { height: 212px; padding: 24px; box-shadow: inset 0 0 0 1px #ededed; background: #fff; display: flex; flex-direction: column; gap: 32px; }
+.principleIcon { display: grid; place-items: center; width: 50px; height: 50px; }
+.principleIcon img { width: 35px; height: 38px; object-fit: contain; }
+.principle h3, .person h3 { margin: 0 0 12px; font-family: "Asta Sans", sans-serif; font-size: 20px; line-height: 1.2; font-weight: 600; }
+.principle h3 { margin-bottom: 10px; }
+.team { padding-bottom: 100px; background: #f7f7f7; }
+.team .sectionHeading { margin-top: 60px; padding: 0 32px; }
+.leadership { position: relative; margin-top: 60px; padding: 0 57px; }
+.people { display: grid; grid-template-columns: repeat(4, 300px); gap: 16px; padding-bottom: 12px; overflow-x: auto; scrollbar-width: none; }
+.people::-webkit-scrollbar { display: none; }
+.person { min-width: 235px; box-shadow: inset 0 0 0 1px #ededed; background: #fff; }
+.person img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
+.person > div { min-height: 98px; padding: 18px 20px; box-shadow: inset 0 1px #ededed; }
+.person h3 { margin-bottom: 4px; }
+.controls { position: absolute; right: 20px; bottom: -66px; display: none; justify-content: flex-end; gap: 8px; }
+.controls button { width: 42px; height: 42px; border: 1px solid #ccc; background: #fff; font: inherit; cursor: pointer; }
+.controls button:disabled { color: #aaa; cursor: default; }
+@media (max-width: 809px) {
+  .page { padding-top: 76px; }
+  .hero { min-height: 0; padding: 0 0 48px; }
+  .heroContent { padding: 0 12px; }
+  .heroText { gap: 26px; max-width: none; padding-top: 40px; }
+  .heroArt { width: 62px; height: 62px; }
+  .section { margin-top: 47px; }
+  .section::before { top: -48px; height: 47px; background-size: auto 47px; }
+  .heroCopy h1 { font-size: 28px; }
+  .metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 42px 32px; }
+  .story { padding-bottom: 60px; }
+  .storyGrid { grid-template-columns: 1fr; gap: 16px; margin-top: 40px; padding: 0 12px; }
+  .storyGrid h2, .sectionHeading h2 { font-size: 28px; }
+  .storyImageWrap { width: 100%; margin-top: 40px; padding: 0 12px; }
+  .sectionHeading { padding: 34px 16px; }
+  .platform { padding-bottom: 60px; }
+  .platform .sectionHeading { margin-top: 40px; padding: 0 12px; }
+  .platform .sectionHeading { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+  .platform .sectionHeading p { width: 100%; margin-top: 0; }
+  .principles { grid-template-columns: 1fr; gap: 16px; margin: 40px 12px 0; }
+  .principle { height: auto; min-height: 0; margin: 0; border: 0; box-shadow: inset 0 0 0 1px #ededed; }
+  .team { padding-bottom: 140px; }
+  .team .sectionHeading { margin-top: 40px; padding: 0 12px; }
+  .leadership { margin-top: 40px; padding: 0 12px; }
+  .people { grid-template-columns: repeat(4, 300px); padding-bottom: 3px; }
+}
+@media (max-width: 479px) {
+  .heroCopy h1 { font-size: 28px; }
+  .metrics { grid-template-columns: 1fr 1fr; }
+  .metrics { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 810px) and (max-width: 1439px) {
+  .heroCopy h1 { font-size: 32px; }
+  .hero { min-height: 0; padding-bottom: 52px; }
+  .heroContent { padding-left: 20px; }
+  .heroText { gap: 26px; padding-top: 60px; }
+  .heroArt { width: 148px; height: 148px; }
+  .metrics { gap: 48px; }
+  .storyGrid h2, .sectionHeading h2 { font-size: 32px; }
+  .story { padding-bottom: 80px; }
+  .storyGrid { grid-template-columns: minmax(0, 512px) minmax(0, 605px); justify-content: center; gap: 20px; margin-top: 42px; padding: 0 20px; }
+  .storyImageWrap { margin-top: 42px; padding: 0 20px; }
+  .platform { padding-bottom: 80px; }
+  .platform .sectionHeading { margin-top: 46px; padding: 0 20px; }
+  .principles { grid-template-columns: repeat(2, 1fr); margin: 46px 20px 0; }
+  .team { padding-bottom: 80px; }
+  .team .sectionHeading { margin-top: 44px; padding: 0 20px; }
+  .leadership { margin-top: 44px; padding: 0 20px; }
+  .controls { display: flex; }
+}
+@media (min-width: 1440px) {
+  .leadership { width: 1248px; height: 410px; margin-right: auto; margin-left: auto; padding: 0; }
+  .people { padding-bottom: 12px; }
+}
+@media (max-width: 809px) { .controls { display: flex; } }

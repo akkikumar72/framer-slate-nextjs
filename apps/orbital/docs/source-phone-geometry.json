@@ -1,0 +1,72 @@
+{
+  "headings": [
+    {
+      "font": "600 28px / 30.8px \"Asta Sans\", \"Asta Sans Placeholder\", sans-serif",
+      "text": "AI Agents That Ship"
+    },
+    {
+      "font": "600 28px / 30.8px \"Asta Sans\", \"Asta Sans Placeholder\", sans-serif",
+      "text": "Real Business Outcomes"
+    },
+    {
+      "font": "600 28px / 33.6px \"Asta Sans\", \"Asta Sans Placeholder\", sans-serif",
+      "text": "One platform for the entire agent lifecycle."
+    },
+    {
+      "font": "600 30px / 36px \"Asta Sans\", \"Asta Sans Placeholder\", sans-serif",
+      "text": "A runtime built for many agents working as one."
+    },
+    {
+      "font": "600 28px / 33.6px \"Asta Sans\", \"Asta Sans Placeholder\", sans-serif",
+      "text": "Built for the work your team actually does."
+    }
+  ],
+  "height": 12505,
+  "nav": "<nav class=\"framer-RFjzt framer-1c2a22i framer-v-t8mqsq\" data-border=\"true\" data-framer-name=\"Phone Closed\" style=\"--border-bottom-width: 1px; --border-color: var(--token-e50dac00-7054-4d7a-a43e-c46ce7de76fb, rgb(204, 204, 204)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b109c8bf-feff-4d6a-a8de-486dfc7b0449, rgb(249, 249, 249)); width: 100%; will-change: transform; opacity: 0; transform: translateY(-70px);\"><div class=\"framer-zwjoy6\" data-border=\"true\" data-framer-name=\"Container\" style=\"--border-bottom-width: 1px; --border-color: var(--token-e50dac00-7054-4d7a-a43e-c46ce7de76fb, rgb(204, 204, 204)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 0px; opacity: 1;\"><div class=\"framer-mec9yw\" data-framer-name=\"Logo+Nav items\" style=\"opacity: 1;\"><div class=\"framer-1xhj8a1\" data-border=\"true\" data-framer-name=\"Logo Wrap\" style=\"--border-bottom-width: 1px; --border-color: var(--token-7103ad5b-4e38-47e6-a449-68bfb81537e2, rgb(237, 237, 237)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; opacity: 1;\"><!--$--><a data-framer-component-type=\"SVG\" as=\"a\" data-framer-name=\"Logo\" href=\"./\" data-framer-page-link-current=\"true\" parentsize=\"0\" _constraints=\"[object Object]\" rotation=\"0\" shadows=\"\" class=\"framer-4rdkzy framer-1x3ncmf\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0); opacity: 1;\"><div class=\"svgContainer\" style=\"width:100%;height:100%;aspect-ratio:inherit\"><svg style=\"width:100%;height:100%;\" viewBox=\"0 0 170 44\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1371517799_7310\"></use></svg></div></a><!--/$--><div class=\"framer-nc70l9\" data-framer-name=\" Icon Wrap\" data-highlight=\"true\" tabindex=\"0\" style=\"opacity: 1;\"><div class=\"framer-18ejs9o\" data-framer-name=\"Bottom\" style=\"background-color: var(--token-d6c6a714-18bc-4840-b60f-b44d0338cd31, rgb(51, 51, 51)); border-radius: 10px; transform: none; opacity: 1;\"></div><div class=\"framer-93s37r\" data-framer-name=\"Top\" style=\"background-color: var(--token-d6c6a714-18bc-4840-b60f-b44d0338cd31, rgb(51, 51, 51)); border-radius: 10px; transform: none; opacity: 1;\"></div></div></div></div></div></nav>",
+  "sections": [
+    {
+      "h": 1361.78125,
+      "id": "platform",
+      "y": 1053.421875
+    },
+    {
+      "h": 1136.703125,
+      "id": "runtime",
+      "y": 2415.203125
+    },
+    {
+      "h": 1209.375,
+      "id": "use-case",
+      "y": 3551.90625
+    },
+    {
+      "h": 475.890625,
+      "id": "observability",
+      "y": 6214.4375
+    },
+    {
+      "h": 581.484375,
+      "id": "Integrations",
+      "y": 6690.328125
+    },
+    {
+      "h": 2538.921875,
+      "id": "pricing",
+      "y": 7271.8125
+    },
+    {
+      "h": 663.78125,
+      "id": "testimonial",
+      "y": 9810.734375
+    },
+    {
+      "h": 850.5625,
+      "id": "faq",
+      "y": 10474.515625
+    }
+  ],
+  "viewport": [
+    390,
+    844
+  ]
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "path": "/orbital",
+    "referenceUrl": "https://orbital-gr8r.framer.website/",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "home",
+    "kind": "static",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/about",
+    "referenceUrl": "https://orbital-gr8r.framer.website/about",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "about",
+    "kind": "static",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "blog",
+    "kind": "static",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/contact",
+    "referenceUrl": "https://orbital-gr8r.framer.website/contact",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "contact",
+    "kind": "static",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/404",
+    "referenceUrl": "https://orbital-gr8r.framer.website/404",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "404",
+    "kind": "not-found",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/legal/privacy-policy",
+    "referenceUrl": "https://orbital-gr8r.framer.website/legal/privacy-policy",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "legal",
+    "kind": "static",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/legal/terms-conditions",
+    "referenceUrl": "https://orbital-gr8r.framer.website/legal/terms-conditions",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "legal",
+    "kind": "static",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/why-ci-evaluations-matter",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/why-ci-evaluations-matter",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/orbital-3.0-multi-agent-runtime",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/orbital-3.0-multi-agent-runtime",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/measuring-agent-reliability",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/measuring-agent-reliability",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/build-a-support-agent-fast",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/build-a-support-agent-fast",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/zero-downtime-agent-deployments",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/zero-downtime-agent-deployments",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/we-raised-our-series-b",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/we-raised-our-series-b",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/guardrails-now-enforced",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/guardrails-now-enforced",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/what-we-learned-from-2m-runs",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/what-we-learned-from-2m-runs",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  },
+  {
+    "path": "/orbital/blog/connecting-snowflake-safely",
+    "referenceUrl": "https://orbital-gr8r.framer.website/blog/connecting-snowflake-safely",
+    "evidence": [
+      "sitemap",
+      "project-tree",
+      "internal-links"
+    ],
+    "family": "article",
+    "kind": "data-driven",
+    "sharedShell": "orbital",
+    "status": "implemented",
+    "confidence": "high"
+  }
+]

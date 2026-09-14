@@ -1,0 +1,88 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 107px;
+  overflow: hidden;
+  padding-top: 160px;
+  border: 1px solid #ccc;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  max-width: 658px;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.copy {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.copy h1,
+.copy p {
+  margin: 0;
+}
+
+.copy h1 {
+  font-family: "Asta Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.copy p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.button {
+  min-height: 39.2px;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.illustration {
+  width: 100%;
+  aspect-ratio: 3.28019;
+}
+
+.illustration img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1439px) and (min-width: 810px) {
+  .copy h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 809px) {
+  .page {
+    gap: 85px;
+    max-width: 580px;
+    padding: 130px 12px 0;
+  }
+
+  .copy h1 {
+    font-size: 28px;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 16px;
+  }
+}

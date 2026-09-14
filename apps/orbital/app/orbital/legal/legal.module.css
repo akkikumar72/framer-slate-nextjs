@@ -1,0 +1,20 @@
+.legal { display: flex; flex-direction: column; align-items: center; gap: 64px; box-shadow: inset 0 0 0 1px #ccc; padding: 160px 0 100px; }
+.header { width: 100%; text-align: center; }
+.header h1 { margin: 0 0 24px; font-family: "Asta Sans", sans-serif; font-size: 48px; line-height: 1.1; font-weight: 600; letter-spacing: 0; }
+.header p { margin: 0; color: #111; }
+.content { width: 100%; max-width: 800px; }
+.intro { margin: 0; font-size: 20px; line-height: 1.5; }
+.section { margin-top: 40px; }
+.section h2 { margin: 0 0 20px; font-family: "Asta Sans", sans-serif; font-size: 30px; line-height: 1.2; font-weight: 600; letter-spacing: 0; }
+.section p { margin: 0; font-size: 20px; line-height: 1.5; }
+.section p + p { margin-top: 20px; }
+.section a { color: inherit; }
+@media (max-width: 809px) {
+  .legal { gap: 48px; padding: 120px 12px 60px; }
+  .header h1 { font-size: 28px; }
+  .content { max-width: 580px; }
+}
+@media (min-width: 810px) and (max-width: 1439px) {
+  .legal { gap: 48px; padding: 130px 20px 80px; }
+  .header h1 { font-size: 32px; }
+}

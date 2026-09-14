@@ -1,0 +1,381 @@
+{
+  "height": 9735,
+  "sections": [
+    {
+      "children": [
+        {
+          "name": "Container",
+          "rect": {
+            "h": 781.734375,
+            "w": 1359,
+            "x": 57.5,
+            "y": 76
+          }
+        }
+      ],
+      "id": "",
+      "name": "Hero Section",
+      "rect": {
+        "h": 857.734375,
+        "w": 1474,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "children": [
+        {
+          "name": "Container",
+          "rect": {
+            "h": 215.984375,
+            "w": 1360,
+            "x": 57,
+            "y": 857.734375
+          }
+        }
+      ],
+      "id": "",
+      "name": "Brand Section",
+      "rect": {
+        "h": 215.984375,
+        "w": 1474,
+        "x": 0,
+        "y": 857.734375
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 586,
+            "w": 1360,
+            "x": 57,
+            "y": 1120.71875
+          }
+        }
+      ],
+      "id": "platform",
+      "name": "Platform Section",
+      "rect": {
+        "h": 633,
+        "w": 1474,
+        "x": 0,
+        "y": 1073.71875
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 686.375,
+            "w": 1360,
+            "x": 57,
+            "y": 1753.71875
+          }
+        }
+      ],
+      "id": "runtime",
+      "name": "Runtime Section",
+      "rect": {
+        "h": 733.375,
+        "w": 1474,
+        "x": 0,
+        "y": 1706.71875
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 735.59375,
+            "w": 1360,
+            "x": 57,
+            "y": 2487.09375
+          }
+        }
+      ],
+      "id": "use-case",
+      "name": "Use cases Section",
+      "rect": {
+        "h": 782.59375,
+        "w": 1474,
+        "x": 0,
+        "y": 2440.09375
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 1125.578125,
+            "w": 1360,
+            "x": 57,
+            "y": 3269.6875
+          }
+        }
+      ],
+      "id": "",
+      "name": "Benchmarks Section",
+      "rect": {
+        "h": 1172.578125,
+        "w": 1474,
+        "x": 0,
+        "y": 3222.6875
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 839.984375,
+            "w": 1360,
+            "x": 57,
+            "y": 4442.265625
+          }
+        }
+      ],
+      "id": "observability",
+      "name": "Observability Section",
+      "rect": {
+        "h": 886.984375,
+        "w": 1474,
+        "x": 0,
+        "y": 4395.265625
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 1017.078125,
+            "w": 1360,
+            "x": 57,
+            "y": 5329.25
+          }
+        }
+      ],
+      "id": "Integrations",
+      "name": "Integrations Section",
+      "rect": {
+        "h": 1064.078125,
+        "w": 1474,
+        "x": 0,
+        "y": 5282.25
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 1065.59375,
+            "w": 1360,
+            "x": 57,
+            "y": 6393.328125
+          }
+        }
+      ],
+      "id": "pricing",
+      "name": "Pricing Section",
+      "rect": {
+        "h": 1112.59375,
+        "w": 1474,
+        "x": 0,
+        "y": 6346.328125
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 606,
+            "w": 1360,
+            "x": 57,
+            "y": 7505.921875
+          }
+        }
+      ],
+      "id": "testimonial",
+      "name": "Customers Section",
+      "rect": {
+        "h": 653,
+        "w": 1474,
+        "x": 0,
+        "y": 7458.921875
+      }
+    },
+    {
+      "children": [
+        {
+          "name": null,
+          "rect": {
+            "h": 0,
+            "w": 0,
+            "x": 0,
+            "y": 8512
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 686.78125,
+            "w": 1360,
+            "x": 57,
+            "y": 8158.921875
+          }
+        }
+      ],
+      "id": "faq",
+      "name": "FAQ Section",
+      "rect": {
+        "h": 733.78125,
+        "w": 1474,
+        "x": 0,
+        "y": 8111.921875
+      }
+    },
+    {
+      "children": [
+        {
+          "name": "Dots Line",
+          "rect": {
+            "h": 47,
+            "w": 1360,
+            "x": 57,
+            "y": 8845.703125
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 480.40625,
+            "w": 1360,
+            "x": 57,
+            "y": 8892.703125
+          }
+        }
+      ],
+      "id": "",
+      "name": "Desktop",
+      "rect": {
+        "h": 527.40625,
+        "w": 1474,
+        "x": 0,
+        "y": 8845.703125
+      }
+    },
+    {
+      "children": [
+        {
+          "name": "Dots Line",
+          "rect": {
+            "h": 47,
+            "w": 1360,
+            "x": 57,
+            "y": 9373.109375
+          }
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "h": 299,
+            "w": 1414,
+            "x": 30,
+            "y": 9420.109375
+          }
+        }
+      ],
+      "id": "",
+      "name": "Desktop",
+      "rect": {
+        "h": 362,
+        "w": 1474,
+        "x": 0,
+        "y": 9373.109375
+      }
+    }
+  ],
+  "viewport": [
+    1474,
+    1223
+  ]
+}

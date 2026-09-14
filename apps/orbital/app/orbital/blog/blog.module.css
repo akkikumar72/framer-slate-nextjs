@@ -1,0 +1,215 @@
+.blogIndex,
+.articlePage {
+  color: #000;
+}
+
+.blogIndex { padding-top: 76px; }
+.indexContainer { padding-bottom: 96px; }
+
+.indexIntro {
+  width: 730px;
+  max-width: calc(100% - 32px);
+  margin-top: 52px;
+  margin-left: 32px;
+}
+
+.indexIntro h1,
+.articleHeader h1,
+.keepReadingInner > h2,
+.richText h3,
+.card h2 {
+  margin: 0;
+  font-family: "Asta Sans", sans-serif;
+  font-weight: 600;
+}
+
+.indexIntro h1 { font-size: 48px; line-height: 1.1; }
+
+.indexIntro p,
+.articleHeader p {
+  margin: 12px 0 0;
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.indexGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 16px;
+  margin-top: 56px;
+  padding: 0 32px;
+}
+
+.card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+
+.cardImageWrap {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1.61923;
+  background: #f7f7f7;
+}
+
+.cardImageWrap::after,
+.heroImageWrap::after {
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--image-border, #e6e6e6);
+  content: "";
+  pointer-events: none;
+}
+
+.cardImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+
+.card:hover .cardImage { transform: scale(1.02); }
+
+.cardCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px 16px;
+  box-shadow: inset 1px 0 #e6e6e6, inset -1px 0 #e6e6e6, inset 0 -1px #e6e6e6;
+}
+
+.cardEyebrow,
+.cardHeading p,
+.cardAuthor p { margin: 0; }
+
+.cardEyebrow,
+.cardHeading p {
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cardHeading { display: flex; flex-direction: column; gap: 10px; }
+.cardHeading h2 { font-size: 20px; line-height: 1.2; }
+
+.cardAuthor {
+  display: flex;
+  min-height: 62px;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px 20px;
+  box-shadow: inset 1px 0 #e6e6e6, inset -1px 0 #e6e6e6, inset 0 -1px #e6e6e6;
+}
+
+.cardAuthor img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
+.cardAuthor p { font-family: "Asta Sans", sans-serif; font-size: 18px; font-weight: 600; line-height: 1.2; }
+.cardAuthor span { display: none; }
+.cardAuthor p + p { margin-left: -8px; }
+
+.articleContainer { padding-top: 76px; padding-bottom: 72px; }
+
+.backButton {
+  display: flex;
+  height: 36px;
+  align-items: center;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.backButton > span:last-child { height: 36px; padding: 8px 16px; box-shadow: inset -1px 0 #ccc, inset 0 -1px #ccc; }
+.backIcon { display: grid; width: 48px; height: 36px; place-items: center; background: #ccc; }
+.backIcon svg { width: 24px; height: 24px; fill: none; stroke: #1a1a1a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
+
+.articleHeader { width: 765px; max-width: 100%; margin: 65px auto 0; }
+.articleHeader h1 { font-size: 48px; line-height: 1.1; }
+.articleContent { width: 794px; max-width: 100%; margin: 20px auto 0; }
+
+.heroImageWrap { --image-border: #ccc; position: relative; overflow: hidden; aspect-ratio: 1.91325; background: #f7f7f7; }
+.heroImageWrap > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+.articleMeta { display: flex; min-height: 40px; align-items: flex-end; justify-content: space-between; margin-top: 24px; }
+.authorProfile { display: flex; align-items: center; gap: 10px; }
+.authorProfile img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+.authorProfile p,
+.readMeta p { margin: 0; }
+.authorName { font-family: "Asta Sans", sans-serif; font-size: 18px; font-weight: 600; line-height: 21.6px; }
+.authorRole { color: #666; font-size: 14px; line-height: 20px; }
+
+.readMeta { display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 500; letter-spacing: .03em; line-height: 21px; text-transform: uppercase; }
+.metaItem { display: flex; align-items: center; gap: 6px; }
+.metaItem svg { width: 15px; height: 15px; fill: #808080; }
+.metaItem:first-child svg { width: 14px; }
+.metaDivider { width: 1px; height: 16px; background: #e6e6e6; }
+.readMeta::after { width: 1px; height: 30px; margin-left: 4px; background: #e6e6e6; content: ""; }
+
+.richText { margin-top: 24px; color: #666; font-size: 16px; line-height: 24px; }
+.richText p,
+.richText h3,
+.richText blockquote,
+.richText ul { margin: 0 0 24px; }
+.richText h3 { margin-top: 40px; color: #000; font-size: 30px; line-height: 1.2; }
+.richText h3:nth-of-type(2) { margin-top: 48px; }
+.richText h3:nth-of-type(3) { margin-top: 24px; }
+.richText p:last-child { margin-bottom: 0; }
+.richText blockquote { max-width: 582px; padding-left: 16px; border-left: 1px solid #999; color: #000; font-family: "Asta Sans", sans-serif; font-size: 18px; font-weight: 600; line-height: 21.6px; }
+.richText ul { padding-left: 21px; }
+.richText li::marker { color: #000; }
+.detailImage { display: block; width: 100%; height: auto; margin: 24px 0; }
+
+.keepReading { padding-top: 111px; }
+.keepReadingInner { padding: 0 32px 64px; }
+.keepReadingInner > h2 { width: 730px; max-width: 100%; font-size: 36px; line-height: 1.2; }
+.keepReadingGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 20px; margin-top: 80px; }
+
+@media (max-width: 1439px) {
+  .indexIntro h1,
+  .articleHeader h1 { font-size: 32px; }
+  .indexContainer { padding-bottom: 60px; }
+  .indexIntro { max-width: 730px; margin-top: 44px; margin-left: 0; padding-left: 16px; }
+  .indexGrid,
+  .keepReadingGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .indexGrid { gap: 12px; margin-top: 40px; padding: 0 6px; }
+  .articleContainer { padding-bottom: 36px; }
+  .articleHeader,
+  .articleContent { max-width: calc(100% - 40px); margin-left: 20px; }
+  .articleHeader { margin-top: 44px; }
+  .articleContent { margin-top: 40px; }
+  .keepReading { padding-top: 47px; }
+  .keepReadingInner { padding: 0 20px 28px; }
+  .keepReadingInner > h2 { font-size: 32px; }
+  .keepReadingGrid { margin-top: 72px; }
+}
+
+@media (max-width: 809px) {
+  .indexContainer,
+  .articleContainer { max-width: 580px; }
+  .indexContainer { padding-bottom: 56px; }
+  .indexIntro { max-width: calc(100% - 24px); margin-top: 40px; margin-left: 12px; padding-left: 0; }
+  .indexIntro h1,
+  .articleHeader h1 { font-size: 28px; }
+  .indexGrid { grid-template-columns: 1fr; gap: 32px; margin-top: 42px; padding: 0 12px; }
+  .articleContainer { padding-bottom: 32px; }
+  .articleHeader,
+  .articleContent { width: calc(100% - 24px); max-width: none; margin-left: 12px; }
+  .articleHeader { margin-top: 40px; }
+  .articleContent { margin-top: 40px; }
+  .articleMeta { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .readMeta { align-self: flex-start; }
+  .detailImage { min-height: 116px; object-fit: cover; }
+  .keepReading { padding-top: 87px; }
+  .keepReadingInner { width: calc(100% - 40px); max-width: 540px; padding: 0 12px 28px; }
+  .keepReadingInner > h2 { width: calc(100% - 12px); margin-left: 12px; font-size: 28px; }
+  .keepReadingGrid { grid-template-columns: 1fr; gap: 20px; margin-top: 72px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardImage { transition: none; }
+}

@@ -545,6 +545,41 @@ The migration includes all 23 published content pages and the branded 404: home,
 Evidence, route inventory, source attribution, and validation notes: [Hulio documentation](apps/hulio/docs/README.md).
 
 
+### Orbital
+
+`@framer-templates/orbital` · [Open Orbital](http://localhost:3014/orbital) · port `3014`
+
+<a href="http://localhost:3014/orbital"><img src="apps/showcase/public/templates/orbital.jpg" alt="Orbital AI template preview with multi-agent hero and full-width company logos" width="1440"></a>
+
+The showcase `/orbital` route redirects to the standalone Orbital app. Run `npm run dev --workspace=@framer-templates/orbital` or `npm run dev:all`.
+
+Includes all 16 source pages: homepage, About, Contact, blog index, nine articles, two legal pages, and the custom 404. Images, fonts, and vector art are local. The contact form validates inputs and clearly reports that delivery is not connected.
+
+<details>
+<summary><strong>Routes (15 content pages + custom 404)</strong></summary>
+
+- [`/orbital`](http://localhost:3014/orbital)
+- [`/orbital/about`](http://localhost:3014/orbital/about)
+- [`/orbital/blog`](http://localhost:3014/orbital/blog)
+- [`/orbital/contact`](http://localhost:3014/orbital/contact)
+- [`/orbital/404`](http://localhost:3014/orbital/404)
+- [`/orbital/legal/privacy-policy`](http://localhost:3014/orbital/legal/privacy-policy)
+- [`/orbital/legal/terms-conditions`](http://localhost:3014/orbital/legal/terms-conditions)
+- [`/orbital/blog/why-ci-evaluations-matter`](http://localhost:3014/orbital/blog/why-ci-evaluations-matter)
+- [`/orbital/blog/orbital-3.0-multi-agent-runtime`](http://localhost:3014/orbital/blog/orbital-3.0-multi-agent-runtime)
+- [`/orbital/blog/measuring-agent-reliability`](http://localhost:3014/orbital/blog/measuring-agent-reliability)
+- [`/orbital/blog/build-a-support-agent-fast`](http://localhost:3014/orbital/blog/build-a-support-agent-fast)
+- [`/orbital/blog/zero-downtime-agent-deployments`](http://localhost:3014/orbital/blog/zero-downtime-agent-deployments)
+- [`/orbital/blog/we-raised-our-series-b`](http://localhost:3014/orbital/blog/we-raised-our-series-b)
+- [`/orbital/blog/guardrails-now-enforced`](http://localhost:3014/orbital/blog/guardrails-now-enforced)
+- [`/orbital/blog/what-we-learned-from-2m-runs`](http://localhost:3014/orbital/blog/what-we-learned-from-2m-runs)
+- [`/orbital/blog/connecting-snowflake-safely`](http://localhost:3014/orbital/blog/connecting-snowflake-safely)
+
+</details>
+
+[Orbital implementation and validation notes](apps/orbital/README.md).
+
+
 ### Alytics
 
 `@framer-templates/alytics` · [Open Alytics](http://localhost:3015/alytics) · port `3015`
