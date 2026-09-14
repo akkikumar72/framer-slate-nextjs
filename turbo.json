@@ -20,6 +20,7 @@
         "NEXT_PUBLIC_RIVERO_URL",
         "NEXT_PUBLIC_AGENTIK_URL",
         "NEXT_PUBLIC_DASHFLUENCE_URL",
+        "NEXT_PUBLIC_ALYTICS_URL",
         "NEXT_PUBLIC_HULIO_URL"
       ],
       "inputs": [

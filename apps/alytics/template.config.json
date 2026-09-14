@@ -1,0 +1,92 @@
+{
+  "name": "Alytics",
+  "slug": "alytics",
+  "routePrefix": "/alytics",
+  "port": 3015,
+  "sourceRoots": [
+    "app",
+    "components"
+  ],
+  "assetRoots": [
+    "public/alytics"
+  ],
+  "assetPrefixes": [
+    "/alytics/"
+  ],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/alytics",
+      "status": 200,
+      "canonical": "/alytics",
+      "marker": "Turn Scattered Data Into Smart Decisions",
+      "title": "Alytics - The Perfect Saas Template"
+    },
+    {
+      "path": "/alytics/newsletter",
+      "status": 200,
+      "canonical": "/alytics/newsletter",
+      "marker": "Join Our Newsletter and Grow With Us",
+      "title": "Alytics - Newsletter"
+    },
+    {
+      "path": "/alytics/blog",
+      "status": 200,
+      "canonical": "/alytics/blog",
+      "marker": "Explore Ideas to Grow Your SaaS Smarter",
+      "title": "Alytics - The Perfect Saas Template"
+    },
+    {
+      "path": "/alytics/blog/streamlining-saas-operations-without-adding-overhead",
+      "status": 200,
+      "canonical": "/alytics/blog/streamlining-saas-operations-without-adding-overhead",
+      "marker": "Streamlining SaaS Without Adding Overhead",
+      "title": "Streamlining SaaS Without Adding Overhead - Alytics - The Perfect Saas Template"
+    },
+    {
+      "path": "/alytics/blog/growing-a-saas-without-breaking-your-systems",
+      "status": 200,
+      "canonical": "/alytics/blog/growing-a-saas-without-breaking-your-systems",
+      "marker": "Growing a SaaS Without Breaking Systems",
+      "title": "Growing a SaaS Without Breaking Systems - Alytics - The Perfect Saas Template"
+    },
+    {
+      "path": "/alytics/blog/designing-saas-workflows-that-actually-scale",
+      "status": 200,
+      "canonical": "/alytics/blog/designing-saas-workflows-that-actually-scale",
+      "marker": "Designing SaaS Workflows That Scale",
+      "title": "Designing SaaS Workflows That Scale - Alytics - The Perfect Saas Template"
+    },
+    {
+      "path": "/alytics/blog/the-real-cost-of-manual-saas-work",
+      "status": 200,
+      "canonical": "/alytics/blog/the-real-cost-of-manual-saas-work",
+      "marker": "The Real Cost of Manual SaaS Work",
+      "title": "The Real Cost of Manual SaaS Work - Alytics - The Perfect Saas Template"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/alytics/404",
+      "status": 404,
+      "marker": "404!"
+    },
+    {
+      "path": "/alytics/__missing__",
+      "status": 404,
+      "marker": "404!"
+    },
+    {
+      "path": "/alytics/blog/__missing__",
+      "status": 404,
+      "marker": "404!"
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/",
+      "status": 307,
+      "location": "/alytics"
+    }
+  ]
+}

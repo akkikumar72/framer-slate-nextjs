@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const templates = [
   {
+    name: "Alytics",
+    slug: "alytics",
+    packageName: "@framer-templates/alytics",
+    port: 3015,
+    routes: 7,
+    image: "/templates/alytics-home.png",
+    url: process.env.NEXT_PUBLIC_ALYTICS_URL ?? "http://localhost:3015/alytics",
+  },
+  {
     name: "Slate",
     slug: "slate",
     packageName: "@framer-templates/slate",

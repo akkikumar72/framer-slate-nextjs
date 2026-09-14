@@ -7,6 +7,16 @@ import {
 type Interaction = (page: Page) => Promise<void>;
 
 const interactions: Record<string, Interaction> = {
+  alytics: async (page) => {
+    const yearly = page.getByRole("button", { name: "Yearly -20%" });
+    await yearly.click();
+    await expect(yearly).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator("#pricing")).toContainText("$139");
+    const question = page.getByRole("button", { name: "Do I need technical skills to use Alytics?" });
+    await question.click();
+    await expect(question).toHaveAttribute("aria-expanded", "true");
+    await expect(page.locator("#faq-answer-1")).toContainText("requires no coding");
+  },
   agenio: async (page) => {
     const question = page.getByRole("button", {
       name: "What if I only need one specific AI service?",

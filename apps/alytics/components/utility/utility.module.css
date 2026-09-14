@@ -1,0 +1,229 @@
+.newsletter {
+  padding: 160px 0 100px;
+}
+
+.newsletterInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.intro {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.badge {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: #e1eaf8;
+  box-shadow: inset 0 0 0 1px #126dfb;
+  color: #126dfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  width: 100%;
+  max-width: 700px;
+  margin: 0;
+  color: #121212;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+  text-wrap: balance;
+}
+
+.description {
+  width: 100%;
+  max-width: 320px;
+  margin: 0;
+  color: #575757cc;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.formFrame {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.envelopeFrame {
+  position: absolute;
+  top: -45.5px;
+  right: -36px;
+  width: 84px;
+  height: 57.367px;
+  pointer-events: none;
+  animation: envelopeRotate 7s ease-in-out infinite;
+}
+
+.envelope {
+  width: 84px;
+  height: auto;
+  border-radius: 10px;
+  filter: drop-shadow(0 7px 14px #126dfb14);
+  animation: envelopeFloat 5s ease-in-out infinite;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 1px 20px #00000008;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #575757cc;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+}
+
+.field input {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 16px;
+  border: 0;
+  border-radius: 12px;
+  outline: none;
+  background: #fcfcfc;
+  box-shadow: inset 0 0 0 1.5px #e4e4e4;
+  color: #121212;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+  transition: box-shadow 160ms ease;
+}
+
+.field input::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.field input:focus-visible {
+  box-shadow: inset 0 0 0 1.5px #126dfb, 0 0 0 3px #126dfb1f;
+}
+
+.field input[aria-invalid="true"] {
+  box-shadow: inset 0 0 0 1.5px #b42318;
+}
+
+.submit {
+  width: 100%;
+}
+
+.error,
+.confirmation {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+.error {
+  color: #b42318;
+}
+
+.confirmation {
+  padding: 12px 14px;
+  border: 1px solid #cbdcf8;
+  border-radius: 12px;
+  background: #eef4ff;
+  color: #184887;
+}
+
+.notFound {
+  display: flex;
+  min-height: 100vh;
+  min-height: 100svh;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 0 100px;
+}
+
+.notFoundInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.notFound .title {
+  max-width: 450px;
+}
+
+.notFound .description {
+  text-wrap: wrap;
+}
+
+@keyframes envelopeFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(15px); }
+}
+
+@keyframes envelopeRotate {
+  0%, 100% { transform: translateY(-50%) rotate(1deg); }
+  50% { transform: translateY(-50%) rotate(16deg); }
+}
+
+@media (max-width: 1199px) {
+  .newsletter,
+  .notFound { padding-top: 140px; padding-bottom: 80px; }
+  .newsletterInner { gap: 48px; }
+  .title { font-size: 56px; }
+  .envelopeFrame { top: -41.969px; right: -32px; }
+}
+
+@media (max-width: 809px) {
+  .newsletter,
+  .notFound { padding-top: 120px; padding-bottom: 60px; }
+  .newsletterInner { gap: 40px; }
+  .intro { gap: 10px; }
+  .intro .text { gap: 6px; }
+  .title { font-size: 44px; }
+  .description { max-width: 270px; }
+  .envelopeFrame { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .envelopeFrame { animation: none; transform: translateY(-50%) rotate(1deg); }
+  .envelope { animation: none; }
+  .field input { transition: none; }
+}
