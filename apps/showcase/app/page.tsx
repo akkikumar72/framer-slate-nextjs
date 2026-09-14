@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const templates = [
   {
+    name: "Orbital",
+    slug: "orbital",
+    packageName: "@framer-templates/orbital",
+    port: 3014,
+    routes: 15,
+    image: "/templates/orbital.jpg",
+    url: process.env.NEXT_PUBLIC_ORBITAL_URL ?? "http://localhost:3014/orbital",
+  },
+  {
     name: "Alytics",
     slug: "alytics",
     packageName: "@framer-templates/alytics",

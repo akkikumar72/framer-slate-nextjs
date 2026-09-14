@@ -17,6 +17,18 @@ const interactions: Record<string, Interaction> = {
     await expect(question).toHaveAttribute("aria-expanded", "true");
     await expect(page.locator("#faq-answer-1")).toContainText("requires no coding");
   },
+  orbital: async (page) => {
+    const tab = page.getByRole("tab", { name: "Research", exact: true });
+    await tab.click();
+    await expect(tab).toHaveAttribute("aria-selected", "true");
+    await expect(page.getByRole("tabpanel").getByRole("heading", {
+      name: "Multi-step research with citations.",
+    })).toBeVisible();
+    const question = page.getByRole("button", { name: "Can I run it in my own cloud?", exact: true });
+    await question.click();
+    await expect(question).toHaveAttribute("aria-expanded", "true");
+    await expect(page.getByText("Yes. Orbital AI can be deployed in your own cloud environment", { exact: false })).toBeVisible();
+  },
   agenio: async (page) => {
     const question = page.getByRole("button", {
       name: "What if I only need one specific AI service?",

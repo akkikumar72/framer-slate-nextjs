@@ -1,0 +1,67 @@
+.orbital-price-toggle {
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.orbital-price-toggle__value {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  width: max-content;
+}
+
+.orbital-price-toggle__value > span {
+  color: inherit;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.orbital-price-toggle .orbital-price-toggle__value > h3 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.orbital-price-toggle__switch {
+  position: relative;
+  width: 40px;
+  height: 24px;
+  flex: 0 0 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 46px;
+  background: rgb(255 255 255 / 12%);
+}
+
+.orbital-price-toggle__knob {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgb(142 142 142);
+  transition: transform 400ms cubic-bezier(.44, 0, .56, 1);
+}
+
+.orbital-price-toggle__switch[aria-checked="true"] .orbital-price-toggle__knob {
+  transform: translateX(16px);
+}
+
+@media (min-width: 810px) and (max-width: 1439px) {
+  .orbital-price-toggle .orbital-price-toggle__value > h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 809px) {
+  .orbital-price-toggle .orbital-price-toggle__value > h3 {
+    font-size: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbital-price-toggle__knob {
+    transition: none;
+  }
+}

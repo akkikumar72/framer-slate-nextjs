@@ -1,0 +1,147 @@
+{
+  "name": "Orbital",
+  "slug": "orbital",
+  "routePrefix": "/orbital",
+  "port": 3014,
+  "sourceRoots": [
+    "app",
+    "components",
+    "lib"
+  ],
+  "assetRoots": [
+    "public/orbital/assets"
+  ],
+  "assetPrefixes": [
+    "/orbital/assets/"
+  ],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/orbital",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital",
+      "marker": "AI Agents That Ship"
+    },
+    {
+      "path": "/orbital/about",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/about",
+      "marker": "We\u2019re building the runtime for the agent era."
+    },
+    {
+      "path": "/orbital/blog",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog",
+      "marker": "Notes on building, connecting, and deploying agents."
+    },
+    {
+      "path": "/orbital/contact",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/contact",
+      "marker": "Let\u2019s talk about what you\u2019re building."
+    },
+    {
+      "path": "/orbital/legal/privacy-policy",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/legal/privacy-policy",
+      "marker": "Privacy Policy"
+    },
+    {
+      "path": "/orbital/legal/terms-conditions",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/legal/terms-conditions",
+      "marker": "Terms & Conditions"
+    },
+    {
+      "path": "/orbital/blog/why-ci-evaluations-matter",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/why-ci-evaluations-matter",
+      "marker": "Why CI Evaluations Matter"
+    },
+    {
+      "path": "/orbital/blog/orbital-3.0-multi-agent-runtime",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/orbital-3.0-multi-agent-runtime",
+      "marker": "Orbital 3.0: Multi-Agent Runtime"
+    },
+    {
+      "path": "/orbital/blog/measuring-agent-reliability",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/measuring-agent-reliability",
+      "marker": "Measuring Agent Reliability"
+    },
+    {
+      "path": "/orbital/blog/build-a-support-agent-fast",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/build-a-support-agent-fast",
+      "marker": "Build a Support Agent Fast"
+    },
+    {
+      "path": "/orbital/blog/zero-downtime-agent-deployments",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/zero-downtime-agent-deployments",
+      "marker": "Zero-Downtime Agent Deployments"
+    },
+    {
+      "path": "/orbital/blog/we-raised-our-series-b",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/we-raised-our-series-b",
+      "marker": "We Raised Our Series B"
+    },
+    {
+      "path": "/orbital/blog/guardrails-now-enforced",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/guardrails-now-enforced",
+      "marker": "Guardrails, Now Enforced"
+    },
+    {
+      "path": "/orbital/blog/what-we-learned-from-2m-runs",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/what-we-learned-from-2m-runs",
+      "marker": "What We Learned from 2M Runs"
+    },
+    {
+      "path": "/orbital/blog/connecting-snowflake-safely",
+      "status": 200,
+      "titleIncludes": "Orbital",
+      "canonical": "/orbital/blog/connecting-snowflake-safely",
+      "marker": "Connecting Snowflake Safely"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/orbital/404",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    },
+    {
+      "path": "/orbital/__missing__",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    },
+    {
+      "path": "/orbital/blog/__missing__",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    },
+    {
+      "path": "/orbital/legal/__missing__",
+      "status": 404,
+      "marker": "Sorry! Page Not Found"
+    }
+  ]
+}

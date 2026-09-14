@@ -1,0 +1,150 @@
+{
+  "desktop": {
+    "height": 9725,
+    "sections": [
+      {
+        "height": 857.734375,
+        "name": "home-hero",
+        "top": 0
+      },
+      {
+        "height": 217,
+        "name": "home-brands",
+        "top": 857.734375
+      },
+      {
+        "height": 635.375,
+        "name": "platform",
+        "top": 1074.734375
+      },
+      {
+        "height": 710.90625,
+        "name": "runtime",
+        "top": 1710.109375
+      },
+      {
+        "height": 781.375,
+        "name": "use-case",
+        "top": 2421.015625
+      },
+      {
+        "height": 1180.65625,
+        "name": "benchmarks",
+        "top": 3202.390625
+      },
+      {
+        "height": 886.96875,
+        "name": "observability",
+        "top": 4383.046875
+      },
+      {
+        "height": 1064.046875,
+        "name": "Integrations",
+        "top": 5270.015625
+      },
+      {
+        "height": 1095.375,
+        "name": "pricing",
+        "top": 6334.0625
+      },
+      {
+        "height": 672.1875,
+        "name": "testimonial",
+        "top": 7429.4375
+      },
+      {
+        "height": 733.78125,
+        "name": "faq",
+        "top": 8101.625
+      },
+      {
+        "height": 527.375,
+        "name": "orb-cta",
+        "top": 8835.40625
+      },
+      {
+        "height": 362,
+        "name": "orb-footer",
+        "top": 9362.78125
+      }
+    ],
+    "viewport": [
+      1474,
+      1223
+    ]
+  },
+  "phone": {
+    "height": 12541,
+    "sections": [
+      {
+        "height": 653.5,
+        "name": "home-hero",
+        "top": 0
+      },
+      {
+        "height": 400,
+        "name": "home-brands",
+        "top": 653.5
+      },
+      {
+        "height": 1361.78125,
+        "name": "platform",
+        "top": 1053.5
+      },
+      {
+        "height": 1144.421875,
+        "name": "runtime",
+        "top": 2415.28125
+      },
+      {
+        "height": 1234.78125,
+        "name": "use-case",
+        "top": 3559.703125
+      },
+      {
+        "height": 1454.71875,
+        "name": "benchmarks",
+        "top": 4794.484375
+      },
+      {
+        "height": 475.890625,
+        "name": "observability",
+        "top": 6249.203125
+      },
+      {
+        "height": 581.484375,
+        "name": "Integrations",
+        "top": 6725.09375
+      },
+      {
+        "height": 2539.78125,
+        "name": "pricing",
+        "top": 7306.578125
+      },
+      {
+        "height": 663.78125,
+        "name": "testimonial",
+        "top": 9846.359375
+      },
+      {
+        "height": 850.5625,
+        "name": "faq",
+        "top": 10510.140625
+      },
+      {
+        "height": 560.5625,
+        "name": "orb-cta",
+        "top": 11360.703125
+      },
+      {
+        "height": 619.59375,
+        "name": "orb-footer",
+        "top": 11921.265625
+      }
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  }
+}

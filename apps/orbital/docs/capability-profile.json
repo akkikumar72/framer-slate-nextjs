@@ -1,0 +1,286 @@
+{
+  "reference": "https://orbital-gr8r.framer.website/",
+  "project": "cuPaxNbnlub4DyRdaGaL",
+  "destination": "apps/orbital",
+  "routePrefix": "/orbital",
+  "viewports": [
+    [
+      1474,
+      1223
+    ],
+    [
+      810,
+      1080
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "breakpoints": [
+    810,
+    1440
+  ],
+  "global": {
+    "fonts": [
+      "Asta Sans 600/700, local TTF",
+      "Geist 400/500/700, local WOFF2"
+    ],
+    "shell": "1360px bordered content grid; absolute top navigation (76px desktop/tablet, 70px phone); textured separators; shared CTA and black footer",
+    "services": [
+      "Contact form with native fields and template placeholder select options. Local validation only until delivery endpoint configured."
+    ],
+    "fixedLayers": [
+      "Framer attribution badge"
+    ]
+  },
+  "sections": [
+    {
+      "name": "hero",
+      "families": [
+        "layered",
+        "load-motion"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "load-states"
+      ]
+    },
+    {
+      "name": "brand strip",
+      "families": [
+        "marquee"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "cycle"
+      ]
+    },
+    {
+      "name": "platform",
+      "families": [
+        "flow",
+        "repeated",
+        "intersection"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "reveal"
+      ]
+    },
+    {
+      "name": "runtime",
+      "families": [
+        "flow",
+        "image"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive"
+      ]
+    },
+    {
+      "name": "use cases",
+      "families": [
+        "tabs",
+        "counters"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "all-four-states",
+        "keyboard"
+      ]
+    },
+    {
+      "name": "benchmarks",
+      "families": [
+        "image",
+        "counter"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "settled-count"
+      ]
+    },
+    {
+      "name": "observability",
+      "families": [
+        "image"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive"
+      ]
+    },
+    {
+      "name": "integrations",
+      "families": [
+        "image"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive"
+      ]
+    },
+    {
+      "name": "pricing",
+      "families": [
+        "cards"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive"
+      ]
+    },
+    {
+      "name": "testimonials",
+      "families": [
+        "carousel"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "all-four-states",
+        "wraparound"
+      ]
+    },
+    {
+      "name": "faq",
+      "families": [
+        "accordion"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "all-six-states"
+      ]
+    },
+    {
+      "name": "about",
+      "families": [
+        "counter",
+        "story",
+        "team-carousel"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "carousel"
+      ]
+    },
+    {
+      "name": "blog",
+      "families": [
+        "collection",
+        "article-rich-text"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "all-nine-slugs"
+      ]
+    },
+    {
+      "name": "contact",
+      "families": [
+        "form"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive",
+        "validation",
+        "honest-submit"
+      ]
+    },
+    {
+      "name": "legal",
+      "families": [
+        "rich-text"
+      ],
+      "risk": "low",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive"
+      ]
+    },
+    {
+      "name": "404",
+      "families": [
+        "image",
+        "navigation"
+      ],
+      "risk": "low",
+      "probes": [
+        "geometry",
+        "typography",
+        "assets",
+        "responsive"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Exact source character-stagger easing and carousel/brand autoplay intervals remain unverified; see home-evidence.md for implementation timings and geometry deltas."
+  ],
+  "intentionalDeviations": [
+    "Namespace every internal path under /orbital.",
+    "Contact delivery requires an application endpoint; never claim a sent message in the local preview.",
+    "Use-case counters reset to the authored Framer values (38+, 9h, 64%, 5x); published client can retain the previous tab counter.",
+    "Social URLs normalize redundant trailing dots; original icon artwork and destinations preserved.",
+    "Page-specific local metadata titles replace the source generic title."
+  ],
+  "routeCoverage": {
+    "discovered": 16,
+    "implemented": 16,
+    "excluded": 0,
+    "blocked": 0
+  }
+}
