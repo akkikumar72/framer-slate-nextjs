@@ -74,7 +74,8 @@ button.project:hover img {
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  transition:background .3s,color .3s,box-shadow .3s;
+  --intro-ease:cubic-bezier(.79,-.02,.21,1.01);
+  transition:background-color .8s var(--intro-ease),box-shadow .8s var(--intro-ease);
   backdrop-filter:blur(10px);
   background:rgb(0 0 0 / .08);
 }
@@ -153,11 +154,11 @@ button.project:hover img {
 .scrolled {
   background:#000;
   color:#fff;
-  box-shadow:0 16px 20px #0004;
+  box-shadow:0 12px 20px rgb(0 0 0 / .32);
 }
 
 .scrolled .identity p,.scrolled .navigation button,.scrolled .navigation a {
-  color:#b3b3b3;
+  color:rgb(255 255 255 / .72);
 }
 
 .scrolled .navigation .contactButton {
@@ -296,6 +297,44 @@ button.project:hover img {
   }
 }
 
+@media(min-width:810px) {
+  .intro .identity h1,.intro h2 {
+    color:#000;
+    transition:color .4s var(--intro-ease);
+  }
+  .intro .identity p,.intro .navigation button,.intro .navigation a {
+    color:rgb(0 0 0 / .56);
+    transition:color .4s var(--intro-ease);
+  }
+  .intro.scrolled .identity h1,.intro.scrolled h2 {
+    color:#fff;
+  }
+  .intro.scrolled .identity p,.intro.scrolled .navigation button,.intro.scrolled .navigation a {
+    color:rgb(255 255 255 / .72);
+  }
+  .intro .navigation .contactButton {
+    color:#fff;
+    transition:background-color .8s cubic-bezier(.83,.01,.23,1.01),color .8s cubic-bezier(.83,.01,.23,1.01);
+  }
+  .intro.scrolled .navigation .contactButton {
+    color:#000;
+  }
+  .intro .navigation :is(button,a):hover {
+    color:#000;
+  }
+  .intro.scrolled .navigation :is(button,a):hover {
+    color:#fff;
+  }
+  .intro .navigation .contactButton:hover {
+    background:rgb(0 0 0 / .56);
+    color:#fff;
+  }
+  .intro.scrolled .navigation .contactButton:hover {
+    background:rgb(255 255 255 / .72);
+    color:#000;
+  }
+}
+
 @media(max-width:809.98px) {
   .grid {
     grid-template-columns:repeat(auto-fill,minmax(290px,1fr));
@@ -424,7 +463,7 @@ button.project:hover img {
 }
 
 @media(prefers-reduced-motion:reduce) {
-  .intro,.project img {
+  .intro,.intro .identity h1,.intro h2,.intro .identity p,.intro .navigation button,.intro .navigation a,.intro .navigation .contactButton,.project img {
     transition:none;
   }
   .dialog,.dialog::backdrop {

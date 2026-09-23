@@ -43,7 +43,20 @@ export default function GridFolio() {
     const menuButton = useRef<HTMLButtonElement>(null);
     const menuContainer = useRef<HTMLDivElement>(null);
     const close = useCallback(() => setPanel(null), []);
-    useEffect(() => { const update = () => setScrolled(window.scrollY > 8); update(); window.addEventListener("scroll", update, { passive: true }); return () => window.removeEventListener("scroll", update); }, []);
+    useEffect(() => {
+        const desktop = window.matchMedia("(min-width: 810px)");
+        // The reference begins its sticky-card dissolve at seven pixels of scroll.
+        const update = () => setScrolled(desktop.matches && window.scrollY >= 7);
+        update();
+        window.addEventListener("scroll", update, { passive: true });
+        window.addEventListener("pageshow", update);
+        desktop.addEventListener("change", update);
+        return () => {
+            window.removeEventListener("scroll", update);
+            window.removeEventListener("pageshow", update);
+            desktop.removeEventListener("change", update);
+        };
+    }, []);
     useEffect(() => {
         if (!panel)
             return;
