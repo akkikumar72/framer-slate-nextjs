@@ -1,0 +1,143 @@
+{
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      810,
+      1080
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "routes": [
+    {
+      "path": "/nue",
+      "evidence": [
+        "app/nue/page.tsx"
+      ],
+      "family": "portfolio",
+      "kind": "static",
+      "sharedShell": "nue",
+      "status": "implemented",
+      "confidence": "high",
+      "validation": [
+        "Production rendering",
+        "Canonical content and local media",
+        "Responsive layout",
+        "Navigation and HTTP status"
+      ],
+      "validationStatus": "passed for current content and asset revision"
+    },
+    {
+      "path": "/nue/projects/greenora",
+      "evidence": [
+        "app/nue/projects/[slug]/page.tsx",
+        "lib/projects.ts"
+      ],
+      "family": "project",
+      "kind": "data-driven",
+      "sharedShell": "nue",
+      "status": "implemented",
+      "confidence": "high",
+      "validation": [
+        "Production rendering",
+        "Canonical content and local media",
+        "Responsive layout",
+        "Navigation and HTTP status"
+      ],
+      "validationStatus": "passed for current content and asset revision"
+    },
+    {
+      "path": "/nue/projects/clarity-path",
+      "evidence": [
+        "app/nue/projects/[slug]/page.tsx",
+        "lib/projects.ts"
+      ],
+      "family": "project",
+      "kind": "data-driven",
+      "sharedShell": "nue",
+      "status": "implemented",
+      "confidence": "high",
+      "validation": [
+        "Production rendering",
+        "Canonical content and local media",
+        "Responsive layout",
+        "Navigation and HTTP status"
+      ],
+      "validationStatus": "passed for current content and asset revision"
+    },
+    {
+      "path": "/nue/projects/paul-interior",
+      "evidence": [
+        "app/nue/projects/[slug]/page.tsx",
+        "lib/projects.ts"
+      ],
+      "family": "project",
+      "kind": "data-driven",
+      "sharedShell": "nue",
+      "status": "implemented",
+      "confidence": "high",
+      "validation": [
+        "Production rendering",
+        "Canonical content and local media",
+        "Responsive layout",
+        "Navigation and HTTP status"
+      ],
+      "validationStatus": "passed for current content and asset revision"
+    },
+    {
+      "path": "/nue/projects/umbrella",
+      "evidence": [
+        "app/nue/projects/[slug]/page.tsx",
+        "lib/projects.ts"
+      ],
+      "family": "project",
+      "kind": "data-driven",
+      "sharedShell": "nue",
+      "status": "implemented",
+      "confidence": "high",
+      "validation": [
+        "Production rendering",
+        "Canonical content and local media",
+        "Responsive layout",
+        "Navigation and HTTP status"
+      ],
+      "validationStatus": "passed for current content and asset revision"
+    },
+    {
+      "path": "/nue/404",
+      "evidence": [
+        "app/not-found.tsx",
+        "missing-path probes"
+      ],
+      "family": "not-found",
+      "kind": "not-found",
+      "sharedShell": "nue",
+      "status": "implemented",
+      "confidence": "high",
+      "validation": [
+        "Production rendering",
+        "Canonical content and local media",
+        "Responsive layout",
+        "Navigation and HTTP status"
+      ],
+      "validationStatus": "passed for current content and asset revision"
+    }
+  ],
+  "application": "Nue Next.js portfolio",
+  "verificationScope": "Current standalone application verified after intentional copy and asset changes. Historical geometry records remain a separate baseline.",
+  "historicalVerifiedAt": "2026-09-23",
+  "verifiedAt": "2026-09-23",
+  "currentChecks": {
+    "nue": "check, typecheck, asset audit, production build, and routes passed",
+    "showcase": "check, typecheck, asset audit, production build, and routes passed",
+    "browserSuite": "tests/nue.spec.ts: 20/20 passed, including Showcase integration",
+    "dedicatedSmoke": "tests/template-smoke.spec.ts Nue probe: 1/1 passed",
+    "browserTypeScript": "passed",
+    "browserTotal": "21 checks passed: full Nue suite 20/20 and dedicated smoke 1/1"
+  }
+}

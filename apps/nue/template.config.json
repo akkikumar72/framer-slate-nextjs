@@ -1,0 +1,71 @@
+{
+  "name": "Nue",
+  "slug": "nue",
+  "routePrefix": "/nue",
+  "port": 3016,
+  "sourceRoots": ["app", "components", "lib"],
+  "assetRoots": ["public/nue"],
+  "assetPrefixes": ["/nue/"],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/nue",
+      "status": 200,
+      "canonical": "/nue",
+      "marker": "David Simmons",
+      "title": "Nue - Next.js Portfolio Template"
+    },
+    {
+      "path": "/nue/projects/greenora",
+      "status": 200,
+      "canonical": "/nue/projects/greenora",
+      "marker": "Greenora",
+      "title": "Greenora - Nue - Next.js Portfolio Template"
+    },
+    {
+      "path": "/nue/projects/clarity-path",
+      "status": 200,
+      "canonical": "/nue/projects/clarity-path",
+      "marker": "Clarity Path",
+      "title": "Clarity Path - Nue - Next.js Portfolio Template"
+    },
+    {
+      "path": "/nue/projects/paul-interior",
+      "status": 200,
+      "canonical": "/nue/projects/paul-interior",
+      "marker": "Paul Interior",
+      "title": "Paul Interior - Nue - Next.js Portfolio Template"
+    },
+    {
+      "path": "/nue/projects/umbrella",
+      "status": 200,
+      "canonical": "/nue/projects/umbrella",
+      "marker": "Umbrella",
+      "title": "Umbrella - Nue - Next.js Portfolio Template"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/nue/404",
+      "status": 404,
+      "marker": "404 - Page not found"
+    },
+    {
+      "path": "/nue/__missing__",
+      "status": 404,
+      "marker": "404 - Page not found"
+    },
+    {
+      "path": "/nue/projects/__missing__",
+      "status": 404,
+      "marker": "404 - Page not found"
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/",
+      "status": 307,
+      "location": "/nue"
+    }
+  ]
+}

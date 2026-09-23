@@ -1,0 +1,638 @@
+@font-face {
+  font-family: Inter;
+  src: url("/nue/assets/inter-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url("/nue/assets/inter-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url("/nue/assets/inter-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url("/nue/assets/inter-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/nue/assets/geist-mono.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+body {
+  display: flow-root;
+  margin: 0;
+  background: #f5f5f5;
+  color: #0f1419;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+textarea {
+  font: inherit;
+}
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #0099ff;
+  outline-offset: 4px;
+}
+button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+.nue-shell {
+  width: 600px;
+  max-width: 100%;
+  margin: 100px auto 0;
+  padding: 10px;
+  background: white;
+  border-radius: 25px;
+  box-shadow:
+    0 0 0 1px #eee,
+    0 2px 6px #0000000d,
+    0 14px 45px #00000012;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.nue-section {
+  width: 100%;
+  padding: 25px 20px;
+  background: #f2f2f2;
+  border-radius: 18px;
+  box-shadow: inset 0 0 0 1px #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  overflow: hidden;
+  scroll-margin-top: 20px;
+}
+.nue-section-heading {
+  font-family: "Geist Mono", monospace;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.25px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding-left: 7px;
+}
+.nue-footer {
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 18.2px;
+  color: #555;
+  padding: 40px 20px;
+  margin: 10px auto 0;
+}
+.nue-button {
+  align-self: flex-start;
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 99px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  white-space: nowrap;
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s;
+  border: 0;
+}
+.nue-button-dark {
+  background: linear-gradient(#262626, #000);
+  color: white;
+  box-shadow:
+    0 2px 4px #0000001a,
+    0 10px 16px -8px #0006;
+}
+.nue-button-light {
+  background: #fff;
+  color: #111;
+}
+.nue-button:hover {
+  transform: translateY(-2px);
+}
+.nue-button:active {
+  transform: translateY(0) scale(0.97);
+}
+.nue-button-label {
+  height: 16.2px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.nue-button-label > span {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nue-button:hover .nue-button-label > span {
+  transform: translateY(-100%);
+}
+.nue-media-frame {
+  padding: 10px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 1px #e4e4e4,
+    0 12px 22px -18px #0003;
+  overflow: hidden;
+}
+.nue-media-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+}
+.nue-reveal {
+  min-width: 0;
+}
+.nue-dock {
+  position: fixed;
+  z-index: 50;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  border-radius: 13px;
+  background: rgba(0, 0, 0, 0.5);
+  /* Keep the standard declaration last so production CSS retains it. */
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow:
+    0.120437px 0.240875px 0.377029px -0.666667px rgba(0, 0, 0, 0.1),
+    0.457707px 0.915413px 1.43285px -1.33333px rgba(0, 0, 0, 0.11),
+    2px 4px 6.26099px -2px rgba(0, 0, 0, 0.15);
+}
+.nue-dock a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 53px;
+  height: 53px;
+  border-radius: 11px;
+  color: white;
+  transition:
+    background 0.25s,
+    transform 0.25s;
+}
+.nue-dock a:hover,
+.nue-dock a[aria-current] {
+  background: #ffffff20;
+  transform: translateY(-2px);
+}
+.nue-dock img {
+  width: 21px;
+  height: 21px;
+}
+.nue-dock span {
+  font-size: 9px;
+  line-height: 11px;
+}
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  left: 10px;
+  transform: translateY(-150%);
+  background: #111;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+.skip-link:focus {
+  transform: none;
+}
+.nue-hero {
+  padding: 30px 20px;
+  gap: 23px;
+}
+.nue-identity {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.nue-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  padding: 3px;
+  background: white;
+  box-shadow:
+    0 0 0 1px #ddd,
+    0 8px 10px -5px #0004;
+}
+.nue-avatar img {
+  width: 54px;
+  height: 54px;
+  border-radius: 13px;
+}
+.nue-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nue-verified {
+  width: 17px;
+  height: 17px;
+  color: #1da1f2;
+}
+.nue-role {
+  font-size: 13px;
+  line-height: 18.2px;
+  color: #555;
+  margin-top: 6px;
+}
+.nue-intro {
+  max-width: 350px;
+  line-height: 22.5px;
+}
+.nue-actions {
+  display: flex;
+  gap: 7px;
+}
+.nue-project-list {
+  display: grid;
+  gap: 20px;
+}
+.nue-project-card {
+  display: block;
+  padding: 10px 10px 0;
+  background: white;
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 1px #e4e4e4,
+    0 12px 22px -18px #0003;
+  transition: box-shadow 0.3s;
+}
+.nue-project-cover {
+  overflow: hidden;
+  border-radius: 14px;
+  height: 360px;
+}
+.nue-project-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nue-project-card:hover img {
+  transform: scale(1.04);
+}
+.nue-project-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 0;
+  line-height: 20.25px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.nue-project-caption span {
+  color: #777;
+}
+.nue-project-caption i {
+  display: block;
+  width: 11px;
+  height: 2px;
+  background: #999;
+}
+.nue-not-found {
+  padding: 30px 20px;
+  gap: 23px;
+}
+.nue-not-found img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  align-self: center;
+}
+.nue-not-found p {
+  max-width: 450px;
+}
+@media (max-width: 809.98px) {
+  .nue-shell {
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .nue-footer {
+    padding-bottom: 100px;
+  }
+  .nue-hero {
+    padding-bottom: 50px;
+  }
+  .nue-project-cover {
+    height: auto;
+    aspect-ratio: 1.5;
+  }
+  .nue-project-caption {
+    font-size: 13px;
+    gap: 8px;
+  }
+  .nue-dock {
+    bottom: 40px;
+  }
+  .nue-section {
+    scroll-margin-top: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .nue-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+.nue-contact {
+  gap: 30px;
+}
+.nue-contact-copy {
+  max-width: 450px;
+  margin-top: 17px;
+}
+.nue-socials {
+  display: flex;
+  gap: 10px;
+}
+.nue-socials a {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px #0000000a;
+  background: linear-gradient(#fff, #ededed);
+  transition: transform 0.25s;
+  font-size: 20px;
+}
+.nue-socials a:hover {
+  transform: translateY(-3px);
+}
+.nue-socials svg {
+  width: 20px;
+  height: 20px;
+}
+.nue-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nue-field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.nue-contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+}
+.nue-contact-form input,
+.nue-contact-form textarea {
+  background: #e9e9e9;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+  color: #111;
+  min-width: 0;
+  width: 100%;
+  resize: vertical;
+  box-shadow: inset 0 1px 2px #00000008;
+}
+.nue-contact-form input {
+  height: 44px;
+}
+.nue-contact-form textarea {
+  height: 140px;
+  min-height: 100px;
+}
+.nue-contact-form button {
+  width: 100%;
+  font-size: 15px;
+  line-height: 20.25px;
+  padding: 14px 20px;
+}
+.nue-contact-form button .nue-button-label {
+  height: 20.25px;
+}
+.nue-contact-status {
+  padding: 14px;
+  border-radius: 12px;
+  background: white;
+  color: #555;
+  font-size: 13px;
+}
+.nue-contact-status a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #111;
+  text-decoration: underline;
+}
+@media (max-width: 809.98px) {
+  .nue-field-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .nue-contact {
+    gap: 30px;
+  }
+}
+
+.nue-contact .nue-section-heading {
+  padding-left: 0;
+}
+.nue-contact-copy {
+  max-width: 400px;
+  margin-top: 10px;
+  color: #555;
+}
+.nue-socials {
+  gap: 16px;
+  margin-top: -8px;
+}
+.nue-socials a {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.nue-socials svg {
+  width: 24px;
+  height: 24px;
+}
+.nue-contact-form input,
+.nue-contact-form textarea {
+  background: white;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  line-height: 21px;
+}
+.nue-contact-form input {
+  height: 45px;
+}
+.nue-contact-form input::placeholder {
+  color: #c6c6c6;
+}
+.nue-contact-form textarea {
+  height: 200px;
+}
+.nue-contact-form button {
+  height: 50px;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: none;
+  padding: 0;
+}
+.nue-field-row {
+  gap: 15px;
+}
+.nue-button {
+  letter-spacing: -0.12px;
+}
+@media (max-width: 809.98px) {
+  .nue-project-cover {
+    aspect-ratio: 13/9;
+  }
+  .nue-project-caption {
+    font-size: 15px;
+    gap: 10px;
+  }
+  .nue-footer {
+    padding: 30px 20px;
+  }
+  .nue-field-row {
+    row-gap: 20px;
+  }
+}
+body {
+  font-feature-settings: "blwf", "cv03", "cv04", "cv09", "cv11";
+}
+.nue-page {
+  width: 600px;
+  max-width: 100%;
+  margin: 100px auto 0;
+}
+.nue-shell {
+  margin: 0 auto;
+}
+.nue-page:has(.nue-not-found) {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
+.nue-not-found p {
+  max-width: 350px;
+}
+.nue-not-found .nue-avatar img {
+  width: 54px;
+  height: 54px;
+}
+.nue-not-found img {
+  align-self: auto;
+}
+@media (max-width: 809.98px) {
+  .nue-page {
+    width: 100%;
+    margin-top: 0;
+  }
+  .nue-page:has(.nue-not-found) {
+    min-height: 90vh;
+    display: block;
+  }
+  .nue-not-found {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .nue-button {
+    line-height: 16px;
+  }
+  .nue-button-label {
+    height: 16px;
+  }
+  .nue-project-caption {
+    height: 56px;
+  }
+}

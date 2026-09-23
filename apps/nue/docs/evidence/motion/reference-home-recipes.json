@@ -1,0 +1,736 @@
+{
+  "appearance": [
+    {
+      "name": "Variant 1",
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 0,
+              "duration": 0.6,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 0.6,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "H1",
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0.2,
+              "delay": 0.2,
+              "duration": 0.4,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 10
+          }
+        }
+      }
+    },
+    {
+      "name": "Verify Icon",
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 0.2,
+              "duration": 0.6,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 0.5,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Role",
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 0.4,
+              "duration": 0.6,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 10
+          }
+        }
+      }
+    },
+    {
+      "name": "Paragraph",
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 0.6,
+              "duration": 0.7,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 10
+          }
+        }
+      }
+    },
+    {
+      "name": null,
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 0.8,
+              "duration": 0.7,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 0.8,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    {
+      "name": null,
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 0.9,
+              "duration": 1,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": -10,
+            "y": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "H2",
+      "recipe": {
+        "default": {
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "bounce": 0,
+              "delay": 1.1,
+              "duration": 0.7,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          },
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 10
+          }
+        }
+      }
+    }
+  ],
+  "initialScrollPoses": [
+    {
+      "name": null,
+      "section": "project",
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "project",
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "project",
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "project",
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 10)"
+    },
+    {
+      "name": "H2",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "About Image 1",
+      "section": "",
+      "transform": "matrix(0.892982, -0.112177, 0.112177, 0.892982, 20, 20)"
+    },
+    {
+      "name": "About Image 2",
+      "section": "",
+      "transform": "matrix(0.896353, 0.0809436, -0.0809436, 0.896353, -20, 20)"
+    },
+    {
+      "name": "Paragraph",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "",
+      "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+    },
+    {
+      "name": "H2",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "No",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Service",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Description",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "No",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Service",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Description",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "No",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Service",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Description",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "No",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Service",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Description",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "",
+      "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+    },
+    {
+      "name": "H2",
+      "section": "testimonial",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Ratings",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Testimonial Text",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Testimonial Author",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Author",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Ratings",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Testimonial Text",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Testimonial Author",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Author",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Ratings",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Testimonial Text",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Testimonial Author",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Author",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "H2",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "experience",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Year",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "experience",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Year",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "experience",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Year",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "experience",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Year",
+      "section": "experience",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "H2",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Company Image",
+      "section": "",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 0)"
+    },
+    {
+      "name": "Company Name",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Role",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "H2",
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "H2",
+      "section": "contact",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Paragraph",
+      "section": "contact",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": "Variant 1",
+      "section": "contact",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 10)"
+    },
+    {
+      "name": "Variant 1",
+      "section": "contact",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 10)"
+    },
+    {
+      "name": "Variant 1",
+      "section": "contact",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 10)"
+    },
+    {
+      "name": "Variant 1",
+      "section": "contact",
+      "transform": "matrix(0.7, 0, 0, 0.7, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "contact",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "contact",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "contact",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)"
+    },
+    {
+      "name": null,
+      "section": "contact",
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 10)"
+    }
+  ]
+}

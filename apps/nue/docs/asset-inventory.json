@@ -1,0 +1,596 @@
+{
+  "yBYKE1bnAg91JURKb3FAUoQoAc.svg": {
+    "local": "/nue/assets/favicon-light.svg",
+    "bytes": 329,
+    "sha256": "90b638f0808cdeaf2e470852bad52cb9d524617182f16ad858dbb7fc1d9d41df",
+    "dimensions": {
+      "width": 64.0,
+      "height": 64.0,
+      "unit": "px"
+    },
+    "alt": "",
+    "page": "clarity-path"
+  },
+  "98SbOcKjOybVjJ2wIcGNc9zjDV0.svg": {
+    "local": "/nue/assets/favicon-dark.svg",
+    "bytes": 329,
+    "sha256": "7c02ababf83a9ad9fb4f8a7b227b5919ec48074109f5e663de3d01a7b427043a",
+    "dimensions": {
+      "width": 64.0,
+      "height": 64.0,
+      "unit": "px"
+    },
+    "alt": "",
+    "page": "clarity-path"
+  },
+  "XIGpemvrvknGAM70fqLlGdgWi0.png": {
+    "local": "/nue/assets/apple-touch-icon.png",
+    "bytes": 1269,
+    "sha256": "02e3c7492caee61e3786c82680dedb04c95295cdd23bb4bf8993a4925274bdda",
+    "dimensions": {
+      "width": 256,
+      "height": 256,
+      "unit": "px"
+    },
+    "alt": "",
+    "page": "clarity-path"
+  },
+  "F6OX4HI8kK1i2rsby0idr60fqQ.jpg": {
+    "local": "/nue/assets/clarity-path-cover.jpg",
+    "bytes": 68035,
+    "sha256": "44f03caab0aeb4600380a74e195c2c933405db0401a9a3b1f805fdb811bde1aa",
+    "dimensions": {
+      "width": 1600,
+      "height": 1120,
+      "unit": "px"
+    },
+    "alt": "",
+    "page": "clarity-path"
+  },
+  "6O484kWHvJ8J4DhfzVQbRT1LhU.svg": {
+    "local": "/nue/assets/nav-home.svg",
+    "bytes": 498,
+    "sha256": "a7cabb60aea2d8e49645604cf815a90d595faae37f0492fc946cef29653453bb",
+    "dimensions": {
+      "width": 20.0,
+      "height": 20.0,
+      "unit": "px"
+    },
+    "alt": "Icon Inside Navbar",
+    "page": "clarity-path"
+  },
+  "OPLKYl8K7cBCNYLIre5YdS2OTk.svg": {
+    "local": "/nue/assets/nav-projects.svg",
+    "bytes": 396,
+    "sha256": "d7d3c012b1a4446e231472dd6983da3b30ccbb3894e3c068446a461ec14b4ba8",
+    "dimensions": {
+      "width": 21.0,
+      "height": 21.0,
+      "unit": "px"
+    },
+    "alt": "Icon Inside Navbar",
+    "page": "clarity-path"
+  },
+  "7SzbAlLveJOrhZmnzsBJb1rHCKA.svg": {
+    "local": "/nue/assets/nav-about.svg",
+    "bytes": 732,
+    "sha256": "5250226a25c37f173357a2d1a41652007a86010bb0978b585da6655ba1cac7b6",
+    "dimensions": {
+      "width": 21.0,
+      "height": 21.0,
+      "unit": "px"
+    },
+    "alt": "Icon Inside Navbar",
+    "page": "clarity-path"
+  },
+  "mo9QMvJtfF9eSLlYX3VgUhpzTs8.svg": {
+    "local": "/nue/assets/nav-contact.svg",
+    "bytes": 559,
+    "sha256": "c4a5592fc18c6de765e5e0caff097db9d80e3d1bce791b58fafab8e263be4ba3",
+    "dimensions": {
+      "width": 22.0,
+      "height": 22.0,
+      "unit": "px"
+    },
+    "alt": "Icon Inside Navbar",
+    "page": "clarity-path"
+  },
+  "4q28BEIZup8q9z4S1KILXUuEE.jpg": {
+    "local": "/nue/assets/clarity-path-detail-4q28BEIZup.jpg",
+    "bytes": 101392,
+    "sha256": "8e348c34f4d7d3071669522e5028132745f83a13ebf1846eaa44488733f9bd99",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "clarity-path"
+  },
+  "l5KPcQ6pLrxOEGFyLtOb6eUZxA.jpg": {
+    "local": "/nue/assets/clarity-path-detail-l5KPcQ6pLr.jpg",
+    "bytes": 66562,
+    "sha256": "0611ee3040668b08f4f3d919d749109d53a129c9edf99ea4a16fe696d55833b2",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "clarity-path"
+  },
+  "0aCuZ2npYjRYxwPJZm0bncUsV14.jpg": {
+    "local": "/nue/assets/clarity-path-detail-0aCuZ2npYj.jpg",
+    "bytes": 30732,
+    "sha256": "10628b6ac74b83e3dca81018da5a2cea28ff41f2c14b318a6d46e69e6d8fd644",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "clarity-path"
+  },
+  "MHFm6SPZfIdYyrU27ruTkeNZ1s.jpg": {
+    "local": "/nue/assets/clarity-path-detail-MHFm6SPZfI.jpg",
+    "bytes": 56951,
+    "sha256": "445769734c307368fcd04c818e4ba483b298ff71ae5bacc6a1c3669308ab75e2",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "clarity-path"
+  },
+  "lJwBBT8sghpDdWLQUEE4u2U.jpg": {
+    "local": "/nue/assets/greenora-cover.jpg",
+    "bytes": 161486,
+    "sha256": "4b9361d780a8e69659d7c51ec1c6bc68cdcdbe0ad1556c5383380e358675e6e9",
+    "dimensions": {
+      "width": 1600,
+      "height": 1120,
+      "unit": "px"
+    },
+    "alt": "",
+    "page": "greenora"
+  },
+  "pW3f15Yd33E0yd4WOB9kU3l6pZg.jpg": {
+    "local": "/nue/assets/greenora-detail-pW3f15Yd33.jpg",
+    "bytes": 113504,
+    "sha256": "202c622add066ec74417ae5a983f356c310993dcc7b090ebac7e72dd73d1df6c",
+    "dimensions": {
+      "width": 1600,
+      "height": 1160,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "greenora"
+  },
+  "bk4xtXX4r8ilL69ZLHM2V0FIWQ.jpg": {
+    "local": "/nue/assets/greenora-detail-bk4xtXX4r8.jpg",
+    "bytes": 133238,
+    "sha256": "2f6ac0c9e63e4d7417fe6782436199bae6b37aa190566a0f3ae1169e09f710c4",
+    "dimensions": {
+      "width": 1600,
+      "height": 1160,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "greenora"
+  },
+  "6UbpKqiBU909dX5t36LsUv1dEOA.jpg": {
+    "local": "/nue/assets/greenora-detail-6UbpKqiBU9.jpg",
+    "bytes": 141493,
+    "sha256": "8ff4978965d2a130097141ba30464a9db2757bd7d685427e36a17f518362bb66",
+    "dimensions": {
+      "width": 1600,
+      "height": 1160,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "greenora"
+  },
+  "iB8281lKt5oH7dS2F70Sob2rSI.jpg": {
+    "local": "/nue/assets/greenora-detail-iB8281lKt5.jpg",
+    "bytes": 44166,
+    "sha256": "acb6f5ccedefd41e7659ca9dcef271059d9fdeb6c9492d9e1ff1484100fcb5eb",
+    "dimensions": {
+      "width": 1600,
+      "height": 1160,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "greenora"
+  },
+  "31DUr09z5lA3tZ2uZXQF26YxcU.jpg": {
+    "local": "/nue/assets/david-avatar.jpg",
+    "bytes": 10123,
+    "sha256": "805f79e3a9a27e8c053f33c6b07659ee0010badf51aa7d653bdd6f60fb80b718",
+    "dimensions": {
+      "width": 300,
+      "height": 300,
+      "unit": "px"
+    },
+    "alt": "Portfolio hero profile image",
+    "page": "home"
+  },
+  "8rxRzfBd5s0K59Ny053EHdfv5mg.jpg": {
+    "local": "/nue/assets/paul-interior-cover.jpg",
+    "bytes": 142572,
+    "sha256": "e0fbf68cdd53272d1ab824c321b0ef2aadcf174296a5adf72cb07b47594ddcf8",
+    "dimensions": {
+      "width": 1600,
+      "height": 1120,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "home"
+  },
+  "QgP9R7LC62pOMHfXMCb6R5e09M.jpg": {
+    "local": "/nue/assets/umbrella-cover.jpg",
+    "bytes": 98539,
+    "sha256": "1574e1db2ca732a164c957aa7f1cfc425960444f6fd484c95a935c452e20463c",
+    "dimensions": {
+      "width": 1600,
+      "height": 1120,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "home"
+  },
+  "kYbZa9Y70vK4Fup8zAaBJgMjcpA.jpg": {
+    "local": "/nue/assets/about-portrait.jpg",
+    "bytes": 14474,
+    "sha256": "15db1bd07614c3efbb17556d7d8dc71ef0400480594913660d7ee16825b9b086",
+    "dimensions": {
+      "width": 400,
+      "height": 400,
+      "unit": "px"
+    },
+    "alt": "Profile or personal photo",
+    "page": "home"
+  },
+  "cA5OptdvEX01Sun5Z4ZMXWkg0J8.jpg": {
+    "local": "/nue/assets/about-workspace.jpg",
+    "bytes": 29183,
+    "sha256": "7bbb589bd76c58109887ba650597058ef44b93e7ed24f15fdbcbe43e919ed3c0",
+    "dimensions": {
+      "width": 400,
+      "height": 400,
+      "unit": "px"
+    },
+    "alt": "Creative workspace or desk setup image",
+    "page": "home"
+  },
+  "pQSIhyVSrKe5ubgcAAi5huBUI.png": {
+    "local": "/nue/assets/service-pin.png",
+    "bytes": 17553,
+    "sha256": "e1375c1ff59ec217914cf36b6627cd3766e8f37aefc74fa7cf656c069ae1eda8",
+    "dimensions": {
+      "width": 551,
+      "height": 476,
+      "unit": "px"
+    },
+    "alt": "Pin icon image",
+    "page": "home"
+  },
+  "tysRxWKTSOpbzXtDNzk2I96nUs.jpg": {
+    "local": "/nue/assets/home-detail-tysRxWKTSO.jpg",
+    "bytes": 21598,
+    "sha256": "f8863ab6418d542d35e590081b94450894e52879e79296381c9c9c2e8dc0e6fe",
+    "dimensions": {
+      "width": 414,
+      "height": 414,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "home"
+  },
+  "V2Fudhg4kqB0c0O3oasglJAxyJU.jpg": {
+    "local": "/nue/assets/home-detail-V2Fudhg4kq.jpg",
+    "bytes": 14946,
+    "sha256": "53a274ca50d806dfba1488dabdb4b5e17fbe1ee2eed98920c697e7abe1c8879d",
+    "dimensions": {
+      "width": 300,
+      "height": 300,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "home"
+  },
+  "O7ZUCGJxFfKEUYDzLAX5mVPMcwM.jpg": {
+    "local": "/nue/assets/home-detail-O7ZUCGJxFf.jpg",
+    "bytes": 11615,
+    "sha256": "bece9251ddd95a15d39b3323cb2fff4594f67181d64aced7d878b9eae1d5ece5",
+    "dimensions": {
+      "width": 300,
+      "height": 300,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "home"
+  },
+  "6tTbkXggWgQCAJ4DO2QEdXXmgM.svg": {
+    "local": "/nue/assets/home-detail-6tTbkXggWg.svg",
+    "bytes": 214,
+    "sha256": "ca764b5867087d3c5ffc2bb0497a50b2ecf18ae7252169951ec97e18a592973d",
+    "dimensions": {
+      "width": 40.0,
+      "height": 40.0,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "home"
+  },
+  "11KSGbIZoRSg4pjdnUoif6MKHI.svg": {
+    "local": "/nue/assets/home-detail-11KSGbIZoR.svg",
+    "bytes": 215,
+    "sha256": "6fce5a0604a6267ad769dd5e7afbfcf8bd0390897f682aec71f6307999a5b67e",
+    "dimensions": {
+      "width": 40.0,
+      "height": 40.0,
+      "unit": "px"
+    },
+    "alt": null,
+    "page": "home"
+  },
+  "Wd8THz119gmVPFFpX1OVKNSYgVY.jpg": {
+    "local": "/nue/assets/home-detail-Wd8THz119g.jpg",
+    "bytes": 3777,
+    "sha256": "effa51624f9dca21ee3e3a0d8f7582ae5a5d3c075696ab19c9c6b16b1f094c56",
+    "dimensions": {
+      "width": 180,
+      "height": 180,
+      "unit": "px"
+    },
+    "alt": "Logo representing work experience",
+    "page": "home"
+  },
+  "ohcPbG9vn7bqdZK0InFEAYyvovQ.jpg": {
+    "local": "/nue/assets/home-detail-ohcPbG9vn7.jpg",
+    "bytes": 3433,
+    "sha256": "295074c27be95c5eee95306ad0cabbb74d19eb57ee8ea31bbec46fdea79a2a13",
+    "dimensions": {
+      "width": 180,
+      "height": 180,
+      "unit": "px"
+    },
+    "alt": "Logo representing work experience",
+    "page": "home"
+  },
+  "PtPyrU4cGpOXWMdXbfT4t48laQ4.jpg": {
+    "local": "/nue/assets/home-detail-PtPyrU4cGp.jpg",
+    "bytes": 2784,
+    "sha256": "9432123f29076d09e0ab4d7ead089f5f5375cd4d7e075d64ac664bd0c622a50f",
+    "dimensions": {
+      "width": 180,
+      "height": 180,
+      "unit": "px"
+    },
+    "alt": "Logo representing work experience",
+    "page": "home"
+  },
+  "wT2o7OLjAK66Iw5f8tmdHireFc.jpg": {
+    "local": "/nue/assets/home-detail-wT2o7OLjAK.jpg",
+    "bytes": 2793,
+    "sha256": "95c176ef233bce48f69aeb6dce4bb995dd80af833dd6d2a25290464125db67c0",
+    "dimensions": {
+      "width": 180,
+      "height": 180,
+      "unit": "px"
+    },
+    "alt": "Logo representing work experience",
+    "page": "home"
+  },
+  "mf84nvHn0X0NRSx4KOHehlFkiRc.jpg": {
+    "local": "/nue/assets/home-detail-mf84nvHn0X.jpg",
+    "bytes": 4645,
+    "sha256": "07c4cf8f2c954c1ac2cdcd21cd11d16a35af820bf806a5a489fd32d75a8ea2b0",
+    "dimensions": {
+      "width": 240,
+      "height": 240,
+      "unit": "px"
+    },
+    "alt": "Logo representing used tools or platforms",
+    "page": "home"
+  },
+  "En4W1Bc51J0mcc4m5tUsSuCE.jpg": {
+    "local": "/nue/assets/home-detail-En4W1Bc51J.jpg",
+    "bytes": 3780,
+    "sha256": "dca102ffff414e4cf1c31b622cdfcca1f20c3c9b60a50b2c3d114736a3d12c42",
+    "dimensions": {
+      "width": 240,
+      "height": 240,
+      "unit": "px"
+    },
+    "alt": "Logo representing used tools or platforms",
+    "page": "home"
+  },
+  "OU358CIDKL5V5A4NxxzemxsSsao.jpg": {
+    "local": "/nue/assets/home-detail-OU358CIDKL.jpg",
+    "bytes": 4592,
+    "sha256": "e16874808b1b1c7fe90acd3d037b032d0aaa32ca75b1dbd0aa6f8a28b5f6ffff",
+    "dimensions": {
+      "width": 240,
+      "height": 240,
+      "unit": "px"
+    },
+    "alt": "Logo representing used tools or platforms",
+    "page": "home"
+  },
+  "e9kiXPiQBrigIkb0qCk4kSF4g0.jpg": {
+    "local": "/nue/assets/home-detail-e9kiXPiQBr.jpg",
+    "bytes": 3793,
+    "sha256": "6f6dd3b97840ddcba7fdd9f38289eb833cbaafe5ef9f76dc23656ad787f50f9e",
+    "dimensions": {
+      "width": 319,
+      "height": 319,
+      "unit": "px"
+    },
+    "alt": "Logo representing used tools or platforms",
+    "page": "home"
+  },
+  "w4JVExgyoWOxCcqxAJfH5GAcVM.jpg": {
+    "local": "/nue/assets/home-detail-w4JVExgyoW.jpg",
+    "bytes": 5134,
+    "sha256": "db27711304a8f3ef88b1583167cdd23746bfdbf9689323e63412264299210bf6",
+    "dimensions": {
+      "width": 240,
+      "height": 240,
+      "unit": "px"
+    },
+    "alt": "Logo representing used tools or platforms",
+    "page": "home"
+  },
+  "7t0fnBIap7x0FKYUcuji3wGt54.jpg": {
+    "local": "/nue/assets/missing-detail-7t0fnBIap7.jpg",
+    "bytes": 3883,
+    "sha256": "ad229353942681fddc62396158172216b146dabbb8e2afbe90201bdde832765e",
+    "dimensions": {
+      "width": 173,
+      "height": 171,
+      "unit": "px"
+    },
+    "alt": "404 Image",
+    "page": "missing"
+  },
+  "QjfMtkNzMHDg1PvlfiLNwdyxR0s.jpg": {
+    "local": "/nue/assets/paul-interior-detail-QjfMtkNzMH.jpg",
+    "bytes": 156097,
+    "sha256": "2c2bf1e114cd46e29f50333d108e94c3dab5384d816562e7f8190563fc712145",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "paul-interior"
+  },
+  "ciSHy58TSiToANIuJvQJ629MQoI.jpg": {
+    "local": "/nue/assets/paul-interior-detail-ciSHy58TSi.jpg",
+    "bytes": 56672,
+    "sha256": "943ef2f5ae7024d1a7bbf5351adfece32d37b922b4000abddbaf2c000eabe5c8",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "paul-interior"
+  },
+  "1k0SjijcbN9W5CyetHvdyszLWw.jpg": {
+    "local": "/nue/assets/paul-interior-detail-1k0SjijcbN.jpg",
+    "bytes": 78773,
+    "sha256": "c5743f127c2f423e33570effbe372f3f3ca37218f67b48ea5743331529b02380",
+    "dimensions": {
+      "width": 2048,
+      "height": 1501,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "paul-interior"
+  },
+  "eiJLEPBKBPtEPRi2yWeqJ5GnJn8.jpg": {
+    "local": "/nue/assets/umbrella-detail-eiJLEPBKBP.jpg",
+    "bytes": 43000,
+    "sha256": "43ed60e7d086785c56d065be56eca0c9a793fc3017f702272a0bffef7f87862e",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "umbrella"
+  },
+  "wiX0AV0c0TQGHq1FnF7y814k.jpg": {
+    "local": "/nue/assets/umbrella-detail-wiX0AV0c0T.jpg",
+    "bytes": 65657,
+    "sha256": "299582109aa7a29370c8eb86252070402b3ae9169fbe829b9d7a3c2e68c0ae2b",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "umbrella"
+  },
+  "X4fJsoP9q4ZoeJZ2ZteuhSWMjHM.jpg": {
+    "local": "/nue/assets/umbrella-detail-X4fJsoP9q4.jpg",
+    "bytes": 44959,
+    "sha256": "85c0adde45e948289ccb2a0290224e528755deb7f6c050deb7e2f68e83a198db",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "umbrella"
+  },
+  "aCk5TAzSSP9l0GaotyYkH2oH70.jpg": {
+    "local": "/nue/assets/umbrella-detail-aCk5TAzSSP.jpg",
+    "bytes": 65568,
+    "sha256": "daed55fffd81da5251b4b08ad3b9e7efcc7fb7010151cffca5f2d819b6b71407",
+    "dimensions": {
+      "width": 2048,
+      "height": 1500,
+      "unit": "px"
+    },
+    "alt": "Showcase image of a creative project",
+    "page": "umbrella"
+  },
+  "inter-regular.woff2": {
+    "local": "/nue/assets/inter-regular.woff2",
+    "bytes": 27380,
+    "sha256": "362b168da82d69bc67d2a358fa20c59151cb4ceac8a5506be6baef5e6827fa42",
+    "page": "shared-font"
+  },
+  "inter-medium.woff2": {
+    "local": "/nue/assets/inter-medium.woff2",
+    "bytes": 27996,
+    "sha256": "216fcca1239e2ce6a2cc6009eac87e7a90ae36e3e0bf1992fdf712f83f58ef06",
+    "page": "shared-font"
+  },
+  "inter-semibold.woff2": {
+    "local": "/nue/assets/inter-semibold.woff2",
+    "bytes": 28088,
+    "sha256": "236c9fe41df720209dd1a1f942b5c95e338831b29df381e8ce9f405b40a9209a",
+    "page": "shared-font"
+  },
+  "inter-bold.woff2": {
+    "local": "/nue/assets/inter-bold.woff2",
+    "bytes": 27900,
+    "sha256": "fad48f71e77d72b44122a1d978820a7e7215b84f9a9c0e3a31d97d5987a710e9",
+    "page": "shared-font"
+  },
+  "geist-mono.woff2": {
+    "local": "/nue/assets/geist-mono.woff2",
+    "bytes": 23128,
+    "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+    "page": "shared-font"
+  },
+  "nextjs.svg": {
+    "local": "/nue/assets/nextjs.svg",
+    "bytes": 311,
+    "sha256": "8f96ac3126e96329bb3bbdac59a6cdf495fdce234467da90e41288d43e4b739b",
+    "dimensions": {
+      "width": 24.0,
+      "height": 24.0,
+      "unit": "viewBox"
+    },
+    "alt": "Next.js logo",
+    "page": "home"
+  },
+  "nue-social.png": {
+    "local": "/nue/assets/nue-social.png",
+    "bytes": 102109,
+    "sha256": "54b06cda670d8adf4f59c3661f1d6dbd299ad7950eccc086a1f7561cc6a5adbb",
+    "dimensions": {
+      "width": 1200,
+      "height": 630,
+      "unit": "px"
+    },
+    "alt": "Nue Next.js portfolio homepage",
+    "page": "social-preview"
+  }
+}

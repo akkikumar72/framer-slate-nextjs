@@ -1,0 +1,54 @@
+{
+  "layout": "600px centered white shell, gray sections, Inter and Geist Mono; breakpoints 1200 and 810",
+  "sections": [
+    "hero",
+    "selected projects",
+    "about",
+    "services",
+    "testimonials",
+    "experience",
+    "stacks",
+    "FAQ",
+    "contact"
+  ],
+  "features": {
+    "fixedDock": {
+      "risk": "high",
+      "probe": "anchor navigation, current section, focus"
+    },
+    "reveal": {
+      "risk": "medium",
+      "probe": "rendered hidden/intermediate/settled frames, entrance order, every section on scroll, all project pages and custom 404, live reduced-motion changes, no-JavaScript readability"
+    },
+    "paperCards": {
+      "risk": "medium",
+      "probe": "rotations, mobile wrapping"
+    },
+    "testimonials": {
+      "risk": "high",
+      "probe": "3 states, previous, next, drag, timed behavior"
+    },
+    "FAQ": {
+      "risk": "high",
+      "probe": "all four open/close and keyboard"
+    },
+    "contact": {
+      "risk": "high",
+      "probe": "labels, native validation, truthful submission outcome"
+    },
+    "projects": {
+      "risk": "high",
+      "probe": "4 routes, intrinsic image sequence, previous/next, canonical metadata, image lightbox, Escape/backdrop dismissal, focus and scroll restoration"
+    }
+  },
+  "unknowns": [
+    "Production email delivery is not configured; contact uses an explicit email draft handoff."
+  ],
+  "deviations": [
+    "Copy and assets have intentionally changed after the initial geometry comparison; those historical measurements do not verify the current content revision.",
+    "Contact prepares an email draft without sending email or submitting to a remote service.",
+    "Project media uses a native accessible dialog with focus restoration and a keyboard-visible close control.",
+    "Entrance springs use explicit delays, durations, bounce, and initial transforms. Hydration and intersection timing can vary across browsers; identical frame timestamps and overlay zoom origin are not claimed."
+  ],
+  "implementation": "Standalone Next.js portfolio with React, CSS, and Motion"
+}

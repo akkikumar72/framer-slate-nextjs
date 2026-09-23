@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const templates = [
   {
+    name: "Nue",
+    slug: "nue",
+    packageName: "@nextjs-templates/nue",
+    port: 3016,
+    routes: 5,
+    image: "/templates/nue-home.png",
+    url: process.env.NEXT_PUBLIC_NUE_URL ?? "http://localhost:3016/nue",
+  },
+  {
     name: "Orbital",
     slug: "orbital",
     packageName: "@framer-templates/orbital",
