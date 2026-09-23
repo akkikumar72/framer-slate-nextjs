@@ -13,6 +13,7 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 
 | Template | Local URL |
 | --- | --- |
+| [GridFolio](#gridfolio) | [http://localhost:3017/gridfolio](http://localhost:3017/gridfolio) |
 | [Slate](#slate) | [http://localhost:3001/](http://localhost:3001/) |
 | [Grovia](#grovia) | [http://localhost:3002/](http://localhost:3002/) |
 | [Fuel](#fuel) | [http://localhost:3003/](http://localhost:3003/) |
@@ -37,6 +38,22 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 Each preview opens the template at its standalone local URL. Expand
 **Routes** below any design to open every valid page declared in that
 workspace's `template.config.json`.
+
+### GridFolio
+
+`@nextjs-templates/gridfolio` · [Open GridFolio](http://localhost:3017/gridfolio) · port `3017`
+
+<a href="http://localhost:3017/gridfolio">
+  <img src="apps/showcase/public/templates/gridfolio-home.png" alt="GridFolio portfolio preview" width="1440">
+</a>
+
+<details>
+<summary><strong>Routes (1 content page + custom 404)</strong></summary>
+
+- [Portfolio](http://localhost:3017/gridfolio), including About, Resume, Contact, ChatAI and Startup AI overlays
+- [Custom 404](http://localhost:3017/gridfolio/404)
+
+</details>
 
 ### Slate
 
@@ -630,6 +647,7 @@ workspace map.
 
 ```text
 apps/
+  gridfolio/      # Portfolio grid, five overlays and custom 404
   showcase/
   slate/
   grovia/

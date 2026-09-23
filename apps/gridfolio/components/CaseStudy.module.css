@@ -1,0 +1,154 @@
+.caseStudy {
+  width: 100%;
+  min-width: 0;
+  background: #fff;
+  color: #000;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.heroImage,
+.wideImage,
+.pairImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroImage {
+  object-position: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  padding: 48px 24px 24px;
+}
+
+.intro,
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.introCopy,
+.sectionCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section {
+  gap: 32px;
+}
+
+.intro h1,
+.section h2,
+.review h2,
+.intro p,
+.section p,
+.review p {
+  margin: 0;
+}
+
+.intro h1 {
+  font-family: "Geist", "Geist Placeholder", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+.intro p {
+  color: #666;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.6;
+}
+
+.wideImage,
+.pairImage {
+  border-radius: 8px;
+}
+
+.wideImage {
+  aspect-ratio: 672 / 425.31;
+}
+
+.section h2,
+.review h2 {
+  font-family: "Geist", "Geist Placeholder", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.section p,
+.reviewCopy {
+  font-family: "Geist", "Geist Placeholder", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.imagePair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.pairImage {
+  aspect-ratio: 332 / 319.23;
+}
+
+.imageStack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.quoteMark {
+  display: block;
+  width: 28px;
+  height: 21px;
+  fill: currentColor;
+}
+
+.reviewer {
+  font-family: "Geist", "Geist Placeholder", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 809.98px) {
+  .imagePair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

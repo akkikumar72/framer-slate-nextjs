@@ -1,0 +1,132 @@
+@font-face {
+  font-family:Geist;
+  src:url('/gridfolio/assets/gyByhwUxId8gMEwcGFU.woff2') format('woff2');
+  font-style:normal;
+  font-weight:100 900;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:Inter;
+  src:url('/gridfolio/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2') format('woff2');
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:Inter;
+  src:url('/gridfolio/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2') format('woff2');
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:Inter;
+  src:url('/gridfolio/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2') format('woff2');
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+html,body {
+  margin:0;
+  min-height:100%;
+  background:#f2f2f2;
+  color:#000;
+  font-family:Geist,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+
+button,input,textarea {
+  font:inherit;
+}
+
+button,a,input,textarea {
+  -webkit-tap-highlight-color:transparent;
+}
+
+button:focus-visible,a:focus-visible {
+  outline:2px solid #555;
+  outline-offset:4px;
+}
+
+img {
+  max-width:100%;
+}
+
+button {
+  color:inherit;
+}
+
+.not-found {
+  min-height:max(1080px,100vh);
+  display:flex;
+  justify-content:center;
+  background:#fff;
+}
+
+.not-found-column {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:56px;
+  width:544px;
+  max-width:100%;
+  border:1px solid #0000001a;
+  background:linear-gradient(#0000001a,#fff);
+}
+
+.not-found-column>img {
+  width:543px;
+  height:auto;
+  border-block:1px solid #0000001a;
+}
+
+.not-found h1 {
+  font-size:32px;
+  line-height:41.6px;
+  font-weight:500;
+  margin:0 0 16px;
+  text-align:center;
+}
+
+.not-found p {
+  font-size:14px;
+  line-height:21px;
+  font-weight:500;
+  margin:0;
+  text-align:center;
+}
+
+.not-found a {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:38px;
+  padding:0 16px;
+  border-radius:999px;
+  color:white;
+  background:#000;
+  font-size:14px;
+  font-weight:500;
+  text-decoration:none;
+}
+
+@media(max-width:809.98px) {
+  .not-found {
+    min-height:100dvh;
+  }
+  .not-found-column {
+    gap:40px;
+  }
+  .not-found p {
+    padding:0 16px;
+  }
+}

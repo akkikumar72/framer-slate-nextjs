@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const templates = [
   {
+    name: "GridFolio",
+    slug: "gridfolio",
+    packageName: "@nextjs-templates/gridfolio",
+    port: 3017,
+    routes: 1,
+    image: "/templates/gridfolio-home.png",
+    url: process.env.NEXT_PUBLIC_GRIDFOLIO_URL ?? "http://localhost:3017/gridfolio",
+  },
+  {
     name: "Orbital",
     slug: "orbital",
     packageName: "@framer-templates/orbital",

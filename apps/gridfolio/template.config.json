@@ -1,0 +1,51 @@
+{
+  "name": "GridFolio",
+  "slug": "gridfolio",
+  "routePrefix": "/gridfolio",
+  "port": 3017,
+  "sourceRoots": [
+    "app",
+    "components",
+    "lib"
+  ],
+  "assetRoots": [
+    "public/gridfolio"
+  ],
+  "assetPrefixes": [
+    "/gridfolio/"
+  ],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/gridfolio",
+      "status": 200,
+      "canonical": "/gridfolio",
+      "marker": "Multidisciplinary maker specializing",
+      "title": "Gridfolio"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/gridfolio/404",
+      "status": 404,
+      "marker": "Page not found"
+    },
+    {
+      "path": "/gridfolio/__missing__",
+      "status": 404,
+      "marker": "Page not found"
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/",
+      "status": 307,
+      "location": "/gridfolio"
+    },
+    {
+      "path": "/GridFolio",
+      "status": 308,
+      "location": "/gridfolio"
+    }
+  ]
+}

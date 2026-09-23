@@ -4,6 +4,14 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [{
+      source: "/GridFolio/:path*",
+      destination: `${process.env.NEXT_PUBLIC_GRIDFOLIO_URL ?? "http://localhost:3017/gridfolio"}/:path*`,
+      permanent: false,
+    }, {
+      source: "/gridfolio/:path*",
+      destination: `${process.env.NEXT_PUBLIC_GRIDFOLIO_URL ?? "http://localhost:3017/gridfolio"}/:path*`,
+      permanent: false,
+    }, {
       source: "/alytics/:path*",
       destination: `${process.env.NEXT_PUBLIC_ALYTICS_URL ?? "http://localhost:3015/alytics"}/:path*`,
       permanent: false,

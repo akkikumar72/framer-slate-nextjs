@@ -1,0 +1,84 @@
+{
+  "discoveredAt": "2026-09-23",
+  "scope": "Home, custom 404, and all five portfolio overlays.",
+  "routes": [
+    {
+      "path": "/gridfolio",
+      "evidence": [
+        "project-page-tree",
+        "sitemap",
+        "rendered-page"
+      ],
+      "family": "portfolio-grid",
+      "kind": "static",
+      "sharedShell": "gridfolio",
+      "confidence": "high",
+      "status": "implemented-and-verified"
+    },
+    {
+      "path": "/gridfolio/404",
+      "evidence": [
+        "project-page-tree",
+        "missing-path-response"
+      ],
+      "family": "not-found",
+      "kind": "not-found",
+      "sharedShell": "gridfolio",
+      "confidence": "high",
+      "status": "implemented-and-verified"
+    }
+  ],
+  "states": [
+    "About overlay",
+    "Resume overlay",
+    "Contact overlay",
+    "Case study 1",
+    "Case study 2",
+    "Phone navigation"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "breakpoints": [
+    810,
+    1200
+  ],
+  "aliases": [
+    {
+      "path": "/",
+      "destination": "/gridfolio",
+      "status": 307
+    },
+    {
+      "path": "/GridFolio",
+      "destination": "/gridfolio",
+      "status": 308
+    }
+  ],
+  "stateValidation": {
+    "About overlay": "implemented-and-verified",
+    "Resume overlay": "implemented-and-verified",
+    "Contact overlay": "implemented-and-verified",
+    "Case study 1": "implemented-and-verified",
+    "Case study 2": "implemented-and-verified",
+    "Phone navigation": "implemented-and-verified"
+  },
+  "coverage": {
+    "discovered": 2,
+    "implemented": 2,
+    "verified": 2,
+    "blocked": 0,
+    "excluded": 0
+  }
+}
