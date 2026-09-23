@@ -1,0 +1,97 @@
+{
+  "layout": "18 square grid tiles; 3 columns at 1440px, 2 at 810px, 1 at 390px. Grid uses auto-fill with a 360px desktop/tablet minimum and 290px phone minimum.",
+  "fonts": [
+    "Geist",
+    "Inter"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "risk": "medium",
+      "capabilities": [
+        "navigation",
+        "responsive variants",
+        "portrait",
+        "typography"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "risk": "medium",
+      "capabilities": [
+        "repeated square images",
+        "testimonials",
+        "hover"
+      ]
+    },
+    {
+      "id": "dialogs",
+      "risk": "high",
+      "capabilities": [
+        "fixed backdrop",
+        "scrolling panel",
+        "spring transitions",
+        "form",
+        "case study rich text"
+      ]
+    },
+    {
+      "id": "phone-menu",
+      "risk": "high",
+      "capabilities": [
+        "fixed control",
+        "navigation overlay"
+      ]
+    },
+    {
+      "id": "not-found",
+      "risk": "low",
+      "capabilities": [
+        "custom 404",
+        "return link"
+      ]
+    }
+  ],
+  "motion": [
+    "Sticky introduction changes to black after scroll",
+    "Project image hover scale",
+    "Eight-layer progressive bottom blur",
+    "CSS dialog entry; reduced-motion support"
+  ],
+  "services": [
+    {
+      "name": "contact",
+      "implementation": "Browser constraint validation and explicit local preview status. No form delivery backend configured."
+    },
+    {
+      "name": "email",
+      "implementation": "Original mailto link retained."
+    }
+  ],
+  "unknowns": [
+    "Original contact delivery configuration is not available.",
+    "Resume CV and project View controls expose no destination in the published source."
+  ],
+  "routeCoverage": {
+    "discovered": 2,
+    "implemented": 2,
+    "verified": 2,
+    "blocked": 0
+  },
+  "verifiedStates": [
+    "Home at 1440x900, 810x1080, 390x844",
+    "About desktop and phone",
+    "Resume desktop and keyboard dismissal",
+    "Contact validation and submission without network writes",
+    "Both case studies including scrolling to Review",
+    "Mobile navigation",
+    "Custom 404 and home link",
+    "Reduced motion",
+    "Showcase card and redirects"
+  ],
+  "limitations": [
+    "CSS dialog transitions approximate the source spring timing.",
+    "Tiles render immediately; source entry stagger timing is not duplicated.",
+    "Phone 404 artwork scales to fit instead of preserving source overflow."
+  ]
+}

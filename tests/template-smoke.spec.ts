@@ -7,6 +7,11 @@ import {
 type Interaction = (page: Page) => Promise<void>;
 
 const interactions: Record<string, Interaction> = {
+  gridfolio: async (page) => {
+    await page.getByRole("button", { name: "About", exact: true }).click();
+    await expect(page.getByRole("dialog", { name: "Antonio Misk" })).toBeVisible();
+    await page.getByRole("button", { name: "Close dialog" }).click();
+  },
   alytics: async (page) => {
     const yearly = page.getByRole("button", { name: "Yearly -20%" });
     await yearly.click();

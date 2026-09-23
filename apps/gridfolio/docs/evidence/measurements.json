@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "desktop",
+    "name": "reference",
+    "height": 900,
+    "pageHeight": 2872,
+    "scrollWidth": 1440,
+    "scrollY": 0,
+    "width": 1440
+  },
+  {
+    "slug": "desktop",
+    "name": "local",
+    "height": 900,
+    "pageHeight": 2872,
+    "scrollWidth": 1440,
+    "scrollY": 0,
+    "width": 1440
+  },
+  {
+    "slug": "tablet",
+    "name": "reference",
+    "height": 1080,
+    "pageHeight": 3617,
+    "scrollWidth": 810,
+    "scrollY": 0,
+    "width": 810
+  },
+  {
+    "slug": "tablet",
+    "name": "local",
+    "height": 1080,
+    "pageHeight": 3617,
+    "scrollWidth": 810,
+    "scrollY": 0,
+    "width": 810
+  },
+  {
+    "slug": "phone",
+    "name": "reference",
+    "height": 844,
+    "pageHeight": 6884,
+    "scrollWidth": 390,
+    "scrollY": 0,
+    "width": 390
+  },
+  {
+    "slug": "phone",
+    "name": "local",
+    "height": 844,
+    "pageHeight": 6884,
+    "scrollWidth": 390,
+    "scrollY": 0,
+    "width": 390
+  }
+]

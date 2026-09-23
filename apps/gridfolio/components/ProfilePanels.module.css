@@ -1,0 +1,371 @@
+.panel {
+  box-sizing: border-box;
+  width: 100%;
+  color: #000;
+  font-family: "Geist", sans-serif;
+}
+
+.panel *,
+.panel *::before,
+.panel *::after {
+  box-sizing: border-box;
+}
+
+.panel h1,
+.panel h2,
+.panel h3,
+.panel p {
+  margin: 0;
+}
+
+.aboutPanel {
+  padding: 40px 24px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.photoCollage {
+  position: relative;
+  height: 204px;
+  width: 100%;
+}
+
+.photoCard {
+  position: absolute;
+  z-index: 1;
+  width: 129px;
+  height: 169px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 11%);
+}
+
+.photoCard:nth-child(1) { left: 50px; top: calc(52.451% - 84.5px); }
+.photoCard:nth-child(2) { left: 161px; top: calc(48.0392% - 84.5px); }
+.photoCard:nth-child(3) { left: 277px; top: calc(48.0392% - 84.5px); }
+.photoCard:nth-child(4) { left: 384px; top: calc(52.451% - 84.5px); }
+
+.photoCard img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aboutTitle {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+.aboutRole {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bio p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.signature {
+  display: block;
+  width: 180px;
+  height: 47px;
+  transform: rotate(-12deg);
+  transform-origin: center;
+  fill: #000;
+}
+
+.standardPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 40px 24px 32px;
+}
+
+.panelTitle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.resumeContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.resumeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.sectionTitle,
+.field > span {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.experienceList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rowGroup {
+  display: contents;
+}
+
+.resumeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+}
+
+.resumeRow > :first-child {
+  min-width: 0;
+}
+
+.resumeMeta {
+  flex: none;
+  margin-left: 16px;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: rgb(0 0 0 / 10%);
+}
+
+.downloadRow {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.downloadButton {
+  appearance: none;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: #000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.downloadButton:disabled {
+  color: #fff;
+  cursor: default;
+  opacity: 1;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.field > span {
+  color: rgb(0 0 0 / 56%);
+}
+
+.field input,
+.field textarea {
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid rgb(0 0 0 / 32%);
+  border-radius: 0;
+  outline: 0;
+  background: transparent;
+  color: #000;
+  font: 400 16px/1.2 "Geist", sans-serif;
+  letter-spacing: 0;
+  transition: border-color 600ms cubic-bezier(.7, .01, .28, 1.01);
+}
+
+.field input {
+  height: 40px;
+}
+
+.field textarea {
+  min-height: 64px;
+  resize: vertical;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #707070;
+  opacity: 1;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-bottom-color: #000;
+}
+
+.sendButton {
+  appearance: none;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Geist", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: .5;
+  transition: opacity 160ms ease;
+}
+
+.sendButtonReady {
+  opacity: 1;
+}
+
+.formStatus {
+  margin-top: -16px !important;
+  color: rgb(0 0 0 / 56%);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (max-width: 809.98px) {
+  .aboutPanel {
+    padding: 24px 16px 40px;
+  }
+
+  .aboutContent {
+    gap: 32px;
+  }
+
+  .aboutTitle {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 1.5;
+  }
+
+  .aboutRole {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .bio {
+    gap: 8px;
+  }
+
+  .bio p {
+    color: rgb(0 0 0 / 56%);
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .photoCollage {
+    display: flex;
+    height: auto;
+    padding-top: 24px;
+  }
+
+  .photoCard {
+    position: relative;
+    top: auto !important;
+    left: auto !important;
+    flex: 1 0 0;
+    width: 1px;
+    height: auto;
+    aspect-ratio: .767857;
+    border-radius: 18px;
+  }
+
+  .standardPanel {
+    padding: 24px 16px 16px;
+  }
+
+  .contactPanel {
+    gap: 24px;
+  }
+
+  .contactForm {
+    gap: 16px;
+  }
+
+  .sendButton {
+    height: 48px;
+  }
+
+  .formStatus {
+    margin-top: 0 !important;
+  }
+}
