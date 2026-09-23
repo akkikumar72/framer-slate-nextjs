@@ -1,0 +1,552 @@
+{
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "blocks": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "em",
+            "children": [
+              "Last updated: 2026"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "At ",
+          {
+            "tag": "strong",
+            "children": [
+              "Roco"
+            ]
+          },
+          ", your privacy is important to us. This Privacy Policy explains how information is collected, used, and protected when you use the Roco website template. By using this website, you agree to the practices described below."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "1. Information We Collect"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Roco itself does not collect personal data by default. However, depending on how you customize and deploy the template, the following types of information ",
+          {
+            "tag": "strong",
+            "children": [
+              "may"
+            ]
+          },
+          " be collected:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      "Personal Information"
+                    ]
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  },
+                  "Such as name, email address, or message content when visitors contact you through a form."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      "Usage Data"
+                    ]
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  },
+                  "Information like pages visited, time spent on the site, device type, and browser, typically collected through analytics tools."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "2. How Information Is Used"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Any information collected through your website may be used to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Respond to inquiries or messages"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Improve website performance and user experience"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Analyze traffic and usage trends"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Maintain security and prevent abuse"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Roco does not sell, trade, or rent personal information to third parties."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "3. Third-Party Services"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "You may choose to integrate third-party services such as:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Analytics tools (e.g., Google Analytics)"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Contact form providers"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Hosting platforms"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "These services may collect data according to their own privacy policies. Roco is not responsible for the privacy practices of third-party services you choose to use."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "4. Data Security"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Reasonable measures should be taken to protect user information. However, no method of transmission over the internet or electronic storage is completely secure. Absolute security cannot be guaranteed."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "5. Your Rights"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Depending on your location, visitors may have the right to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Access their personal data"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Request correction or deletion of their data"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Withdraw consent where applicable"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Requests should be directed to the website owner using the contact details provided on the site."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "6. Changes to This Policy"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "This Privacy Policy may be updated from time to time. Any changes will be reflected on this page with an updated revision date."
+        ]
+      }
+    ]
+  },
+  "cookie-policy": {
+    "title": "Cookie Policy",
+    "blocks": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "em",
+            "children": [
+              "Last updated: 2026"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "This Cookie Policy explains how cookies are used on websites built with the ",
+          {
+            "tag": "strong",
+            "children": [
+              "Roco"
+            ]
+          },
+          " template."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "1. What Are Cookies?"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Cookies are small text files stored on a visitor’s device to help websites function properly and improve user experience."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "2. How Cookies Are Used"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Roco itself does not set cookies by default. However, cookies ",
+          {
+            "tag": "strong",
+            "children": [
+              "may"
+            ]
+          },
+          " be used if you enable services such as:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Website analytics"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Embedded content (videos, maps, etc.)"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Performance or functionality enhancements"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "These cookies help to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Understand how visitors interact with the site"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Remember user preferences"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  "Improve performance and usability"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "3. Types of Cookies That May Be Used"
+        ]
+      },
+      {
+        "tag": "ul",
+        "children": [
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      "Essential Cookies"
+                    ]
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  },
+                  "Necessary for basic site functionality."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      "Analytics Cookies"
+                    ]
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  },
+                  "Help track website performance and visitor behavior."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "children": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      "Functional Cookies"
+                    ]
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  },
+                  "Remember preferences and settings to enhance the experience."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "4. Managing Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "Visitors can control or disable cookies through their browser settings. Please note that disabling cookies may affect certain features or functionality of the website."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "5. Third-Party Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "If third-party tools are used, they may place cookies on your device. These cookies are governed by the respective third-party privacy and cookie policies."
+        ]
+      },
+      {
+        "tag": "h2",
+        "children": [
+          "6. Updates to This Policy"
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          "This Cookie Policy may be updated periodically to reflect changes in technology or legal requirements."
+        ]
+      }
+    ]
+  }
+}

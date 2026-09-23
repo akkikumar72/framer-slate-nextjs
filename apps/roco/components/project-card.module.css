@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 24px;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.photo {
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #1a1a1a;
+}
+
+.photo img {
+  width: 100%;
+  height: 101.5152%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+
+.caption { position: relative; display: flex; flex-direction: column; gap: 6px; transition: padding 0.3s; }
+.category { color: #4de6a6; font-size: 12px; font-weight: 300; line-height: 1.4; text-transform: uppercase; }
+.title { color: #e6e6e6; font-size: 18px; font-weight: 500; line-height: 1.4; }
+.arrows { position: absolute; right: 48px; top: calc(50% - 12px); width: 120px; height: 24px; opacity: 0; overflow: hidden; pointer-events: none; mask-image: linear-gradient(to right, transparent, black 12.5%, black 87.5%, transparent); transition: opacity 0.3s, right 0.3s; }
+.arrows > span { display: flex; width: max-content; gap: 36px; }
+.arrows svg { width: 24px; height: 24px; flex: none; fill: #4ce6a6; }
+.card:focus-visible { outline: 2px solid #4ce6a6; outline-offset: 8px; }
+
+@media (hover: hover) {
+  .card:hover .photo img { transform: scale(1.03); }
+  .card:hover .arrows { opacity: 1; right: 0; }
+  .card:hover .arrows > span { animation: arrows 3s linear infinite; }
+  .card:hover .caption { padding: 0 24px; }
+}
+
+@keyframes arrows { to { transform: translateX(-120px); } }
+@media (max-width: 1199px) { .title { font-size: 16px; } }
+@media (prefers-reduced-motion: reduce) {
+  .photo img, .arrows { transition: none; }
+  .card:hover .arrows > span { animation: none; }
+}

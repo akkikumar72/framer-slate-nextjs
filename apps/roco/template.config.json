@@ -1,0 +1,449 @@
+{
+  "name": "Roco",
+  "slug": "roco",
+  "routePrefix": "/roco",
+  "port": 3019,
+  "sourceRoots": [
+    "app",
+    "components",
+    "lib"
+  ],
+  "assetRoots": [
+    "public/roco"
+  ],
+  "assetPrefixes": [
+    "/roco/"
+  ],
+  "allowedRemoteVisualHosts": [],
+  "routes": [
+    {
+      "path": "/roco",
+      "status": 200,
+      "canonical": "/roco",
+      "marker": "Hello Everyone! I'm Patricia.",
+      "title": "Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/about",
+      "status": 200,
+      "canonical": "/roco/about",
+      "marker": "Get to Know Me",
+      "title": "Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/projects",
+      "status": 200,
+      "canonical": "/roco/projects",
+      "marker": "My Remarkable Projects",
+      "title": "Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/stack",
+      "status": 200,
+      "canonical": "/roco/stack",
+      "marker": "My Tech Toolbox",
+      "title": "Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/contact",
+      "status": 200,
+      "canonical": "/roco/contact",
+      "marker": "Let's Connect!",
+      "title": "Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/licensing",
+      "status": 200,
+      "canonical": "/roco/licensing",
+      "marker": "Licensing",
+      "title": "Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/legal/privacy-policy",
+      "status": 200,
+      "canonical": "/roco/legal/privacy-policy",
+      "marker": "Privacy Policy",
+      "title": "Privacy Policy - Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/legal/cookie-policy",
+      "status": 200,
+      "canonical": "/roco/legal/cookie-policy",
+      "marker": "Cookie Policy",
+      "title": "Cookie Policy - Roco Portfolio Template"
+    },
+    {
+      "path": "/roco/projects/reelio-photography-film-studio-nextjs-template",
+      "status": 200,
+      "canonical": "/roco/projects/reelio-photography-film-studio-nextjs-template",
+      "marker": "Reelio - Photography & Film Studio Next.js Template",
+      "title": "Reelio - Photography & Film Studio Next.js Template"
+    },
+    {
+      "path": "/roco/projects/vitalo",
+      "status": 200,
+      "canonical": "/roco/projects/vitalo",
+      "marker": "Vitalo - Personal Training & Coaching",
+      "title": "Vitalo - Personal Training & Coaching"
+    },
+    {
+      "path": "/roco/projects/artikle-membership-nextjs-template",
+      "status": 200,
+      "canonical": "/roco/projects/artikle-membership-nextjs-template",
+      "marker": "Artikle - Membership Next.js Template",
+      "title": "Artikle - Membership Next.js Template"
+    },
+    {
+      "path": "/roco/projects/flowpath-ai-automation-template",
+      "status": 200,
+      "canonical": "/roco/projects/flowpath-ai-automation-template",
+      "marker": "Flowpath - AI Automation Template",
+      "title": "Flowpath - AI Automation Template"
+    },
+    {
+      "path": "/roco/projects/kudos-design-agency-website",
+      "status": 200,
+      "canonical": "/roco/projects/kudos-design-agency-website",
+      "marker": "Kudos - Design Agency Website",
+      "title": "Kudos - Design Agency Website"
+    },
+    {
+      "path": "/roco/projects/neozen-portfolio-nextjs-template",
+      "status": 200,
+      "canonical": "/roco/projects/neozen-portfolio-nextjs-template",
+      "marker": "Neozen - Portfolio Next.js Template",
+      "title": "Neozen - Portfolio Next.js Template"
+    },
+    {
+      "path": "/roco/projects/aerosound-e-commerce-website",
+      "status": 200,
+      "canonical": "/roco/projects/aerosound-e-commerce-website",
+      "marker": "Aerosound - E-Commerce Website",
+      "title": "Aerosound - E-Commerce Website"
+    },
+    {
+      "path": "/roco/projects/rently-real-estate-website",
+      "status": 200,
+      "canonical": "/roco/projects/rently-real-estate-website",
+      "marker": "Rently - Real Estate Website",
+      "title": "Rently - Real Estate Website"
+    },
+    {
+      "path": "/roco/projects/quomi-designer-personal-portfolio",
+      "status": 200,
+      "canonical": "/roco/projects/quomi-designer-personal-portfolio",
+      "marker": "Quomi - Designer Personal Portfolio",
+      "title": "Quomi - Designer Personal Portfolio"
+    },
+    {
+      "path": "/roco/projects/veo-website-for-ai-saas-startup",
+      "status": 200,
+      "canonical": "/roco/projects/veo-website-for-ai-saas-startup",
+      "marker": "Veo - Website for AI SAAS Startup",
+      "title": "Veo - Website for AI SAAS Startup"
+    },
+    {
+      "path": "/roco/projects/wedora-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/wedora-website-made-in-nextjs",
+      "marker": "Wedora Website made with Next.js",
+      "title": "Wedora Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/xzero-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/xzero-website-made-in-nextjs",
+      "marker": "+XZERO\u00ae Website made with Next.js",
+      "title": "+XZERO\u00ae Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/vistiq-spa-wellness",
+      "status": 200,
+      "canonical": "/roco/projects/vistiq-spa-wellness",
+      "marker": "Vistiq - Spa Wellness",
+      "title": "Vistiq - Spa Wellness"
+    },
+    {
+      "path": "/roco/projects/avenzor-designer-potrtfolio",
+      "status": 200,
+      "canonical": "/roco/projects/avenzor-designer-potrtfolio",
+      "marker": "Avenzor - Designer Potrtfolio",
+      "title": "Avenzor - Designer Potrtfolio"
+    },
+    {
+      "path": "/roco/projects/plywood-artist-potrtfolio-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/plywood-artist-potrtfolio-made-in-nextjs",
+      "marker": "Plywood Artist Potrtfolio made with Next.js",
+      "title": "Plywood Artist Potrtfolio made with Next.js"
+    },
+    {
+      "path": "/roco/projects/huggl-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/huggl-website-made-in-nextjs",
+      "marker": "Huggl Website made with Next.js",
+      "title": "Huggl Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/charmant-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/charmant-website-made-in-nextjs",
+      "marker": "Charmant Website made with Next.js",
+      "title": "Charmant Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/predict-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/predict-website-made-in-nextjs",
+      "marker": "Predict Website made with Next.js",
+      "title": "Predict Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/huggl-2-0-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/huggl-2-0-website-made-in-nextjs",
+      "marker": "Huggl 2.0 Website made with Next.js",
+      "title": "Huggl 2.0 Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/payble-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/payble-website-made-in-nextjs",
+      "marker": "Payble Website made with Next.js",
+      "title": "Payble Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/pepper-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/pepper-website-made-in-nextjs",
+      "marker": "Pepper Website made with Next.js",
+      "title": "Pepper Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/brightsites-website-made-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/brightsites-website-made-in-nextjs",
+      "marker": "BrightSites Website made with Next.js",
+      "title": "BrightSites Website made with Next.js"
+    },
+    {
+      "path": "/roco/projects/designcube-nextjs-website",
+      "status": 200,
+      "canonical": "/roco/projects/designcube-nextjs-website",
+      "marker": "DesignCube Next.js Website",
+      "title": "DesignCube Next.js Website"
+    },
+    {
+      "path": "/roco/projects/healthwell-website-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/healthwell-website-in-nextjs",
+      "marker": "HealthWell Website with Next.js",
+      "title": "HealthWell Website with Next.js"
+    },
+    {
+      "path": "/roco/projects/thelist-nextjs-website",
+      "status": 200,
+      "canonical": "/roco/projects/thelist-nextjs-website",
+      "marker": "Thelist Next.js Website",
+      "title": "Thelist Next.js Website"
+    },
+    {
+      "path": "/roco/projects/cohesion-nextjs-website",
+      "status": 200,
+      "canonical": "/roco/projects/cohesion-nextjs-website",
+      "marker": "Cohesion Next.js Website",
+      "title": "Cohesion Next.js Website"
+    },
+    {
+      "path": "/roco/projects/reify-website-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/reify-website-in-nextjs",
+      "marker": "Reify Website with Next.js",
+      "title": "Reify Website with Next.js"
+    },
+    {
+      "path": "/roco/projects/vervedent-nextjs-website",
+      "status": 200,
+      "canonical": "/roco/projects/vervedent-nextjs-website",
+      "marker": "VerveDent Next.js Website",
+      "title": "VerveDent Next.js Website"
+    },
+    {
+      "path": "/roco/projects/learny-membership-platform",
+      "status": 200,
+      "canonical": "/roco/projects/learny-membership-platform",
+      "marker": "Learny Membership Platform",
+      "title": "Learny Membership Platform"
+    },
+    {
+      "path": "/roco/projects/bentovibe-nextjs-portfolio",
+      "status": 200,
+      "canonical": "/roco/projects/bentovibe-nextjs-portfolio",
+      "marker": "BentoVibe Next.js Portfolio",
+      "title": "BentoVibe Next.js Portfolio"
+    },
+    {
+      "path": "/roco/projects/zenzap-saas-template",
+      "status": 200,
+      "canonical": "/roco/projects/zenzap-saas-template",
+      "marker": "Zenzap SAAS Template",
+      "title": "Zenzap SAAS Template"
+    },
+    {
+      "path": "/roco/projects/apex-wallet-landing-page",
+      "status": 200,
+      "canonical": "/roco/projects/apex-wallet-landing-page",
+      "marker": "Apex Wallet Landing Page",
+      "title": "Apex Wallet Landing Page"
+    },
+    {
+      "path": "/roco/projects/agentic-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/agentic-portfolio-in-nextjs",
+      "marker": "Agentic Portfolio with Next.js",
+      "title": "Agentic Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/wanted-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/wanted-portfolio-in-nextjs",
+      "marker": "Wanted Portfolio with Next.js",
+      "title": "Wanted Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/teamwave-website-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/teamwave-website-in-nextjs",
+      "marker": "TeamWave Website with Next.js",
+      "title": "TeamWave Website with Next.js"
+    },
+    {
+      "path": "/roco/projects/device-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/device-portfolio-in-nextjs",
+      "marker": "Device Portfolio with Next.js",
+      "title": "Device Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/darko-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/darko-portfolio-in-nextjs",
+      "marker": "Darko Portfolio with Next.js",
+      "title": "Darko Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/feedo-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/feedo-portfolio-in-nextjs",
+      "marker": "Feedo Portfolio with Next.js",
+      "title": "Feedo Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/kombo-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/kombo-portfolio-in-nextjs",
+      "marker": "Kombo Portfolio with Next.js",
+      "title": "Kombo Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/spendly-website-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/spendly-website-in-nextjs",
+      "marker": "Spendly Website with Next.js",
+      "title": "Spendly Website with Next.js"
+    },
+    {
+      "path": "/roco/projects/kong-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/kong-portfolio-in-nextjs",
+      "marker": "Kong Portfolio with Next.js",
+      "title": "Kong Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/vector-website-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/vector-website-in-nextjs",
+      "marker": "Vector Website with Next.js",
+      "title": "Vector Website with Next.js"
+    },
+    {
+      "path": "/roco/projects/artspotter-blog-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/artspotter-blog-in-nextjs",
+      "marker": "ArtSpotter Blog in Next.js",
+      "title": "ArtSpotter Blog in Next.js"
+    },
+    {
+      "path": "/roco/projects/thedecor-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/thedecor-portfolio-in-nextjs",
+      "marker": "TheDecor Portfolio with Next.js",
+      "title": "TheDecor Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/bookease-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/bookease-portfolio-in-nextjs",
+      "marker": "Bookease Portfolio with Next.js",
+      "title": "Bookease Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/architek-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/architek-portfolio-in-nextjs",
+      "marker": "Architek Portfolio with Next.js",
+      "title": "Architek Portfolio with Next.js"
+    },
+    {
+      "path": "/roco/projects/lookfolio-portfolio-in-nextjs",
+      "status": 200,
+      "canonical": "/roco/projects/lookfolio-portfolio-in-nextjs",
+      "marker": "Lookfolio Portfolio with Next.js",
+      "title": "Lookfolio Portfolio with Next.js"
+    }
+  ],
+  "invalidRoutes": [
+    {
+      "path": "/roco/404",
+      "status": 404,
+      "marker": "OOPS!"
+    },
+    {
+      "path": "/roco/__missing__",
+      "status": 404,
+      "marker": "OOPS!"
+    },
+    {
+      "path": "/roco/projects/__missing__",
+      "status": 404,
+      "marker": "OOPS!"
+    },
+    {
+      "path": "/roco/legal/__missing__",
+      "status": 404,
+      "marker": "OOPS!"
+    },
+    {
+      "path": "/roco/legal/toString",
+      "status": 404,
+      "marker": "OOPS!"
+    },
+    {
+      "path": "/roco/legal/constructor",
+      "status": 404,
+      "marker": "OOPS!"
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/",
+      "status": 307,
+      "location": "/roco"
+    },
+    {
+      "path": "/Roco",
+      "status": 308,
+      "location": "/roco"
+    }
+  ]
+}

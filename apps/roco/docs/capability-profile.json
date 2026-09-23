@@ -1,0 +1,132 @@
+{
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      810,
+      1080
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "breakpoints": {
+    "desktop": 1200,
+    "tablet": 810
+  },
+  "routes": 56,
+  "global": {
+    "font": "Inter",
+    "sidebar": "fixed 288px desktop; 168px tablet; top bar phone",
+    "colors": {
+      "background": "#080808",
+      "text": "#e6e6e6",
+      "muted": "#999999",
+      "accent": "#4ce6a6"
+    },
+    "services": [
+      "contact form delivery requires replacement endpoint"
+    ]
+  },
+  "sections": [
+    {
+      "id": "navigation",
+      "capabilities": [
+        "fixed",
+        "responsive",
+        "stateful-mobile-menu"
+      ],
+      "risk": "high",
+      "probes": [
+        "geometry",
+        "open-close",
+        "keyboard"
+      ]
+    },
+    {
+      "id": "projects",
+      "capabilities": [
+        "repeated-content",
+        "responsive-grid",
+        "hover"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "assets",
+        "all-links"
+      ]
+    },
+    {
+      "id": "testimonials",
+      "capabilities": [
+        "timed-loop",
+        "overflow-mask"
+      ],
+      "risk": "high",
+      "probes": [
+        "time-samples",
+        "pause",
+        "reduced-motion"
+      ]
+    },
+    {
+      "id": "contact",
+      "capabilities": [
+        "form",
+        "responsive-order"
+      ],
+      "risk": "high",
+      "probes": [
+        "validation",
+        "delivery-status"
+      ]
+    },
+    {
+      "id": "detail-article",
+      "capabilities": [
+        "data-driven",
+        "rich-text"
+      ],
+      "risk": "medium",
+      "probes": [
+        "all-route-content",
+        "metadata",
+        "image-crop"
+      ]
+    },
+    {
+      "id": "connect-footer",
+      "capabilities": [
+        "large-type",
+        "hover",
+        "responsive"
+      ],
+      "risk": "medium",
+      "probes": [
+        "geometry",
+        "link"
+      ]
+    }
+  ],
+  "deviations": [
+    "Next.js branding and project URLs; promotional overlays removed.",
+    "Contact delivery requires ROCO_CONTACT_ENDPOINT.",
+    "Responsive footer wraps legal links; reduced motion is supported."
+  ],
+  "unknowns": [
+    "Contact delivery depends on the configured provider."
+  ],
+  "motionEvidence": {
+    "revealDistancePx": 48,
+    "replay": "once per mount",
+    "tickerSpeedReferencePxPerSecond": 16.01,
+    "tickerSpeedLocalPxPerSecond": 16,
+    "tickerOffscreenPause": true,
+    "hoverAndFocusPause": true
+  },
+  "verificationReport": "acceptance.md"
+}

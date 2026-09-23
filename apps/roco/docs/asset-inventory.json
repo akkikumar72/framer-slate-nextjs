@@ -1,0 +1,840 @@
+[
+  {
+    "width": "3527",
+    "height": "3527",
+    "alt": null,
+    "routes": [
+      "/",
+      "/about",
+      "/projects",
+      "/stack",
+      "/contact",
+      "/licensing",
+      "/legal/privacy-policy",
+      "/legal/cookie-policy",
+      "/projects/reelio-photography-film-studio-nextjs-template",
+      "/projects/vitalo",
+      "/projects/artikle-membership-nextjs-template",
+      "/projects/flowpath-ai-automation-template",
+      "/projects/kudos-design-agency-website",
+      "/projects/neozen-portfolio-nextjs-template",
+      "/projects/aerosound-e-commerce-website",
+      "/projects/rently-real-estate-website",
+      "/projects/quomi-designer-personal-portfolio",
+      "/projects/veo-website-for-ai-saas-startup",
+      "/projects/wedora-website-made-in-nextjs",
+      "/projects/xzero-website-made-in-nextjs",
+      "/projects/vistiq-spa-wellness",
+      "/projects/avenzor-designer-potrtfolio",
+      "/projects/plywood-artist-potrtfolio-made-in-nextjs",
+      "/projects/huggl-website-made-in-nextjs",
+      "/projects/charmant-website-made-in-nextjs",
+      "/projects/predict-website-made-in-nextjs",
+      "/projects/huggl-2-0-website-made-in-nextjs",
+      "/projects/payble-website-made-in-nextjs",
+      "/projects/pepper-website-made-in-nextjs",
+      "/projects/brightsites-website-made-in-nextjs",
+      "/projects/designcube-nextjs-website",
+      "/projects/healthwell-website-in-nextjs",
+      "/projects/thelist-nextjs-website",
+      "/projects/cohesion-nextjs-website",
+      "/projects/reify-website-in-nextjs",
+      "/projects/vervedent-nextjs-website",
+      "/projects/learny-membership-platform",
+      "/projects/bentovibe-nextjs-portfolio",
+      "/projects/zenzap-saas-template",
+      "/projects/apex-wallet-landing-page",
+      "/projects/agentic-portfolio-in-nextjs",
+      "/projects/wanted-portfolio-in-nextjs",
+      "/projects/teamwave-website-in-nextjs",
+      "/projects/device-portfolio-in-nextjs",
+      "/projects/darko-portfolio-in-nextjs",
+      "/projects/feedo-portfolio-in-nextjs",
+      "/projects/kombo-portfolio-in-nextjs",
+      "/projects/spendly-website-in-nextjs",
+      "/projects/kong-portfolio-in-nextjs",
+      "/projects/vector-website-in-nextjs",
+      "/projects/artspotter-blog-in-nextjs",
+      "/projects/thedecor-portfolio-in-nextjs",
+      "/projects/bookease-portfolio-in-nextjs",
+      "/projects/architek-portfolio-in-nextjs",
+      "/projects/lookfolio-portfolio-in-nextjs"
+    ],
+    "name": "patricia-portrait.jpg",
+    "local": "/roco/assets/patricia-portrait.jpg"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Reelio - Photography & Film Studio Next.js Template",
+    "routes": [
+      "/",
+      "/projects",
+      "/projects/reelio-photography-film-studio-nextjs-template",
+      "/projects/vitalo",
+      "/projects/artikle-membership-nextjs-template",
+      "/projects/flowpath-ai-automation-template",
+      "/projects/kudos-design-agency-website",
+      "/projects/neozen-portfolio-nextjs-template",
+      "/projects/aerosound-e-commerce-website",
+      "/projects/rently-real-estate-website",
+      "/projects/quomi-designer-personal-portfolio",
+      "/projects/veo-website-for-ai-saas-startup",
+      "/projects/wedora-website-made-in-nextjs",
+      "/projects/xzero-website-made-in-nextjs",
+      "/projects/vistiq-spa-wellness",
+      "/projects/avenzor-designer-potrtfolio",
+      "/projects/plywood-artist-potrtfolio-made-in-nextjs",
+      "/projects/huggl-website-made-in-nextjs",
+      "/projects/charmant-website-made-in-nextjs",
+      "/projects/predict-website-made-in-nextjs",
+      "/projects/huggl-2-0-website-made-in-nextjs",
+      "/projects/payble-website-made-in-nextjs",
+      "/projects/pepper-website-made-in-nextjs",
+      "/projects/brightsites-website-made-in-nextjs",
+      "/projects/designcube-nextjs-website",
+      "/projects/healthwell-website-in-nextjs",
+      "/projects/thelist-nextjs-website",
+      "/projects/cohesion-nextjs-website",
+      "/projects/reify-website-in-nextjs",
+      "/projects/vervedent-nextjs-website",
+      "/projects/learny-membership-platform",
+      "/projects/bentovibe-nextjs-portfolio",
+      "/projects/zenzap-saas-template",
+      "/projects/apex-wallet-landing-page",
+      "/projects/agentic-portfolio-in-nextjs",
+      "/projects/wanted-portfolio-in-nextjs",
+      "/projects/teamwave-website-in-nextjs",
+      "/projects/device-portfolio-in-nextjs",
+      "/projects/darko-portfolio-in-nextjs",
+      "/projects/feedo-portfolio-in-nextjs",
+      "/projects/kombo-portfolio-in-nextjs",
+      "/projects/spendly-website-in-nextjs",
+      "/projects/kong-portfolio-in-nextjs",
+      "/projects/vector-website-in-nextjs",
+      "/projects/artspotter-blog-in-nextjs",
+      "/projects/thedecor-portfolio-in-nextjs",
+      "/projects/bookease-portfolio-in-nextjs",
+      "/projects/architek-portfolio-in-nextjs",
+      "/projects/lookfolio-portfolio-in-nextjs"
+    ],
+    "name": "reelio-photography-film-studio-nextjs-template.png",
+    "local": "/roco/assets/reelio-photography-film-studio-nextjs-template.png"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Vitalo Next.js template",
+    "routes": [
+      "/",
+      "/projects",
+      "/projects/reelio-photography-film-studio-nextjs-template",
+      "/projects/vitalo",
+      "/projects/artikle-membership-nextjs-template",
+      "/projects/flowpath-ai-automation-template",
+      "/projects/kudos-design-agency-website",
+      "/projects/neozen-portfolio-nextjs-template",
+      "/projects/aerosound-e-commerce-website",
+      "/projects/rently-real-estate-website",
+      "/projects/quomi-designer-personal-portfolio",
+      "/projects/veo-website-for-ai-saas-startup",
+      "/projects/wedora-website-made-in-nextjs",
+      "/projects/xzero-website-made-in-nextjs",
+      "/projects/vistiq-spa-wellness",
+      "/projects/avenzor-designer-potrtfolio",
+      "/projects/plywood-artist-potrtfolio-made-in-nextjs",
+      "/projects/huggl-website-made-in-nextjs",
+      "/projects/charmant-website-made-in-nextjs",
+      "/projects/predict-website-made-in-nextjs",
+      "/projects/huggl-2-0-website-made-in-nextjs",
+      "/projects/payble-website-made-in-nextjs",
+      "/projects/pepper-website-made-in-nextjs",
+      "/projects/brightsites-website-made-in-nextjs",
+      "/projects/designcube-nextjs-website",
+      "/projects/healthwell-website-in-nextjs",
+      "/projects/thelist-nextjs-website",
+      "/projects/cohesion-nextjs-website",
+      "/projects/reify-website-in-nextjs",
+      "/projects/vervedent-nextjs-website",
+      "/projects/learny-membership-platform",
+      "/projects/bentovibe-nextjs-portfolio",
+      "/projects/zenzap-saas-template",
+      "/projects/apex-wallet-landing-page",
+      "/projects/agentic-portfolio-in-nextjs",
+      "/projects/wanted-portfolio-in-nextjs",
+      "/projects/teamwave-website-in-nextjs",
+      "/projects/device-portfolio-in-nextjs",
+      "/projects/darko-portfolio-in-nextjs",
+      "/projects/feedo-portfolio-in-nextjs",
+      "/projects/kombo-portfolio-in-nextjs",
+      "/projects/spendly-website-in-nextjs",
+      "/projects/kong-portfolio-in-nextjs",
+      "/projects/vector-website-in-nextjs",
+      "/projects/artspotter-blog-in-nextjs",
+      "/projects/thedecor-portfolio-in-nextjs",
+      "/projects/bookease-portfolio-in-nextjs",
+      "/projects/architek-portfolio-in-nextjs",
+      "/projects/lookfolio-portfolio-in-nextjs"
+    ],
+    "name": "vitalo-nextjs-template.png",
+    "local": "/roco/assets/vitalo-nextjs-template.png"
+  },
+  {
+    "width": null,
+    "height": null,
+    "alt": null,
+    "routes": [
+      "/"
+    ],
+    "name": "client-mei.jpg",
+    "local": "/roco/assets/client-mei.jpg"
+  },
+  {
+    "width": "3624",
+    "height": "5436",
+    "alt": "Client 2",
+    "routes": [
+      "/"
+    ],
+    "name": "client-andrei.jpg",
+    "local": "/roco/assets/client-andrei.jpg"
+  },
+  {
+    "width": "3974",
+    "height": "5000",
+    "alt": "Client 3",
+    "routes": [
+      "/"
+    ],
+    "name": "client-emily.jpg",
+    "local": "/roco/assets/client-emily.jpg"
+  },
+  {
+    "width": "2707",
+    "height": "2477",
+    "alt": "Client 4",
+    "routes": [
+      "/"
+    ],
+    "name": "client-zeynep.jpg",
+    "local": "/roco/assets/client-zeynep.jpg"
+  },
+  {
+    "width": "44",
+    "height": "44",
+    "alt": null,
+    "routes": [
+      "/",
+      "/stack"
+    ],
+    "name": "nextjs.svg",
+    "local": "/roco/assets/nextjs.svg"
+  },
+  {
+    "width": "44",
+    "height": "44",
+    "alt": null,
+    "routes": [
+      "/",
+      "/stack"
+    ],
+    "name": "roco-asset-8.svg",
+    "local": "/roco/assets/roco-asset-8.svg"
+  },
+  {
+    "width": "44",
+    "height": "44",
+    "alt": null,
+    "routes": [
+      "/",
+      "/stack"
+    ],
+    "name": "roco-asset-9.svg",
+    "local": "/roco/assets/roco-asset-9.svg"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Artikle screen",
+    "routes": [
+      "/projects",
+      "/projects/reelio-photography-film-studio-nextjs-template",
+      "/projects/vitalo",
+      "/projects/artikle-membership-nextjs-template"
+    ],
+    "name": "artikle-screen.png",
+    "local": "/roco/assets/artikle-screen.png"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Flowpath screen",
+    "routes": [
+      "/projects",
+      "/projects/flowpath-ai-automation-template"
+    ],
+    "name": "flowpath-screen.png",
+    "local": "/roco/assets/flowpath-screen.png"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Kudos Screen",
+    "routes": [
+      "/projects",
+      "/projects/kudos-design-agency-website"
+    ],
+    "name": "kudos-screen.png",
+    "local": "/roco/assets/kudos-screen.png"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Neozen Screen",
+    "routes": [
+      "/projects",
+      "/projects/neozen-portfolio-nextjs-template"
+    ],
+    "name": "neozen-screen.png",
+    "local": "/roco/assets/neozen-screen.png"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Aerosound Screen",
+    "routes": [
+      "/projects",
+      "/projects/aerosound-e-commerce-website"
+    ],
+    "name": "aerosound-screen.png",
+    "local": "/roco/assets/aerosound-screen.png"
+  },
+  {
+    "width": "3200",
+    "height": "3200",
+    "alt": "Rently Screen",
+    "routes": [
+      "/projects",
+      "/projects/rently-real-estate-website"
+    ],
+    "name": "rently-screen.png",
+    "local": "/roco/assets/rently-screen.png"
+  },
+  {
+    "width": "3600",
+    "height": "3600",
+    "alt": "Quomi Screen",
+    "routes": [
+      "/projects",
+      "/projects/quomi-designer-personal-portfolio"
+    ],
+    "name": "quomi-screen.png",
+    "local": "/roco/assets/quomi-screen.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "Aiveo - Website for AI SAAS Startup",
+    "routes": [
+      "/projects",
+      "/projects/veo-website-for-ai-saas-startup"
+    ],
+    "name": "aiveo-website-for-ai-saas-startup.png",
+    "local": "/roco/assets/aiveo-website-for-ai-saas-startup.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "Wedora Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/wedora-website-made-in-nextjs"
+    ],
+    "name": "wedora-website-in-nextjs.png",
+    "local": "/roco/assets/wedora-website-in-nextjs.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "+XZERO\u00ae Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/xzero-website-made-in-nextjs"
+    ],
+    "name": "xzero-website-in-nextjs.png",
+    "local": "/roco/assets/xzero-website-in-nextjs.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Vistiq",
+    "routes": [
+      "/projects",
+      "/projects/vistiq-spa-wellness"
+    ],
+    "name": "vistiq.png",
+    "local": "/roco/assets/vistiq.png"
+  },
+  {
+    "width": "4800",
+    "height": "3600",
+    "alt": "Avenzor",
+    "routes": [
+      "/projects",
+      "/projects/avenzor-designer-potrtfolio"
+    ],
+    "name": "avenzor.jpg",
+    "local": "/roco/assets/avenzor.jpg"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Plywood",
+    "routes": [
+      "/projects",
+      "/projects/plywood-artist-potrtfolio-made-in-nextjs"
+    ],
+    "name": "plywood.png",
+    "local": "/roco/assets/plywood.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Huggl 1.0",
+    "routes": [
+      "/projects",
+      "/projects/huggl-website-made-in-nextjs"
+    ],
+    "name": "huggl-1-0.png",
+    "local": "/roco/assets/huggl-1-0.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Charmant Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/charmant-website-made-in-nextjs"
+    ],
+    "name": "charmant-nextjs-website.png",
+    "local": "/roco/assets/charmant-nextjs-website.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "Predict Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/predict-website-made-in-nextjs"
+    ],
+    "name": "predict-website-in-nextjs.png",
+    "local": "/roco/assets/predict-website-in-nextjs.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Huggl 2.0",
+    "routes": [
+      "/projects",
+      "/projects/huggl-2-0-website-made-in-nextjs"
+    ],
+    "name": "huggl-2-0.png",
+    "local": "/roco/assets/huggl-2-0.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "Payble Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/payble-website-made-in-nextjs"
+    ],
+    "name": "payble-nextjs-website.png",
+    "local": "/roco/assets/payble-nextjs-website.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "Pepper Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/pepper-website-made-in-nextjs"
+    ],
+    "name": "pepper-nextjs-website.png",
+    "local": "/roco/assets/pepper-nextjs-website.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "BrightSites Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/brightsites-website-made-in-nextjs"
+    ],
+    "name": "brightsites-nextjs-website.png",
+    "local": "/roco/assets/brightsites-nextjs-website.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "DesignCube Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/designcube-nextjs-website"
+    ],
+    "name": "designcube-nextjs-website.png",
+    "local": "/roco/assets/designcube-nextjs-website.png"
+  },
+  {
+    "width": "2800",
+    "height": "2800",
+    "alt": "HealthWell Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/healthwell-website-in-nextjs"
+    ],
+    "name": "healthwell-website-in-nextjs.png",
+    "local": "/roco/assets/healthwell-website-in-nextjs.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Thelist Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/thelist-nextjs-website"
+    ],
+    "name": "thelist-nextjs-website.png",
+    "local": "/roco/assets/thelist-nextjs-website.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Cohesion Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/cohesion-nextjs-website"
+    ],
+    "name": "cohesion-nextjs-website.png",
+    "local": "/roco/assets/cohesion-nextjs-website.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Reify Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/reify-website-in-nextjs"
+    ],
+    "name": "reify-website-in-nextjs.png",
+    "local": "/roco/assets/reify-website-in-nextjs.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "VerveDent Next.js Website",
+    "routes": [
+      "/projects",
+      "/projects/vervedent-nextjs-website"
+    ],
+    "name": "vervedent-nextjs-website.png",
+    "local": "/roco/assets/vervedent-nextjs-website.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Learny Membership Platform",
+    "routes": [
+      "/projects",
+      "/projects/learny-membership-platform"
+    ],
+    "name": "learny-membership-platform.png",
+    "local": "/roco/assets/learny-membership-platform.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "BentoVibe Next.js Portfolio",
+    "routes": [
+      "/projects",
+      "/projects/bentovibe-nextjs-portfolio"
+    ],
+    "name": "bentovibe-nextjs-portfolio.png",
+    "local": "/roco/assets/bentovibe-nextjs-portfolio.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Zenzap SAAS Template",
+    "routes": [
+      "/projects",
+      "/projects/zenzap-saas-template"
+    ],
+    "name": "zenzap-saas-template.png",
+    "local": "/roco/assets/zenzap-saas-template.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Apex Wallet Landing Page",
+    "routes": [
+      "/projects",
+      "/projects/apex-wallet-landing-page"
+    ],
+    "name": "apex-wallet-landing-page.png",
+    "local": "/roco/assets/apex-wallet-landing-page.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "Agentic Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/agentic-portfolio-in-nextjs"
+    ],
+    "name": "agentic-portfolio-in-nextjs.png",
+    "local": "/roco/assets/agentic-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "950",
+    "height": "950",
+    "alt": "Wanted Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/wanted-portfolio-in-nextjs"
+    ],
+    "name": "wanted-portfolio-in-nextjs.png",
+    "local": "/roco/assets/wanted-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1400",
+    "height": "1400",
+    "alt": "TeamWave Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/teamwave-website-in-nextjs"
+    ],
+    "name": "teamwave-website-in-nextjs.png",
+    "local": "/roco/assets/teamwave-website-in-nextjs.png"
+  },
+  {
+    "width": "950",
+    "height": "950",
+    "alt": "Device Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/device-portfolio-in-nextjs"
+    ],
+    "name": "device-portfolio-in-nextjs.png",
+    "local": "/roco/assets/device-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "950",
+    "height": "950",
+    "alt": "Darko Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/darko-portfolio-in-nextjs"
+    ],
+    "name": "darko-portfolio-in-nextjs.png",
+    "local": "/roco/assets/darko-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Feedo Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/feedo-portfolio-in-nextjs"
+    ],
+    "name": "feedo-portfolio-in-nextjs.png",
+    "local": "/roco/assets/feedo-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Kombo Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/kombo-portfolio-in-nextjs"
+    ],
+    "name": "kombo-portfolio-in-nextjs.png",
+    "local": "/roco/assets/kombo-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Spendly Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/spendly-website-in-nextjs"
+    ],
+    "name": "spendly-website-in-nextjs.png",
+    "local": "/roco/assets/spendly-website-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Kong Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/kong-portfolio-in-nextjs"
+    ],
+    "name": "kong-portfolio-in-nextjs.png",
+    "local": "/roco/assets/kong-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Vector Website with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/vector-website-in-nextjs"
+    ],
+    "name": "vector-website-in-nextjs.png",
+    "local": "/roco/assets/vector-website-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "ArtSpotter Blog in Next.js",
+    "routes": [
+      "/projects",
+      "/projects/artspotter-blog-in-nextjs"
+    ],
+    "name": "artspotter-blog-in-nextjs.png",
+    "local": "/roco/assets/artspotter-blog-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "TheDecor Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/thedecor-portfolio-in-nextjs"
+    ],
+    "name": "thedecor-portfolio-in-nextjs.png",
+    "local": "/roco/assets/thedecor-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Bookease Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/bookease-portfolio-in-nextjs"
+    ],
+    "name": "bookease-portfolio-in-nextjs.png",
+    "local": "/roco/assets/bookease-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Architek Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/architek-portfolio-in-nextjs"
+    ],
+    "name": "architek-portfolio-in-nextjs.png",
+    "local": "/roco/assets/architek-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "1900",
+    "height": "1900",
+    "alt": "Lookfolio Portfolio with Next.js",
+    "routes": [
+      "/projects",
+      "/projects/lookfolio-portfolio-in-nextjs"
+    ],
+    "name": "lookfolio-portfolio-in-nextjs.png",
+    "local": "/roco/assets/lookfolio-portfolio-in-nextjs.png"
+  },
+  {
+    "width": "4160",
+    "height": "6240",
+    "alt": null,
+    "routes": [
+      "/stack"
+    ],
+    "name": "roco-asset-55.svg",
+    "local": "/roco/assets/roco-asset-55.svg"
+  },
+  {
+    "width": "4160",
+    "height": "6240",
+    "alt": null,
+    "routes": [
+      "/stack"
+    ],
+    "name": "roco-asset-56.svg",
+    "local": "/roco/assets/roco-asset-56.svg"
+  },
+  {
+    "width": "4160",
+    "height": "6240",
+    "alt": null,
+    "routes": [
+      "/stack"
+    ],
+    "name": "roco-asset-57.svg",
+    "local": "/roco/assets/roco-asset-57.svg"
+  },
+  {
+    "width": "4160",
+    "height": "6240",
+    "alt": null,
+    "routes": [
+      "/stack"
+    ],
+    "name": "roco-asset-58.svg",
+    "local": "/roco/assets/roco-asset-58.svg"
+  },
+  {
+    "width": "4160",
+    "height": "6240",
+    "alt": null,
+    "routes": [
+      "/stack"
+    ],
+    "name": "roco-asset-59.svg",
+    "local": "/roco/assets/roco-asset-59.svg"
+  },
+  {
+    "width": "4160",
+    "height": "6240",
+    "alt": null,
+    "routes": [
+      "/stack"
+    ],
+    "name": "roco-asset-60.svg",
+    "local": "/roco/assets/roco-asset-60.svg"
+  },
+  {
+    "name": "inter-variable.woff2",
+    "local": "/roco/assets/inter-variable.woff2"
+  },
+  {
+    "name": "inter-medium.woff2",
+    "local": "/roco/assets/inter-medium.woff2"
+  },
+  {
+    "name": "roco-social.jpg",
+    "local": "/roco/assets/roco-social.jpg"
+  },
+  {
+    "name": "roco-favicon.svg",
+    "local": "/roco/assets/roco-favicon.svg"
+  },
+  {
+    "name": "roco-apple-touch.png",
+    "local": "/roco/assets/roco-apple-touch.png"
+  },
+  {
+    "name": "inter-regular.woff2",
+    "local": "/roco/assets/inter-regular.woff2"
+  },
+  {
+    "name": "inter-bold.woff2",
+    "local": "/roco/assets/inter-bold.woff2"
+  }
+]
