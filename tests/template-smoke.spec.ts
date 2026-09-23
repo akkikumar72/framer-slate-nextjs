@@ -7,6 +7,11 @@ import {
 type Interaction = (page: Page) => Promise<void>;
 
 const interactions: Record<string, Interaction> = {
+  roco: async (page) => {
+    await page.getByRole("link", { name: "More about Me", exact: true }).click();
+    await expect(page).toHaveURL(/\/roco\/about$/);
+    await expect(page.getByRole("heading", { name: "Get to Know Me", level: 1 })).toBeVisible();
+  },
   alytics: async (page) => {
     const yearly = page.getByRole("button", { name: "Yearly -20%" });
     await yearly.click();

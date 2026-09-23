@@ -13,6 +13,7 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 
 | Template | Local URL |
 | --- | --- |
+| [Roco](#roco) | [http://localhost:3019/roco](http://localhost:3019/roco) |
 | [Slate](#slate) | [http://localhost:3001/](http://localhost:3001/) |
 | [Grovia](#grovia) | [http://localhost:3002/](http://localhost:3002/) |
 | [Fuel](#fuel) | [http://localhost:3003/](http://localhost:3003/) |
@@ -37,6 +38,78 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 Each preview opens the template at its standalone local URL. Expand
 **Routes** below any design to open every valid page declared in that
 workspace's `template.config.json`.
+
+### Roco
+
+`@nextjs-templates/roco` · [Open Roco](http://localhost:3019/roco) · port `3019`
+
+<a href="http://localhost:3019/roco">
+  <img src="apps/showcase/public/templates/roco-gallery.png" alt="Roco portfolio production preview" width="1280">
+</a>
+
+All 55 content pages use local assets, with 47 data-driven project details, responsive navigation, legal pages, and the custom 404. Contact delivery requires `ROCO_CONTACT_ENDPOINT`; the form reports unavailable until configured. See [Roco verification and visual evidence](apps/roco/docs/acceptance.md).
+
+<details>
+<summary><strong>Routes (55 content pages + custom 404)</strong></summary>
+
+- [Home](http://localhost:3019/roco)
+- [About](http://localhost:3019/roco/about)
+- [Projects](http://localhost:3019/roco/projects)
+- [Stack](http://localhost:3019/roco/stack)
+- [Contact](http://localhost:3019/roco/contact)
+- [Licensing](http://localhost:3019/roco/licensing)
+- [Privacy Policy](http://localhost:3019/roco/legal/privacy-policy)
+- [Cookie Policy](http://localhost:3019/roco/legal/cookie-policy)
+- [Reelio - Photography & Film Studio Next.js Template](http://localhost:3019/roco/projects/reelio-photography-film-studio-nextjs-template)
+- [Vitalo - Personal Training & Coaching](http://localhost:3019/roco/projects/vitalo)
+- [Artikle - Membership Next.js Template](http://localhost:3019/roco/projects/artikle-membership-nextjs-template)
+- [Flowpath - AI Automation Template](http://localhost:3019/roco/projects/flowpath-ai-automation-template)
+- [Kudos - Design Agency Website](http://localhost:3019/roco/projects/kudos-design-agency-website)
+- [Neozen - Portfolio Next.js Template](http://localhost:3019/roco/projects/neozen-portfolio-nextjs-template)
+- [Aerosound - E-Commerce Website](http://localhost:3019/roco/projects/aerosound-e-commerce-website)
+- [Rently - Real Estate Website](http://localhost:3019/roco/projects/rently-real-estate-website)
+- [Quomi - Designer Personal Portfolio](http://localhost:3019/roco/projects/quomi-designer-personal-portfolio)
+- [Veo - Website for AI SAAS Startup](http://localhost:3019/roco/projects/veo-website-for-ai-saas-startup)
+- [Wedora Website made with Next.js](http://localhost:3019/roco/projects/wedora-website-made-in-nextjs)
+- [+XZERO® Website made with Next.js](http://localhost:3019/roco/projects/xzero-website-made-in-nextjs)
+- [Vistiq - Spa Wellness](http://localhost:3019/roco/projects/vistiq-spa-wellness)
+- [Avenzor - Designer Potrtfolio](http://localhost:3019/roco/projects/avenzor-designer-potrtfolio)
+- [Plywood Artist Potrtfolio made with Next.js](http://localhost:3019/roco/projects/plywood-artist-potrtfolio-made-in-nextjs)
+- [Huggl Website made with Next.js](http://localhost:3019/roco/projects/huggl-website-made-in-nextjs)
+- [Charmant Website made with Next.js](http://localhost:3019/roco/projects/charmant-website-made-in-nextjs)
+- [Predict Website made with Next.js](http://localhost:3019/roco/projects/predict-website-made-in-nextjs)
+- [Huggl 2.0 Website made with Next.js](http://localhost:3019/roco/projects/huggl-2-0-website-made-in-nextjs)
+- [Payble Website made with Next.js](http://localhost:3019/roco/projects/payble-website-made-in-nextjs)
+- [Pepper Website made with Next.js](http://localhost:3019/roco/projects/pepper-website-made-in-nextjs)
+- [BrightSites Website made with Next.js](http://localhost:3019/roco/projects/brightsites-website-made-in-nextjs)
+- [DesignCube Next.js Website](http://localhost:3019/roco/projects/designcube-nextjs-website)
+- [HealthWell Website with Next.js](http://localhost:3019/roco/projects/healthwell-website-in-nextjs)
+- [Thelist Next.js Website](http://localhost:3019/roco/projects/thelist-nextjs-website)
+- [Cohesion Next.js Website](http://localhost:3019/roco/projects/cohesion-nextjs-website)
+- [Reify Website with Next.js](http://localhost:3019/roco/projects/reify-website-in-nextjs)
+- [VerveDent Next.js Website](http://localhost:3019/roco/projects/vervedent-nextjs-website)
+- [Learny Membership Platform](http://localhost:3019/roco/projects/learny-membership-platform)
+- [BentoVibe Next.js Portfolio](http://localhost:3019/roco/projects/bentovibe-nextjs-portfolio)
+- [Zenzap SAAS Template](http://localhost:3019/roco/projects/zenzap-saas-template)
+- [Apex Wallet Landing Page](http://localhost:3019/roco/projects/apex-wallet-landing-page)
+- [Agentic Portfolio with Next.js](http://localhost:3019/roco/projects/agentic-portfolio-in-nextjs)
+- [Wanted Portfolio with Next.js](http://localhost:3019/roco/projects/wanted-portfolio-in-nextjs)
+- [TeamWave Website with Next.js](http://localhost:3019/roco/projects/teamwave-website-in-nextjs)
+- [Device Portfolio with Next.js](http://localhost:3019/roco/projects/device-portfolio-in-nextjs)
+- [Darko Portfolio with Next.js](http://localhost:3019/roco/projects/darko-portfolio-in-nextjs)
+- [Feedo Portfolio with Next.js](http://localhost:3019/roco/projects/feedo-portfolio-in-nextjs)
+- [Kombo Portfolio with Next.js](http://localhost:3019/roco/projects/kombo-portfolio-in-nextjs)
+- [Spendly Website with Next.js](http://localhost:3019/roco/projects/spendly-website-in-nextjs)
+- [Kong Portfolio with Next.js](http://localhost:3019/roco/projects/kong-portfolio-in-nextjs)
+- [Vector Website with Next.js](http://localhost:3019/roco/projects/vector-website-in-nextjs)
+- [ArtSpotter Blog in Next.js](http://localhost:3019/roco/projects/artspotter-blog-in-nextjs)
+- [TheDecor Portfolio with Next.js](http://localhost:3019/roco/projects/thedecor-portfolio-in-nextjs)
+- [Bookease Portfolio with Next.js](http://localhost:3019/roco/projects/bookease-portfolio-in-nextjs)
+- [Architek Portfolio with Next.js](http://localhost:3019/roco/projects/architek-portfolio-in-nextjs)
+- [Lookfolio Portfolio with Next.js](http://localhost:3019/roco/projects/lookfolio-portfolio-in-nextjs)
+- [Custom 404](http://localhost:3019/roco/404)
+
+</details>
 
 ### Slate
 
@@ -630,6 +703,7 @@ workspace map.
 
 ```text
 apps/
+  roco/           # Personal portfolio, 47 project details, legal and custom 404
   showcase/
   slate/
   grovia/

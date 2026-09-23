@@ -1,0 +1,33 @@
+.page { padding-top: 48px; }
+.hero { padding: 48px 0; }
+.columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; }
+.message { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; padding-top: 48px; }
+.contactDetails { display: flex; flex-direction: column; }
+.linkSection { display: flex; flex-direction: column; gap: 24px; padding-top: 48px; }
+.links { display: flex; flex-direction: column; gap: 6px; }
+.links a { display: flex; align-items: center; gap: 18px; width: fit-content; min-height: 36px; font-size: 14px; line-height: 1.4; color: inherit; text-decoration: none; }
+.links svg { flex: 0 0 18px; margin-left: 3px; }
+.links a:hover { color: #e6e6e6; }
+.form { display: flex; flex-direction: column; gap: 12px; width: 100%; }
+.fieldRow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.field, .messageField { display: block; min-width: 0; border-radius: 12px; background: #1a1a1a; }
+.field input, .messageField textarea { width: 100%; border: 0; color: #e6e6e6; background: transparent; font: inherit; font-size: 14px; line-height: 18px; padding: 18px; border-radius: inherit; }
+.field input { height: 54px; }
+.messageField textarea { display: block; height: 205.2px; min-height: 160px; resize: vertical; }
+.field input::placeholder, .messageField textarea::placeholder { color: #999; opacity: 1; }
+.field input:focus-visible, .messageField textarea:focus-visible { outline: 2px solid #7ddfae; outline-offset: 2px; }
+.submit { border: 0; border-radius: 10px; background: #7ddfae; color: #050505; height: 54px; width: 100%; font: inherit; font-size: 14px; cursor: pointer; transition: background .2s; }
+.submit:hover { background: #4ce6a6; }
+.submit:disabled { cursor: wait; opacity: .7; }
+.hiddenLabel { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.error, .success { font-size: 14px; line-height: 1.5; }
+.error { color: #f5aaaa; }
+.success { color: #7ddfae; }
+@media (min-width: 810px) and (max-width: 1199px) { .page { padding-top: 24px; } .columns { display: flex; flex-direction: column; gap: 0; padding-bottom: 48px; } .message { order: 1; } .contactDetails { flex-direction: row; gap: 12px; order: 0; } .linkSection { flex: 1; min-width: 0; } }
+@media (max-width: 809px) { .page { padding-top: 96px; } .columns { display: flex; flex-direction: column; gap: 0; } .contactDetails { order: 0; } .linkSection:first-child { padding-top: 24px; } .message { order: 1; padding-top: 48px; } .fieldRow { grid-template-columns: minmax(0, 1fr); } .messageField textarea { height: 202px; } }
+@media (prefers-reduced-motion: reduce) { .submit { transition: none; } }
+
+.internalFooter { height: 1px; overflow: hidden; visibility: hidden; }
+@media (max-width: 1199px) { .internalFooter { height: auto; overflow: visible; visibility: visible; } }
+
+@media(max-width:809px){.internalFooter :global(.roco-footer){height:194.6px;min-height:194.6px;justify-content:flex-end;padding:0 0 26.1px}}

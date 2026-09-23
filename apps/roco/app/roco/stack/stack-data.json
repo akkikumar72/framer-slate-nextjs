@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Next.js",
+    "category": "Web Development",
+    "description": "Next.js is my framework for building fast, accessible websites with React. I use reusable components, responsive layouts, and server rendering to turn designs into complete web experiences.",
+    "icon": "/roco/assets/nextjs.svg",
+    "url": "https://nextjs.org/"
+  },
+  {
+    "name": "Figma",
+    "category": "Collaborative Design",
+    "description": "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based approach streamlines the design process.",
+    "icon": "/roco/assets/roco-asset-8.svg",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "name": "Notion",
+    "category": "Project Management",
+    "description": "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to project timelines is in one place.",
+    "icon": "/roco/assets/roco-asset-9.svg",
+    "url": "https://www.notion.com/"
+  },
+  {
+    "name": "Chat GPT",
+    "category": "Content Generation",
+    "description": "ChatGPT is my content generation and assistance tool. I leverage it for content ideas, copywriting, and problem-solving. It provides invaluable insights and suggestions that enhance the quality of my projects.",
+    "icon": "/roco/assets/roco-asset-55.svg",
+    "url": "https://chatgpt.com/"
+  },
+  {
+    "name": "HTML 5",
+    "category": "Structure and Content",
+    "description": "HTML5 is the backbone of my web design work. I use it to structure content, ensuring that websites are semantically meaningful and accessible. It forms the foundation upon which the visual elements of a site are built.",
+    "icon": "/roco/assets/roco-asset-56.svg",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "name": "CSS 3",
+    "category": "Visual Styling",
+    "description": "CSS3 is my styling and layout powerhouse. It's instrumental in creating visually appealing websites by controlling everything from fonts and colors to the responsive design that adapts to various screen sizes.",
+    "icon": "/roco/assets/roco-asset-57.svg",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  {
+    "name": "Photoshop",
+    "category": "Image Manipulation",
+    "description": "Photoshop is my image editing Swiss army knife. I rely on it for retouching photos, creating graphics, and optimizing images for web use. It ensures that visual elements are pixel-perfect.",
+    "icon": "/roco/assets/roco-asset-58.svg",
+    "url": "https://www.adobe.com/products/photoshop.html"
+  },
+  {
+    "name": "Illustrator",
+    "category": "Vector Graphics",
+    "description": "Illustrator is my go-to for vector graphics and icon design. I use it to create custom icons, logos, and illustrations that seamlessly integrate into web designs.",
+    "icon": "/roco/assets/roco-asset-59.svg",
+    "url": "https://www.adobe.com/products/illustrator.html"
+  },
+  {
+    "name": "React",
+    "category": "Dynamic Development",
+    "description": "React is my dynamic web development framework. I apply it to build interactive web applications with rich user interfaces. It's instrumental in creating engaging, responsive, and data-driven web experiences.",
+    "icon": "/roco/assets/roco-asset-60.svg",
+    "url": "https://react.dev/"
+  }
+]

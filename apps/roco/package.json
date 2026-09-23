@@ -1,0 +1,25 @@
+{
+  "name": "@nextjs-templates/roco",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3019",
+    "start": "next start --port 3019",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "audit:assets": "node ../../packages/template-validation/bin/template-validation.mjs assets",
+    "check": "npm run typecheck && npm run audit:assets",
+    "test:routes": "node ../../packages/template-validation/bin/template-validation.mjs routes"
+  },
+  "dependencies": {
+    "next": "16.2.11",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,14 @@
+.page { padding-top: 48px; }
+.section { display: flex; flex-direction: column; align-items: flex-start; gap: 48px; padding: 48px 0; }
+.introduction { display: flex; flex-direction: column; gap: 48px; width: 100%; }
+.introduction p, .stackCopy { max-width: 696px; }
+.timeline { display: flex; flex-direction: column; gap: 48px; width: 100%; }
+.entry { display: flex; flex-direction: column; gap: 0; padding-left: 22px; position: relative; }
+.entry:not(:last-child)::after { content: ""; position: absolute; top: calc(100% + 12px); left: 7px; height: 24px; width: 1px; background: repeating-linear-gradient(to bottom, #555 0 1px, transparent 1px 7px); }
+.timelineIcon { position: absolute; left: 0; top: 2px; width: 16px; height: 22px; color: #999; }
+.divider { display: flex; align-items: center; width: 80%; height: 44px; }
+.location { display: inline-flex; gap: 6px; align-items: center; min-height: 44px; font-size: 14px; white-space: nowrap; }
+.location svg { color: #7ddfae; }
+.entry p { font-size: 16px; line-height: 1.4; }
+@media (min-width: 810px) and (max-width: 1199px) { .page { padding-top: 24px; } .section:first-child { padding-bottom: 0; } }
+@media (max-width: 809px) { .page { padding-top: 96px; } .introduction p, .stackCopy { max-width: none; } }

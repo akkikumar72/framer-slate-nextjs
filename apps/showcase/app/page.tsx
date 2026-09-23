@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const templates = [
   {
+    name: "Roco",
+    slug: "roco",
+    packageName: "@nextjs-templates/roco",
+    port: 3019,
+    routes: 55,
+    image: "/templates/roco-gallery.png",
+    url: process.env.NEXT_PUBLIC_ROCO_URL ?? "http://localhost:3019/roco",
+  },
+  {
     name: "Orbital",
     slug: "orbital",
     packageName: "@framer-templates/orbital",

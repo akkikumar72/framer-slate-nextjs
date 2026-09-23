@@ -1,0 +1,1692 @@
+{
+  "contentRoutes": 55,
+  "routes": [
+    {
+      "path": "/roco",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "rendered-page"
+      ],
+      "family": "home",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/about",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "rendered-page"
+      ],
+      "family": "about",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "rendered-page"
+      ],
+      "family": "projects",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/stack",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "stack",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/contact",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "rendered-page"
+      ],
+      "family": "contact",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/licensing",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "licensing",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/404",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "not-found",
+      "kind": "not-found",
+      "sharedShell": "none",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 404,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/legal/privacy-policy",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "legal",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/legal/cookie-policy",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "legal",
+      "kind": "static",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/reelio-photography-film-studio-nextjs-template",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/vitalo",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/artikle-membership-nextjs-template",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/flowpath-ai-automation-template",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/kudos-design-agency-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/neozen-portfolio-nextjs-template",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/aerosound-e-commerce-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/rently-real-estate-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/quomi-designer-personal-portfolio",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/veo-website-for-ai-saas-startup",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/wedora-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/xzero-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/vistiq-spa-wellness",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/avenzor-designer-potrtfolio",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/plywood-artist-potrtfolio-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/huggl-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/charmant-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/predict-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/huggl-2-0-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/payble-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/pepper-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/brightsites-website-made-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/designcube-nextjs-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/healthwell-website-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/thelist-nextjs-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/cohesion-nextjs-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/reify-website-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/vervedent-nextjs-website",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/learny-membership-platform",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/bentovibe-nextjs-portfolio",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/zenzap-saas-template",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/apex-wallet-landing-page",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/agentic-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/wanted-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/teamwave-website-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/device-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/darko-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/feedo-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/kombo-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/spendly-website-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/kong-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/vector-website-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/artspotter-blog-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/thedecor-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/bookease-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/architek-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    },
+    {
+      "path": "/roco/projects/lookfolio-portfolio-in-nextjs",
+      "evidence": [
+        "project-tree",
+        "sitemap",
+        "public-source"
+      ],
+      "family": "project-detail",
+      "kind": "data-driven",
+      "sharedShell": "sidebar",
+      "status": "implemented",
+      "confidence": "high",
+      "viewports": [
+        1280,
+        810,
+        390
+      ],
+      "validation": {
+        "http": 200,
+        "contentAndMetadata": "passed",
+        "internalLinks": "passed",
+        "localAssets": "passed",
+        "overflow": "passed",
+        "viewportWidths": [
+          1280,
+          810,
+          390
+        ]
+      }
+    }
+  ],
+  "verification": {
+    "date": "2026-09-23",
+    "contentRoutesPassed": 55,
+    "invalidRouteProbesPassed": 6,
+    "redirectsPassed": 2,
+    "report": "acceptance.md"
+  }
+}

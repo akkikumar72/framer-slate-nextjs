@@ -1,0 +1,13 @@
+.page { display: flex; flex-direction: column; gap: 48px; padding: 96px 0 48px; }
+.content { width: 100%; overflow-wrap: break-word; }
+.content > p + *, .content > ul + *, .content > ol + *, .content > h2 + * { margin-top: 20px; }
+.content > h2 { margin-top: 40px; }
+.content > ul, .content > ol { margin-top: 32px; }
+.content h2 { line-height: 1; }
+.content ul, .content ol { padding-left: 20px; }
+.content li { padding-left: 0; }
+.content li + li { margin-top: 0; }
+.content li p { margin: 0; }
+.content strong { font-weight: 400; }
+@media (min-width: 810px) and (max-width: 1199px) { .page { padding-top: 72px; } }
+@media (max-width: 809px) { .page { padding-top: 144px; } }

@@ -1,0 +1,63 @@
+.page { padding-top: 48px; }
+.project { display: flex; flex-direction: column; gap: 48px; padding-bottom: 48px; }
+.title { font-size: 48px; line-height: 1.2; overflow-wrap: anywhere; }
+.actions { display: flex; gap: 24px; align-items: center; min-height: 44px; }
+.backRow { display: flex; align-items: center; gap: 24px; flex: 1; min-width: 0; }
+.back { display: inline-flex; align-items: center; flex-shrink: 0; gap: 6px; padding-left: 6px; font-size: 14px; line-height: 1.4; color: #999; text-decoration: none; transition: color .2s; }
+.back:hover { color: #e6e6e6; }
+.arrow { width: 16px; height: 16px; fill: currentColor; flex: none; }
+.rule { display: block; height: 2px; min-width: 0; flex: 1; background: radial-gradient(circle, #333 1px, transparent 1px) left center / 7px 2px repeat-x; }
+.actionLinks { display: flex; gap: 12px; flex: none; }
+.button { display: inline-flex; flex: none; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 12px 24px; border: 1px solid #999; border-radius: 12px; color: #999; font-size: 14px; line-height: 18px; font-weight: 400; text-decoration: none; white-space: nowrap; transition: background .2s, color .2s; }
+.button:hover { color: #e6e6e6; background: #1a1a1a; }
+.primary { background: #4ce6a6; color: #0a3024; border-color: #4ce6a6; }
+.primary:hover { color: #0a3024; background: #83f0c2; }
+.info { display: flex; width: 100%; gap: 24px; align-items: center; font-size: 14px; line-height: 1.4; }
+.infoGroup { display: flex; flex: 1; align-items: center; gap: 24px; }
+.infoGroup:first-child { flex: none; }
+.infoValue { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.infoValue svg { width: 16px; height: 16px; flex: none; fill: #4ce6a6; }
+.hero { aspect-ratio: 1; border-radius: 12px; overflow: hidden; background: #1a1a1a; }
+.hero img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.article { font-size: 16px; line-height: 1.4; font-weight: 300; color: #999; overflow-wrap: break-word; }
+.article p { margin: 20px 0 0; }
+.article > :first-child { margin-top: 0; }
+.article h2, .article h3, .article h4 { margin-top: 40px; color: #e6e6e6; }
+.article h2 { font-size: 24px; line-height: 1; font-weight: 500; }
+.article h3 { font-size: 18px; line-height: 1.4; font-weight: 500; }
+.article h4 { font-size: 22px; line-height: 1.4; font-weight: 700; letter-spacing: -.04em; font-feature-settings: "blwf", "cv09", "cv03", "cv04", "cv11"; }
+.article strong { font-weight: 400; }
+.article h3 strong { font-weight: 700; }
+.article h2 strong { font-weight: 900; }
+.article ul, .article ol { margin-top: 32px; padding-left: 20px; }
+.article li { margin: 0; }
+.article li:first-child, .article li > p:first-child { margin-top: 0; }
+.article a { color: #4ce6a6; text-decoration: underline; text-underline-offset: 3px; }
+.bottomActions { margin-top: 0; }
+.related { display: flex; flex-direction: column; gap: 48px; padding: 48px 0; }
+.relatedGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.viewAll { display: flex; align-items: center; gap: 24px; }
+
+@media (min-width: 810px) and (max-width: 1199px) {
+  .page { padding-top: 24px; }
+  .title { font-size: 42px; }
+  .article h2 { font-size: 22px; }
+  .article h3 { font-size: 16px; }
+}
+@media (max-width: 809px) {
+  .page { padding-top: 96px; }
+  .title { font-size: 36px; }
+  .actions { flex-direction: column; align-items: stretch; }
+  .backRow { flex: none; min-height: 44px; }
+  .backRow .rule { display: block; }
+  .actionLinks { flex-direction: column; }
+  .info { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .infoGroup { flex: none; flex-direction: column; align-items: flex-start; gap: 12px; }
+  .infoGroup .rule { width: 16px; height: 24px; flex: none; background: radial-gradient(circle, #333 1px, transparent 1px) center top / 2px 7px repeat-y; }
+  .article { font-size: 14px; }
+  .article h2 { font-size: 20px; }
+  .relatedGrid { grid-template-columns: minmax(0, 1fr); }
+  .viewAll { flex-direction: column; align-items: stretch; }
+  .viewAll > .rule { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .button, .back { transition: none; } }
