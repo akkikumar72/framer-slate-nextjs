@@ -7,6 +7,14 @@ import {
 type Interaction = (page: Page) => Promise<void>;
 
 const interactions: Record<string, Interaction> = {
+  nue: async (page) => {
+    await page.getByRole("button", { name: "Next testimonial" }).click();
+    await expect(page.locator('[aria-roledescription="slide"][data-active="true"]')).toContainText("David Thompson");
+    const question = page.getByRole("button", { name: "How do I customize this template?", exact: true });
+    await question.click();
+    await expect(question).toHaveAttribute("aria-expanded", "true");
+    await expect(page.locator("#nue-faq-answer-0")).toContainText("Components and global styles");
+  },
   alytics: async (page) => {
     const yearly = page.getByRole("button", { name: "Yearly -20%" });
     await yearly.click();

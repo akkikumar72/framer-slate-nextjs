@@ -4,6 +4,10 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [{
+      source: "/nue/:path*",
+      destination: `${process.env.NEXT_PUBLIC_NUE_URL ?? "http://localhost:3016/nue"}/:path*`,
+      permanent: false,
+    }, {
       source: "/alytics/:path*",
       destination: `${process.env.NEXT_PUBLIC_ALYTICS_URL ?? "http://localhost:3015/alytics"}/:path*`,
       permanent: false,

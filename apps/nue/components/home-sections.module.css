@@ -1,0 +1,324 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.photos {
+  position: relative;
+  width: 200px;
+  height: 135px;
+}
+
+.photo {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  padding: 3px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow:
+    0.36px 0.6px 0.98px -0.58px #00000017,
+    1.37px 2.29px 3.74px -1.17px #0000001a,
+    6px 10px 16.33px -1.75px #00000029;
+  opacity: 0;
+  transition:
+    transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 0.55s ease;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.photoPortrait {
+  top: 0;
+  left: 0;
+  transform: translate(20px, 20px) rotate(-7.16deg) scale(0.9);
+}
+
+.photoWorkspace {
+  top: 20px;
+  left: 77.5px;
+  transform: translate(-20px, 20px) rotate(5.16deg) scale(0.9);
+  transition-delay: 0.12s;
+}
+
+.photosVisible .photo {
+  opacity: 1;
+}
+.photosVisible .photoPortrait {
+  transform: rotate(-4.16deg);
+}
+.photosVisible .photoWorkspace {
+  transform: rotate(4.16deg);
+}
+
+.aboutCopy {
+  width: 100%;
+  max-width: 450px;
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.aboutCopy p {
+  margin: 0;
+}
+.aboutCopy p + p {
+  margin-top: 22.5px;
+}
+
+.services {
+  gap: 24px;
+}
+.serviceHeading h2 {
+  text-align: center;
+  padding-left: 0;
+}
+
+.serviceContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.serviceCards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+}
+
+.serviceRow {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.serviceRow:nth-child(even) {
+  justify-content: flex-end;
+}
+.serviceRow:nth-child(even) .serviceCard {
+  transform: rotate(-3deg);
+}
+
+.serviceCard {
+  position: relative;
+  flex: 0 0 265px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 53px 16px 16px;
+  border-radius: 25px;
+  background: #fff;
+  transform: rotate(3deg);
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow:
+    0.38px 0.62px 1.02px -0.35px #00000017,
+    1.05px 1.7px 2.79px -0.7px #00000017,
+    2.3px 3.72px 6.13px -1.05px #0000001a,
+    5.11px 8.26px 13.6px -1.4px #0000001f,
+    13px 21px 34.58px -1.75px #00000029;
+}
+
+.pin {
+  position: absolute;
+  top: -2px;
+  left: calc(46.3855% - 28px);
+  width: 56px;
+  height: 48px;
+  object-fit: cover;
+}
+.serviceNumber {
+  display: block;
+  padding-left: 10px;
+  font-family: "Geist Mono", monospace;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.25px;
+  letter-spacing: 0.3px;
+}
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 20px 14px;
+  border-radius: 16px;
+  background: #feefe5;
+  box-shadow: inset 0 0 0 1px #00000003;
+}
+.serviceRow:nth-child(even) .serviceText {
+  background: #e6edff;
+}
+.serviceText h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.25px;
+}
+.serviceText p {
+  margin: 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.experienceList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.experienceCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 16px;
+  background: #fff;
+}
+.company {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.logo {
+  flex: 0 0 60px;
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  border-radius: 14.3px;
+  background: #fff;
+  box-shadow:
+    0.08px 0.56px 0.79px -0.44px #00000017,
+    0.24px 1.69px 2.39px -0.88px #0000001a,
+    0.64px 4.47px 6.32px -1.31px #0000001c,
+    2px 14px 19.8px -1.75px #00000029;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+  object-fit: cover;
+  display: block;
+}
+.companyLogo {
+  flex-basis: 56px;
+  width: 56px;
+  height: 56px;
+}
+.nameAndRole {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.nameAndRole h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.25px;
+}
+.nameAndRole p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+  color: #555;
+}
+.years p {
+  margin: 0;
+  font-family: "Geist Mono", monospace;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  white-space: nowrap;
+}
+.stackGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.stackCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 16px;
+  background: #fff;
+}
+.stackCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px dashed #e0e0e0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.stackCard .nameAndRole {
+  min-width: 0;
+}
+.stackCard .nameAndRole p {
+  white-space: nowrap;
+}
+
+@media (max-width: 809px) {
+  .serviceRow {
+    padding: 10px;
+  }
+  .serviceCard {
+    flex-basis: 85%;
+    min-width: 0;
+    max-width: 270px;
+  }
+  .experienceCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding-right: 13px;
+  }
+  .company {
+    gap: 12px;
+  }
+  .companyLogo {
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  .years {
+    padding-left: 4px;
+  }
+  .stackGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo {
+    opacity: 1;
+    transition: none;
+  }
+  .photoPortrait {
+    transform: rotate(-4.16deg);
+  }
+  .photoWorkspace {
+    transform: rotate(4.16deg);
+  }
+  .serviceCard {
+    transition: none;
+  }
+}

@@ -27,6 +27,7 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 | [Agentik](#agentik) | [http://localhost:3012/](http://localhost:3012/) |
 | [Hulio](#hulio) | [http://localhost:3013/hulio](http://localhost:3013/hulio) |
 | [Orbital](#orbital) | [http://localhost:3014/orbital](http://localhost:3014/orbital) |
+| [Nue](#nue) | [http://localhost:3016/nue](http://localhost:3016/nue) |
 | [Alytics](#alytics) | [http://localhost:3015/alytics](http://localhost:3015/alytics) |
 | [Dashfluence](#dashfluence) | [http://localhost:3018/Dashfluence](http://localhost:3018/Dashfluence) |
 
@@ -37,6 +38,26 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 Each preview opens the template at its standalone local URL. Expand
 **Routes** below any design to open every valid page declared in that
 workspace's `template.config.json`.
+
+### Nue
+
+`@nextjs-templates/nue` · [Open Nue](http://localhost:3016/nue) · port `3016`
+
+<a href="http://localhost:3016/nue">
+  <img src="apps/showcase/public/templates/nue-home.png" alt="Nue portfolio preview" width="1280">
+</a>
+
+<details>
+<summary><strong>Routes (5 content pages + custom 404)</strong></summary>
+
+- [Portfolio](http://localhost:3016/nue)
+- [Greenora](http://localhost:3016/nue/projects/greenora)
+- [Clarity Path](http://localhost:3016/nue/projects/clarity-path)
+- [Paul Interior](http://localhost:3016/nue/projects/paul-interior)
+- [Umbrella](http://localhost:3016/nue/projects/umbrella)
+- [Custom 404](http://localhost:3016/nue/404)
+
+</details>
 
 ### Slate
 
@@ -630,6 +651,7 @@ workspace map.
 
 ```text
 apps/
+  nue/            # Nue portfolio and four project details
   showcase/
   slate/
   grovia/

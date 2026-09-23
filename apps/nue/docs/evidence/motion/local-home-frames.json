@@ -1,0 +1,1397 @@
+[
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0",
+        "transform": "matrix(0.6, 0, 0, 0.6, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0",
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 0
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.264886",
+        "transform": "matrix(0.705739, 0, 0, 0.705739, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0",
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 71
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.601062",
+        "transform": "matrix(0.840965, 0, 0, 0.840965, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0",
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 142
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.841393",
+        "transform": "matrix(0.93698, 0, 0, 0.93698, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "0.0481181",
+        "transform": "matrix(1, 0, 0, 1, 0, 9.52543)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.0233066",
+        "transform": "matrix(0.511438, 0, 0, 0.511438, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 214
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.930064",
+        "transform": "matrix(0.972147, 0, 0, 0.972147, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "0.623169",
+        "transform": "matrix(1, 0, 0, 1, 0, 3.75181)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.358502",
+        "transform": "matrix(0.67981, 0, 0, 0.67981, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 285
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.970123",
+        "transform": "matrix(0.988149, 0, 0, 0.988149, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "0.944538",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.53548)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.665312",
+        "transform": "matrix(0.83376, 0, 0, 0.83376, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 357
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.990017",
+        "transform": "matrix(0.996034, 0, 0, 0.996034, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.151618)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.870616",
+        "transform": "matrix(0.935677, 0, 0, 0.935677, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.0864023",
+        "transform": "matrix(1, 0, 0, 1, 0, 9.12077)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 428
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.995911",
+        "transform": "matrix(0.998395, 0, 0, 0.998395, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0768584)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.943303",
+        "transform": "matrix(0.971885, 0, 0, 0.971885, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.447175",
+        "transform": "matrix(1, 0, 0, 1, 0, 5.49987)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 500
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "0.99837",
+        "transform": "matrix(0.999351, 0, 0, 0.999351, 0, 0)"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0153867)"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.975965",
+        "transform": "matrix(0.987972, 0, 0, 0.987972, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.720686",
+        "transform": "matrix(1, 0, 0, 1, 0, 2.7935)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 572
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.989921",
+        "transform": "matrix(0.994975, 0, 0, 0.994975, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.869494",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.30202)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.0636976",
+        "transform": "matrix(1, 0, 0, 1, 0, 9.36044)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 643
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.996757",
+        "transform": "matrix(0.998387, 0, 0, 0.998387, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.95414",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.458894)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.447605",
+        "transform": "matrix(1, 0, 0, 1, 0, 5.52179)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 714
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "0.998714",
+        "transform": "matrix(0.999349, 0, 0, 0.999349, 0, 0)"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.980435",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.195058)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.689009",
+        "transform": "matrix(1, 0, 0, 1, 0, 3.11173)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0",
+        "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 786
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.992002",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0789453)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.838305",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.605)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.135018",
+        "transform": "matrix(0.827477, 0, 0, 0.827477, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -10, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 857
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.997386",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0259164)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.931766",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.681539)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.515331",
+        "transform": "matrix(0.903078, 0, 0, 0.903078, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.0341111",
+        "transform": "matrix(1, 0, 0, 1, -9.66073, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 928
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "0.999729",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0102815)"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.967027",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.32801)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.733831",
+        "transform": "matrix(0.946975, 0, 0, 0.946975, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.228325",
+        "transform": "matrix(1, 0, 0, 1, -7.70698, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 999
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.984522",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.154707)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.863699",
+        "transform": "matrix(0.972727, 0, 0, 0.972727, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.450223",
+        "transform": "matrix(1, 0, 0, 1, -5.49987, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      }
+    ],
+    "ms": 1070
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.992707",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0726827)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.931766",
+        "transform": "matrix(0.986369, 0, 0, 0.986369, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.628756",
+        "transform": "matrix(1, 0, 0, 1, -3.71223, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.064084",
+        "transform": "matrix(1, 0, 0, 1, 0, 9.36044)"
+      }
+    ],
+    "ms": 1142
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.997292",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0273233)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.972866",
+        "transform": "matrix(0.994569, 0, 0, 0.994569, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.78697",
+        "transform": "matrix(1, 0, 0, 1, -2.13234, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.448474",
+        "transform": "matrix(1, 0, 0, 1, 0, 5.52179)"
+      }
+    ],
+    "ms": 1212
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "0.998741",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0123856)"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.987188",
+        "transform": "matrix(0.99745, 0, 0, 0.99745, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.866702",
+        "transform": "matrix(1, 0, 0, 1, -1.33045, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.691093",
+        "transform": "matrix(1, 0, 0, 1, 0, 3.08291)"
+      }
+    ],
+    "ms": 1283
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.993984",
+        "transform": "matrix(0.998806, 0, 0, 0.998806, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.917606",
+        "transform": "matrix(1, 0, 0, 1, -0.820699, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.837004",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.6213)"
+      }
+    ],
+    "ms": 1354
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.997292",
+        "transform": "matrix(0.999454, 0, 0, 0.999454, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.950518",
+        "transform": "matrix(1, 0, 0, 1, -0.495337, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.919279",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.808579)"
+      }
+    ],
+    "ms": 1425
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "0.999837",
+        "transform": "matrix(0.999798, 0, 0, 0.999798, 0, 0)"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.974003",
+        "transform": "matrix(1, 0, 0, 1, -0.2588, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.967311",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.324395)"
+      }
+    ],
+    "ms": 1495
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.984507",
+        "transform": "matrix(1, 0, 0, 1, -0.155059, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.984362",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.156472)"
+      }
+    ],
+    "ms": 1566
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.990935",
+        "transform": "matrix(1, 0, 0, 1, -0.0900456, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.992752",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0718484)"
+      }
+    ],
+    "ms": 1638
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.994721",
+        "transform": "matrix(1, 0, 0, 1, -0.052373, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.996698",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0329621)"
+      }
+    ],
+    "ms": 1708
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.997344",
+        "transform": "matrix(1, 0, 0, 1, -0.0267832, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "0.998725",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0125335)"
+      }
+    ],
+    "ms": 1779
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "0.998464",
+        "transform": "matrix(1, 0, 0, 1, -0.0154046, 0)"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "ms": 1853
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "ms": 1925
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "ms": 1997
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "ms": 2068
+  },
+  {
+    "items": [
+      {
+        "name": "hero-avatar",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-name",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-checkmark",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-role",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-intro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-remix",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "hero-works",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "name": "selected-heading",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "ms": 2138
+  }
+]
