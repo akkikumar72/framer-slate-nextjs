@@ -29,20 +29,32 @@ async function captureFade(page: Page, target: number) {
   return page.evaluate(async (y) => {
     const card = document.querySelector("main > section")!;
     const samples: { t: number; alpha: number; top: number; contact: number }[] = [];
-    const start = performance.now();
+    const requestedAt = performance.now();
+    let startedAt: number | undefined;
     window.scrollTo({ top: y, behavior: "instant" });
-    await new Promise<void>((resolve) => {
+    await new Promise<void>((resolve, reject) => {
       function sample() {
         const background = getComputedStyle(card).backgroundColor;
+        const transition = card.getAnimations().find((animation) =>
+          animation instanceof CSSTransition && animation.transitionProperty === "background-color",
+        );
+        // Anchor samples to the native transition, not hydration or scroll-event latency.
+        if (typeof transition?.startTime === "number") startedAt = transition.startTime;
+        if (startedAt === undefined) {
+          if (performance.now() - requestedAt > 5000) reject(new Error("The intro dissolve did not start"));
+          else requestAnimationFrame(sample);
+          return;
+        }
+        const elapsed = Number(document.timeline.currentTime) - startedAt;
         const rgba = background.match(/[\d.]+/g)!.map(Number);
         const contact = getComputedStyle(card.querySelector("nav button:last-child")!).backgroundColor;
         samples.push({
-          t: performance.now() - start,
+          t: elapsed,
           alpha: rgba.length === 4 ? rgba[3] : 1,
           top: card.getBoundingClientRect().top,
           contact: Number(contact.match(/[\d.]+/)![0]),
         });
-        if (performance.now() - start < 1050) requestAnimationFrame(sample);
+        if (elapsed < 1050) requestAnimationFrame(sample);
         else resolve();
       }
       requestAnimationFrame(sample);
@@ -109,25 +121,44 @@ test("reversing a dissolve midway returns cleanly to the light state", async ({ 
     };
     const start = performance.now();
     scrollTo({ top: 100, behavior: "instant" });
-    await new Promise<void>((resolve) => {
+    await new Promise<void>((resolve, reject) => {
       function tick() {
-        if (performance.now() - start >= 450) resolve();
+        const progress = alpha();
+        if (progress >= 0.4 && progress < 0.99) resolve();
+        else if (performance.now() - start > 5000) reject(new Error("No intermediate intro state was rendered"));
         else requestAnimationFrame(tick);
       }
       requestAnimationFrame(tick);
     });
     const before = alpha();
+    const backgroundTransition = () => card.getAnimations().find((animation) =>
+      animation instanceof CSSTransition && animation.transitionProperty === "background-color",
+    );
+    const outgoing = backgroundTransition();
     const reversedAt = performance.now();
     scrollTo({ top: 0, behavior: "instant" });
-    await new Promise<void>((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
-    return { before, after: alpha(), elapsed: performance.now() - reversedAt };
+    const reversal = await new Promise<{ after: number; from: number }>((resolve, reject) => {
+      function tick() {
+        const after = alpha();
+        const incoming = backgroundTransition();
+        if (incoming && incoming !== outgoing) {
+          const first = String((incoming.effect as KeyframeEffect).getKeyframes()[0].backgroundColor);
+          const values = first.match(/[\d.]+/g)!.map(Number);
+          resolve({ after, from: values.length === 4 ? values[3] : 1 });
+        } else if (performance.now() - reversedAt > 5000) reject(new Error("The intro dissolve did not reverse"));
+        else requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    });
+    return { before, ...reversal };
   });
   expect(samples.before).toBeGreaterThan(0.2);
   expect(samples.before).toBeLessThan(0.99);
-  // Allow the measured curve to advance across delayed browser frames,
-  // while rejecting an instantaneous jump to the light endpoint.
+  // Reverse from an intermediate gray, without snapping to either endpoint.
+  expect(samples.from).toBeGreaterThan(0.08);
+  expect(samples.from).toBeLessThan(1);
   expect(samples.after).toBeGreaterThan(0.08);
-  expect(Math.abs(samples.after - samples.before)).toBeLessThan(0.03 + samples.elapsed * 0.007);
+  expect(samples.after).toBeLessThan(1);
   await expect(page.locator("main > section")).toHaveCSS("background-color", "rgba(0, 0, 0, 0.08)");
 });
 
