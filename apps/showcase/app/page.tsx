@@ -197,10 +197,6 @@ export default function ShowcasePage() {
               <dt>Routes</dt>
               <dd>{totalRoutes}</dd>
             </div>
-            <div>
-              <dt>Ports</dt>
-              <dd>{templates.map((template) => template.port).sort((a, b) => a - b).join(" · ")}</dd>
-            </div>
           </dl>
         </div>
       </section>
