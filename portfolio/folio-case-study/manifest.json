@@ -1,0 +1,88 @@
+{
+  "project": "Folio",
+  "preparedAt": "2026-09-25",
+  "target": "akash-portfolio",
+  "replace": {
+    "galleryPanel": "akkivo",
+    "caseStudyKey": "akkivo",
+    "newKey": "folio",
+    "preserveGalleryPosition": true
+  },
+  "facts": {
+    "templates": 19,
+    "contentPages": 284,
+    "categories": 5
+  },
+  "repository": "https://github.com/akkikumar72/framer-slate-nextjs",
+  "publicLiveUrl": null,
+  "provenance": "Actual local application screenshots. Cover, hero, and mobile frames were laid out in source/boards.html and captured in a browser. No generated or invented interface imagery.",
+  "assets": [
+    {
+      "file": "assets/folio-thumbnail.webp",
+      "publicPath": "/assets/folio-thumbnail.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 111442,
+      "sha256": "5d2ff3e253244fbdfa45a9e0db9daca1f20f8bd9395ab40125b631bed2b00588",
+      "placement": "Square grid cover",
+      "alt": "Folio cover artwork with a real desktop screenshot and the words Good design. A new home.",
+      "source": "raw/thumbnail-artwork.png"
+    },
+    {
+      "file": "assets/folio-hero.webp",
+      "publicPath": "/assets/folio-hero.webp",
+      "width": 1800,
+      "height": 1000,
+      "bytes": 153758,
+      "sha256": "0bb563cae6a4e20498d94e5ff2f1b84c70056d79a6f4f1adb04c9f2de93cb1ec",
+      "placement": "Case-study hero",
+      "alt": "Folio desktop and mobile previews on a copper and charcoal background.",
+      "source": "raw/hero-artwork.png",
+      "heroPosition": "left center"
+    },
+    {
+      "file": "assets/folio-library.webp",
+      "publicPath": "/assets/folio-library.webp",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 125996,
+      "sha256": "d987753c6d7d16a6c54d7c7efc92c73fe3ebcc1999c9bd44c057093cde0d32ea",
+      "placement": "Lead image",
+      "alt": "Folio desktop workspace, with its navigation sidebar, shader hero, filters, and template cards.",
+      "source": "raw/desktop.png"
+    },
+    {
+      "file": "assets/folio-discovery.webp",
+      "publicPath": "/assets/folio-discovery.webp",
+      "width": 1000,
+      "height": 964,
+      "bytes": 85486,
+      "sha256": "2f2a839f2b6c8f875d41283819f5ac71f608d40f356e8e8bb7d74f9eefc848bf",
+      "placement": "The idea, left paired image",
+      "alt": "The SaaS category in Folio, showing search, filters, and six matching templates.",
+      "source": "raw/discovery.png"
+    },
+    {
+      "file": "assets/folio-pages.webp",
+      "publicPath": "/assets/folio-pages.webp",
+      "width": 1000,
+      "height": 964,
+      "bytes": 77022,
+      "sha256": "aacef08dd8c971c978c969430c5d5208a2ec9140e1ecb1227bdb140911ff0f9a",
+      "placement": "The idea, right paired image",
+      "alt": "The Folio page directory with Roco expanded and direct links to its pages.",
+      "source": "raw/pages.png"
+    },
+    {
+      "file": "assets/folio-mobile.webp",
+      "publicPath": "/assets/folio-mobile.webp",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 92724,
+      "sha256": "81a9a1c920169b2a61208b3b39f8d99a0c56c77bd6e0b0cc81783e841d3a9cdd",
+      "placement": "The experience, wide image",
+      "alt": "Folio on mobile, with its landing page and complete navigation drawer shown side by side.",
+      "source": "raw/mobile-artwork.png"
+    }
+  ]
+}

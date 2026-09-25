@@ -4,6 +4,30 @@ Standalone Next.js template applications and a lightweight showcase live
 in one npm-workspaces Turborepo. Each template owns its routes, components,
 assets, metadata, validation contract, and deployment boundary.
 
+## Folio portfolio kit
+
+The [Folio case-study package](portfolio/folio-case-study/README.md) includes
+six optimized WebP images, the original screenshots, editable artwork,
+case-study copy, and typed content for replacing the first Akkivo tile in
+`akash-portfolio`. The finished images total 631 KB.
+
+![Folio desktop and mobile library previews](portfolio/folio-case-study/assets/folio-hero.webp)
+
+- [Implementation prompt](portfolio/folio-case-study/PROMPT.md)
+- [Case-study copy](portfolio/folio-case-study/CASE-STUDY.md)
+- [TypeScript content](portfolio/folio-case-study/folio.ts) and [asset manifest](portfolio/folio-case-study/manifest.json)
+
+Preview the media library and case-study layout locally:
+
+```bash
+node portfolio/folio-case-study/source/serve.mjs
+```
+
+Open [the media library](http://127.0.0.1:4317/). The package documents the
+captured Folio workspace; copying it does not modify the destination portfolio.
+The templates are Next.js rebuilds of existing Framer designs, and the case
+study describes their implementation and shared library.
+
 ## Browse the workspace
 
 [Open the Showcase catalog](http://localhost:3000/) ·
