@@ -1,0 +1,373 @@
+[
+  {
+    "slug": "lead-generation-boost-for-a-b2b-logistics-company",
+    "category": "Design & development",
+    "title": "Lead generation boost for a B2B logistics company",
+    "client": "EdgeTrans",
+    "industry": "B2B Logistics",
+    "region": "North America",
+    "duration": "3 months(Phase 1)",
+    "budget": "$25,000",
+    "overview": [
+      "We began by conducting a comprehensive audit of their marketing funnel, customer personas, and digital assets. We then crafted a full-funnel strategy that included the development of high-converting landing pages, gated content assets such as whitepapers and calculators, targeted LinkedIn advertising aimed at key decision-makers, and full CRM integration using HubSpot to automate nurturing workflows. Our campaigns were fine-tuned through A/B testing and real-time data monitoring to ensure consistent performance improvement.",
+      "This digital shift not only delivered short-term results but also positioned TransEdge Logistics for long-term success with a sustainable, always-on pipeline that continues to generate leads even after the project’s conclusion."
+    ],
+    "approach": [
+      "TransEdge Logistics specializes in time-sensitive freight, custom logistics solutions, and fleet management technology integration. With a growing portfolio and high customer satisfaction, the company aimed to increase visibility and generate more qualified leads in the competitive B2B logistics market.",
+      "Designed and launched a conversion-optimized landing page",
+      "Implemented gated downloadable resources",
+      "Introduced HubSpot workflows to track and nurture leads"
+    ],
+    "challenge": [
+      "TransEdge Logistics had an excellent logistics network and client service model but struggled to attract new qualified B2B clients. Their website was outdated, they had no lead capture strategy, and digital campaigns were producing low ROI."
+    ],
+    "solution": [
+      "TransEdge Logistics had an excellent logistics network and client service model — but struggled to attract new qualified B2B clients. Their website was outdated, they had no lead capture strategy, and digital campaigns were producing low ROI.",
+      "Strategic foundation",
+      "Landing page + Offer creation",
+      "LinkedIn & Email outreach"
+    ],
+    "results": [
+      [
+        "2.5X",
+        "B2B lead uplift"
+      ],
+      [
+        "38%",
+        "Bounce rate dropped"
+      ],
+      [
+        "4.3x",
+        "Marketing ROI"
+      ],
+      [
+        "22/month",
+        "Book slot (via form)"
+      ]
+    ],
+    "quote": "We used to rely on referrals and cold calls now we have an inbound pipeline that runs 24/7. This project didn’t just generate leads, it reshaped how we sell.",
+    "person": "Logan Meyer,",
+    "role": "CMO",
+    "images": [
+      "Or0ZIUtJp1KzewZHLDS1XegiOc.jpg",
+      "t9KJQ3j2bhmidqH4IfDZRlYa6U.jpg",
+      "L6uooxGEns43zrqkpMbCKj6k0.jpg",
+      "OvvgVMHi6Uz8RyxVzdtCavwSAY.jpg",
+      "UpTh12UuoAsm1t7RD2zZCMPaDI.jpg",
+      "EFUu1w6NaeAypKowgMW7ef2KpM.jpg",
+      "kuEeMf5nQnQzXhIhjcw1KVHtJY.jpg"
+    ]
+  },
+  {
+    "slug": "scalable-saas-platform-for-a-fintech-startup",
+    "category": "SaaS solution",
+    "title": "Scalable SaaS platform for a fintech startup",
+    "client": "Brand Edge",
+    "industry": "SaaS solution",
+    "region": "Australia",
+    "duration": "4 months",
+    "budget": "$80,000",
+    "overview": [
+      "We partnered with a fast-growing fintech startup to design and develop a scalable SaaS platform that enables users to manage digital payments, personal finance, and compliance processes seamlessly. The goal was to create a secure, high-performing, and modular platform capable of supporting rapid growth and evolving regulatory needs."
+    ],
+    "approach": [
+      "Our approach began with a thorough discovery phase involving stakeholder interviews and market analysis to understand the business goals and user needs. We mapped out the product roadmap, prioritized core features, and moved into a design and prototyping phase, validating user flows through early testing. Development followed an agile methodology, working in short sprints with regular feedback cycles. Security was treated as a first-class citizen, with threat modeling, secure coding practices, and regular audits throughout the build. We set up a CI/CD pipeline and monitoring tools to ensure rapid deployment, performance optimization, and long-term scalability of the platform."
+    ],
+    "challenge": [
+      "The project posed several complex challenges. Scalability was a major concern, as the platform needed to handle rising user demand and transaction volumes without performance issues. Compliance with financial regulations such as KYC, AML, and PCI-DSS across multiple jurisdictions added legal and technical complexity."
+    ],
+    "solution": [
+      "To address these challenges, we implemented a cloud-native microservices architecture hosted on AWS, enabling horizontal scalability, fault tolerance, and efficient resource management. Security best practices were integrated throughout the platform, including strong data encryption, multi-factor authentication, and role-based access control. We also built a compliance engine with modular workflows for KYC and AML processes, making it adaptable to various regulatory environments. On the front end, we developed a modular design system with reusable components to ensure a consistent and user-friendly experience. Continuous integration and deployment pipelines supported faster iteration and ongoing improvements."
+    ],
+    "results": [
+      [
+        "50%",
+        "Follower base growth"
+      ],
+      [
+        "30%",
+        "The campaign achieved"
+      ],
+      [
+        "30%",
+        "Website traffic increased"
+      ],
+      [
+        "85%",
+        "Brand image boost"
+      ]
+    ],
+    "quote": "The campaign exceeded our expectations and significantly raised our brand profile.",
+    "person": "Sarah Johnson,",
+    "role": "Marketing Director",
+    "images": [
+      "gBsSay6HYYPIppfEAzb6FE4Ls0.jpg",
+      "O6WGjajCCbWtZhRMBM1cIsWVQ.jpg",
+      "SAkA603nvXl9ccvAboGHAxkYPw.jpg",
+      "bW2xVBMxcQJIIG7v0Xnxnt2ts.jpg",
+      "L6G7zSPUk6M2pWcE09EAw3YKaQ.jpg",
+      "FoivOA2vW3gEqOsYcz1gp2dnc.jpg",
+      "GEa5AaG3m0spY7fftLUtH9VOzI.jpg"
+    ]
+  },
+  {
+    "slug": "enterprise-resource-integration-for-a-manufacturing-firm",
+    "category": "CRM & ERP integrations",
+    "title": "Enterprise resource integration for a manufacturing firm",
+    "client": "Eco Enterprise",
+    "industry": "Enterprise",
+    "region": "Asia",
+    "duration": "5 months",
+    "budget": "$100,000",
+    "overview": [
+      "We partnered with a fast-growing fintech startup to build a scalable SaaS platform designed to streamline digital payments, personal finance management, and regulatory compliance. The platform needed to serve as a secure, flexible, and high-performance foundation that could support the company’s rapid growth and evolving feature requirements. Our goal was to develop a future-proof system that would enable seamless user experiences, integrate with third-party services, and meet stringent financial regulations from day one."
+    ],
+    "approach": [
+      "Our approach began with a thorough discovery phase involving stakeholder interviews and market analysis to understand the business goals and user needs. We mapped out the product roadmap, prioritized core features, and moved into a design and prototyping phase, validating user flows through early testing. Development followed an agile methodology, working in short sprints with regular feedback cycles. Security was treated as a first-class citizen, with threat modeling, secure coding practices, and regular audits throughout the build. We set up a CI/CD pipeline and monitoring tools to ensure rapid deployment, performance optimization, and long-term scalability of the platform."
+    ],
+    "challenge": [
+      "The project posed several complex challenges. Scalability was a major concern, as the platform needed to handle rising user demand and transaction volumes without performance issues. Compliance with financial regulations such as KYC, AML, and PCI-DSS across multiple jurisdictions added legal and technical complexity. Security was paramount, requiring robust data protection, authentication, and access controls to defend against potential threats. Additionally, delivering a simple yet powerful user experience that inspires trust—especially for financial products—was critical. Finally, we had to meet a tight deadline for the MVP launch without sacrificing quality or core capabilities."
+    ],
+    "solution": [
+      "To address these challenges, we implemented a cloud-native microservices architecture hosted on AWS, enabling horizontal scalability, fault tolerance, and efficient resource management. Security best practices were integrated throughout the platform, including strong data encryption, multi-factor authentication, and role-based access control. We also built a compliance engine with modular workflows for KYC and AML processes, making it adaptable to various regulatory environments. On the front end, we developed a modular design system with reusable components to ensure a consistent and user-friendly experience. Continuous integration and deployment pipelines supported faster iteration and ongoing improvements."
+    ],
+    "results": [
+      [
+        "25%",
+        "Improved lead flow"
+      ],
+      [
+        "70%",
+        "The bounce rate dropped"
+      ],
+      [
+        "50%",
+        "Page views increased"
+      ],
+      [
+        "85%",
+        "Customer feedback"
+      ]
+    ],
+    "quote": "The redesign has significantly improved our online presence and client interactions.",
+    "person": "Michael Brown,",
+    "role": "Marketing Director",
+    "images": [
+      "To0n2VDZt4NoiEnOZldo943Iw.jpg",
+      "R0mgj8LJHpFga1HQzbCLdwl594.jpg",
+      "9UOsftYNtY89Vm62ZbJObf5V3Y8.jpg",
+      "xTBelD97GMUfDZFdkI7ksyiCsaA.jpg",
+      "7k9oZnwKbGd90Q05NobJuh9g8Gw.jpg",
+      "ZIsBJmaQ6rOu4QheRCIxgok9mig.jpg",
+      "eGjNeYGnzh6PxwjZw2sLNTa0No.jpg"
+    ]
+  },
+  {
+    "slug": "strategic-digital-shift-for-a-b2b-consulting-agency",
+    "category": "Enterprise digital strategy",
+    "title": "Strategic digital shift for a B2B consulting agency",
+    "client": "Spendora",
+    "industry": "digital strategy",
+    "region": "Europe",
+    "duration": "8 months",
+    "budget": "$200,000",
+    "overview": [
+      "We partnered with a B2B consulting agency to lead a strategic digital transformation aimed at modernizing their service delivery, client engagement, and internal operations. The agency specialized in offering tailored business advisory services to enterprise clients but relied heavily on manual processes, outdated tools, and disconnected systems. The goal was to build a streamlined digital ecosystem that enhanced client experiences, improved operational efficiency, and enabled data-driven decision-making. This transformation would also position the agency for scalability, better collaboration, and improved market competitiveness."
+    ],
+    "approach": [
+      "Our approach began with a thorough discovery phase involving stakeholder interviews and market analysis to understand the business goals and user needs. We mapped out the product roadmap, prioritized core features, and moved into a design and prototyping phase, validating user flows through early testing. Development followed an agile methodology, working in short sprints with regular feedback cycles. Security was treated as a first-class citizen, with threat modeling, secure coding practices, and regular audits throughout the build. We set up a CI/CD pipeline and monitoring tools to ensure rapid deployment, performance optimization, and long-term scalability of the platform."
+    ],
+    "challenge": [
+      "The agency faced several critical challenges during this transition. Its workflows were fragmented across email, spreadsheets, and standalone software, leading to inefficiencies and difficulty scaling operations. Client onboarding and reporting processes were time-consuming and error-prone. There was no unified CRM or project tracking system, which limited visibility into sales pipelines and delivery timelines. Resistance to change from internal teams and a lack of a clear digital strategy further complicated the shift. Additionally, the agency needed to ensure that its digital infrastructure aligned with its brand’s high-touch consulting model without compromising personalization."
+    ],
+    "solution": [
+      "To solve these issues, we implemented a centralized digital platform that combined CRM, project management, collaboration, and analytics tools into one integrated environment. A custom-built client portal allowed for seamless communication, document sharing, and real-time project tracking. Automated workflows were introduced for client onboarding, reporting, and internal task assignment, significantly reducing turnaround times. We integrated marketing and sales automation tools to improve lead tracking and conversion efficiency. All systems were designed to be modular and user-friendly, with branding that reflected the agency’s professional identity and commitment to client excellence."
+    ],
+    "results": [
+      [
+        "40%",
+        "Improved engagement"
+      ],
+      [
+        "60%",
+        "Reduced no-shows"
+      ],
+      [
+        "80%",
+        "The app achieved"
+      ],
+      [
+        "90%",
+        "Positive outcome"
+      ]
+    ],
+    "quote": "The app has revolutionized how we interact with our clients.",
+    "person": "Jane Smith,",
+    "role": "CTO",
+    "images": [
+      "9iLMTw2O8ieNOSWjtihM3ktVnw.jpg",
+      "a22R3rPF9NHxyMuxRJEHsVaG9j4.jpg",
+      "xa9F4G8w2OS4PkK9XSPHmTgMxlE.jpg",
+      "xTBelD97GMUfDZFdkI7ksyiCsaA.jpg",
+      "UXhoy2hEOw6GiEkFyczeWLcRMY.jpg",
+      "CiMZMUOkO7qx4ge5zTjtdd64sE.jpg",
+      "d4bOSjZzklRnk0Y8ssGiLJlIO0.jpg"
+    ]
+  },
+  {
+    "slug": "saas-product-launch",
+    "category": "Design & development",
+    "title": "SaaS product launch",
+    "client": "InnovateTech",
+    "industry": "Technology",
+    "region": "Global",
+    "duration": "11 months",
+    "budget": "$600,000",
+    "overview": [
+      "We supported a technology startup in the end-to-end launch of a SaaS product designed to simplify workflow automation for small and medium-sized businesses. The product focused on helping teams streamline recurring tasks, integrate third-party tools, and collaborate more efficiently in real time. The objective was to deliver a high-performing, intuitive platform that would stand out in a competitive market, drive early user adoption, and set a strong foundation for growth through a strategic go-to-market launch."
+    ],
+    "approach": [
+      "Our approach began with product discovery workshops, competitive analysis, and validation of user pain points to define the core value proposition. We developed a go-to-market roadmap aligned with product development, prioritizing early access campaigns and influencer outreach. Agile sprints enabled fast iterations, allowing the team to adjust based on user feedback. A marketing launch kit—including demo videos, email campaigns, and social media assets—was created in parallel with development. Post-launch, we monitored KPIs closely, deployed updates based on usage patterns, and continued optimizing both product experience and customer acquisition strategies."
+    ],
+    "challenge": [
+      "The key challenges centered around building a market-ready MVP under tight timelines while balancing feature richness with usability. The team had limited brand visibility and needed to generate traction quickly without a large marketing budget. From a technical standpoint, the product had to support integrations with multiple external platforms and be both scalable and secure from the start. Aligning product development with customer feedback, ensuring a smooth onboarding experience, and establishing positioning in a crowded SaaS space were also critical issues to address before launch."
+    ],
+    "solution": [
+      "We delivered a lean, scalable MVP built on a modular architecture that allowed for quick feature additions and seamless third-party integrations. The product included intuitive dashboards, drag-and-drop workflow builders, and real-time collaboration tools. We implemented guided onboarding flows, tooltips, and in-app messaging to reduce the learning curve and boost engagement. A brand identity and launch-ready website were developed to support marketing efforts. Growth tools such as referral systems, feedback loops, and user analytics were embedded to gather insights and encourage adoption from the earliest stages."
+    ],
+    "results": [
+      [
+        "20,000",
+        "The product gained"
+      ],
+      [
+        "95%",
+        "Users found the platform"
+      ],
+      [
+        "500",
+        "The product range of tools"
+      ],
+      [
+        "230+",
+        "Clients"
+      ]
+    ],
+    "quote": "The launch was a success, and we are excited about the future.",
+    "person": "David Green,",
+    "role": "Developer",
+    "images": [
+      "6iJfhBnu26oWOn3gO63OElIRcRM.jpg",
+      "ZuwmtXrRhLz2cVxtQqfXyt6xgw.jpg",
+      "nyZo544QkOMb4JMxmjR4KDthig.jpg",
+      "nVWUfgg4CNIaVKPzoNwgFQMoPE.jpg",
+      "3ZRKzEVMfPnP3iLdEvFC4UdeaU.jpg",
+      "0NeVsY64P4zdddYkSbrYAaYRg.jpg",
+      "jm0dvrhBRn67BN7gXkLvk9Ymi4.jpg"
+    ]
+  },
+  {
+    "slug": "digital-transformation-for-retail",
+    "category": "Retail",
+    "title": "Digital transformation for retail",
+    "client": "ShopSmart",
+    "industry": "Retail",
+    "region": "North America",
+    "duration": "9 months",
+    "budget": "$400,000",
+    "overview": [
+      "We partnered with a multi-location retail brand to lead a comprehensive digital transformation initiative aimed at modernizing customer engagement, streamlining supply chain operations, and optimizing sales performance across channels. The goal was to transition from a traditional retail model to a data-driven, omnichannel experience by integrating e-commerce, in-store technology, and back-office systems into a unified digital ecosystem."
+    ],
+    "approach": [
+      "Our approach began with a digital audit and stakeholder interviews to assess the current systems, workflows, and pain points. We created a phased digital transformation roadmap, starting with foundational upgrades like POS and inventory management, followed by customer engagement tools and analytics dashboards. Using agile development, we delivered solutions incrementally, validating each phase with store teams and management. Training programs and hands-on support were provided to ensure smooth adoption. Post-deployment, we monitored performance metrics and fine-tuned the platform based on real-time usage and feedback."
+    ],
+    "challenge": [
+      "The retail business faced multiple challenges, including disconnected point-of-sale (POS) systems, poor inventory visibility, and limited insights into customer behavior. The legacy ERP system lacked real-time data integration, leading to stock inconsistencies and fulfillment delays. Additionally, the company struggled to compete with digital-first brands due to outdated customer engagement strategies and a lack of personalized marketing. The transformation required aligning digital tools with business goals while managing change across store staff, operations, and IT."
+    ],
+    "solution": [
+      "We developed a centralized retail management platform that connected POS systems, inventory, customer data, and online storefronts. This enabled real-time inventory tracking, seamless order fulfillment, and consistent pricing and promotions across channels. An integrated CRM allowed the brand to launch personalized marketing campaigns and loyalty programs based on purchasing behavior. We also introduced mobile POS and in-store tablets to enhance the customer experience and streamline staff operations. All systems were built with scalability in mind, allowing for future expansion and continuous optimization."
+    ],
+    "results": [
+      [
+        "60%",
+        "Increase in online sales"
+      ],
+      [
+        "30%",
+        "Customer retention"
+      ],
+      [
+        "1 million",
+        "Shopping app gained"
+      ],
+      [
+        "200+",
+        "Client Appreciation"
+      ]
+    ],
+    "quote": "The digital transformation has been a game-changer for our business.",
+    "person": "Laura White,",
+    "role": "CMO",
+    "images": [
+      "YVHgrrp1c42qIIIpAQuHFwUbOyc.jpg",
+      "DrbeBhn2LQn2E7GjrHbIcJBlJqs.jpg",
+      "SZUxj11MIuSMxcpaJEZHOL1Ttk.jpg",
+      "K3pyoJ5regQ5jBIrxgqxO2df2ss.jpg",
+      "h6gzoFkTLakpdISKMYufdVWxQg.jpg",
+      "OPYlbg2H3TAu956h6BbgFnPJG4.jpg",
+      "IrW03M1qk2xT1FGLGor5pRerOwU.webp"
+    ]
+  },
+  {
+    "slug": "website-redesign-for-a-non-profit",
+    "category": "Web design",
+    "title": "Website redesign for a non-profit",
+    "client": "Help Point",
+    "industry": "Non-Profit",
+    "region": "North America",
+    "duration": "3 months",
+    "budget": "$50,000",
+    "overview": [
+      "We collaborated with a mission-driven non-profit organization to redesign its website with the goal of increasing community engagement, improving donor conversions, and enhancing accessibility for a wider audience. The existing site was outdated, hard to navigate, and lacked mobile responsiveness, which limited its impact. The new digital experience needed to reflect the organization's values, clearly communicate its mission, and make it easier for users to donate, volunteer, and get involved."
+    ],
+    "approach": [
+      "Our process began with a discovery phase, including stakeholder interviews and user behavior analysis to understand audience needs and internal goals. We developed wireframes and a content strategy that prioritized clarity and emotional connection. Using an agile design and development approach, we tested prototypes with real users, gathered feedback, and iterated quickly. Accessibility standards (WCAG 2.1) were followed to ensure the site was inclusive for all users. Post-launch, we provided training and ongoing support, as well as built-in analytics to track donor journeys, engagement, and content performance."
+    ],
+    "challenge": [
+      "The primary challenges included outdated UI/UX, poor mobile performance, and unclear navigation that caused friction for users trying to access programs or make donations. Content was scattered across multiple pages, with no clear hierarchy or storytelling structure. Additionally, there was no integration with donation platforms or CRM systems, making campaign tracking and supporter engagement difficult. Budget constraints and limited internal technical resources also required a cost-effective and scalable solution."
+    ],
+    "solution": [
+      "We created a clean, modern, and mobile-first website with intuitive navigation and focused calls-to-action. The site structure was reimagined to guide visitors toward key actions—donate, volunteer, and learn more—within the first few seconds of interaction. We integrated a secure donation gateway, volunteer sign-up forms, and a content management system (CMS) that empowered the team to update content without technical help. The design emphasized the organization’s impact through compelling storytelling, visuals, and testimonials, helping to build trust and drive engagement."
+    ],
+    "results": [
+      [
+        "55%",
+        "Digital donations rise"
+      ],
+      [
+        "60%",
+        " Increase in website traffic"
+      ],
+      [
+        "75%",
+        "Web traffic gain"
+      ],
+      [
+        "20%",
+        "Positive public response"
+      ]
+    ],
+    "quote": "The website redesign has made a huge difference for our organization.",
+    "person": "Emily Clark,",
+    "role": "Director",
+    "images": [
+      "rCskp2FKqxaQm2aMme81sOwZk.jpg",
+      "biTf2CQ8PhlDpVjQEe2lUNjkt3Q.jpg",
+      "YfIQQhvXY9KAjjhsNb8j9GD2I.jpg",
+      "MYpHUoBuOKd0OYSAZoRgaoxP9qI.jpg",
+      "h6gzoFkTLakpdISKMYufdVWxQg.jpg",
+      "OPYlbg2H3TAu956h6BbgFnPJG4.jpg",
+      "lJhggKmqNvAteQCLa9PtrFmXk6s.png"
+    ]
+  }
+]

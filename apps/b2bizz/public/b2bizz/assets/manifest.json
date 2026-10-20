@@ -1,0 +1,1842 @@
+{
+  "source": "https://b2bizz-wbs.framer.website",
+  "generatedAt": "2026-10-19T12:49:53.937Z",
+  "routes": [
+    "https://b2bizz-wbs.framer.website/",
+    "https://b2bizz-wbs.framer.website/blog",
+    "https://b2bizz-wbs.framer.website/case-study",
+    "https://b2bizz-wbs.framer.website/404",
+    "https://b2bizz-wbs.framer.website/contact",
+    "https://b2bizz-wbs.framer.website/service",
+    "https://b2bizz-wbs.framer.website/about",
+    "https://b2bizz-wbs.framer.website/home-2",
+    "https://b2bizz-wbs.framer.website/changelog",
+    "https://b2bizz-wbs.framer.website/legal-pages/privacy-policy",
+    "https://b2bizz-wbs.framer.website/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+    "https://b2bizz-wbs.framer.website/case-study/scalable-saas-platform-for-a-fintech-startup",
+    "https://b2bizz-wbs.framer.website/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+    "https://b2bizz-wbs.framer.website/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+    "https://b2bizz-wbs.framer.website/case-study/saas-product-launch",
+    "https://b2bizz-wbs.framer.website/case-study/digital-transformation-for-retail",
+    "https://b2bizz-wbs.framer.website/case-study/website-redesign-for-a-non-profit",
+    "https://b2bizz-wbs.framer.website/service/b2b-website-design-development",
+    "https://b2bizz-wbs.framer.website/service/custom-saas-solutions",
+    "https://b2bizz-wbs.framer.website/service/crm-erp-integrations",
+    "https://b2bizz-wbs.framer.website/service/enterprise-digital-strategy",
+    "https://b2bizz-wbs.framer.website/service/data-driven-marketing",
+    "https://b2bizz-wbs.framer.website/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+    "https://b2bizz-wbs.framer.website/blog/the-power-of-market-research-in-b2b-strategy",
+    "https://b2bizz-wbs.framer.website/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+    "https://b2bizz-wbs.framer.website/blog/how-to-use-analytics-to-make-smarter-decisions",
+    "https://b2bizz-wbs.framer.website/blog/10-must-have-features-in-a-saas-platform",
+    "https://b2bizz-wbs.framer.website/blog/best-practices-for-keeping-your-data-secure",
+    "https://b2bizz-wbs.framer.website/blog/smart-automation-in-modern-manufacturing"
+  ],
+  "assets": [
+    {
+      "filename": "53owTL5sjZZmDmsy9sqUJkaIuc.png",
+      "source": "https://framerusercontent.com/images/53owTL5sjZZmDmsy9sqUJkaIuc.png",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "lzDHU0GgzgcR4e4Ak7xKHIBswW0.png",
+      "source": "https://framerusercontent.com/images/lzDHU0GgzgcR4e4Ak7xKHIBswW0.png",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "agp5L5NvwPTrMeFhJswm3uqUqNI.jpg",
+      "source": "https://framerusercontent.com/assets/agp5L5NvwPTrMeFhJswm3uqUqNI.jpg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "wvz41ynJzUlpgV2u1qUDqmGjhJA.svg",
+      "source": "https://framerusercontent.com/images/wvz41ynJzUlpgV2u1qUDqmGjhJA.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "VCaXkRh8SXoPc4MrUGSS0EbIsk.png",
+      "source": "https://framerusercontent.com/images/VCaXkRh8SXoPc4MrUGSS0EbIsk.png",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "Ue91TqY5sigTxWrqvBiOWLkz4FY.svg",
+      "source": "https://framerusercontent.com/images/Ue91TqY5sigTxWrqvBiOWLkz4FY.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "SiX4tYo5EFmACoajDRrfZJv8.mp4",
+      "source": "https://framerusercontent.com/assets/SiX4tYo5EFmACoajDRrfZJv8.mp4",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "PSxekxaLP7CkInNLr90hydTqHgs.svg",
+      "source": "https://framerusercontent.com/images/PSxekxaLP7CkInNLr90hydTqHgs.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "Kwgm8fkaXetfqUnD7GEqD0dIbWA.svg",
+      "source": "https://framerusercontent.com/images/Kwgm8fkaXetfqUnD7GEqD0dIbWA.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "pB2yoFzybhU5bVViKzLVeOg7FRI.svg",
+      "source": "https://framerusercontent.com/images/pB2yoFzybhU5bVViKzLVeOg7FRI.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "Uy8tMCPa7LVBDzg5wCGkC3Hv7Cc.svg",
+      "source": "https://framerusercontent.com/images/Uy8tMCPa7LVBDzg5wCGkC3Hv7Cc.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "Be62KczKftDWo78NQ0aEDa7upys.svg",
+      "source": "https://framerusercontent.com/images/Be62KczKftDWo78NQ0aEDa7upys.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "OeS5x9D923NiahSYKN9hxk4Suro.svg",
+      "source": "https://framerusercontent.com/images/OeS5x9D923NiahSYKN9hxk4Suro.svg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/about",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "2YZnNW7BCWQWAN6pAEpTgy0410.svg",
+      "source": "https://framerusercontent.com/images/2YZnNW7BCWQWAN6pAEpTgy0410.svg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/about",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "KKl7D5KyqYO8OIic0B8moR7GpE.svg",
+      "source": "https://framerusercontent.com/images/KKl7D5KyqYO8OIic0B8moR7GpE.svg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/about"
+      ]
+    },
+    {
+      "filename": "5nrbaFlN2ej82Yl2b67RMPBpjA.svg",
+      "source": "https://framerusercontent.com/images/5nrbaFlN2ej82Yl2b67RMPBpjA.svg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/about"
+      ]
+    },
+    {
+      "filename": "sbqFrNnjBcJmLYn7HwM461w3vI.svg",
+      "source": "https://framerusercontent.com/images/sbqFrNnjBcJmLYn7HwM461w3vI.svg",
+      "routes": [
+        "/",
+        "/about"
+      ]
+    },
+    {
+      "filename": "Ln1V8AKSm2c7t6akCprg0CDw9U.svg",
+      "source": "https://framerusercontent.com/images/Ln1V8AKSm2c7t6akCprg0CDw9U.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "nyZo544QkOMb4JMxmjR4KDthig.jpg",
+      "source": "https://framerusercontent.com/images/nyZo544QkOMb4JMxmjR4KDthig.jpg",
+      "routes": [
+        "/",
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "HEd6UpzqP2U9vJOjBXBVjNcYc.jpg",
+      "source": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg",
+      "routes": [
+        "/",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "piT16WDn5IlyZFuOSxtCdNCE.jpg",
+      "source": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg",
+      "routes": [
+        "/",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg",
+      "source": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg",
+      "routes": [
+        "/",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "3IkbFdGrInFuAe651xdHTPvblJk.jpg",
+      "source": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg",
+      "routes": [
+        "/",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "aguefbs4xeL6pOf5bbuTclZOi58.jpg",
+      "source": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg",
+      "routes": [
+        "/",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "U08uhWwzjVg0ZOCcOxp5TiajqY.svg",
+      "source": "https://framerusercontent.com/images/U08uhWwzjVg0ZOCcOxp5TiajqY.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "diKpMYGUMuUC6uFkW70kaPTpdV0.svg",
+      "source": "https://framerusercontent.com/images/diKpMYGUMuUC6uFkW70kaPTpdV0.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "LvrjgEFWUJmw4KNk0Z3Vkj4tMnw.svg",
+      "source": "https://framerusercontent.com/images/LvrjgEFWUJmw4KNk0Z3Vkj4tMnw.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "GlhEiNlKFOg8ofVXCHtk2Dhu8Wg.svg",
+      "source": "https://framerusercontent.com/images/GlhEiNlKFOg8ofVXCHtk2Dhu8Wg.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "1MVVAon08dDj9NsTo05Y9n4MWL4.svg",
+      "source": "https://framerusercontent.com/images/1MVVAon08dDj9NsTo05Y9n4MWL4.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "XwCo50BibsVkSjbmawMbcrbww.jpg",
+      "source": "https://framerusercontent.com/images/XwCo50BibsVkSjbmawMbcrbww.jpg",
+      "routes": [
+        "/",
+        "/service"
+      ]
+    },
+    {
+      "filename": "pfX9Sn5qRme6iCFMisneY4YIt7I.jpg",
+      "source": "https://framerusercontent.com/images/pfX9Sn5qRme6iCFMisneY4YIt7I.jpg",
+      "routes": [
+        "/",
+        "/service"
+      ]
+    },
+    {
+      "filename": "faPhM0qEMdEDrvx9YQHLGdq9H58.svg",
+      "source": "https://framerusercontent.com/images/faPhM0qEMdEDrvx9YQHLGdq9H58.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "lF4qvKFOOsAkrC72wGno0l1d2kg.svg",
+      "source": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg",
+      "routes": [
+        "/",
+        "/home-2",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "wba5aXb5NBJ72EgeKZ5MjD6fvM.svg",
+      "source": "https://framerusercontent.com/images/wba5aXb5NBJ72EgeKZ5MjD6fvM.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "qO0gP79WRVKKssXtK6bje8XqSg.svg",
+      "source": "https://framerusercontent.com/images/qO0gP79WRVKKssXtK6bje8XqSg.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "P0UtFaB6T9xFY59SZ5kACLPZZ04.svg",
+      "source": "https://framerusercontent.com/images/P0UtFaB6T9xFY59SZ5kACLPZZ04.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "jRh02Ak18MTJcPI8NlsvMXJ6G5g.svg",
+      "source": "https://framerusercontent.com/images/jRh02Ak18MTJcPI8NlsvMXJ6G5g.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "Gey8JdeAVmsTiFw12hY2ed6pLxI.png",
+      "source": "https://framerusercontent.com/images/Gey8JdeAVmsTiFw12hY2ed6pLxI.png",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "gdRM7GW5TQGv1DnZNScYVrTUQE.jpg",
+      "source": "https://framerusercontent.com/images/gdRM7GW5TQGv1DnZNScYVrTUQE.jpg",
+      "routes": [
+        "/",
+        "/service",
+        "/home-2",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "xdZBOwkMZJeriKhloXInsZER2rY.svg",
+      "source": "https://framerusercontent.com/images/xdZBOwkMZJeriKhloXInsZER2rY.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "KZBATV7TBPgBxGgzaAjj79STA8.jpg",
+      "source": "https://framerusercontent.com/images/KZBATV7TBPgBxGgzaAjj79STA8.jpg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "SDF44TiCtWyHIceLhE0MsUGlSps.jpg",
+      "source": "https://framerusercontent.com/images/SDF44TiCtWyHIceLhE0MsUGlSps.jpg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "ULil3BuLizq2aHXRU0MIGjYytw.jpg",
+      "source": "https://framerusercontent.com/images/ULil3BuLizq2aHXRU0MIGjYytw.jpg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "6nUWPfdYFAEdILhPEC63OrDv3M.jpg",
+      "source": "https://framerusercontent.com/images/6nUWPfdYFAEdILhPEC63OrDv3M.jpg",
+      "routes": [
+        "/",
+        "/case-study",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "X8QKXnvD0vuQAmNPaiuSiDWAII0.svg",
+      "source": "https://framerusercontent.com/images/X8QKXnvD0vuQAmNPaiuSiDWAII0.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "W1lcf4BgY3X9TQGR6SVbHi6yKqA.svg",
+      "source": "https://framerusercontent.com/images/W1lcf4BgY3X9TQGR6SVbHi6yKqA.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "ZfEE2pKPHkOFFneaQ9yk7U5WRg4.svg",
+      "source": "https://framerusercontent.com/images/ZfEE2pKPHkOFFneaQ9yk7U5WRg4.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "1ClaDdRxEtRT8xD5buBHj16PM.svg",
+      "source": "https://framerusercontent.com/images/1ClaDdRxEtRT8xD5buBHj16PM.svg",
+      "routes": [
+        "/",
+        "/contact"
+      ]
+    },
+    {
+      "filename": "AY6PQekAWDMcCklwuXMbqPS9CeE.jpg",
+      "source": "https://framerusercontent.com/images/AY6PQekAWDMcCklwuXMbqPS9CeE.jpg",
+      "routes": [
+        "/",
+        "/404",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "FNXmFBsR2D4C0k2feNCZLAs3q5s.svg",
+      "source": "https://framerusercontent.com/images/FNXmFBsR2D4C0k2feNCZLAs3q5s.svg",
+      "routes": [
+        "/",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "MhAEp2N1wwDuRfYGNfI0npA9N8.svg",
+      "source": "https://framerusercontent.com/images/MhAEp2N1wwDuRfYGNfI0npA9N8.svg",
+      "routes": [
+        "/",
+        "/about",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "R1XsGA4fBWxao88g7o1D35jw.svg",
+      "source": "https://framerusercontent.com/images/R1XsGA4fBWxao88g7o1D35jw.svg",
+      "routes": [
+        "/",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "vNI25VqTEOiglaWkaLdoLwpori8.svg",
+      "source": "https://framerusercontent.com/images/vNI25VqTEOiglaWkaLdoLwpori8.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "Hxh8VdM4hDeSwdX8yKTStA4ypM.svg",
+      "source": "https://framerusercontent.com/images/Hxh8VdM4hDeSwdX8yKTStA4ypM.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "wsV6nF8mTUUHsqKjv3gYGulKhck.svg",
+      "source": "https://framerusercontent.com/images/wsV6nF8mTUUHsqKjv3gYGulKhck.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "chCX7SA17OiIkCnthT0PFlL0iFU.svg",
+      "source": "https://framerusercontent.com/images/chCX7SA17OiIkCnthT0PFlL0iFU.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "JCDk8i61Ec1N2laCFRxqdUPv0sM.svg",
+      "source": "https://framerusercontent.com/images/JCDk8i61Ec1N2laCFRxqdUPv0sM.svg",
+      "routes": [
+        "/",
+        "/blog",
+        "/case-study",
+        "/404",
+        "/contact",
+        "/service",
+        "/about",
+        "/home-2",
+        "/changelog",
+        "/legal-pages/privacy-policy",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "2IZpS7UEptA6gZI6WOP2aK1RbL8.svg",
+      "source": "https://framerusercontent.com/images/2IZpS7UEptA6gZI6WOP2aK1RbL8.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "8kma30ImR7rLIvZAXGsqbVM48.jpg",
+      "source": "https://framerusercontent.com/images/8kma30ImR7rLIvZAXGsqbVM48.jpg",
+      "routes": [
+        "/",
+        "/service",
+        "/home-2",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "ISVKyYsetnhkiCSrBOkfGFAtD0U.svg",
+      "source": "https://framerusercontent.com/images/ISVKyYsetnhkiCSrBOkfGFAtD0U.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "WZgpMe3nzQNLHEKKxkNAVTLsJ6k.jpg",
+      "source": "https://framerusercontent.com/images/WZgpMe3nzQNLHEKKxkNAVTLsJ6k.jpg",
+      "routes": [
+        "/",
+        "/service",
+        "/home-2",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "HF3qQ7dAuB4bJAdO2AjVbeBiqEM.svg",
+      "source": "https://framerusercontent.com/images/HF3qQ7dAuB4bJAdO2AjVbeBiqEM.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "drIdWgUE5zBF1yAbgCfVAuoJTAs.jpg",
+      "source": "https://framerusercontent.com/images/drIdWgUE5zBF1yAbgCfVAuoJTAs.jpg",
+      "routes": [
+        "/",
+        "/service",
+        "/home-2",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy"
+      ]
+    },
+    {
+      "filename": "H6EjGzCMi6sNPPNtoZMFzLnR4.svg",
+      "source": "https://framerusercontent.com/images/H6EjGzCMi6sNPPNtoZMFzLnR4.svg",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "filename": "lGRIbBKBhBk3miyV7UG3h71RxKk.jpg",
+      "source": "https://framerusercontent.com/images/lGRIbBKBhBk3miyV7UG3h71RxKk.jpg",
+      "routes": [
+        "/",
+        "/service",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "detofD77GgrFx4z2p5Hme5s12c.jpg",
+      "source": "https://framerusercontent.com/images/detofD77GgrFx4z2p5Hme5s12c.jpg",
+      "routes": [
+        "/blog"
+      ]
+    },
+    {
+      "filename": "xfRqUBEwWre3EugH67J0zW90I.jpg",
+      "source": "https://framerusercontent.com/images/xfRqUBEwWre3EugH67J0zW90I.jpg",
+      "routes": [
+        "/blog",
+        "/home-2",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "Vqnnf2c8TUMDaPweZTzLwKmHec.jpg",
+      "source": "https://framerusercontent.com/images/Vqnnf2c8TUMDaPweZTzLwKmHec.jpg",
+      "routes": [
+        "/blog",
+        "/home-2",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "RjA8XHOIA8k7J1fnQYlwcM8FJE.jpg",
+      "source": "https://framerusercontent.com/images/RjA8XHOIA8k7J1fnQYlwcM8FJE.jpg",
+      "routes": [
+        "/blog",
+        "/home-2",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/how-to-use-analytics-to-make-smarter-decisions",
+        "/blog/10-must-have-features-in-a-saas-platform",
+        "/blog/best-practices-for-keeping-your-data-secure",
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "snVr8e30vWzyuWwIse849voEUZQ.jpg",
+      "source": "https://framerusercontent.com/images/snVr8e30vWzyuWwIse849voEUZQ.jpg",
+      "routes": [
+        "/blog",
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "/blog/the-power-of-market-research-in-b2b-strategy",
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team"
+      ]
+    },
+    {
+      "filename": "d0FggAdF3v9gVmO3ZWpBqGz35HQ.svg",
+      "source": "https://framerusercontent.com/images/d0FggAdF3v9gVmO3ZWpBqGz35HQ.svg",
+      "routes": [
+        "/contact"
+      ]
+    },
+    {
+      "filename": "spX5VavcoouWHBTROqkXBlKJLWE.svg",
+      "source": "https://framerusercontent.com/images/spX5VavcoouWHBTROqkXBlKJLWE.svg",
+      "routes": [
+        "/contact"
+      ]
+    },
+    {
+      "filename": "g6qy1PW2Ru5mqtOiE8nYKDXaNA.jpg",
+      "source": "https://framerusercontent.com/images/g6qy1PW2Ru5mqtOiE8nYKDXaNA.jpg",
+      "routes": [
+        "/contact",
+        "/service"
+      ]
+    },
+    {
+      "filename": "yxFAET3M9RHNyUQ7EAiOicUA2c.svg",
+      "source": "https://framerusercontent.com/images/yxFAET3M9RHNyUQ7EAiOicUA2c.svg",
+      "routes": [
+        "/service"
+      ]
+    },
+    {
+      "filename": "faFEiVDIGpShRVZGYWZxmizgQ.svg",
+      "source": "https://framerusercontent.com/images/faFEiVDIGpShRVZGYWZxmizgQ.svg",
+      "routes": [
+        "/service"
+      ]
+    },
+    {
+      "filename": "Qmp1HQeLB3bhe86l6p6cXmKx8.svg",
+      "source": "https://framerusercontent.com/images/Qmp1HQeLB3bhe86l6p6cXmKx8.svg",
+      "routes": [
+        "/service"
+      ]
+    },
+    {
+      "filename": "m7HT3SunkeIWyEbDn6XVPojvTA.svg",
+      "source": "https://framerusercontent.com/images/m7HT3SunkeIWyEbDn6XVPojvTA.svg",
+      "routes": [
+        "/service"
+      ]
+    },
+    {
+      "filename": "j1u7mOstGtDSOqkHWRDDUZrUo4.png",
+      "source": "https://framerusercontent.com/images/j1u7mOstGtDSOqkHWRDDUZrUo4.png",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "qyFALiDAT11qq2R9yTbABUg1qo.jpg",
+      "source": "https://framerusercontent.com/images/qyFALiDAT11qq2R9yTbABUg1qo.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "lxIpRAPB2GyzWXqCsmI4Lt1Bu4.jpg",
+      "source": "https://framerusercontent.com/images/lxIpRAPB2GyzWXqCsmI4Lt1Bu4.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "d512t4V6VrGb1hhvxUjbODGCXCk.jpg",
+      "source": "https://framerusercontent.com/images/d512t4V6VrGb1hhvxUjbODGCXCk.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "djS5rLAO144J7VVnpdgKBf8yT4o.mp4",
+      "source": "https://framerusercontent.com/assets/djS5rLAO144J7VVnpdgKBf8yT4o.mp4",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "rXXqURyPvaQVkVvDsgRUf27I82E.jpg",
+      "source": "https://framerusercontent.com/images/rXXqURyPvaQVkVvDsgRUf27I82E.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "vd0WPmgaACCN9pheNqDeUiY6ZX4.svg",
+      "source": "https://framerusercontent.com/images/vd0WPmgaACCN9pheNqDeUiY6ZX4.svg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "ssle2Ob2kE3q97SLsLFaNwznQ.jpg",
+      "source": "https://framerusercontent.com/images/ssle2Ob2kE3q97SLsLFaNwznQ.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "toyCuDHAxxxvNK12bvDF2trUQZU.svg",
+      "source": "https://framerusercontent.com/images/toyCuDHAxxxvNK12bvDF2trUQZU.svg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "jRbmhhgXe9FyIivdFRX2C963uI.svg",
+      "source": "https://framerusercontent.com/images/jRbmhhgXe9FyIivdFRX2C963uI.svg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "d4bOSjZzklRnk0Y8ssGiLJlIO0.jpg",
+      "source": "https://framerusercontent.com/images/d4bOSjZzklRnk0Y8ssGiLJlIO0.jpg",
+      "routes": [
+        "/about",
+        "/home-2",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "GEa5AaG3m0spY7fftLUtH9VOzI.jpg",
+      "source": "https://framerusercontent.com/images/GEa5AaG3m0spY7fftLUtH9VOzI.jpg",
+      "routes": [
+        "/about",
+        "/home-2",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/service/b2b-website-design-development"
+      ]
+    },
+    {
+      "filename": "N8xp5eiZVkdKgKCiK4a5rkQI.jpg",
+      "source": "https://framerusercontent.com/images/N8xp5eiZVkdKgKCiK4a5rkQI.jpg",
+      "routes": [
+        "/about",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "ou4oWL8RwosFygJ5hi7sUUHGb8Q.jpg",
+      "source": "https://framerusercontent.com/images/ou4oWL8RwosFygJ5hi7sUUHGb8Q.jpg",
+      "routes": [
+        "/about",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "eGjNeYGnzh6PxwjZw2sLNTa0No.jpg",
+      "source": "https://framerusercontent.com/images/eGjNeYGnzh6PxwjZw2sLNTa0No.jpg",
+      "routes": [
+        "/about",
+        "/home-2",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "6r8mvZaxvdCl2VWcsVJuiMR57o.mp4",
+      "source": "https://framerusercontent.com/assets/6r8mvZaxvdCl2VWcsVJuiMR57o.mp4",
+      "routes": [
+        "/about",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "9IcW1gTD6WLzrQYKHvjCx3HXXw.jpg",
+      "source": "https://framerusercontent.com/images/9IcW1gTD6WLzrQYKHvjCx3HXXw.jpg",
+      "routes": [
+        "/about",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "ASeld6Z6rJZXBBwDgkaiZT8kZMw.svg",
+      "source": "https://framerusercontent.com/images/ASeld6Z6rJZXBBwDgkaiZT8kZMw.svg",
+      "routes": [
+        "/about",
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "1b3nodcFE17MeyegY5o26I9LyYM.jpg",
+      "source": "https://framerusercontent.com/images/1b3nodcFE17MeyegY5o26I9LyYM.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "0p855vpPz8c7b7WQK3Dq2rc1ClY.jpg",
+      "source": "https://framerusercontent.com/images/0p855vpPz8c7b7WQK3Dq2rc1ClY.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "ogZA5dIiG4ZzekqaoVHevvJ71c.jpg",
+      "source": "https://framerusercontent.com/images/ogZA5dIiG4ZzekqaoVHevvJ71c.jpg",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "filename": "kuEeMf5nQnQzXhIhjcw1KVHtJY.jpg",
+      "source": "https://framerusercontent.com/images/kuEeMf5nQnQzXhIhjcw1KVHtJY.jpg",
+      "routes": [
+        "/about",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "Gx6UBmzydtzvFxaR6nNq8iTZoXs.svg",
+      "source": "https://framerusercontent.com/images/Gx6UBmzydtzvFxaR6nNq8iTZoXs.svg",
+      "routes": [
+        "/about",
+        "/home-2",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "NTvSIOmgsP6rrvHPAQBQW9y1vA.svg",
+      "source": "https://framerusercontent.com/images/NTvSIOmgsP6rrvHPAQBQW9y1vA.svg",
+      "routes": [
+        "/about",
+        "/home-2",
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+        "/case-study/scalable-saas-platform-for-a-fintech-startup",
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency",
+        "/case-study/saas-product-launch",
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "DgD9mO1f61Ssr7eIX4DSef97S5U.svg",
+      "source": "https://framerusercontent.com/images/DgD9mO1f61Ssr7eIX4DSef97S5U.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "LBCUcKxNdGS0IytviptLk5dv8e4.svg",
+      "source": "https://framerusercontent.com/images/LBCUcKxNdGS0IytviptLk5dv8e4.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "f9uKyL9ZyMHw2ngdN3YDtOHsuks.svg",
+      "source": "https://framerusercontent.com/images/f9uKyL9ZyMHw2ngdN3YDtOHsuks.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "iI7LXBxSt06VL0YQik2ZCLwSw4.svg",
+      "source": "https://framerusercontent.com/images/iI7LXBxSt06VL0YQik2ZCLwSw4.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "nCW6l1WMUMEhDShqZscu3gFrVNo.svg",
+      "source": "https://framerusercontent.com/images/nCW6l1WMUMEhDShqZscu3gFrVNo.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "Bm78PWCMmZmOntM9fiMogJCos.svg",
+      "source": "https://framerusercontent.com/images/Bm78PWCMmZmOntM9fiMogJCos.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "H0hRoAnIkQv54FIiHMwpBrGr2bM.jpg",
+      "source": "https://framerusercontent.com/images/H0hRoAnIkQv54FIiHMwpBrGr2bM.jpg",
+      "routes": [
+        "/home-2",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "Dh6fPLof3kkXxpbXtgW5OU7R0.mp4",
+      "source": "https://framerusercontent.com/assets/Dh6fPLof3kkXxpbXtgW5OU7R0.mp4",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "KrLCW9CY2I5GgPIKwpP1pQRBlI.png",
+      "source": "https://framerusercontent.com/images/KrLCW9CY2I5GgPIKwpP1pQRBlI.png",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "6yH7AnJjW9VNMkEbhNrbO6N39hk.svg",
+      "source": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "cpS5vpDqkwONmm4ANafMTB2nzQ.svg",
+      "source": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "NV847LCkUaJJk6CofKhgfVVsADQ.svg",
+      "source": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "iUO7kHqYzrumeUO3sPWNv5RaWU.svg",
+      "source": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "l7FQKHXNpkYXl9e5DuusZ9kKmE.svg",
+      "source": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "y0qqfoGHTyF0GDvxwrt3Vl7GYAU.svg",
+      "source": "https://framerusercontent.com/images/y0qqfoGHTyF0GDvxwrt3Vl7GYAU.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "Z7jaGWaQurNGquVWOst1eLetxK4.svg",
+      "source": "https://framerusercontent.com/images/Z7jaGWaQurNGquVWOst1eLetxK4.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "t7vSP4Rj677djkzHVCu0R74joPo.svg",
+      "source": "https://framerusercontent.com/images/t7vSP4Rj677djkzHVCu0R74joPo.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "qMEVpmaIU6Kr2y1FzyGpFt2dlk.svg",
+      "source": "https://framerusercontent.com/images/qMEVpmaIU6Kr2y1FzyGpFt2dlk.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "uGYuKXVYsIAASWuJFsb4S9EZxa4.svg",
+      "source": "https://framerusercontent.com/images/uGYuKXVYsIAASWuJFsb4S9EZxa4.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "7dPe5Ge6KJnbarwVbw0dHfCaGXE.svg",
+      "source": "https://framerusercontent.com/images/7dPe5Ge6KJnbarwVbw0dHfCaGXE.svg",
+      "routes": [
+        "/home-2"
+      ]
+    },
+    {
+      "filename": "igWV64CbhQMJ3He1oqptt5Yntdc.svg",
+      "source": "https://framerusercontent.com/images/igWV64CbhQMJ3He1oqptt5Yntdc.svg",
+      "routes": [
+        "/home-2",
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "cnpOdOw1SyVSyuar9E2fGtyKb48.jpg",
+      "source": "https://framerusercontent.com/images/cnpOdOw1SyVSyuar9E2fGtyKb48.jpg",
+      "routes": [
+        "/legal-pages/privacy-policy"
+      ]
+    },
+    {
+      "filename": "Or0ZIUtJp1KzewZHLDS1XegiOc.jpg",
+      "source": "https://framerusercontent.com/images/Or0ZIUtJp1KzewZHLDS1XegiOc.jpg",
+      "routes": [
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "t9KJQ3j2bhmidqH4IfDZRlYa6U.jpg",
+      "source": "https://framerusercontent.com/images/t9KJQ3j2bhmidqH4IfDZRlYa6U.jpg",
+      "routes": [
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "L6uooxGEns43zrqkpMbCKj6k0.jpg",
+      "source": "https://framerusercontent.com/images/L6uooxGEns43zrqkpMbCKj6k0.jpg",
+      "routes": [
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "OvvgVMHi6Uz8RyxVzdtCavwSAY.jpg",
+      "source": "https://framerusercontent.com/images/OvvgVMHi6Uz8RyxVzdtCavwSAY.jpg",
+      "routes": [
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "UpTh12UuoAsm1t7RD2zZCMPaDI.jpg",
+      "source": "https://framerusercontent.com/images/UpTh12UuoAsm1t7RD2zZCMPaDI.jpg",
+      "routes": [
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "EFUu1w6NaeAypKowgMW7ef2KpM.jpg",
+      "source": "https://framerusercontent.com/images/EFUu1w6NaeAypKowgMW7ef2KpM.jpg",
+      "routes": [
+        "/case-study/lead-generation-boost-for-a-b2b-logistics-company"
+      ]
+    },
+    {
+      "filename": "gBsSay6HYYPIppfEAzb6FE4Ls0.jpg",
+      "source": "https://framerusercontent.com/images/gBsSay6HYYPIppfEAzb6FE4Ls0.jpg",
+      "routes": [
+        "/case-study/scalable-saas-platform-for-a-fintech-startup"
+      ]
+    },
+    {
+      "filename": "O6WGjajCCbWtZhRMBM1cIsWVQ.jpg",
+      "source": "https://framerusercontent.com/images/O6WGjajCCbWtZhRMBM1cIsWVQ.jpg",
+      "routes": [
+        "/case-study/scalable-saas-platform-for-a-fintech-startup"
+      ]
+    },
+    {
+      "filename": "SAkA603nvXl9ccvAboGHAxkYPw.jpg",
+      "source": "https://framerusercontent.com/images/SAkA603nvXl9ccvAboGHAxkYPw.jpg",
+      "routes": [
+        "/case-study/scalable-saas-platform-for-a-fintech-startup"
+      ]
+    },
+    {
+      "filename": "bW2xVBMxcQJIIG7v0Xnxnt2ts.jpg",
+      "source": "https://framerusercontent.com/images/bW2xVBMxcQJIIG7v0Xnxnt2ts.jpg",
+      "routes": [
+        "/case-study/scalable-saas-platform-for-a-fintech-startup"
+      ]
+    },
+    {
+      "filename": "L6G7zSPUk6M2pWcE09EAw3YKaQ.jpg",
+      "source": "https://framerusercontent.com/images/L6G7zSPUk6M2pWcE09EAw3YKaQ.jpg",
+      "routes": [
+        "/case-study/scalable-saas-platform-for-a-fintech-startup"
+      ]
+    },
+    {
+      "filename": "FoivOA2vW3gEqOsYcz1gp2dnc.jpg",
+      "source": "https://framerusercontent.com/images/FoivOA2vW3gEqOsYcz1gp2dnc.jpg",
+      "routes": [
+        "/case-study/scalable-saas-platform-for-a-fintech-startup"
+      ]
+    },
+    {
+      "filename": "To0n2VDZt4NoiEnOZldo943Iw.jpg",
+      "source": "https://framerusercontent.com/images/To0n2VDZt4NoiEnOZldo943Iw.jpg",
+      "routes": [
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "R0mgj8LJHpFga1HQzbCLdwl594.jpg",
+      "source": "https://framerusercontent.com/images/R0mgj8LJHpFga1HQzbCLdwl594.jpg",
+      "routes": [
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "9UOsftYNtY89Vm62ZbJObf5V3Y8.jpg",
+      "source": "https://framerusercontent.com/images/9UOsftYNtY89Vm62ZbJObf5V3Y8.jpg",
+      "routes": [
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "xTBelD97GMUfDZFdkI7ksyiCsaA.jpg",
+      "source": "https://framerusercontent.com/images/xTBelD97GMUfDZFdkI7ksyiCsaA.jpg",
+      "routes": [
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm",
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "7k9oZnwKbGd90Q05NobJuh9g8Gw.jpg",
+      "source": "https://framerusercontent.com/images/7k9oZnwKbGd90Q05NobJuh9g8Gw.jpg",
+      "routes": [
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "ZIsBJmaQ6rOu4QheRCIxgok9mig.jpg",
+      "source": "https://framerusercontent.com/images/ZIsBJmaQ6rOu4QheRCIxgok9mig.jpg",
+      "routes": [
+        "/case-study/enterprise-resource-integration-for-a-manufacturing-firm"
+      ]
+    },
+    {
+      "filename": "9iLMTw2O8ieNOSWjtihM3ktVnw.jpg",
+      "source": "https://framerusercontent.com/images/9iLMTw2O8ieNOSWjtihM3ktVnw.jpg",
+      "routes": [
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "a22R3rPF9NHxyMuxRJEHsVaG9j4.jpg",
+      "source": "https://framerusercontent.com/images/a22R3rPF9NHxyMuxRJEHsVaG9j4.jpg",
+      "routes": [
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "xa9F4G8w2OS4PkK9XSPHmTgMxlE.jpg",
+      "source": "https://framerusercontent.com/images/xa9F4G8w2OS4PkK9XSPHmTgMxlE.jpg",
+      "routes": [
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "UXhoy2hEOw6GiEkFyczeWLcRMY.jpg",
+      "source": "https://framerusercontent.com/images/UXhoy2hEOw6GiEkFyczeWLcRMY.jpg",
+      "routes": [
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "CiMZMUOkO7qx4ge5zTjtdd64sE.jpg",
+      "source": "https://framerusercontent.com/images/CiMZMUOkO7qx4ge5zTjtdd64sE.jpg",
+      "routes": [
+        "/case-study/strategic-digital-shift-for-a-b2b-consulting-agency"
+      ]
+    },
+    {
+      "filename": "6iJfhBnu26oWOn3gO63OElIRcRM.jpg",
+      "source": "https://framerusercontent.com/images/6iJfhBnu26oWOn3gO63OElIRcRM.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "ZuwmtXrRhLz2cVxtQqfXyt6xgw.jpg",
+      "source": "https://framerusercontent.com/images/ZuwmtXrRhLz2cVxtQqfXyt6xgw.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "nVWUfgg4CNIaVKPzoNwgFQMoPE.jpg",
+      "source": "https://framerusercontent.com/images/nVWUfgg4CNIaVKPzoNwgFQMoPE.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "3ZRKzEVMfPnP3iLdEvFC4UdeaU.jpg",
+      "source": "https://framerusercontent.com/images/3ZRKzEVMfPnP3iLdEvFC4UdeaU.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "0NeVsY64P4zdddYkSbrYAaYRg.jpg",
+      "source": "https://framerusercontent.com/images/0NeVsY64P4zdddYkSbrYAaYRg.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "jm0dvrhBRn67BN7gXkLvk9Ymi4.jpg",
+      "source": "https://framerusercontent.com/images/jm0dvrhBRn67BN7gXkLvk9Ymi4.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "FF5DMh4EujpnKa6pWWJBit5lQ.jpg",
+      "source": "https://framerusercontent.com/images/FF5DMh4EujpnKa6pWWJBit5lQ.jpg",
+      "routes": [
+        "/case-study/saas-product-launch"
+      ]
+    },
+    {
+      "filename": "YVHgrrp1c42qIIIpAQuHFwUbOyc.jpg",
+      "source": "https://framerusercontent.com/images/YVHgrrp1c42qIIIpAQuHFwUbOyc.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail"
+      ]
+    },
+    {
+      "filename": "DrbeBhn2LQn2E7GjrHbIcJBlJqs.jpg",
+      "source": "https://framerusercontent.com/images/DrbeBhn2LQn2E7GjrHbIcJBlJqs.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail"
+      ]
+    },
+    {
+      "filename": "SZUxj11MIuSMxcpaJEZHOL1Ttk.jpg",
+      "source": "https://framerusercontent.com/images/SZUxj11MIuSMxcpaJEZHOL1Ttk.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail"
+      ]
+    },
+    {
+      "filename": "K3pyoJ5regQ5jBIrxgqxO2df2ss.jpg",
+      "source": "https://framerusercontent.com/images/K3pyoJ5regQ5jBIrxgqxO2df2ss.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail"
+      ]
+    },
+    {
+      "filename": "h6gzoFkTLakpdISKMYufdVWxQg.jpg",
+      "source": "https://framerusercontent.com/images/h6gzoFkTLakpdISKMYufdVWxQg.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "OPYlbg2H3TAu956h6BbgFnPJG4.jpg",
+      "source": "https://framerusercontent.com/images/OPYlbg2H3TAu956h6BbgFnPJG4.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail",
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "IrW03M1qk2xT1FGLGor5pRerOwU.webp",
+      "source": "https://framerusercontent.com/images/IrW03M1qk2xT1FGLGor5pRerOwU.webp",
+      "routes": [
+        "/case-study/digital-transformation-for-retail"
+      ]
+    },
+    {
+      "filename": "KP9PyMqg9eNce5kcqgyZdrzGus.jpg",
+      "source": "https://framerusercontent.com/images/KP9PyMqg9eNce5kcqgyZdrzGus.jpg",
+      "routes": [
+        "/case-study/digital-transformation-for-retail"
+      ]
+    },
+    {
+      "filename": "rCskp2FKqxaQm2aMme81sOwZk.jpg",
+      "source": "https://framerusercontent.com/images/rCskp2FKqxaQm2aMme81sOwZk.jpg",
+      "routes": [
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "biTf2CQ8PhlDpVjQEe2lUNjkt3Q.jpg",
+      "source": "https://framerusercontent.com/images/biTf2CQ8PhlDpVjQEe2lUNjkt3Q.jpg",
+      "routes": [
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "YfIQQhvXY9KAjjhsNb8j9GD2I.jpg",
+      "source": "https://framerusercontent.com/images/YfIQQhvXY9KAjjhsNb8j9GD2I.jpg",
+      "routes": [
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "MYpHUoBuOKd0OYSAZoRgaoxP9qI.jpg",
+      "source": "https://framerusercontent.com/images/MYpHUoBuOKd0OYSAZoRgaoxP9qI.jpg",
+      "routes": [
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "lJhggKmqNvAteQCLa9PtrFmXk6s.png",
+      "source": "https://framerusercontent.com/images/lJhggKmqNvAteQCLa9PtrFmXk6s.png",
+      "routes": [
+        "/case-study/website-redesign-for-a-non-profit"
+      ]
+    },
+    {
+      "filename": "SiKi93XgBCO1jd5YYRhnqoQ2PI.jpg",
+      "source": "https://framerusercontent.com/images/SiKi93XgBCO1jd5YYRhnqoQ2PI.jpg",
+      "routes": [
+        "/service/b2b-website-design-development"
+      ]
+    },
+    {
+      "filename": "gnZmvi7YcTwXytQiLW23gV4vlk.mp4",
+      "source": "https://framerusercontent.com/assets/gnZmvi7YcTwXytQiLW23gV4vlk.mp4",
+      "routes": [
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "ordOGswzKLaKo1MGYAelJ2rcV7U.jpg",
+      "source": "https://framerusercontent.com/images/ordOGswzKLaKo1MGYAelJ2rcV7U.jpg",
+      "routes": [
+        "/service/b2b-website-design-development",
+        "/service/custom-saas-solutions",
+        "/service/crm-erp-integrations",
+        "/service/enterprise-digital-strategy",
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "sHNa8cfGdmuVTIz3bIoJrWlvti4.jpg",
+      "source": "https://framerusercontent.com/images/sHNa8cfGdmuVTIz3bIoJrWlvti4.jpg",
+      "routes": [
+        "/service/custom-saas-solutions"
+      ]
+    },
+    {
+      "filename": "nSZJQpCu25uRO9lrT3cjUnyKmk.jpg",
+      "source": "https://framerusercontent.com/images/nSZJQpCu25uRO9lrT3cjUnyKmk.jpg",
+      "routes": [
+        "/service/custom-saas-solutions"
+      ]
+    },
+    {
+      "filename": "TTOwsP8T7vGPcOlrse0LU2ZpUgc.jpg",
+      "source": "https://framerusercontent.com/images/TTOwsP8T7vGPcOlrse0LU2ZpUgc.jpg",
+      "routes": [
+        "/service/crm-erp-integrations"
+      ]
+    },
+    {
+      "filename": "rvVsRZjAKkiA0nvOxWWVXzG9L6s.jpg",
+      "source": "https://framerusercontent.com/images/rvVsRZjAKkiA0nvOxWWVXzG9L6s.jpg",
+      "routes": [
+        "/service/crm-erp-integrations"
+      ]
+    },
+    {
+      "filename": "xRswnWuF90bdx2CQGLIq23Vrg4.jpg",
+      "source": "https://framerusercontent.com/images/xRswnWuF90bdx2CQGLIq23Vrg4.jpg",
+      "routes": [
+        "/service/enterprise-digital-strategy"
+      ]
+    },
+    {
+      "filename": "UY6B0qS4hdcjlEgPYtxTooD5yA.jpg",
+      "source": "https://framerusercontent.com/images/UY6B0qS4hdcjlEgPYtxTooD5yA.jpg",
+      "routes": [
+        "/service/enterprise-digital-strategy"
+      ]
+    },
+    {
+      "filename": "QUYRFVJsc3BQ2Yr3gytExBu1BcE.jpg",
+      "source": "https://framerusercontent.com/images/QUYRFVJsc3BQ2Yr3gytExBu1BcE.jpg",
+      "routes": [
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "OmhA69HM1VbnEMV63I5CAKdlNlk.jpg",
+      "source": "https://framerusercontent.com/images/OmhA69HM1VbnEMV63I5CAKdlNlk.jpg",
+      "routes": [
+        "/service/data-driven-marketing"
+      ]
+    },
+    {
+      "filename": "Fjaq3KKhmgNgkT6dNGomsfZU4U.jpg",
+      "source": "https://framerusercontent.com/images/Fjaq3KKhmgNgkT6dNGomsfZU4U.jpg",
+      "routes": [
+        "/blog/how-to-scale-your-b2b-sales-funnel-in-2026"
+      ]
+    },
+    {
+      "filename": "wxJIPif2lWX9gr2gSKu8qdoFcMY.jpg",
+      "source": "https://framerusercontent.com/images/wxJIPif2lWX9gr2gSKu8qdoFcMY.jpg",
+      "routes": [
+        "/blog/the-power-of-market-research-in-b2b-strategy"
+      ]
+    },
+    {
+      "filename": "HyojibpS8ULC2dseopeOGKT6HC8.jpg",
+      "source": "https://framerusercontent.com/images/HyojibpS8ULC2dseopeOGKT6HC8.jpg",
+      "routes": [
+        "/blog/choosing-the-right-crm-for-your-b2b-sales-team"
+      ]
+    },
+    {
+      "filename": "KNgQig6V8E3F8eMMdOj2pxqf8.jpg",
+      "source": "https://framerusercontent.com/images/KNgQig6V8E3F8eMMdOj2pxqf8.jpg",
+      "routes": [
+        "/blog/how-to-use-analytics-to-make-smarter-decisions"
+      ]
+    },
+    {
+      "filename": "8bxe0ZU7JLj6f4C8n1dqbBhlFaY.jpg",
+      "source": "https://framerusercontent.com/images/8bxe0ZU7JLj6f4C8n1dqbBhlFaY.jpg",
+      "routes": [
+        "/blog/10-must-have-features-in-a-saas-platform"
+      ]
+    },
+    {
+      "filename": "etwXGheenhobRe6OCPV4IwZHVg.jpg",
+      "source": "https://framerusercontent.com/images/etwXGheenhobRe6OCPV4IwZHVg.jpg",
+      "routes": [
+        "/blog/best-practices-for-keeping-your-data-secure"
+      ]
+    },
+    {
+      "filename": "8bqUoPjqaBALA218tiiPgG8Nl8.jpg",
+      "source": "https://framerusercontent.com/images/8bqUoPjqaBALA218tiiPgG8Nl8.jpg",
+      "routes": [
+        "/blog/smart-automation-in-modern-manufacturing"
+      ]
+    },
+    {
+      "filename": "geist-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4mJPby1QNtA.woff2",
+      "routes": [
+        "shared-font"
+      ]
+    },
+    {
+      "filename": "DubX211MjQXoVbiY3wBvbHWIyo.jpg",
+      "source": "https://framerusercontent.com/images/DubX211MjQXoVbiY3wBvbHWIyo.jpg",
+      "routes": [
+        "/blog"
+      ]
+    },
+    {
+      "filename": "EhbPZDnfZ0GPCwniRRydyxCEM.jpg",
+      "source": "https://framerusercontent.com/images/EhbPZDnfZ0GPCwniRRydyxCEM.jpg",
+      "routes": [
+        "/blog"
+      ]
+    },
+    {
+      "filename": "BTgcWmDsTlepQdIb7uADmS9PKs.svg",
+      "source": "https://framerusercontent.com/images/BTgcWmDsTlepQdIb7uADmS9PKs.svg",
+      "routes": [
+        "/case-study"
+      ]
+    },
+    {
+      "filename": "youtube-smPos0mJvh8.webp",
+      "source": "https://i.ytimg.com/vi_webp/smPos0mJvh8/maxresdefault.webp",
+      "routes": [
+        "/blog/[slug]"
+      ]
+    }
+  ],
+  "aliases": {
+    "logo.svg": "wvz41ynJzUlpgV2u1qUDqmGjhJA.svg",
+    "header-shape.png": "VCaXkRh8SXoPc4MrUGSS0EbIsk.png",
+    "menu-arrow.svg": "Ue91TqY5sigTxWrqvBiOWLkz4FY.svg",
+    "button-arrow.svg": "lF4qvKFOOsAkrC72wGno0l1d2kg.svg",
+    "cta-background.jpg": "AY6PQekAWDMcCklwuXMbqPS9CeE.jpg"
+  },
+  "failures": []
+}
