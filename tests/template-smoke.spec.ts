@@ -7,6 +7,20 @@ import {
 type Interaction = (page: Page) => Promise<void>;
 
 const interactions: Record<string, Interaction> = {
+  b2bizz: async (page) => {
+    const nextIndustry = page.getByRole("button", { name: "Next industry" });
+    await nextIndustry.click();
+    await expect(
+      page.getByRole("heading", { name: "Healthcare", level: 3 }),
+    ).toBeVisible();
+
+    const methodStep = page.getByRole("button", {
+      name: "Step 2: Build the right strategy",
+    });
+    await methodStep.click();
+    await expect(methodStep).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator('[data-active-step="2"]')).toBeVisible();
+  },
   alytics: async (page) => {
     const yearly = page.getByRole("button", { name: "Yearly -20%" });
     await yearly.click();

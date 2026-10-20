@@ -13,6 +13,7 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 
 | Template | Local URL |
 | --- | --- |
+| [B2bizz](#b2bizz) | [http://localhost:3021/b2bizz](http://localhost:3021/b2bizz) |
 | [Slate](#slate) | [http://localhost:3001/](http://localhost:3001/) |
 | [Grovia](#grovia) | [http://localhost:3002/](http://localhost:3002/) |
 | [Fuel](#fuel) | [http://localhost:3003/](http://localhost:3003/) |
@@ -37,6 +38,56 @@ Run `npm run dev:all`, then open any template below. Select its name to jump to 
 Each preview opens the template at its standalone local URL. Expand
 **Routes** below any design to open every valid page declared in that
 workspace's `template.config.json`.
+
+### B2bizz
+
+`@nextjs-templates/b2bizz` ·
+[http://localhost:3021/b2bizz](http://localhost:3021/b2bizz) · port `3021`
+
+<a href="http://localhost:3021/b2bizz">
+  <img src="apps/showcase/public/templates/b2bizz-home.png" alt="B2bizz consulting template at http://localhost:3021/b2bizz" width="1440">
+</a>
+
+The complete route family includes two home pages, five service details,
+seven case studies, seven articles, responsive navigation, local assets,
+interactive method steps, and custom 404 handling. See the
+[route manifest](apps/b2bizz/docs/route-manifest.md) and
+[acceptance record](apps/b2bizz/docs/acceptance.md).
+
+<details>
+<summary><strong>Routes (28 content pages + custom 404)</strong></summary>
+
+- [Home](http://localhost:3021/b2bizz)
+- [Alternate home](http://localhost:3021/b2bizz/home-2)
+- [About](http://localhost:3021/b2bizz/about)
+- [Contact](http://localhost:3021/b2bizz/contact)
+- [Services](http://localhost:3021/b2bizz/service)
+- [B2B website design and development](http://localhost:3021/b2bizz/service/b2b-website-design-development)
+- [Custom SaaS solutions](http://localhost:3021/b2bizz/service/custom-saas-solutions)
+- [CRM and ERP integrations](http://localhost:3021/b2bizz/service/crm-erp-integrations)
+- [Enterprise digital strategy](http://localhost:3021/b2bizz/service/enterprise-digital-strategy)
+- [Data-driven marketing](http://localhost:3021/b2bizz/service/data-driven-marketing)
+- [Case studies](http://localhost:3021/b2bizz/case-study)
+- [Lead generation boost for a B2B logistics company](http://localhost:3021/b2bizz/case-study/lead-generation-boost-for-a-b2b-logistics-company)
+- [Scalable SaaS platform for a fintech startup](http://localhost:3021/b2bizz/case-study/scalable-saas-platform-for-a-fintech-startup)
+- [Enterprise resource integration for a manufacturing firm](http://localhost:3021/b2bizz/case-study/enterprise-resource-integration-for-a-manufacturing-firm)
+- [Strategic digital shift for a B2B consulting agency](http://localhost:3021/b2bizz/case-study/strategic-digital-shift-for-a-b2b-consulting-agency)
+- [SaaS product launch](http://localhost:3021/b2bizz/case-study/saas-product-launch)
+- [Digital transformation for retail](http://localhost:3021/b2bizz/case-study/digital-transformation-for-retail)
+- [Website redesign for a non-profit](http://localhost:3021/b2bizz/case-study/website-redesign-for-a-non-profit)
+- [Blog](http://localhost:3021/b2bizz/blog)
+- [How to scale your B2B sales funnel in 2026](http://localhost:3021/b2bizz/blog/how-to-scale-your-b2b-sales-funnel-in-2026)
+- [The power of market research in B2B strategy](http://localhost:3021/b2bizz/blog/the-power-of-market-research-in-b2b-strategy)
+- [Choosing the right CRM for your B2B sales team](http://localhost:3021/b2bizz/blog/choosing-the-right-crm-for-your-b2b-sales-team)
+- [How to use analytics to make smarter decisions](http://localhost:3021/b2bizz/blog/how-to-use-analytics-to-make-smarter-decisions)
+- [10 must-have features in a SaaS platform](http://localhost:3021/b2bizz/blog/10-must-have-features-in-a-saas-platform)
+- [Best practices for keeping your data secure](http://localhost:3021/b2bizz/blog/best-practices-for-keeping-your-data-secure)
+- [Smart automation in modern manufacturing](http://localhost:3021/b2bizz/blog/smart-automation-in-modern-manufacturing)
+- [Changelog](http://localhost:3021/b2bizz/changelog)
+- [Privacy policy](http://localhost:3021/b2bizz/legal-pages/privacy-policy)
+- [Custom 404](http://localhost:3021/b2bizz/404)
+
+</details>
 
 ### Slate
 
@@ -630,6 +681,7 @@ workspace map.
 
 ```text
 apps/
+  b2bizz/
   showcase/
   slate/
   grovia/

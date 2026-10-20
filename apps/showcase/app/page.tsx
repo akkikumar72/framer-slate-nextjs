@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const templates = [
   {
+    name: "B2bizz",
+    slug: "b2bizz",
+    packageName: "@nextjs-templates/b2bizz",
+    port: 3021,
+    routes: 28,
+    image: "/templates/b2bizz-home.png",
+    url: process.env.NEXT_PUBLIC_B2BIZZ_URL ?? "http://localhost:3021/b2bizz",
+  },
+  {
     name: "Orbital",
     slug: "orbital",
     packageName: "@framer-templates/orbital",
